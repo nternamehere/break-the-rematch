@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/CGs/Satsuki/satsuki archery.png'>:
-  File "game/range.rpy", line 22, in script
-    shinn "{i}Oh, wow.{/i}"
-Exception: Could not load image u'images/CGs/Satsuki/satsuki archery.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\Break The Rematch/game\\\\images/CGs/Satsuki/satsuki archery.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\Break The Rematch/game\\images/CGs/Satsuki/satsuki archery.png",)
+While loading <'Image' u'images/BGs/bg main gate.png'>:
+  File "game/script/school.rpy", line 4, in script
+    "As I approached the school gate, I scanned the inner courtyard."
+Exception: Could not load image u'images/BGs/bg main gate.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\Break The Rematch/game\\\\images/BGs/bg main gate.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\Break The Rematch/game\\images/BGs/bg main gate.png",)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/range.rpy", line 22, in script
-    shinn "{i}Oh, wow.{/i}"
+  File "game/script/school.rpy", line 4, in script
+    "As I approached the school gate, I scanned the inner courtyard."
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 678, in execute
     renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\exports.py", line 1229, in say
@@ -58,9 +58,9 @@ Full traceback:
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\pgrender.py", line 162, in load_image
     raise Exception("Could not load image {!r}: {!r}".format(filename, e))
-Exception: Could not load image u'images/CGs/Satsuki/satsuki archery.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\Break The Rematch/game\\\\images/CGs/Satsuki/satsuki archery.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\Break The Rematch/game\\images/CGs/Satsuki/satsuki archery.png",)
+Exception: Could not load image u'images/BGs/bg main gate.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\Break The Rematch/game\\\\images/BGs/bg main gate.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\Break The Rematch/game\\images/BGs/bg main gate.png",)
 
 Windows-8-6.2.9200
 Ren'Py 7.1.3.1092
 Break: The Rematch 0.01a
-Sun Dec 23 15:59:14 2018
+Sun Dec 23 17:23:09 2018
