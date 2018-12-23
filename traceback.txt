@@ -1,66 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/BGs/bg main gate.png'>:
-  File "game/script/school.rpy", line 4, in script
-    "As I approached the school gate, I scanned the inner courtyard."
-Exception: Could not load image u'images/BGs/bg main gate.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\Break The Rematch/game\\\\images/BGs/bg main gate.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\Break The Rematch/game\\images/BGs/bg main gate.png",)
+While running game code:
+  File "game/script/classroom.rpy", line 2, in script
+    show bg classroom with map_fade
+  File "game/script/classroom.rpy", line 2, in <module>
+    show bg classroom with map_fade
+NameError: name 'map_fade' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script/school.rpy", line 4, in script
-    "As I approached the school gate, I scanned the inner courtyard."
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 678, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\exports.py", line 1229, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\character.py", line 1031, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\character.py", line 823, in do_display
-    **display_args)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\character.py", line 572, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 2672, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 3158, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 2075, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 487, in renpy.display.render.render_screen
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\image.py", line 500, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\image.py", line 306, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\im.py", line 580, in render
-    return cache.get(self, render=True)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\im.py", line 266, in get
-    surf = image.load()
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\im.py", line 625, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\pgrender.py", line 162, in load_image
-    raise Exception("Could not load image {!r}: {!r}".format(filename, e))
-Exception: Could not load image u'images/BGs/bg main gate.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\Break The Rematch/game\\\\images/BGs/bg main gate.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\Break The Rematch/game\\images/BGs/bg main gate.png",)
+  File "game/script/classroom.rpy", line 2, in script
+    show bg classroom with map_fade
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 1352, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\python.py", line 1944, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\python.py", line 1937, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script/classroom.rpy", line 2, in <module>
+    show bg classroom with map_fade
+NameError: name 'map_fade' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.1.3.1092
 Break: The Rematch 0.01a
-Sun Dec 23 17:23:09 2018
+Sun Dec 23 17:47:27 2018

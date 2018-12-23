@@ -6,7 +6,7 @@ label range__router:
 
 label range__first_visit:
     $ range__first_visit = True
-    show bg range with blinds
+    show bg range with map_fade
 
     "..."
     "..."
@@ -35,7 +35,7 @@ label range__first_visit:
 
     scene bg range
     show satsuki cocky
-    with fade
+    with dissolve
     "I slowly noticed that Katsuragi's eyes were fixed on me. I couldn't read her expression, whether it radiated simple curiosity or condescension."
     "The other students followered her gaze. Soon, everyone was aware of my presence."
     shinn "{i}This might be inconvenient.{/i}"
@@ -84,6 +84,7 @@ label range__first_visit:
     shinn "I shall leave you to continue your activities then, Miss Katsuragi. Have a good day."
     satsuki "Likewise, Mr. Atkatsuki."
     "With a single nod, Satsuki returned her focus to the range."
+    hide satsuki neutral smile
     shinn "{i}That took longer than expected...{/i}"
     "But it was quite worth it. I'd met the school's archery start, and she happened to be a complete babe. I mentally planned to \"check in\" with her very soon."
     shinn "{i}Hmm... Who should I see next?{/i}"
