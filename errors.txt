@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at
-  File "game/script/script.rpyc", line 1 and
-  File "game/script/start.rpy", line 1.
+File "game/script/variables.rpy", line 2: expected statement.
+    range_available = True
+                    ^
+
+File "game/script/variables.rpy", line 3: expected statement.
+    classroom_available = True
+                        ^
+
+File "game/script/variables.rpy", line 4: expected statement.
+    gym_available = True
+                  ^
+
+File "game/script/variables.rpy", line 5: expected statement.
+    tennis_available = True
+                     ^
+
+File "game/script/variables.rpy", line 6: expected statement.
+    track_available = True
+                    ^
+
+File "game/script/variables.rpy", line 13: expected statement.
+    range__first_visit = True
+                       ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Sun Dec 23 17:11:20 2018
+Sun Dec 23 17:15:58 2018

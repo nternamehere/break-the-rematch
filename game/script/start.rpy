@@ -6,7 +6,7 @@ label start:
     "I had been having the most comfortable, enjoyable dream... but now it was gone, swept away by this annoying alarm"
     unknown "Hm...what time is it...?"
 
-    scene bg shinn bedroom with blinds
+    show bg shinn bedroom with Dissolve(3.0)
     "I looked above the sheets,  the old digital clock's red numbers seemingly staring back at me, demanding that I rise. The blurriness of sleep slowly began to fade as I fixed on the time."
     unknown "Oh... It's already 6 AM. I should get going."
     "The alarm clock continued to ring."

@@ -1,5 +1,5 @@
 label school__first_visit:
-    show bg main gate with dissolve
+    show bg main gate with Dissolve(3.0)
     "Haruka Academy. I was once a student here, and my time was... exciting, to say the least. It was hard to belive that I would be back here again, working for the school rather than studying in it."
     "As I approached the school gate, I scanned the inner courtyard."
     shinn "This place is awfully calm."
