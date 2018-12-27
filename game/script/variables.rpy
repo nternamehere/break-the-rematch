@@ -28,3 +28,6 @@ init python:
     #######################
     # Character Variables #
     #######################
+
+    # Ritsuko Variables
+    met_ritsuko = False

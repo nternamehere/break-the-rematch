@@ -52,4 +52,7 @@ label tennis__first_visit:
     "If it weren't for that day, today's near-incident wouldn't have occurred. In face, neither of us would have ever known each other."
     "But at least I hadn't been caught for sure. And now I was in a position to make her regret what she'd almost done then and was trying to do now."
     $ tennis_available = False
+    $ met_ritsuko = True
+    $ tennis__first_visit = False
+    hide ritsuko smile
     jump map__school

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script/range.rpy", line 38: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    with dissolve
+File "game/script/gym.rpy", line 73: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    if met_ritsuko:
     ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Sun Dec 23 17:42:16 2018
+Thu Dec 27 10:20:25 2018

@@ -5,13 +5,12 @@ label range__router:
         jump map__school
 
 label range__first_visit:
-    $ range__first_visit = True
     show bg range with map_fade
 
     "..."
     "..."
     shinn "{i}This place feels alive, that's for sure{/i}"
-    "In the two years since i graduated, the archery club seemed to have grown a good deal. I remembered it only having a dozen members."
+    "In the two years since I graduated, the archery club seemed to have grown a good deal. I remembered it only having a dozen members."
     "Now the dojo was filled with students, most of whom happened to be female."
     shinn "...oh?"
     "The continuous sound of a bow being drawn and released finally drew my attention to the sole figure actually shooting."
@@ -89,4 +88,5 @@ label range__first_visit:
     "But it was quite worth it. I'd met the school's archery start, and she happened to be a complete babe. I mentally planned to \"check in\" with her very soon."
     shinn "{i}Hmm... Who should I see next?{/i}"
     $ range_available = False
+    $ range__first_visit = False
     jump map__school
