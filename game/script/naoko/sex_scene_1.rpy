@@ -126,8 +126,9 @@ label naoko__sex_scene_1_end:
     naoko "Yes. Master Shinn."
     shinn "{i}She is going to be very useful. Especially with those girls.{/i}"
     shinn "Clean this mess up, Naoko, and you may go. I will call you again... very soon."
-    naoko "Yes. Master SHinn! I can't wait."
+    naoko "Yes. Master Shinn! I can't wait."
     "That was that. I finally decided to take my leave."
 
     $ renpy.end_replay()
+    $ persistent.naoko__sex_scene_1 = True
     jump school__eod_1
