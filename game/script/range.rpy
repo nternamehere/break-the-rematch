@@ -89,4 +89,4 @@ label range__first_visit:
     shinn "{i}Hmm... Who should I see next?{/i}"
     $ range_available = False
     $ range__first_visit = False
-    jump map__school
+    jump classroom__completed_intro_check

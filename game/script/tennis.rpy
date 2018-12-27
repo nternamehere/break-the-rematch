@@ -55,4 +55,4 @@ label tennis__first_visit:
     $ met_ritsuko = True
     $ tennis__first_visit = False
     hide ritsuko smile
-    jump map__school
+    jump classroom__completed_intro_check

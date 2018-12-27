@@ -119,4 +119,4 @@ label gym__first_visit:
 
     $ gym__first_visit = False
     $ gym_available = False
-    jump map__school
+    jump classroom__completed_intro_check

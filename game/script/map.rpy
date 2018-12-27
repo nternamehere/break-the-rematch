@@ -16,10 +16,4 @@ screen locations:
             hotspot (1152, 831, 174, 55) clicked Jump("track__router")
 
 label map__school:
-    if classroom__first_visit:
-        if not range_available:
-            if not gym_available:
-                if not tennis_available:
-                    if not track_available:
-                        $ classroom_available = True
     call screen locations with fade
