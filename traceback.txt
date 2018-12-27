@@ -1,28 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script/gym.rpy", line 24, in script
-    show aina basic with easein
-  File "game/script/gym.rpy", line 24, in <module>
-    show aina basic with easein
-NameError: name 'easein' is not defined
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 79, in _init_language
+    renpy.change_language(language)
+  File "game/gallery.rpy", line 33, in <module>
+    background locked_gallery
+NameError: name 'locked_gallery' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script/gym.rpy", line 24, in script
-    show aina basic with easein
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 1352, in execute
-    paired = renpy.python.py_eval(self.paired)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\bootstrap.py", line 313, in bootstrap
+    renpy.main.main()
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\main.py", line 513, in main
+    run(restart)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\main.py", line 71, in run
+    renpy.translation.init_translation()
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\translation\__init__.py", line 547, in init_translation
+    renpy.store._init_language()  # @UndefinedVariable
+  File "renpy/common/00start.rpy", line 79, in _init_language
+    renpy.change_language(language)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\translation\__init__.py", line 625, in change_language
+    new_change_language(tl, language)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\translation\__init__.py", line 593, in new_change_language
+    i.apply()
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 2424, in apply
+    value = renpy.python.py_eval(expr)
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\python.py", line 1944, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\python.py", line 1937, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script/gym.rpy", line 24, in <module>
-    show aina basic with easein
-NameError: name 'easein' is not defined
+  File "game/gallery.rpy", line 33, in <module>
+    background locked_gallery
+NameError: name 'locked_gallery' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.1.3.1092
-Break: The Rematch v0.2.0-alpha
-Thu Dec 27 10:00:21 2018
+Break: The Rematch v0.5.0-alpha
+Thu Dec 27 16:24:44 2018

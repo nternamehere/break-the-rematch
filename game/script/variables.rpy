@@ -31,3 +31,7 @@ init python:
 
     # Ritsuko Variables
     met_ritsuko = False
+
+    #######################
+    #    Misc Variables   #
+    #######################

@@ -2,25 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script/classroom.rpy", line 13: expected ':' not found.
-    else
-        ^
-
-File "game/script/classroom.rpy", line 15: expected ':' not found.
-    else
-        ^
-
-File "game/script/classroom.rpy", line 17: expected ':' not found.
-    else
-        ^
-
-File "game/script/classroom.rpy", line 19: expected ':' not found.
-    else
-        ^
-
-File "game/script/classroom.rpy", line 21: expected ':' not found.
-    else
-        ^
+File "game/gallery.rpy", line 22: Line is indented, but the preceding frame statement does not expect a block. Please check this line's indentation.
+    background locked_gallery
+    ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Thu Dec 27 11:37:22 2018
+Thu Dec 27 16:23:02 2018
