@@ -83,7 +83,7 @@ label naoko__sex_scene_1:
             jump naoko__sex_scene_1_outside
 
 label naoko__sex_scene_1_inside:
-    show naoko_sex1-8_inside-1
+    show naoko_sex1-8_inside-1 with cum_flash
     "Those words, in conjunction with her erotic tone, were the last straw. Unable to resist, I let it all out inside her like a magnificent firework."
     naoko "Ahh... Shinn sperm!! It's all inside me!"
     "It quickly filled her womb. The remaining excessive cum splashed past my cock and flowed out of her pussy."
@@ -100,7 +100,7 @@ label naoko__sex_scene_1_inside:
     jump naoko__sex_scene_1_end
 
 label naoko__sex_scene_1_outside:
-    show naoko_sex1-8_outside-1
+    show naoko_sex1-8_outside-1 with cum_flash
     "Those words, in conjunction with her erotic tone, were the last straw. Unable to resist, I pulled my cock out at the last moment and came all over her."
     "The cum burst across Naoko's body like a magnificent firework."
     naoko "Ahh... Shinn sperm!! It's all over me!"

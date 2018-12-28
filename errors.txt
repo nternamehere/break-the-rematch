@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/gallery.rpy", line 22: Line is indented, but the preceding frame statement does not expect a block. Please check this line's indentation.
-    background locked_gallery
-    ^
+File "game/script/transitions.rpy", line 3: unexpected EOF while parsing
+    Fade(0.2,0,0.2,"#fff");
+                           ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Thu Dec 27 16:23:02 2018
+Fri Dec 28 15:12:05 2018
