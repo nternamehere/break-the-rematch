@@ -252,24 +252,38 @@ screen quick_menu():
             style_prefix "quick"
 
             xalign 0.1
-            ypos 1025
+            ypos 1005
 
-            textbutton _("Back") action Rollback()
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
+            textbutton _("Back") action Rollback():
+                xsize 100
+                ysize 50
+            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True):
+                xsize 100
+                ysize 50
+            textbutton _("Auto") action Preference("auto-forward", "toggle"):
+                xsize 100
+                ysize 50
 
 
         hbox:
             style_prefix "quick"
 
             xalign 1.0
-            ypos 1025
+            ypos 1005
 
-            textbutton _("Log") action ShowMenu('history')
+            textbutton _("Log") action ShowMenu('history'):
+                xsize 75
+                ysize 50
             if not _in_replay:
-                textbutton _("Quick Save") action QuickSave()
-                textbutton _("Quick Load") action QuickLoad()
-            textbutton _("Settings") action ShowMenu('preferences')
+                textbutton _("Quick Save") action QuickSave():
+                    xsize 175
+                    ysize 50
+                textbutton _("Quick Load") action QuickLoad():
+                    xsize 180
+                    ysize 50
+            textbutton _("Settings") action ShowMenu('preferences'):
+                xsize 150
+                ysize 50
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
@@ -283,7 +297,6 @@ style quick_button_text is button_text
 
 style quick_button:
     properties gui.button_properties("quick_button")
-    right_padding 50
 
 style quick_button_text:
     properties gui.button_text_properties("quick_button")
