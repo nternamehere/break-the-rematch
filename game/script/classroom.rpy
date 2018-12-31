@@ -23,9 +23,9 @@ label classroom__first_visit:
     "A sudden torrent of memories gushed through my brain as I entered the classroom. It was identical to how it had been before I left. Nothing had changed at all."
     shinn "Everything's the same. Heh. Even that crack in the floor, on the classroom's far side. Would have figured someone would have fixed that by now."
     "A dull sound, like the clicking of high-heel shoes, brought me out of my nostalgia trip. It seemed to be coming from the hallway."
-    # SFX heels
+    play sound heels
     "The clicking sound grew closer and closer, approaching the classroom door."
-    # SFX heels
+    play sound heels
     "A mature-looking, wide-hipped woman appeared in the doorway."
 
     show rina annoyed with moveinleft

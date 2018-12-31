@@ -1,16 +1,19 @@
 label start:
-
+    stop music fadeout 1.0
+    play sound alarm_loop loop
     unknown "Hmm..."
     "An incessant ringing pestered my ears as I lifted my head from the soft bedsheets and pillows."
     unknown "Hmm..."
-    "I had been having the most comfortable, enjoyable dream... but now it was gone, swept away by this annoying alarm"
+    "I had been having the most comfortable, enjoyable dream... but now it was gone, swept away by this annoying alarm."
     unknown "Hm...what time is it...?"
 
     show bg shinn bedroom with pixellate
-    "I looked above the sheets,  the old digital clock's red numbers seemingly staring back at me, demanding that I rise. The blurriness of sleep slowly began to fade as I fixed on the time."
+    "I looked above the sheets,  the old digital clock's red numbers seemingly staring back at me, demanding that I rise. The blurriness of sleep slowly began to fade as I stared at the time."
     unknown "Oh... It's already 6 AM. I should get going."
     "The alarm clock continued to ring."
     unknown "Alright, alright, I'm going! Damn, this thing is loud...."
+    stop sound
+    play sound alarm_shutoff
     "My clock kept ringing for some time before I mustered the will to turn it off. As I rose, I noticed a blinking light on my answering machine."
     unknown "Hm? Who could this be?"
     "I approached the machine and hit the \"play message\" button"

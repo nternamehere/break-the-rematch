@@ -1,4 +1,5 @@
 label school__first_visit:
+    play music campus fadein 1.0
     show bg main gate with fade
     "Haruka Academy. I was once a student here, and my time was... exciting, to say the least. It was hard to belive that I would be back here again, working for the school rather than studying in it."
     "As I approached the school gate, I scanned the inner courtyard."

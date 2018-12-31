@@ -21,6 +21,7 @@ label range__first_visit:
     thinking "Oh, wow."
     "I focused on the beautiful young woman. Her dark raven hair, tied in a traditional manner, flowed over her shoulder. The pins embedded in her braid gave her a certain old-fashioned air, yet the effect this played with the rest of her appearance released an impossible-to-ignore beauty."
     "Her expression was serious and cold, and she had eyes only for her target."
+    play sound arrow
     "Without any effort at all she drew the bow and released her shot. The arrow arced perfectly into the center of a target 60 meters away."
     "The students immediately burst into cheers and applause."
     female_1 "As expected from Miss Katsuragi! She isn't our most valuable club member for nothing!"
