@@ -266,8 +266,9 @@ screen quick_menu():
             ypos 1025
 
             textbutton _("Log") action ShowMenu('history')
-            textbutton _("Quick Save") action QuickSave()
-            textbutton _("Quick Load") action QuickLoad()
+            if not _in_replay:
+                textbutton _("Quick Save") action QuickSave()
+                textbutton _("Quick Load") action QuickLoad()
             textbutton _("Settings") action ShowMenu('preferences')
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -318,9 +319,11 @@ screen navigation():
 
             textbutton _("History") action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            if not _in_replay:
+                textbutton _("Save") action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        if not _in_replay:
+            textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Settings") action ShowMenu("preferences")
 
