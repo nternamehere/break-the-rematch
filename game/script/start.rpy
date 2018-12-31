@@ -20,5 +20,5 @@ label start:
     voicemail "Mr. Akatsuki Shinn, all the paperwork is now organized and we're ready for you to start. I need you to come in today after classes have concluded. Club activities begin at 3:45 pm, which should give you a wide window to arrive on time."
     thinking "Oh, that's great."
     thinking "Heh. Looks like I didn't need to get up so early after all. But since I am already awake, I might as well get prepared now."
-    "I began perperations for my first day of tutoring."
+    "I began preparations for my first day of tutoring."
     jump school__first_visit
