@@ -16,4 +16,5 @@ screen locations:
             hotspot (1152, 831, 174, 55) clicked Jump("track__router")
 
 label map__school:
+    $ renpy.choice_for_skipping()
     call screen locations with fade
