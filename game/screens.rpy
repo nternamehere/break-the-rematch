@@ -503,8 +503,6 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
         action Return()
 
-    label title
-
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
 
