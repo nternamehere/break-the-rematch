@@ -6,7 +6,7 @@ label naoko__sex_scene_1:
     shinn "Well, what are you waiting for? Show me that heavenly, round chest of yours. Your pussy, too."
     "With a surprising lack of reluctance she unbuttoned her top, revealing her breasts. She then pulled up her skirt to expose her black-laced panties, visible through her pantyhose."
     naoko "Fi...Fine..."
-    shinn "{i}Damn. It's been a while since I last saaw her body. It's just like I remembered.{/i}"
+    thinking "Damn. It's been a while since I last saw her body. It's just like I remembered."
     "I pushed her down onto the table and placed her hands on her thighs."
     naoko "Ahh..."
     shinn "Lift your legs."
@@ -17,7 +17,7 @@ label naoko__sex_scene_1:
     show naoko_sex1-1 with fade
     "And there it was - her naked body. What a stunning display. A display that most men could only dream about."
     "Here I was again, looking at her amazing pussy. I bet the inside was still shaped like my cock."
-    shinn "{i} This is going to be just like the first time. History is repeating itself.{/i}"
+    thinking "This is going to be just like the first time. History is repeating itself."
     "I looked at her face. She was embarrassed and hesitant, as expected. But at the same time, I could see her other side starting to emerge. The erotic side of her, the desire for lust that I saw all those years ago."
     "And I was going to bring it back in full."
     "I made my move asnd grabbed her breasts. They were so soft, so fluffy. I could just squeeze them all day long."
@@ -28,7 +28,7 @@ label naoko__sex_scene_1:
     shinn "I am going to make you remember the pleasure you had with my cock, Ms. Naoko."
 
     show naoko_sex1-3
-    shinn "{i}Good lord - her breasts are even firmer than before. Did she take suplements since we last met?{/i}"
+    thinking "Good lord - her breasts are even firmer than before. Did she take suplements since we last met?"
     "I placed my mouth onto both her nipples and began to suck viciously."
 
     show naoko_sex1-4
@@ -47,7 +47,7 @@ label naoko__sex_scene_1:
     "To complete her transformation, I unzipped my pants to reveal my erect rod."
     shinn "Do you remember now, Naoko?"
     naoko "Ahh..."
-    shinn "{i}She is changing, I can tell.{/i}"
+    thinking "She is changing, I can tell."
     shinn "Hmm... Maybe I should stop here?"
     naoko "Ahh... No..."
     shinn "No? But you said you hate me."
@@ -60,7 +60,7 @@ label naoko__sex_scene_1:
     shinn "Just say, 'Please give me your big cock, master.' Like you always did before."
     naoko "Please..."
     naoko "Please give me your big cock, master~"
-    shinn "{i}Heh. Guess it's time for the main course.{/i}"
+    thinking "Heh. Guess it's time for the main course."
     shinn "Good girl. Here you go~"
     "With one movement, I immediately thrust my dick into her pussy, only stopping when I could feel her womb."
 
@@ -95,7 +95,7 @@ label naoko__sex_scene_1_inside:
     show naoko_sex1-8_inside-3
     "I pulled out my relieved dick and looked at how thoroughly her cunt was filled."
     shinn "Damn. That's a lot of cum."
-    shinn "{i}I saved up months for this result. Heh. It was worth it.{/i}"
+    thinking "I saved up months for this result. Heh. It was worth it."
 
     jump naoko__sex_scene_1_end
 
@@ -108,7 +108,7 @@ label naoko__sex_scene_1_outside:
     show naoko_sex1-8_outside-2
     "The amount of semen and the powerfull smell overwhelmed Naoko, completely breaking her in an instant."
     shinn "Damn, that's a lot of cum."
-    shinn "{i}Looks like it was worth it to save up all those months.{/i}"
+    thinking "Looks like it was worth it to save up all those months."
 
     show naoko_sex1-8_outside-3
     jump naoko__sex_scene_1_end
@@ -117,14 +117,14 @@ label naoko__sex_scene_1_end:
     "As soon as it was over my senses returned to me. I had made a terrible mess; my cum was simply everywhere. Some was spattered across Naoko, a good deal had dripped on the table, and some had even found its way onto the floor."
     shinn "Shit. Looks like I overdid it."
     "Then I looked at Naoko. She was completely broken, her whole body stinking of my cum."
-    shinn "{i}Did I manage to convert her back to what she used to be?{/i}"
+    thinking "Did I manage to convert her back to what she used to be?"
     shinn "So. Remember now?"
     "She stared at me with vacant eyes for a few moments more, but finally snapped out of it. Somewhat."
     naoko "Yes. Master Shinn. I remember now."
     shinn "Heh. Good girl, Ms. Naoko. From now on you will do as I say."
     "Her eyes were filled with nothing but love. I was certain that absolute obedience and loyalty had been achieved."
     naoko "Yes. Master Shinn."
-    shinn "{i}She is going to be very useful. Especially with those girls.{/i}"
+    thinking "She is going to be very useful. Especially with those girls."
     shinn "Clean this mess up, Naoko, and you may go. I will call you again... very soon."
     naoko "Yes. Master Shinn! I can't wait."
     "That was that. I finally decided to take my leave."

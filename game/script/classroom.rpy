@@ -4,22 +4,10 @@ label classroom__router:
     jump map__school
 
 label classroom__completed_intro_check:
-    if classroom__first_visit:
-        if not range_available:
-            if not gym_available:
-                if not tennis_available:
-                    if not track_available:
-                        jump classroom__first_visit
-                    else:
-                        jump map__school
-                else:
-                    jump map__school
-            else:
-                jump map__school
-        else:
-            jump map__school
-    else:
+    if not classroom__first_visit or range_available or gym_available or tennis_available or track_available:
         jump map__school
+    else:
+        jump classroom__first_visit
 
 label classroom__first_visit:
     "Feeling satisfied, I checked over the principal's list one last time."
@@ -44,28 +32,28 @@ label classroom__first_visit:
     shinn "Er..."
     "The woman entered the classroom without another word and approached."
     rina "Wait a minute... aren't you the tutor we just hired?"
-    shinn "{i}That tone of voice... I've got a bad feeling about this...{/i}"
+    thinking "That tone of voice... I've got a bad feeling about this..."
     shinn "Yes."
     rina "Hmm... I see. Officially, the tutoring isn't supposed to start until tomorrow. As I suspect you know that, what are you doing here?"
     shinn "Me? Er. I am just taking a look at the class. Getting used to it."
-    shinn "{i}Gosh... She seems pretty snosy. But I wonder how sharp she really is?{/i}"
+    thinking "Gosh... She seems pretty nosy. But I wonder how sharp she really is?"
     rina "Get used to what? Weren't you a student here before?"
     shinn "Well, yes, but I have not been a student for quite some time. I thought looking around would give me a chance to remember the old days."
     "Rina continued to stare, her expression cold and reminiscent of Satuski's."
-    shinn "{i}Geez, these women sure are uptight...{/i}"
+    thinking "Geez, these women sure are uptight..."
     shinn "Anyway, since school's out for the day, maybe I should go."
     shinn "After all, wouldn't want to run afoul of the teacher in charge of discipline, right?"
 
     show rina vicious smile
     rina "Indeed."
     rina "Actually, Takatsukasa briefed me about you already."
-    shinn "{i}I feared it would have been Ritsuko. What a relief.{/i}"
+    thinking "I feared it would have been Ritsuko. What a relief."
     "Rina's gaze became one of clear disdain, and her smile only made it more obvious."
     "And yet that vicious disdain somehow made her all the more attractive to me..."
     rina "I'm still quite surprised that hte principal hired a former student. You were one of our rising stars, were you not? It surprises me that we never met."
     shinn "I aim to surprise."
     "Keeping my cool, I forced myself to think. Who the hell was this woman, really?"
-    shinn "{i}I think she joined the academy after I graduated. Which explains why we haven't met.{/i}"
+    thinking "I think she joined the academy after I graduated. Which explains why we haven't met."
     "I hadn't realized it, but it seemed I had been staring at Ms. Akiyama too acutely."
 
     show rina annoyed
@@ -75,10 +63,10 @@ label classroom__first_visit:
 
     show rina vicious smile
     rina "You know, I could start asking around about you. I'm sure many people have stories to tell about your time as a student here."
-    shinn "{i}Pesky bitch.{/i}"
+    thinking "Pesky bitch."
     rina "But I suppose it doesn't matter, really. The courses shouldn't last for more than thirty days. Maybe you can behave yourself that long."
-    shinn "{i}Seriously, she talks way too much.{/i}"
-    "Trying my best to look and soundpolite, I softly responded to Rina."
+    thinking "Seriously, she talks way too much."
+    "Trying my best to look and sound polite, I softly responded to Rina."
     shinn "You shouldn't worry, Ms. Akiyama."
     shinn "I know my place here. I'm here as a formality; my presence and tutelage are essentially favors to the principal. It's nothing official."
     shinn "Admittedly, I'm also here for reasons of nostalgia. At least partly."
@@ -86,13 +74,13 @@ label classroom__first_visit:
 
     show rina angry
     rina "W-who said I was worried about you?!"
-    shinn "{i}Whoa! That was unexpected.{/i}"
+    thinking "Whoa! That was unexpected."
     shinn "Now, now. I was merely acknowledging that the only reason you would be concerned about my straightforwardness with my students is due to my teaching acumen. Unless you're suggesting something else, Ms. Akiyama?"
     "A marked change came about the woman."
 
     show rina pout
     rina "Hmph! Of course not! What else could it be?"
-    shinn "{i}Heh, she sure is a smooth liar.{/i}"
+    thinking "Heh, she sure is a smooth liar."
     shinn "In that case, Ms. Akiyama, I will take my leave."
     shinn "I must make some last preperations for the courses. I will be looking forward to working with you, however..."
     rina "Fine, go ahead! Just make sure you don't do anything rash!"
@@ -100,7 +88,7 @@ label classroom__first_visit:
     rina "O-of course not! Now please, take your leave!"
     shinn "Yes, yes..."
     "As I was about to leave a figure suddenly emerged from the hallway and entered the room."
-    shinn "{i}Wait, what? Is that Naoko?{/i}"
+    thinking "Wait, what? Is that Naoko?"
     naoko "Oh, Rina. There you are."
 
     show rina pout at right
@@ -113,12 +101,12 @@ label classroom__first_visit:
     "Rina turned and looked at me."
     rina "This is Shinn. He will be assisting some of the students with their studies."
     naoko "I see. Nice to meet you, Shinn."
-    shinn "{i}Holy shit. Does she not remember me?{/i}"
+    thinking "Holy shit. Does she not remember me?"
 
     show naoko cheerful
     shinn "Nice to meet you, Naoko. I hope I'll be able to work with you as well."
     naoko "Sure! If you need anything, just ask."
-    shinn "{i}Has she forgotten what we did?{/i}"
+    thinking "Has she forgotten what we did?"
     rina "I shall be leaving now."
     naoko "See you."
 
@@ -130,16 +118,16 @@ label classroom__first_visit:
     naoko "Why did you bother to come back?!"
     shinn "Huh?"
     naoko "Don't act dumb with me, Shinn. After we had sex you just... {i}dumped{/i} me. I never heard from you again. And now you're just... here!"
-    shinn "{i}It seems she {b}hasn't{/b} forgotten after all."
-    shinn "{i}Heh. This is getting interesting.{/i}"
+    thinking "It seems she {i}hasn't{/i} forgotten after all."
+    thinking "Heh. This is getting interesting."
     shinn "So what if I did?"
     naoko "You're worse than a monster, Shinn!"
-    shinn "{i}Since it has come this far, I suppose there's no more reason to put this act on.{/i}"
+    thinking "Since it has come this far, I suppose there's no more reason to put this act on."
     shinn "Then you should know why I'm back."
     naoko "What? To have sex with school girls? Did your tastes change?"
     shinn "Heh... what if they did?"
     naoko "Well, you won't succeed this time."
-    shinn "{i}Wow. Brave words. I wonder how she plans to stop me.{/i}"
+    thinking "Wow. Brave words. I wonder how she plans to stop me."
     shinn "Oh really? How do you plan to stop me?"
     naoko "Why, I'm goin gto expose you, of course."
     shinn "Oh, are you now? Do you have evidence against me? WOuld anyone believe you, even if you did?"
@@ -147,12 +135,12 @@ label classroom__first_visit:
     "Almost before I could react she darted forward, moving to strike me in the mouth."
     shinn "Woah!"
     "I managed to catch her fist just before it hit home."
-    shinn "{i}This bitch is really asking for it now.{/i}"
+    thinking "This bitch is really asking for it now."
     shinn "What do you think you're doing?"
     naoko "LET ME GO!"
     "I shoved her fist away and she jerked back."
     naoko "You bastard!"
-    shinn "{i}If I don't teach her a lesson today, she'll being to pester me. My entire plan could be foiled by this bitch.{/i}"
+    thinking "If I don't teach her a lesson today, she'll being to pester me. My entire plan could be foiled by this bitch."
     shinn "For someone so vehement, I seem to recall you rather enjoying our lovemaking."
     naoko "Maybe, but that was before I knew. There was no love behind our sex - it was all a lie. A lie from a {i}fuckboy{/i} like {i}you{/i}! I {i}hate{/i} you!"
     shinn "Oh yeah?"
@@ -163,12 +151,12 @@ label classroom__first_visit:
     naoko "You..."
     shinn "Do you remember now? Remember the time you wer begging for sex like some animal in heat?"
     naoko "Why do you still have that picture?!"
-    shinn "{i}It seems like I've found my first victim.{/i}"
+    thinking "It seems like I've found my first victim."
     shinn "Shall we take a trip down memory lane together?"
     naoko "Eh? What?"
     shinn "Don't act dumb. you know what I mean."
     naoko "You want sex?"
-    shinn "{i}She finally figured it out. Smart girl.{/i}"
+    thinking "She finally figured it out. Smart girl."
     shinn "Well?"
     naoko "...what if I don't comply?"
     shinn "I have pictures in my phone, and on my PC, that will instantly end your career as a teacher."

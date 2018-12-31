@@ -7,7 +7,7 @@ label tennis__router:
 label tennis__first_visit:
     show bg tennis court with map_fade
     "According to my list, the next student was a member of the school's tennis club."
-    shinn "{i}There are more guys than girls in this club, now. But back in my time, it was nothing but babes.{/i}"
+    thinking "There are more guys than girls in this club, now. But back in my time, it was nothing but babes."
     "I snickered to myself as I remembered the girls of the past - and my antics with them."
     "In the present, though, there wasn't much to see. Most of the players were fooling around, not taking training seriously. I wondered what the point of joining the club in the first place was, if not to train?"
     "Perhaps my next target wasn't here at all."
@@ -20,11 +20,11 @@ label tennis__first_visit:
     show ritsuko basic with moveinright
     ritsuko "Hey, Shinn, if you're going to be coming around like this, at least try to hide the tent you're pitching. For once."
     "A chill went down my spine as I realized that it was none other than Ritsuko. I glanced at the principal's file and noticed the surname..."
-    shinn "{i}Yasuhiro. Damn it! I should have noticed it sooner!{/i}"
+    thinking "Yasuhiro. Damn it! I should have noticed it sooner!"
     "I'd been a fool not to realize it - it made perfect sense that someone like her would be failing math."
     shinn "If I had realized you were going to be one of my students, I would've recommended someone else be your tutor."
     ritsuko "Oh my, Shinn. Are you still concerned about that incident?"
-    shinn "{i}This is going to be a problem.{/i}"
+    thinking "This is going to be a problem."
     shinn "*chuckle* I guess it makes sense. you were never good at math, though that's hardly a surprise. You certainly don't look like a particularly bright one."
     ritsuko "Oh, you're playing wiht fire, {i}boy{/i}. Are you trying to provoke me?"
     "Ritusko's eyes narrowed, and she bared her teeth. Her near-shouted words caught everyone's attention, and their gazes quickly turned towards us."
@@ -36,7 +36,7 @@ label tennis__first_visit:
     shinn "Heh. \"Things that I did with teachers\"? Theese are rumors, Ritsuko. Not surprising that you don't know the difference between hearsay and facts."
     ritsuko "Oh? Rumors? I might not have physical evidence, but others' accounts don't lie."
     shinn "Hmph!"
-    shinn "{i}Even if I don't want to, it seems I'll have to deal with this bitch if I'm to have any hope of moving forward with my plans."
+    thinking "Even if I don't want to, it seems I'll have to deal with this bitch if I'm to have any hope of moving forward with my plans."
     shinn "Well, I guess we'll see about that."
     "Ritsuko's face twisted, radiating pure confidence. She bled an arrogance that made her look both vile and extremely seductive."
     ritsuko "Indeed, Shinn. If I ever find the evidence - which I will - you better be careful."
