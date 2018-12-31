@@ -5,6 +5,7 @@ label track__router:
         jump map__school
 
 label track__first_visit:
+    $ renpy.block_rollback()
     show bg track with map_fade
     thinking "Damn, it's hotter than I expected."
     shinn "Still, it's a little too late for it to be like this, no?"

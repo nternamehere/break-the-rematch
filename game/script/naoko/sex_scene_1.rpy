@@ -78,8 +78,10 @@ label naoko__sex_scene_1:
     menu:
         naoko "Ah. Shinn, yes. You're at your limit, right? Please cum! Cum! I want your cum!"
         "Cum inside":
+            $ renpy.block_rollback()
             jump naoko__sex_scene_1_inside
         "Cum outside":
+            $ renpy.block_rollback()
             jump naoko__sex_scene_1_outside
 
 label naoko__sex_scene_1_inside:

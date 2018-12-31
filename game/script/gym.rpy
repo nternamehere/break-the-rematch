@@ -5,6 +5,7 @@ label gym__router:
         jump map__school
 
 label gym__first_visit:
+    $ renpy.block_rollback()
     show bg pool with map_fade
     if met_ritsuko:
         "The swimming pool wasn't too far from the tennis court, but I had to take a little detour in case Ritsuko was planning something."

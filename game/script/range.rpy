@@ -5,8 +5,8 @@ label range__router:
         jump map__school
 
 label range__first_visit:
+    $ renpy.block_rollback()
     show bg range with map_fade
-
     "..."
     "..."
     thinking "This place feels alive, that's for sure"

@@ -1,10 +1,11 @@
 label tennis__router:
     if tennis__first_visit:
-        jump tennis__first_visit
+        $ renpy.block_rollback()
     else:
         jump map__school
 
 label tennis__first_visit:
+    $ renpy.block_rollback()
     show bg tennis court with map_fade
     "According to my list, the next student was a member of the school's tennis club."
     thinking "There are more guys than girls in this club, now. But back in my time, it was nothing but babes."
