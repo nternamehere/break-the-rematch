@@ -143,6 +143,8 @@ default preferences.afm_time = 15
 ## literal string, not an expression.
 
 define config.save_directory = "BreakTheRematch-1545008613"
+define config.autosave_slots = 6
+define config.quicksave_slots = 6
 
 
 ## Icon ########################################################################
