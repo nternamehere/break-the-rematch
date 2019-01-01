@@ -303,6 +303,7 @@ style quick_button_text:
     hover_color "#f3e9ff"
     hover_outlines [ (3, "#9b4bff", 0, 0), (2, "#9b4bff", 0, 0), (1, "#9b4bff", 0, 0) ]
     selected_outlines [ (1, "#943eff", 0, 0) ]
+    align (.5, .5)
 
 
 ################################################################################
