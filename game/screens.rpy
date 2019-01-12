@@ -806,9 +806,10 @@ screen preferences():
 
                     bar value Preference("text speed")
 
-                    label _("Auto-Forward Time")
+                    label _("Auto Speed")
 
-                    bar value Preference("auto-forward time")
+                    bar value Preference("auto-forward time"):
+                        bar_invert True
 
                 vbox:
 
