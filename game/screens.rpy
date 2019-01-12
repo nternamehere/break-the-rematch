@@ -370,10 +370,13 @@ style navigation_button:
     size_group "navigation"
     properties gui.button_properties("navigation_button")
     selected_foreground "gui/button/active_menu_marker.png"
+    xoffset 15
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
-    selected_xpos 20
+    selected_xoffset 20
+    selected_yoffset 3
+    xalign 0.5
 
 ## Main Menu screen ############################################################
 ##
