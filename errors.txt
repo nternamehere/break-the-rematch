@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script/school.rpy", line 2: could not parse statement.
-    play music campus with fadein
-                      ^
+File "game/screens.rpy", line 790: expected a keyword argument, colon, or end of line.
+    textbutton _("Always Ask") action persistent.cum = "always"
+                                                     ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Mon Dec 31 13:25:15 2018
+Sat Jan 12 11:35:56 2019

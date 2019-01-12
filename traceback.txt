@@ -1,44 +1,62 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script/range.rpy", line 25, in script
-    "Without any effort at all she drew the bow and released her shot. The arrow arced perfectly into the center of a target 60 meters away."
-IOError: Couldn't find file 'sounds/arrow_full.ogg'.
+While loading <'Image' u'gui/main_menu.png'>:
+Exception: Could not load image u'gui/main_menu.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\break-the-rematch/game\\\\gui/main_menu.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\break-the-rematch/game\\gui/main_menu.png",)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script/range.rpy", line 25, in script
-    "Without any effort at all she drew the bow and released her shot. The arrow arced perfectly into the center of a target 60 meters away."
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 678, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\exports.py", line 1229, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\character.py", line 1031, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\character.py", line 823, in do_display
-    **display_args)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\character.py", line 572, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ast.py", line 881, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\python.py", line 1913, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\ui.py", line 289, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 3344, in interact_core
-    renpy.audio.audio.periodic()
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\audio\audio.py", line 993, in periodic_thread_main
-    periodic_pass()
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\audio\audio.py", line 937, in periodic_pass
-    c.periodic()
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\audio\audio.py", line 419, in periodic
-    topf = load(self.file_prefix + filename + self.file_suffix)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\audio\audio.py", line 71, in load
-    rv = renpy.loader.load(fn)
-  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\loader.py", line 576, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'sounds/arrow_full.ogg'.
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 3158, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\core.py", line 2075, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 487, in renpy.display.render.render_screen
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\screen.py", line 669, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\im.py", line 580, in render
+    return cache.get(self, render=True)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\im.py", line 266, in get
+    surf = image.load()
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\im.py", line 625, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "C:\Users\evans\Documents\renpy-7.1.3-sdk\renpy\display\pgrender.py", line 162, in load_image
+    raise Exception("Could not load image {!r}: {!r}".format(filename, e))
+Exception: Could not load image u'gui/main_menu.png': IOError("Could not open u'C:\\\\Users\\\\evans\\\\Documents\\\\Renpy Games\\\\break-the-rematch/game\\\\gui/main_menu.png': Couldn't open C:\\Users\\evans\\Documents\\Renpy Games\\break-the-rematch/game\\gui/main_menu.png",)
 
 Windows-8-6.2.9200
 Ren'Py 7.1.3.1092
-Break: The Rematch v0.6.2-alpha
-Mon Dec 31 13:27:11 2018
+Break: The Rematch v0.7.2-alpha
+Sat Jan 12 11:59:11 2019

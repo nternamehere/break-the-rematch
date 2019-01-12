@@ -76,14 +76,25 @@ label naoko__sex_scene_1:
     "It wasn't long before I could feel the sensation coming from my testicles. It seemed like a huge load was about to shoot out."
     "I wanted to play around with her more, but the urge was kicking in fast. Even I couldn't resist it anymore. I start to pump as quickly as I could."
 
-    menu:
+    if persistent.cum == "inside":
         naoko "Ah. Shinn, yes. You're at your limit, right? Please cum! Cum! I want your cum!"
-        "Cum inside":
-            $ renpy.block_rollback()
-            jump naoko__sex_scene_1_inside
-        "Cum outside":
-            $ renpy.block_rollback()
-            jump naoko__sex_scene_1_outside
+        $ renpy.block_rollback()
+        jump naoko__sex_scene_1_inside
+
+    elif persistent.cum == "outside":
+        naoko "Ah. Shinn, yes. You're at your limit, right? Please cum! Cum! I want your cum!"
+        $ renpy.block_rollback()
+        jump naoko__sex_scene_1_outside
+
+    else:
+        menu:
+            naoko "Ah. Shinn, yes. You're at your limit, right? Please cum! Cum! I want your cum!"
+            "Cum inside":
+                $ renpy.block_rollback()
+                jump naoko__sex_scene_1_inside
+            "Cum outside":
+                $ renpy.block_rollback()
+                jump naoko__sex_scene_1_outside
 
 label naoko__sex_scene_1_inside:
     show naoko_sex1-8_inside-1 with cum_flash

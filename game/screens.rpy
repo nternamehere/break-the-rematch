@@ -784,6 +784,13 @@ screen preferences():
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
+                vbox:
+                    style_prefix "radio"
+                    label _("Cum Options")
+                    textbutton _("Always Ask") action SetField(persistent, "cum", "always")
+                    textbutton _("Always Inside") action SetField(persistent, "cum", "inside")
+                    textbutton _("Always Outside") action SetField(persistent, "cum", "outside")
+
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
@@ -886,7 +893,7 @@ style radio_button_text:
     properties gui.button_text_properties("radio_button")
     hover_color "#fff"
     xpos 20
-    yoffset -10
+    yoffset -5
 
 style check_vbox:
     spacing gui.pref_button_spacing
@@ -899,7 +906,7 @@ style check_button_text:
     properties gui.button_text_properties("check_button")
     hover_color "#fff"
     xpos 20
-    yoffset -10
+    yoffset -5
 
 style slider_slider:
     xsize 525

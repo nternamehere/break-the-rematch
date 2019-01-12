@@ -35,3 +35,5 @@ init python:
     #######################
     #    Misc Variables   #
     #######################
+    if persistent.cum is None:
+        persistent.cum = "always"
