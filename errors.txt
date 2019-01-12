@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 790: expected a keyword argument, colon, or end of line.
-    textbutton _("Always Ask") action persistent.cum = "always"
-                                                     ^
+File "game/screens.rpy", line 404: expected a keyword argument, colon, or end of line.
+    text center "©2019 PUSH! \n All Rights Reserved.":
+                ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Sat Jan 12 11:35:56 2019
+Sat Jan 12 15:46:18 2019

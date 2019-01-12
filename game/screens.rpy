@@ -398,9 +398,19 @@ screen main_menu():
     ## contents of the main menu are in the navigation screen.
     use navigation
 
+    vbox:
+        xalign 0
+        xsize 350
+        text "©2019 PUSH!":
+            style "main_menu_copyright"
+
+        text "All Rights Reserved.":
+            style "main_menu_copyright"
+
     if gui.show_name:
 
         vbox:
+            xalign 0
             text "[config.name!t]":
                 style "main_menu_title"
 
@@ -435,6 +445,12 @@ style main_menu_title:
 
 style main_menu_version:
     properties gui.text_properties("version")
+
+style main_menu_copyright:
+    size 15
+    xalign 0.5
+    ypos -30
+    color "#888"
 
 
 ## Game Menu screen ############################################################
