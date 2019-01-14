@@ -87,7 +87,7 @@ label range__first_visit:
     "With a single nod, Satsuki returned her focus to the range."
     hide satsuki neutral smile
     thinking "That took longer than expected..."
-    "But it was quite worth it. I'd met the school's archery start, and she happened to be a complete babe. I mentally planned to \"check in\" with her very soon."
+    "But it was quite worth it. I'd met the school's archery star, and she happened to be a complete babe. I mentally planned to \"check in\" with her very soon."
     thinking "Hmm... Who should I see next?"
     $ range_available = False
     $ range__first_visit = False
