@@ -15,7 +15,7 @@ label naoko__sex_scene_1:
     "I proceeded to rip off her pantyhose and panties."
     naoko "Ah!"
 
-    show naoko_sex1-1 with fade
+    scene naoko_sex1-1 with fade
     "And there it was - her naked body. What a stunning display. A display that most men could only dream about."
     "Here I was again, looking at her amazing pussy. I bet the inside was still shaped like my cock."
     thinking "This is going to be just like the first time. History is repeating itself."
@@ -23,28 +23,28 @@ label naoko__sex_scene_1:
     "And I was going to bring it back in full."
     "I made my move asnd grabbed her breasts. They were so soft, so fluffy. I could just squeeze them all day long."
 
-    show naoko_sex1-2
+    show naoko_sex1 2
     naoko "Ahh... Don't do that..."
     "She gave off a soft moan. I ignored her and pressed on."
     shinn "I am going to make you remember the pleasure you had with my cock, Ms. Naoko."
 
-    show naoko_sex1-3
+    show naoko_sex1 3
     thinking "Good lord - her breasts are even firmer than before. Did she take suplements since we last met?"
     "I placed my mouth onto both her nipples and began to suck viciously."
 
-    show naoko_sex1-4
+    show naoko_sex1 4
     naoko "Ahh... No... It hurts..."
     "Her moans began to become more prominent. I looked at her face as I sucked her nipples. With each moan she would open her mouth wide, and shut her eyes. It was quite appealing."
     "As I saw how cute her face was I began to suck even more vigorously. She let out a series of even louder moans."
     naoko "Ahh! No!"
     "In order to silence her, I lifted my head and placed my mouth against hers, sticking my tongue into her mouth. Both our tongues locked around each other, sucking each other's saliva"
 
-    show naoko_sex1-5
+    show naoko_sex1 5
     naoko "Mmm..."
     "She didn't reject my kiss. From the look of it, she seemed to be starting to like it. Or I should say, started to {i}remember{/i}."
     "I seperated my lips from hers and leaned back. Her face had changed. She was finally beginning to accept the situation, her desire finally manifesting in the juices running from her pussy."
 
-    show naoko_sex1-6
+    show naoko_sex1 6
     "To complete her transformation, I unzipped my pants to reveal my erect rod."
     shinn "Do you remember now, Naoko?"
     naoko "Ahh..."
@@ -65,7 +65,7 @@ label naoko__sex_scene_1:
     shinn "Good girl. Here you go~"
     "With one movement, I immediately thrust my dick into her pussy, only stopping when I could feel her womb."
 
-    show naoko_sex1-7
+    show naoko_sex1 7
     naoko "AH! It's inside me! So deep!"
     "Her face twisted, embodying a high so intense that it seemed she'd taken a dose of morphine."
     "I continued to thrust in her with all of my strength."
@@ -97,16 +97,16 @@ label naoko__sex_scene_1:
                 jump naoko__sex_scene_1_outside
 
 label naoko__sex_scene_1_inside:
-    show naoko_sex1-8_inside-1 with cum_flash
+    show naoko_sex1 8_inside-1 with cum_flash
     "Those words, in conjunction with her erotic tone, were the last straw. Unable to resist, I let it all out inside her like a magnificent firework."
     naoko "Ahh... Shinn sperm!! It's all inside me!"
     "It quickly filled her womb. The remaining excessive cum splashed past my cock and flowed out of her pussy."
     shinn "Ahh..."
 
-    show naoko_sex1-8_inside-2
+    show naoko_sex1 8_inside-2
     "Her eyes rolled, as if her mind was blank. I though I might have broken her."
 
-    show naoko_sex1-8_inside-3
+    show naoko_sex1 8_inside-3
     "I pulled out my relieved dick and looked at how thoroughly her cunt was filled."
     shinn "Damn. That's a lot of cum."
     thinking "I saved up months for this result. Heh. It was worth it."
@@ -114,17 +114,17 @@ label naoko__sex_scene_1_inside:
     jump naoko__sex_scene_1_end
 
 label naoko__sex_scene_1_outside:
-    show naoko_sex1-8_outside-1 with cum_flash
+    show naoko_sex1 8_outside-1 with cum_flash
     "Those words, in conjunction with her erotic tone, were the last straw. Unable to resist, I pulled my cock out at the last moment and came all over her."
     "The cum burst across Naoko's body like a magnificent firework."
     naoko "Ahh... Shinn sperm!! It's all over me!"
 
-    show naoko_sex1-8_outside-2
+    show naoko_sex1 8_outside-2
     "The amount of semen and the powerfull smell overwhelmed Naoko, completely breaking her in an instant."
     shinn "Damn, that's a lot of cum."
     thinking "Looks like it was worth it to save up all those months."
 
-    show naoko_sex1-8_outside-3
+    show naoko_sex1 8_outside-3
     jump naoko__sex_scene_1_end
 
 label naoko__sex_scene_1_end:
