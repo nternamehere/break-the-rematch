@@ -43,7 +43,7 @@ label tennis__first_visit:
     ritsuko "Indeed, Shinn. If I ever find the evidence - which I will - you better be careful."
     ritsuko "An animal like you needs to learn to stay in the mud, where it belongs."
 
-    show ritsuko smile
+    show ritsuko brow smile
     ritsuko "I suggest you leave before you bother anyone further."
     "She gave me a mocking wink."
     shinn "Hmph! In that case, I suppose I'll let you know about the tutoring later. Or maybe I'll just let you fail!"
