@@ -3,6 +3,7 @@
 **.rpyc
 **.rpymc
 **.rpyb
+**.json
 errors.txt
 files.txt
 log.txt
