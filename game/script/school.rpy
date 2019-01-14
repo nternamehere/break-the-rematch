@@ -46,13 +46,13 @@ label school__eod_1:
     thinking "Ah, Satsuki Katsuragi. A traditional maiden and an archery star, no less! Imagine breaking her to such a point that she no longer cares about her very family name."
 
     hide satsuki neutral smile
-    show ritsuko basic
+    show ritsuko
     with quick_fade
     thinking "And, of course, there's Ritsuko."
     "I shuddered at the very memory of her."
     thinking "I'll have to be careful with her, though there's no doubt I'll have to turn her into a cumdump as well. There are special methods for her type."
 
-    hide ritsuko basic
+    hide ritsuko
     show rina confident
     with quick_fade
     thinking "And last,. Ms. Rina Akiyama. She will be the next teacher to be my victim."

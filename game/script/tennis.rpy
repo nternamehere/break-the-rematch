@@ -18,7 +18,7 @@ label tennis__first_visit:
     unknown "Hey! I'm talking to you, Shinn!"
     "After a moment I turned, facing the one calling to me."
 
-    show ritsuko basic with moveinright
+    show ritsuko with moveinright
     ritsuko "Hey, Shinn, if you're going to be coming around like this, at least try to hide the tent you're pitching. For once."
     "A chill went down my spine as I realized that it was none other than Ritsuko. I glanced at the principal's file and noticed the surname..."
     thinking "Yasuhiro. Damn it! I should have noticed it sooner!"
