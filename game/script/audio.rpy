@@ -4,7 +4,19 @@ init python:
     audio.sex = "music/sex.ogg"
 
     # Sounds
-    audio.heels = "sounds/heels.ogg"
     audio.alarm_loop = "sounds/alarm_clock_loop.ogg"
     audio.alarm_shutoff = "sounds/alarm_shutoff.ogg"
     audio.arrow = "sounds/arrow.ogg"
+    audio.heels = "sounds/heels.ogg"
+
+    audio.oral1 = "sounds/oral1.ogg"
+    audio.oral2 = "sounds/oral2.ogg"
+    audio.oral3 = "sounds/oral3.ogg"
+    audio.insert1 = "sounds/insert1.ogg"
+    audio.insert2 = "sounds/insert2.ogg"
+    audio.insert3 = "sounds/insert3.ogg"
+    audio.sex1 = "sounds/sex1.ogg"
+    audio.sex1_slow = "sounds/sex1_slow.ogg"
+    audio.sex2 = "sounds/sex2.ogg"
+    audio.sex3 = "sounds/sex3.ogg"
+    audio.sex4 = "sounds/sex4.ogg"
