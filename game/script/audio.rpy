@@ -1,7 +1,7 @@
 init python:
     # Music
     audio.campus = "<loop 0.833>music/campus.ogg"
-    audio.sex = "music/sex.ogg"
+    audio.sex = "<loop 3.636>music/sex.ogg"
 
     # Sounds
     audio.alarm_loop = "sounds/alarm_clock_loop.ogg"
