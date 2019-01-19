@@ -20,3 +20,6 @@ init python:
     audio.sex2 = "sounds/sex2.ogg"
     audio.sex3 = "sounds/sex3.ogg"
     audio.sex4 = "sounds/sex4.ogg"
+    audio.cum1 = "sounds/cum1.ogg"
+    audio.cum2 = "sounds/cum2.ogg"
+    audio.cum3 = "sounds/cum3.ogg"
