@@ -66,10 +66,13 @@ label naoko__sex_scene_1:
     "With one movement, I immediately thrust my dick into her pussy, only stopping when I could feel her womb."
 
     show naoko_sex1 7
+    play sound sex1_slow loop
     naoko "AH! It's inside me! So deep!"
     "Her face twisted, embodying a high so intense that it seemed she'd taken a dose of morphine."
     "I continued to thrust in her with all of my strength."
     naoko "Ahh... Yes, Shinn. More! More!"
+    stop sound
+    play sound sex4 loop
     "Her moaning was like a source of energy. The more erotically she moaned, the more powerfully I could thrust. Her tight and narrow cunt was intensely stimulating."
     "Her pussy continued to pour out juice. The lubricant allowed me to penetrate with more haste and ease."
     naoko "Ahh... More, please. Don't stop."
@@ -97,6 +100,8 @@ label naoko__sex_scene_1:
                 jump naoko__sex_scene_1_outside
 
 label naoko__sex_scene_1_inside:
+    stop sound
+    play sound cum2
     show naoko_sex1 8_inside-1 with cum_flash
     "Those words, in conjunction with her erotic tone, were the last straw. Unable to resist, I let it all out inside her like a magnificent firework."
     naoko "Ahh... Shinn sperm!! It's all inside me!"
@@ -114,6 +119,8 @@ label naoko__sex_scene_1_inside:
     jump naoko__sex_scene_1_end
 
 label naoko__sex_scene_1_outside:
+    stop sound
+    play sound cum2
     show naoko_sex1 8_outside-1 with cum_flash
     "Those words, in conjunction with her erotic tone, were the last straw. Unable to resist, I pulled my cock out at the last moment and came all over her."
     "The cum burst across Naoko's body like a magnificent firework."
