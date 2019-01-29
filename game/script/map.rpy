@@ -13,6 +13,8 @@ screen locations:
             imagebutton auto "images/map/unknown/unknown-classroom-%s.png" xpos 700 ypos 450 action Jump('classroom__router')
         else:
             imagebutton auto "images/map/buttons/classroom-%s.png" xpos 700 ypos 450 action Jump('classroom__router')
+    elif classroom__first_visit and not classroom_available:
+        imagebutton idle "images/map/unknown/unknown-classroom-disabled.png" xpos 700 ypos 450 action None
     else:
         imagebutton idle "images/map/buttons/classroom-disabled.png" xpos 700 ypos 450 action None
 
