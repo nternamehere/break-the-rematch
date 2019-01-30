@@ -339,10 +339,10 @@ screen navigation():
         if not _in_replay:
             textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Settings") action ShowMenu("preferences")
-
         if main_menu:
-            textbutton _("Gallery") action ShowMenu("gallery")
+            textbutton _("Scenes") action ShowMenu("gallery")
+
+        textbutton _("Settings") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -410,6 +410,14 @@ screen main_menu():
         text "All Rights Reserved.":
             style "main_menu_copyright"
 
+    if gui.is_demo:
+        vbox:
+            xpos 1900
+            text "Demo Build v2.0":
+                style "main_menu_demo"
+            text "Public Release.":
+                style "main_menu_demo"
+
     if gui.show_name:
 
         vbox:
@@ -424,6 +432,7 @@ screen main_menu():
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
+style main_menu_demo is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
@@ -442,6 +451,10 @@ style main_menu_vbox:
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
+
+style main_menu_demo:
+    color "#00000080"
+    size 20
 
 style main_menu_title:
     properties gui.text_properties("title")
