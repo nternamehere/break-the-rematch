@@ -1,15 +1,19 @@
 label classroom__router:
-    show bg classroom with map_fade
-    "Under construction"
-    jump map__school
+    if classroom__first_visit:
+        jump classroom__first_visit
+    else:
+        show bg classroom with map_fade
+        "Under construction"
+        jump map__school
 
 label classroom__completed_intro_check:
-    if not classroom__first_visit or range_available or gym_available or tennis_available or track_available:
-        jump map__school
-    else:
-        jump classroom__first_visit
+    if not range_available and not gym_available and not tennis_available and not track_available:
+        $ classroom_available = True
+    jump map__school
 
 label classroom__first_visit:
+    scene bg hallway 2 with map_fade
+    $ renpy.block_rollback()
     "Feeling satisfied, I checked over the principal's list one last time."
     shinn "Let's see... before I call it a day, is there anything else I should see?"
     "As I looked though the notes, I recongnized a familiar class name. Below it seems some notes had been written by the principal."
@@ -19,7 +23,6 @@ label classroom__first_visit:
     shinn "Might as well take a look at the old place, see what's changed."
 
     show bg classroom with fade
-    $ renpy.block_rollback()
     "A sudden torrent of memories gushed through my brain as I entered the classroom. It was identical to how it had been before I left. Nothing had changed at all."
     shinn "Everything's the same. Heh. Even that crack in the floor, on the classroom's far side. Would have figured someone would have fixed that by now."
     "A dull sound, like the clicking of high-heel shoes, brought me out of my nostalgia trip. It seemed to be coming from the hallway."
