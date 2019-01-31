@@ -24,7 +24,7 @@ define gui.is_demo = True
 
 ## The version of the game.
 
-define config.version = "2.1"
+define config.version = "2.0.1-demo"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -34,16 +34,25 @@ define gui.about = _p("""
 Playing as the main character, you will be conquering each of these beautiful girls from their respective clubs. Get to indulge yourself with the girls on dark theme play from rape to sex slave.
 
 Credits:
+
 Yurika: Game Director/Writer/Story Creator
+
 Toffee San: Game Producer & Co-Director
+
 Magukappu: CG Artist/Character Designer
+
 Badriel: Background Artist/UI Designer
+
 Belgerum: Composer/Sound Artist
+
 Riscent: Graphic Designer
+
 Proxyz: Programmer
+
 Gregor Samsa: Demo Script Lead Editor
 
 Break! The Rematch Demo developed by PUSH! Soft, a subsidiary under PUSH! Publication, LLC. Program distributed & licensed by PUSH!. No part of this Visual Novel may be sold, reproduced or distributed in any manner without written permission except in the case of brief quotations embodied in critical articles or reviews. Infringement of these following will lead to legal action. This visual novel is a work of fiction. Names, characters, businesses, organizations, places, events and incidents either are the product of the author’s imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is purely coincidental.
+
 ©2019 PUSH!. All Rights Reserved.
 """)
 
