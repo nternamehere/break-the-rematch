@@ -19,11 +19,12 @@ define config.name = _("Break: The Rematch")
 ## this to False to hide the title.
 
 define gui.show_name = False
+define gui.is_demo = True
 
 
 ## The version of the game.
 
-define config.version = "v0.8.1-alpha"
+define config.version = "v0.1.0-beta"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -37,7 +38,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BreakTheRematch"
+define build.name = "BreakTheRematchDemo"
 
 
 ## Sounds and music ############################################################
