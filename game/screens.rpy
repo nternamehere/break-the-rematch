@@ -361,7 +361,7 @@ screen navigation():
 
             ## The quit button is banned on iOS and unnecessary on Android.
             textbutton _("Quit") action Quit(confirm=not main_menu)
-
+        textbutton _("Get Full Game") action OpenURL("https://www.kickstarter.com/projects/pushpublication/370942768?ref=bx39cc&token=e8bea3e8")
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
