@@ -34,7 +34,7 @@ label tennis__first_visit:
     "She closed her eyes, sighed, and looked at me again with that condescendingly smug face of hers."
     ritsuko "You should watch your back, Shinn. I know some things about you..."
     ritsuko "...things that you did with a couple of teachers. Maybe more than a couple."
-    shinn "Heh. \"Things that I did with teachers\"? Theese are rumors, Ritsuko. Not surprising that you don't know the difference between hearsay and facts."
+    shinn "Heh. \"Things that I did with teachers\"? These are rumors, Ritsuko. Not surprising that you don't know the difference between hearsay and facts."
     ritsuko "Oh? Rumors? I might not have physical evidence, but others' accounts don't lie."
     shinn "Hmph!"
     thinking "Even if I don't want to, it seems I'll have to deal with this bitch if I'm to have any hope of moving forward with my plans."
