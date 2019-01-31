@@ -268,7 +268,7 @@ screen quick_menu():
         hbox:
             style_prefix "quick"
 
-            xalign 1.0
+            xalign 0.9
             ypos 1005
 
             textbutton _("Log") action ShowMenu('history'):
