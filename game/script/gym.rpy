@@ -113,7 +113,7 @@ label gym__first_visit:
     hide touko basic
     with moveoutleft
     thinking "Interesting..."
-    "Touko's sudden appearance had interrupted my nascent conversation with Aina, but it had also saved me the trouble of looking for the other girl."
+    "it was a pleasant surprise to find two girls here at once."
     thinking "The way Touko was looking at Aina was quite suspicious..."
     shinn "*chuckle*"
     "Keeping this exchange in mind, I left for my next destination..."
