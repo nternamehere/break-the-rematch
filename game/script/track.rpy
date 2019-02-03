@@ -12,7 +12,7 @@ label track__first_visit:
     "I sighed in resignation and began looking for my next student. Unlike the others, however, the principal had barely talked about her."
     "I'd gathered that she was supposed to be rather reserved."
     thinking "Quite strange for a star athlete."
-    "Other issues came quickly to mind. ALthough I didn't stand out as badly here as with other clubs, I maintained my guard."
+    "Other issues came quickly to mind. Although I didn't stand out as badly here as with other clubs, I maintained my guard."
     thinking "I shouldn't have so much trouble finding a girl like this..."
     "As I strode around the track, I finally spotted someone that caught my interest."
 

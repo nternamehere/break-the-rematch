@@ -47,7 +47,7 @@ label range__first_visit:
     thinking "Talk about a cold shoulder."
     "Satsuki stood composed, glaring at me with cold eyes."
     "That was interesting. Most girls would have been startled by my sudden presence."
-    "But I supposed that club members, especially their star members, had a tendency to be territorial. Perhaps it didn't matter who I was, just taht I was there at all. A tresspasser."
+    "But I supposed that club members, especially their star members, had a tendency to be territorial. Perhaps it didn't matter who I was, just that I was there at all. A tresspasser."
     shinn "My apologies, Miss Katsuragi, I'm Shinn Akatsuki. I was assigned to be your tutor."
     "She tilted her head to the side, as if perplexed, but said nothing."
     thinking "This is becoming tiresome."

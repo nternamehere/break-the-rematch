@@ -24,7 +24,7 @@ define gui.is_demo = True
 
 ## The version of the game.
 
-define config.version = "2.0.2-demo"
+define config.version = "2.0.3-demo"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
