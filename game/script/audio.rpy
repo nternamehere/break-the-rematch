@@ -4,6 +4,7 @@ init python:
     audio.sex = "<loop 3.636>music/sex.ogg"
     audio.mental_breakdown = "<loop 3.840>music/mental_breakdown.ogg"
     audio.kinky = "<loop 3.097>music/kinky.ogg"
+    audio.happy_girl = "music/happy_girl.ogg"
 
     # Sounds
     audio.alarm_loop = "sounds/alarm_clock_loop.ogg"
