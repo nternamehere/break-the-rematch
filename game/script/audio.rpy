@@ -1,10 +1,11 @@
 init python:
     # Music
+    audio.breakdown = "<loop 3.840>music/breakdown.ogg"
     audio.campus = "<loop 0.833>music/campus.ogg"
-    audio.sex = "<loop 3.636>music/sex.ogg"
-    audio.mental_breakdown = "<loop 3.840>music/mental_breakdown.ogg"
+    audio.gang = "<loop 2.222>music/gang.ogg"
+    audio.happy = "music/happy.ogg"
     audio.kinky = "<loop 3.097>music/kinky.ogg"
-    audio.happy_girl = "music/happy_girl.ogg"
+    audio.sex = "<loop 3.636>music/sex.ogg"
 
     # Sounds
     audio.alarm_loop = "sounds/alarm_clock_loop.ogg"
