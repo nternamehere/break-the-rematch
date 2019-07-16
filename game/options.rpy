@@ -19,7 +19,8 @@ define config.name = _("Break: The Rematch")
 ## this to False to hide the title.
 
 define gui.show_name = False
-define gui.is_demo = True
+define gui.is_demo = False
+define gui.is_alpha = True
 
 
 ## The version of the game.
