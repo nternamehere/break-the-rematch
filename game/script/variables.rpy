@@ -44,6 +44,13 @@ init python:
     # Ritsuko Variables
     met_ritsuko = False
 
+    # Rina Variable
+    rina__pursue = False
+    rina__probe = False
+    rina__rooftop_sex = False
+    rina__students = False
+    rina__finale = False
+
     #######################
     #    Misc Variables   #
     #######################

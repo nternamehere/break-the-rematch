@@ -5,6 +5,16 @@ define female = Character("Female Student", what_prefix="{font=gui/fonts/AppliMi
 define female_1 = Character("Female Student #1", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define female_2 = Character("Female Student #2", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define male = Character("Male Student", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define male_1 = Character("Male Student #1", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define male_2 = Character("Male Student #2", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define male_3 = Character("Male Student #3", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define male_4 = Character("Male Student #4", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define thug_1 = Character("Thug Student #1", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define thug_2 = Character("Thug Student #2", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define thug_3 = Character("Thug Student #3", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define thug_4 = Character("Thug Student #4", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define thug_5 = Character("Thug Student #5", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define thug_boss = Character("Gangster Boss", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define satsuki = Character("Satsuki Katsuragi", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define ritsuko = Character("Ritsuko Yasuhiro", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define aina = Character("Aina Aozaki", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
@@ -12,8 +22,8 @@ define touko = Character("Touko Takatsukasa", what_prefix="{font=gui/fonts/Appli
 define araki = Character("Araki Shinjugai", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define rina = Character("Rina Akiyama", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define naoko = Character("Naoko Tohno", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define principal = Character("Principal", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define thinking = Character("", what_prefix="(", what_suffix=")")
-
 
 layeredimage ritsuko:
     always "ritsuko basic"
