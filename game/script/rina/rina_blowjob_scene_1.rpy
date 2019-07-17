@@ -32,10 +32,14 @@ label rina_blowjob_scene_1:
     shinn "That’s good. Now squat down."
     rina "..."
     shinn "Come on... Be a good girl."
+    
+    scene rina_masturbation_1 1 with dissolve
     "She squats down in front of me, leaving her pussy fully exposed to my view."
     "She gives me a look of disgust."
     "Is she disgusted with me, or with herself for playing along with her own humiliation?"
     rina "What do you want now!?"
+
+    scene rina_masturbation_1 2
     "I take out a vibrating dildo and flash it in front of Rina."
     shinn "Do you know what this is?"
     "Rina looks at it with embarrassment."
@@ -50,11 +54,15 @@ label rina_blowjob_scene_1:
     "Rina takes the dildo from my hand."
     rina "Fine! I’ll do it!"
     "Rina slowly inserts the dildo into herself bit by bit."
+
+    scene rina_masturbation_1 3 with quick_fade
     play sound insert1
     "As she does so, she accidently lets out a little moan, already starting to feel pleasure from the insertion."
     rina "Mmm..."
     shinn "See? I knew that you’d enjoy this..."
     rina "N— No. I’m not."
+
+    scene rina_masturbation_1 4
     "The dildo fully seated inside her now. I can see drips of her pussy juice leaking around it."
     shinn "You’re already wet just from putting it in."
     rina "..."
@@ -62,6 +70,8 @@ label rina_blowjob_scene_1:
     shinn "So, can you guess what this is a remote control for?"
     rina "No. Please don’t..."
     shinn "What are you begging me for? You’re going to enjoy this."
+
+    scene rina_masturbation_1 5
     "I turn the switch on the remote to “on,” and the dildo begins buzzing inside her."
     rina "No. Please stop!"
     "Her reaction makes clear, the vibrations are already having an effect on her."
@@ -112,8 +122,12 @@ label rina_blowjob_scene_1:
     shinn "This is fun. Let’ see how long you can last..."
     "Even though she struggles her hardest against herself, she only holds out for seconds longer."
     rina "Ahh~"
+
+    scene rina_masturbation_1 6 with cum_flash
     play sound cum3
     "She comes violently, a jet of her juices gushing from her pussy."
+
+    scene rina_masturbation_1 7 with cum_flash
     "The force of her orgasm expels the dildo from her body, sending it clattering to the ground beneath her spasming pussy."
     "Her whole body is shuddering with the pleasure. Her hips are shaking and her eyes have gone hazy."
     shinn "Heh. You love it, don’t you? Look how much you’re enjoying yourself."
@@ -151,7 +165,7 @@ label rina_blowjob_scene_1:
     "She licks at is as if she were licking ice cream."
     shinn "Come on. Do more!"
 
-    scene rina_blowjob_1 3 with quick_fade
+    scene rina_blowjob_1 3
     play sound oral2
     "I urge her to take my dick all the way into her mouth."
     shinn "Deep throat it!"
@@ -227,5 +241,5 @@ label rina_blowjob_scene_1:
 
     scene black with fade
     "End of Rina's current arc reached."
-    $ staffroom__available = False
+    $ staffroom_available = False
     jump map__school
