@@ -133,6 +133,8 @@ label gym__first_visit:
     "Or so I thought..."
     "In the distance, I spot a lone student practicing basketball."
     "As I approach the student, it becomes obvious who it is."
+    
+    show touko basic with moveinleft
     "Seems like Touko’s getting some morning training done by herself."
     "She notices my presence and turns around."
     touko "Oh, Shinn. Good Morning. What brings you here?"

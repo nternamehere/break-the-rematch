@@ -84,6 +84,7 @@ label touko_aina_day1_continued:
     thinking "Let’s hope she’s not there yet."
 
     scene bg classroom with dissolve
+    show touko basic
     "I approach the classroom and slide open the door."
     "I was hoping to avoid this, but Touko was already there waiting for me."
     "She turns around and gives me an annoyed look."
@@ -198,6 +199,8 @@ label touko_aina_day1_continued:
     "I enter the hallway and go up to the floor where all the 3rd year students are."
     "I know her classroom is 3-5, not far from the classroom that I use for tutoring."
     "As I approached the class, I could see Touko heading towards it from the other direction as she returned from the bathroom."
+
+    show touko basic with moveinleft
     "We spotted each other at the same time."
     touko "Good morning, Shinn."
     shinn "Good morning to you too, Touko."
@@ -242,6 +245,8 @@ label ask_about_rina:
     shinn "Ah, no, I think that’s all."
     touko "Alright, I’ll be going then. See you later for tutoring!"
     shinn "See you."
+
+    hide touko basic with moveoutright
     "As Touko left, I felt a sense of relief."
     "The info on Rina is probably irrelevant anyway. I’m just glad to have that over with."
     "Now, back to stalking. I want to see what she does during lunch."
@@ -270,6 +275,8 @@ label ask_about_ritsuko:
     shinn "Ah, no, I think that’s all."
     touko "Alright, I’ll be going then. See you later for tutoring!"
     shinn "See you."
+
+    hide touko basic with moveoutright
     "As Touko left, I felt a sense of Relief."
     "The info on Ritsuko is probably irrelevant anyway. I’m just glad to have that over with."
     "Now, back to stalking. I want to see what she does during lunch."
@@ -303,6 +310,7 @@ label ask_about_day:
     "However, before I could continue the conversation, the school bell signaling the end of lunch rang."
     touko "I’m sorry Shinn, but lunch is over. I have to get back to my classroom now."
     shinn "Okay. We’ll talk later."
+    hide touko basic with moveoutleft
     "She turns around and hurries off."
     shinn "Damn it, she ran away before I could change the subject. Now what?"
     jump touko_aina_day1_continued_3
@@ -314,6 +322,7 @@ label ask_about_utility_room:
     # SFX: *School Bell Rings*
     "Before Touko could even reply, the school bell rang signaling the end of lunch."
     touko "Oh, I’m sorry Shinn. Lunchtime’s just ended, so I’ve got to get back to class."
+    hide touko basic with moveoutleft
     "Before I could give a reply, she turned around and hurried off."
     shinn "Damn it, and I was thinking I could expose her right now. Now what?"
     jump touko_aina_day1_continued_3
