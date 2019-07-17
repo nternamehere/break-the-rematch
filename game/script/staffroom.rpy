@@ -21,7 +21,7 @@ label staffroom__first_visit:
     "......"
     play sound door_open
     thinking "So, this is the staff room."
-    "Back when I was a student, I was probably the only one who came in and out of here regularly for “meetings” with the female teachers."
+    "Back when I was a student, I was probably the only one who came in and out of here regularly for \"meetings\" with the female teachers."
     "I used to fuck some of them right in their workplace when everyone else had cleared out."
     "I wonder if I could pull the same thing off with Rina."
     "Speak of the devil..."

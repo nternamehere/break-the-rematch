@@ -1,6 +1,6 @@
 label gym__router:
-    if gym__first_vist:
-        jump gym__first_vist
+    if gym__first_visit:
+        jump gym__first_visit
     if pool_gym__first_visit:
         jump pool_gym__first_visit
     jump map__school
@@ -123,4 +123,35 @@ label pool_gym__first_visit:
     $ pool_gym_available = False
     jump classroom__completed_intro_check
 
-label gym__first_vist:
+label gym__first_visit:
+    $ gym__first_visit = False
+    scene bg gym balls with map_fade
+    "Although it was still early in the morning, I heard from the principal that some members of the basketball team come in for practice before school starts."
+    "Curious to check it out, I decided to visit the basketball court."
+    "I take a quick look around the premises. Doesn’t seem like anyone’s around."
+    # SFX: *Sound of Basketball Dribbling. *
+    "Or so I thought..."
+    "In the distance, I spot a lone student practicing basketball."
+    "As I approach the student, it becomes obvious who it is."
+    "Seems like Touko’s getting some morning training done by herself."
+    "She notices my presence and turns around."
+    touko "Oh, Shinn. Good Morning. What brings you here?"
+    "She seems surprised..."
+    shinn "Good Morning, Touko. I was just checking to see if you were in for morning practice."
+    touko "Ah, yes. I usually only make it in now and then, but when nationals are coming up, I try to push myself to get extra training in every day."
+    shinn "I see. That’s some pretty impressive determination."
+    touko "Thanks. I love basketball, so I figure it’s worth putting in the effort for."
+    shinn "It’s good that you’re doing what you love. But don’t forget you have other priorities too."
+    touko "Oh, right, I did almost forget, actually. I have a tutoring session with you this afternoon, right?"
+    shinn "That’s right. Please don’t forget about it."
+    touko "What’s today topic going to be?"
+    shinn "Since it’s the first session, I’ll start off with some testing to get a sense of where your academics are currently."
+    touko "Oh, okay."
+    menu:
+        thinking "Hmm... Since it’s just the two of us here, maybe I should ask her some questions."
+        "Ask about her relationship with Aina.":
+            $ renpy.block_rollback()
+            jump ask_about_aina
+        "Ask about her academic issues.":
+            $ renpy.block_rollback()
+            jump ask_about_academics

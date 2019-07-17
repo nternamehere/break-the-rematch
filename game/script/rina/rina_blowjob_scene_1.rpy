@@ -72,7 +72,7 @@ label rina_blowjob_scene_1:
     shinn "What are you begging me for? You’re going to enjoy this."
 
     scene rina_masturbation_1 5
-    "I turn the switch on the remote to “on,” and the dildo begins buzzing inside her."
+    "I turn the switch on the remote to \"on,\" and the dildo begins buzzing inside her."
     rina "No. Please stop!"
     "Her reaction makes clear, the vibrations are already having an effect on her."
     rina "No..."

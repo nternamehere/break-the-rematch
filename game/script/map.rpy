@@ -58,15 +58,10 @@ screen locations:
         else:
             imagebutton idle "images/map/buttons/tennis-disabled.png" xpos 1250 ypos 200 action None
 
-        if gym_available:
-            imagebutton auto "images/map/buttons/gym-%s.png" xpos 1400 ypos 525 action Jump('gym__router')
+        if pool_gym_available:
+            imagebutton auto "images/map/buttons/pool-gym-%s.png" xpos 1400 ypos 525 action Jump('gym__router')
         else:
-            imagebutton idle "images/map/buttons/gym-disabled.png" xpos 1400 ypos 525 action None
-
-        if pool_available:
-            imagebutton auto "images/map/buttons/pool-%s.png" xpos 106 ypos 449 action Jump('pool__router')
-        else:
-            imagebutton idle "images/map/buttons/pool-disabled.png" xpos 106 ypos 449 action None
+            imagebutton idle "images/map/buttons/pool-gym-disabled.png" xpos 1400 ypos 525 action None
 
 label map__school:
     $ renpy.choice_for_skipping()
