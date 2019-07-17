@@ -1,23 +1,23 @@
 init python:
     # Map Related Variables
-    # range_available = False
-    # classroom_available = False
+    range_available = False
+    classroom_available = False
     staffroom_available = True
     gym_available = True
     tennis_available = True
-    # track_available = False
+    track_available = False
     pool_available = True
-    # pool_gym_available = False
+    pool_gym_available = False
 
     #######################
     # Location Variables  #
     #######################
 
     # Range Variables
-    # range__first_visit = True
+    range__first_visit = True
 
     # Classroom Variables
-    # classroom__first_visit = True
+    classroom__first_visit = True
 
     # Staffroom Variables
     staffroom__first_visit = True
@@ -29,13 +29,13 @@ init python:
     pool__first_visit = True
 
     # Pool/Gym Variables
-    # pool_gym__first_visit = True
+    pool_gym__first_visit = True
 
     # Tennis Variables
     tennis__first_visit = True
 
     # Track Variables
-    # track__first_visit = True
+    track__first_visit = True
 
     #######################
     # Character Variables #
@@ -47,10 +47,6 @@ init python:
     # Rina Variable
     rina__pursue = False
     rina__probe = False
-    rina__rooftop_sex = False
-    rina__students = False
-    rina__finale = False
-    rina__blowjob = False
 
     #######################
     #    Misc Variables   #

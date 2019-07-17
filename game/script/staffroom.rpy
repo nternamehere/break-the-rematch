@@ -1,10 +1,4 @@
 label staffroom__router:
-    # if rina__finale:
-    #     jump rina_finale
-    # if rina__students:
-    #     jump rina_dog_scene_1
-    # if rina__rooftop_sex:
-    #     jump rina_rooftop_scene_1
     if rina__blowjob:
         jump rina_blowjob_scene_1
     if rina__probe:
@@ -25,23 +19,28 @@ label staffroom__first_visit:
     $ rina__pursue = True
     "..."
     "......"
+    play sound door_open
     thinking "So, this is the staff room."
     "Back when I was a student, I was probably the only one who came in and out of here regularly for “meetings” with the female teachers."
     "I used to fuck some of them right in their workplace when everyone else had cleared out."
     "I wonder if I could pull the same thing off with Rina."
     "Speak of the devil..."
+    show rina confident with moveinleft
     rina "Oh. Shinn. There you are."
     thinking "Huh? She actually came here looking for me?"
     shinn "Ah, Ms. Rina, good morning. Today’s my first day working here. I hope you can offer me your guidance on the job."
+    show rina vicious smile
     rina "Pfft. I wasn’t expecting manners from the likes of you."
     thinking "This bitch..."
     rina "Right. Since you’re already familiar with the school grounds, I’ll just show you to your workplace. That’s the space where you’ll be doing your administrative work."
     shinn "Wait, administrative work? I didn’t sign up for that. I’m just here as a tutor."
     rina "Well too bad. I discussed it with the principal, and he agreed you could handle some additional tasks while you’re not working with students."
     thinking "I’m really getting the urge to kill this bitch..."
+    show rina pissed 2
     rina "Do you have a problem with that? "
     "I give Rina the most convincing smile I’ve got."
     shinn "Of course not, Ms. Rina, no problem. I’ll do my best."
+    show rina vicious smile
     rina "Good. Now, since the tutoring only starts after regular classes have ended..."
     "She carries over a huge stack of paperwork, and slams it down onto my workspace."
     rina "Here’s some easy administrative paperwork I need you to clear. Get it done before school lessons are over."
@@ -50,6 +49,7 @@ label staffroom__first_visit:
     shinn "Sure, Ms. Rina. I’ll take care of it."
     rina "Good. Now, if there’s anything else you need to know, you can come to me at my workplace and I’ll sort you out."
     shinn "Okay."
+    hide rina vicious smile with moveoutleft
     "Rina walks away."
     "I can’t believe this. This bitch just wants to piss on me because of that encounter we had yesterday."
     "This throws a wrench into all my plans. How am I supposed to get close to any of the students while I’m shut up in here?"

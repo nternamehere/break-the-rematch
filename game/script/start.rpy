@@ -1,4 +1,5 @@
 label start:
+    stop music fadeout 1.0
     show bg shinn bedroom with pixellate
     "I woke up without the aid of my alarm clock today. I couldn’t keep myself in bed. I’m already restless with anticipation."
     "Today, I finally get to put my plans for those girls into action."

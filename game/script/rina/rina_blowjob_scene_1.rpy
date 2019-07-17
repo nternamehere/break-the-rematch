@@ -1,6 +1,7 @@
 label rina_blowjob_scene_1:
-    $ rina__blowjob = True
     scene bg utility room with fade
+    show rina pissed 2 with moveinleft
+    play music kinky fadein 1.0
     "I bring Rina to the utility room."
     "This place is nice and secluded, and I know well from experience that nobody ever visits here at this time of day."
     "Rina follows along in quiet frustration. Before we enter, I scan the hallway to make sure that nobody sees us heading in together, then close the door behind us."
@@ -8,8 +9,10 @@ label rina_blowjob_scene_1:
     "She immediately cuts in."
     rina "You better not try anything funny, you sicko."
     shinn "Woah. Relax. Ms. Rina. All I wanted to do is give you some training."
+    show rina annoyed 2
     rina "What? Train me?"
     shinn "Yes. Train you and discipline you."
+    show rina angry
     rina "Don’t fuck around with me, Shinn."
     shinn "Well, Ms. Rina, considering your position as a disciplinary teacher, I’m afraid it’s simply unacceptable for you to behave in such a manner while you’re off campus."
     shinn "Therefore, I feel that it’s my responsibility to teach you to conduct yourself in a more appropriate manner."
@@ -18,10 +21,12 @@ label rina_blowjob_scene_1:
     shinn "*Sigh*. Come on, Rina. We’ve discussed this already, haven’t we?"
     "I take out her phone again to show her where she stands."
     shinn "I don’t think it would go well for you if these photos were spread all around the school would it?"
+    show rina pout
     rina "..."
     shinn "Good. Then let’s get started."
     shinn "Strip yourself naked "
     "Rina was stunned. But with no way to resist, she removed her clothes in disgust."
+    show rina naked
     "Once she’s fully naked, I look her over from top to bottom with satisfaction. Her huge, shapely ass, her incredible tits and luscious hips.."
     "Just the sight of her is getting me rock hard."
     shinn "That’s good. Now squat down."
@@ -45,6 +50,7 @@ label rina_blowjob_scene_1:
     "Rina takes the dildo from my hand."
     rina "Fine! I’ll do it!"
     "Rina slowly inserts the dildo into herself bit by bit."
+    play sound insert1
     "As she does so, she accidently lets out a little moan, already starting to feel pleasure from the insertion."
     rina "Mmm..."
     shinn "See? I knew that you’d enjoy this..."
@@ -106,6 +112,7 @@ label rina_blowjob_scene_1:
     shinn "This is fun. Let’ see how long you can last..."
     "Even though she struggles her hardest against herself, she only holds out for seconds longer."
     rina "Ahh~"
+    play sound cum3
     "She comes violently, a jet of her juices gushing from her pussy."
     "The force of her orgasm expels the dildo from her body, sending it clattering to the ground beneath her spasming pussy."
     "Her whole body is shuddering with the pleasure. Her hips are shaking and her eyes have gone hazy."
@@ -129,6 +136,7 @@ label rina_blowjob_scene_1:
     "Now, rather than disgust, her face seems to show fascination as she approaches my huge cock."
 
     scene rina_blowjob_1 2 with quick_fade
+    play sound oral1
     "She begins to take a little sniff at my dick and licks lightly at the tip."
     shinn "Ah. That’s it. Good."
     rina "..."
@@ -144,6 +152,7 @@ label rina_blowjob_scene_1:
     shinn "Come on. Do more!"
 
     scene rina_blowjob_1 3 with quick_fade
+    play sound oral2
     "I urge her to take my dick all the way into her mouth."
     shinn "Deep throat it!"
     "She complies slowly trying to take my whole cock inside her throat."
@@ -165,11 +174,13 @@ label rina_blowjob_scene_1:
     "Unable to hold on any longer. I let it all out in an instant. Her mouth is filled with an explosion of my cum."
 
     scene rina_blowjob_1 4 with cum_flash
+    play sound cum2
     shinn "Ah!"
     rina "UHMM!!!!!!"
     "The rush is so sudden and forceful, some of it bursts from her nose. What a pitiful sight."
     
     scene rina_blowjob_1 5 with cum_flash
+    play sound cum1
     "I pull out from her mouth. It’s so completely filled with my cum, I can barely see her teeth."
     shinn "Swallow all the cum. Do it!"
     rina "..."
@@ -216,4 +227,5 @@ label rina_blowjob_scene_1:
 
     scene black with fade
     "End of Rina's current arc reached."
+    $ staffroom__available = False
     jump map__school
