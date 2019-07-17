@@ -1,13 +1,13 @@
 init python:
     # Map Related Variables
-    range_available = False
+    range_available = True
     classroom_available = False
     staffroom_available = True
     gym_available = True
     tennis_available = True
-    track_available = False
+    track_available = True
     pool_available = True
-    pool_gym_available = False
+    pool_gym_available = True
 
     #######################
     # Location Variables  #
@@ -53,3 +53,5 @@ init python:
     #######################
     if persistent.cum is None:
         persistent.cum = "always"
+
+    day = 0

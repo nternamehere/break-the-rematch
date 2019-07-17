@@ -1,10 +1,11 @@
 label gym__router:
-    if gym__first_visit:
-        jump gym__first_visit
-    else:
-        jump map__school
+    if gym__first_vist:
+        jump gym__first_vist
+    if pool_gym__first_visit:
+        jump pool_gym__first_visit
+    jump map__school
 
-label gym__first_visit:
+label pool_gym__first_visit:
     $ renpy.block_rollback()
     show bg pool with map_fade
     if met_ritsuko:
@@ -118,6 +119,8 @@ label gym__first_visit:
     shinn "*chuckle*"
     "Keeping this exchange in mind, I left for my next destination..."
 
-    $ gym__first_visit = False
-    $ gym_available = False
+    $ pool_gym__first_visit = False
+    $ pool_gym_available = False
     jump classroom__completed_intro_check
+
+label gym__first_vist:
