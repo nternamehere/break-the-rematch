@@ -3,7 +3,7 @@ define idle_gallery = "gui/button/gallery_idle.png"
 define hover_gallery = "gui/button/gallery_hover.png"
 
 define naoko__gallery_1 = "images/gallery/gallery_naoko_sex1.png"
-define rina__gallery_1 = "images/gallery/gallery_naoko_sex1.png"
+define rina__gallery_1 = "images/gallery/gallery_rina_blowjob1.png"
 
 screen gallery:
     tag menu

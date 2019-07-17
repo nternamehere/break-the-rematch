@@ -1,10 +1,12 @@
 label staffroom__router:
-    if rina__finale:
-        jump rina_finale
-    if rina__students:
-        jump rina_dog_scene_1
-    if rina__rooftop_sex:
-        jump rina_rooftop_scene_1
+    # if rina__finale:
+    #     jump rina_finale
+    # if rina__students:
+    #     jump rina_dog_scene_1
+    # if rina__rooftop_sex:
+    #     jump rina_rooftop_scene_1
+    if rina__blowjob:
+        jump rina_blowjob_scene_1
     if rina__probe:
         jump rina__probe_1
     if rina__pursue:

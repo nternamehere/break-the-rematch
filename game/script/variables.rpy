@@ -50,6 +50,7 @@ init python:
     rina__rooftop_sex = False
     rina__students = False
     rina__finale = False
+    rina__blowjob = False
 
     #######################
     #    Misc Variables   #

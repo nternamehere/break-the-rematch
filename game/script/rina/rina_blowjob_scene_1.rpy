@@ -1,5 +1,5 @@
 label rina_blowjob_scene_1:
-    $ rina__rooftop_sex = True
+    $ rina__blowjob = True
     scene bg utility room with fade
     "I bring Rina to the utility room."
     "This place is nice and secluded, and I know well from experience that nobody ever visits here at this time of day."
@@ -213,4 +213,7 @@ label rina_blowjob_scene_1:
     thinking "Heh. I’m going to have some real fun later on."
     $ persistent.rina_blowjob_scene_1 = True
     $ renpy.end_replay()
-    jump rina_rooftop_scene_1
+
+    scene black with fade
+    "End of Rina's current arc reached."
+    jump map__school

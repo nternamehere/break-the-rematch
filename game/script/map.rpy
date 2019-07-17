@@ -26,11 +26,11 @@ screen locations:
 
     if staffroom_available:
         if staffroom__first_visit:
-            imagebutton auto "images/map/unknown/unknown-classroom-%s.png" xpos 700 ypos 450 action Jump('staffroom__router')
+            imagebutton auto "images/map/unknown/unknown-staffroom-%s.png" xpos 700 ypos 450 action Jump('staffroom__router')
         else:
-            imagebutton auto "images/map/buttons/classroom-%s.png" xpos 700 ypos 450 action Jump('staffroom__router')
+            imagebutton auto "images/map/buttons/staffroom-%s.png" xpos 700 ypos 450 action Jump('staffroom__router')
     else:
-        imagebutton idle "images/map/buttons/classroom-disabled.png" xpos 700 ypos 450 action None
+        imagebutton idle "images/map/buttons/staffroom-disabled.png" xpos 700 ypos 450 action None
 
     if tennis_available:
         if tennis__first_visit:
