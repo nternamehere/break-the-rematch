@@ -5,6 +5,7 @@ label rina_blowjob_scene_1:
     "I bring Rina to the utility room."
     "This place is nice and secluded, and I know well from experience that nobody ever visits here at this time of day."
     "Rina follows along in quiet frustration. Before we enter, I scan the hallway to make sure that nobody sees us heading in together, then close the door behind us."
+    play sound door_close
     shinn "Well, now that we’re here..."
     "She immediately cuts in."
     rina "You better not try anything funny, you sicko."

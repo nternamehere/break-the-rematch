@@ -129,7 +129,7 @@ label gym__first_visit:
     "Although it was still early in the morning, I heard from the principal that some members of the basketball team come in for practice before school starts."
     "Curious to check it out, I decided to visit the basketball court."
     "I take a quick look around the premises. Doesn’t seem like anyone’s around."
-    # SFX: *Sound of Basketball Dribbling. *
+    play sound basketball_dribble
     "Or so I thought..."
     "In the distance, I spot a lone student practicing basketball."
     "As I approach the student, it becomes obvious who it is."
