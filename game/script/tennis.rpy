@@ -62,8 +62,8 @@ label tennis__first_visit:
 
 label tennis_day_1:
     scene bg hallway 1 with map_fade
-    "I came in to school way earlier than I meant to. It seems like I set my alarm clock for the wrong time last night."
-    "Well, no big deal, I’m here now. As long as I’m not late, it’s fine."
+    "I came in to school way earlier than I needed to. Since I got such an early start this morning, I decided it was better to make an early appearance than stay around and kill time at home."
+    "Not that I get credit for being early, but a little extra time to check out the students never hurts."
     "I walk towards the staff room to get some materials done for the tutoring this afternoon."
     "As I reach the entrance to the staff room, the door suddenly swings open right in front of me."
     show ritsuko with moveinright
