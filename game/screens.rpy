@@ -339,6 +339,8 @@ screen navigation():
         if not _in_replay:
             textbutton _("Load") action ShowMenu("load")
 
+        textbutton _("Get Full Game") action OpenURL("https://www.kickstarter.com/projects/pushpublication/break-the-rematch-part-1")
+
         if main_menu:
             textbutton _("Scenes") action ShowMenu("gallery")
 
