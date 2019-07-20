@@ -1,6 +1,4 @@
 label staffroom__router:
-    if rina__blowjob:
-        jump rina_blowjob_scene_1
     if rina__probe:
         jump rina__probe_1
     if rina__pursue:
