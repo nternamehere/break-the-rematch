@@ -1,8 +1,8 @@
 label gym__router:
+    if gym__first_visit and day == 1:
+        jump gym__first_visit
     if pool_gym__first_visit:
         jump pool_gym__first_visit
-    if gym__first_visit:
-        jump gym__first_visit
     jump map__school
 
 label pool_gym__first_visit:

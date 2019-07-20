@@ -1,4 +1,5 @@
 label day1_start: 
+    $ day = 1
     $ tennis_available = True
     $ staffroom_available = True
     $ pool_gym_available = True
