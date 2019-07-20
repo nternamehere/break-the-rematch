@@ -306,7 +306,7 @@ label ask_about_day:
     "She seems reluctant to continue this line of conversation, and her tone tells me she clearly doesn’t want to be here."
     shinn "Good. I hope you’ve completed the homework I gave you yesterday?"
     touko "Of course! "
-    # SFX: *School Bell Rings*
+    play sound school_bell
     "However, before I could continue the conversation, the school bell signaling the end of lunch rang."
     touko "I’m sorry Shinn, but lunch is over. I have to get back to my classroom now."
     shinn "Okay. We’ll talk later."
@@ -319,7 +319,7 @@ label ask_about_utility_room:
     shinn "Hey Touko. Just now I saw you coming out from the utility room. What were you doing in there?"
     "Touko’s expression becomes even more nervous..."
     touko "Eh? Er..."
-    # SFX: *School Bell Rings*
+    play sound school_bell
     "Before Touko could even reply, the school bell rang signaling the end of lunch."
     touko "Oh, I’m sorry Shinn. Lunchtime’s just ended, so I’ve got to get back to class."
     hide touko basic with moveoutleft

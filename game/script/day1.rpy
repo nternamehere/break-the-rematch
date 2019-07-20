@@ -10,6 +10,7 @@ label day1_start:
     "I begin preparations for my first day of tutoring."
 
     show bg main gate with fade
+    play music campus fadein 1.0
     shinn "Wow. Quite a crowd we’ve got here."
     "Even this early in the morning, there’s already a huge rush of students heading in to school."
     "I smile a bit as memories of my own past here come to mind."

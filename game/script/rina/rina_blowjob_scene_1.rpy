@@ -1,7 +1,7 @@
 label rina_blowjob_scene_1:
     scene bg utility room with fade
     show rina pissed 2 with moveinleft
-    play music kinky fadein 1.0
+    play music happy fadeout 1.0 fadein 1.0
     "I bring Rina to the utility room."
     "This place is nice and secluded, and I know well from experience that nobody ever visits here at this time of day."
     "Rina follows along in quiet frustration. Before we enter, I scan the hallway to make sure that nobody sees us heading in together, then close the door behind us."
@@ -242,5 +242,6 @@ label rina_blowjob_scene_1:
 
     scene black with fade
     "End of Rina's current arc reached."
+    play music campus fadeout 1.0 fadein 1.0
     $ staffroom_available = False
     jump map__school

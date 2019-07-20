@@ -1,5 +1,6 @@
 label school__eod_0:
     scene bg main gate with fade
+    stop music fadeout 1.0
     shinn "Ah. What a day!"
     thinking "Never would have expected that my first victim would be Naoko. I'm off to a great start."
     "I took out my list and began to check through each girl's profile one last time."
@@ -24,13 +25,13 @@ label school__eod_0:
     thinking "Ah, Satsuki Katsuragi. A traditional maiden and an archery star, no less! Imagine breaking her to such a point that she no longer cares about her very family name."
 
     hide satsuki neutral smile
-    show ritsuko tennis
+    show ritsuko_tennis
     with quick_fade
     thinking "And, of course, there's Ritsuko."
     "I shuddered at the very memory of her."
     thinking "I'll have to be careful with her, though there's no doubt I'll have to turn her into a cumdump as well. There are special methods for her type."
 
-    hide ritsuko tennis
+    hide ritsuko_tennis
     show rina confident
     with quick_fade
     thinking "And last,. Ms. Rina Akiyama. She will be the next teacher to be my victim."

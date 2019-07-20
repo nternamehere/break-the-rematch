@@ -2,6 +2,7 @@ label ritsuko_sex_scene_1:
     scene bg principal office with pixellate
     show ritsuko basic school at left
     show principal thinking at right
+    play music breakdown fadeout 1.0 fadein 1.0
     ritsuko "Why did you call me out here all of a sudden?"
     principal "Oh, there’s something I thought was important to discuss with you."
     ritsuko "What business do you have with me?"
@@ -102,6 +103,8 @@ label ritsuko_sex_scene_1:
     principal "Are you scared? Then maybe you should blame your father!"
 
     scene ritsuko_sex_scene_1 6 with blood_flash
+    play sound insert1
+    play sound sex1_slow loop
     "Without hesitation, the principal pierces through into her pussy."
     ritsuko "Ahh! It hurts!"
     "I can see a bit of blood coming out from her pussy."
@@ -155,10 +158,13 @@ label ritsuko_sex_scene_1:
     ritsuko "Don’t cum inside me! "
     principal "Take all of it Ritsuko! Take it all and get pregnant with my baby!"
     ritsuko "Nooo!"
+    stop sound
 
     scene ritsuko_sex_scene_1 8 with cum_flash
+    play sound cum1
     "With a final thrust, the principal shoots out all of his cum in one burst."
     scene ritsuko_sex_scene_1 9 with cum_flash
+    play sound cum2
     "It’s so much, I can see it gushing out of her."
     ritsuko "NOO!!! "
     principal "Ah~ now that felt good."

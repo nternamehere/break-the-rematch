@@ -3,6 +3,7 @@ label touko_aina_sex_scene_1:
     show aina warm smile at right
     show touko basic at left
     with moveinleft
+    play music sex fadeout 1.0 fadein 1.0
     touko "Aina! Why did you call me out here during lunch? "
     aina "I miss you! We haven’t been spending time together for a while now."
     "Aina begins to cry."
@@ -180,6 +181,7 @@ label touko_aina_sex_scene_1:
     $ renpy.end_replay()
 
     scene bg hallway 1 with dissolve
+    play music campus fadeout 1.0 fadein 1.0
     "Meanwhile, outside the door, I’ve been watching everything from start to finish."
     "Even just watching through that small hole, it was hot enough to get me hard and leave a bit of pre-cum leaking out."
     thinking "Damn, how come I never got to see anything like that while I was still a student here!?"
