@@ -32,3 +32,4 @@ init python:
     audio.door_close = "<from 2>sounds/sliding_door_open_close.ogg"
     audio.phone_ringing = "sounds/phone_ringing.ogg"
     audio.basketball_dribble = "sounds/basketball_dribble.ogg"
+    audio.school_bell = "<from 0 to 4>sounds/school_bell.ogg"

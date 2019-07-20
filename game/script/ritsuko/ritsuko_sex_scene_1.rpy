@@ -1,5 +1,7 @@
 label ritsuko_sex_scene_1:
     scene bg principal office with pixellate
+    show ritsuko basic school at left
+    show principal thinking at right
     ritsuko "Why did you call me out here all of a sudden?"
     principal "Oh, there’s something I thought was important to discuss with you."
     ritsuko "What business do you have with me?"
@@ -7,6 +9,7 @@ label ritsuko_sex_scene_1:
     principal "Do you want to take a guess? You might be a bit surprised."
     ritsuko "Surprised? If this is your idea of a joke, then I don’t intend to stick around."
     principal "Leaving already? Don’t be too hasty..."
+    show principal smirk
     principal "I didn’t know Yasuhiro family business was so dirty."
     thinking "Dirty? This sounds like it might be going somewhere interesting."
     "I decide to take a look through the keyhole in order to follow whatever’s going on."
@@ -25,12 +28,14 @@ label ritsuko_sex_scene_1:
     ritsuko "..."
     principal "I want your body, Ritsuko."
     ritsuko "Hah. You must be joking, right?"
+    show principal thinking
     principal "Am I joking? Haha..."
     principal "I wonder if it would be such a joke if these photos are released to the public."
     principal "Bribing officials is a criminal offence.  "
     ritsuko "You..."
     principal "Not only will your father be in hot water, the family business may be at stake too."
     ritsuko "..."
+    show principal smirk
     principal "So, for the sake of your family, why not have sex with me?"
     ritsuko "..."
     principal "Come on... What’s it going to be? Seeing your dad in jail or seeing my dick?"
@@ -47,6 +52,7 @@ label ritsuko_sex_scene_1:
     ritsuko "H— Here?"
     principal "Where else? "
     ritsuko "F— Fine..."
+    show ritsuko naked shy
     "Ritsuko slowly undresses, revealing her lushly blooming breasts and well-rounded hips.."
     principal "Phew... You look even more amazing than I expected."
     principal "Such a gem being hidden under that uniform."
@@ -166,7 +172,10 @@ label ritsuko_sex_scene_1:
     $ persistent.ritsuko_sex_scene_1 = True
 
     scene bg principal office with fade
+    show ritsuko naked exposed at left
+    show principal smirk at right
     "Ritsuko slowly picks up her clothes and dresses herself."
+    show ritsuko basic school
     principal "Every lunchtime, I want you to come visit me in my office."
     ritsuko "..."
     ritsuko "You said..."

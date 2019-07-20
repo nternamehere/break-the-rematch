@@ -80,21 +80,20 @@ label rina__probe_1:
     scene bg hallway 1 with irisin
     "I loiter around the hallway to see if Rina’s heading back to retrieve her phone."
     "However..."
-    show ritsuko with moveinright
+    show ritsuko basic school with moveinright
     ritsuko "Hohoho..."
     thinking "Un-oh."
     ritsuko "What do we have here?"
     thinking "Not the person I was hoping to hear from right now."
     ritsuko "What are you doing sneaking around the hallway?"
     shinn "I’m not sneaking around."
-    show ritsuko brow smile
     ritsuko "Oh? I bet you’re looking around scoping this place out for girls."
     thinking "This bitch..."
     shinn "Look. What do you want?"
     ritsuko "Oh hohoho~"
     ritsuko "Just making sure you don’t try anything stupid while you’re here."
     ritsuko "I’m watching you Shinn..."
-    hide ritsuko with moveoutright
+    hide ritsuko basic school with moveoutright
     "Ritsuko leaves looking proud, like she’s caught me out and gotten the upper hand on me."
     thinking "What a pain in the ass she is..."
     thinking "Now, where was I?"

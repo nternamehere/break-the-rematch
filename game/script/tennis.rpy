@@ -20,7 +20,7 @@ label tennis__first_visit:
     unknown "Hey! I'm talking to you, Shinn!"
     "After a moment I turned, facing the one calling to me."
 
-    show ritsuko with moveinright
+    show ritsuko tennis with moveinright
     ritsuko "Hey, Shinn, if you're going to be coming around like this, at least try to hide the tent you're pitching. For once."
     "A chill went down my spine as I realized that it was none other than Ritsuko. I glanced at the principal's file and noticed the surname..."
     thinking "Yasuhiro. Damn it! I should have noticed it sooner!"
@@ -45,7 +45,7 @@ label tennis__first_visit:
     ritsuko "Indeed, Shinn. If I ever find the evidence - which I will - you better be careful."
     ritsuko "An animal like you needs to learn to stay in the mud, where it belongs."
 
-    show ritsuko brow smile
+    show ritsuko tennis brow smile
     ritsuko "I suggest you leave before you bother anyone further."
     "She gave me a mocking wink."
     shinn "Hmph! In that case, I suppose I'll let you know about the tutoring later. Or maybe I'll just let you fail!"
@@ -57,7 +57,7 @@ label tennis__first_visit:
     $ tennis_available = False
     $ met_ritsuko = True
     $ tennis__first_visit = False
-    hide ritsuko smile
+    hide ritsuko tennis smile
     jump map__school
 
 label tennis_day_1:
@@ -66,7 +66,7 @@ label tennis_day_1:
     "Not that I get credit for being early, but a little extra time to check out the students never hurts."
     "I walk towards the staff room to get some materials done for the tutoring this afternoon."
     "As I reach the entrance to the staff room, the door suddenly swings open right in front of me."
-    show ritsuko with moveinright
+    show ritsuko tennis with moveinright
     ritsuko "Oh?"
     "Definitely not who I was hoping to run into this early in the morning."
     ritsuko "What do we have here?"
@@ -74,18 +74,18 @@ label tennis_day_1:
     shinn "Good morning, Ritsuko. How are you doing?"
     ritsuko "How polite. Well, I’m doing just fine."
     shinn "Great. Don’t forget about our session later this afternoon."
-    show ritsuko brow
+    show ritsuko tennis brow
     ritsuko "Oh. Session?"
     "Ritsuko pauses for a moment."
     ritsuko "Ah! Yes, I remember now..."
-    show ritsuko -brow
+    show ritsuko tennis -brow
     thinking "This idiot..."
     shinn "You are coming in, right?"
     ritsuko "Of course. I just hope you keep your hands to yourself."
     shinn "What?"
     ritsuko "Ho ho ho~ "
     ritsuko "Oh, nothing, don’t mind me. Anyway, see you later!"
-    hide ritsuko with moveoutleft
+    hide ritsuko tennis with moveoutleft
     "Ritsuko walks away."
     thinking "That little bitch. I’m seriously going to punish her."
     "But for all that she’s such a snob, she can actually be pretty clever."
@@ -96,10 +96,9 @@ label tennis_day_1:
     "I came in early this time around to prepare for the lesson."
     "I keep thinking to myself about how I’m going to deal with her."
     "But before I’ve managed to come up with anything, Ritsuko enters the class."
-    show ritsuko with moveinright
+    show ritsuko basic school with moveinright
     thinking "Wow, She’s early."
     "She seems to notice my look of surprise as I see her."
-    show ritsuko brow smile
     ritsuko "Oh? Why so startled? Did you not expect me to turn up?"
     shinn "It’s not that. It’s just that I didn’t expect you to be this early."
     ritsuko "Hmmph. How rude. A truly elegant lady is never late!"
@@ -110,7 +109,6 @@ label tennis_day_1:
     shinn "Huh? What else would I be doing other than teaching you math?"
     ritsuko "I mean, the sort of thing you did back then."
     shinn "What sort?"
-    show ritsuko -brow -smile
     "Ritsuko narrows her eyes."
     ritsuko "You know. Those things you did in the storeroom."
     "I glare at Ritsuko in frustration."
@@ -140,7 +138,7 @@ label tennis_day_1:
     ritsuko "What? What is this? I don’t have time for these."
     shinn "Too bad. Do it tonight and hand it in tomorrow."
     ritsuko "Fine. I shall take my leave then. See you tomorrow."
-    hide ritsuko
+    hide ritsuko basic school with moveoutright
     "Ritsuko stands up and leaves the class."
     thinking "Ugh. What a horrible student..."
     thinking "I wonder how on earth she manages to make friends in school with such an arrogant attitude."
@@ -185,11 +183,13 @@ label tennis_day_1_continued:
     principal "Ah Shinn! Come in."
 
     scene bg principal office with fade
+    show principal smirk
     "I entered the principal office and was greeted by the principal."
     principal " Hello Shinn. What can I do for you?    "
     thinking "Hmm... Maybe I should get straight to the point..."
     shinn "I saw what you did to Ritsuko just now."
     "The principal stops whatever he is doing and look at me in the face."
+    show principal thinking
     principal "Is that so?"
     shinn "Yes. But I am not going to expose you or anything."
     principal "Then why are you telling me this?"
@@ -199,14 +199,16 @@ label tennis_day_1_continued:
     shinn "And to be frank, so is everybody else including me."
     principal "Exactly, and why do I want to share this girl with you?"
     shinn "I can effectively train her to be your pet slave just like back in the old days."
+    show principal smirk
     principal "So, the rumors about you screwing around our teachers back then is true..."
     shinn "I believe you had heard about my adventure back then."
     principal "There were rumors from what I heard, which is why I was being replaced by the previous principal here."
     principal "I just didn’t know its true until you tell me."
     principal "So, it is you after all..."
     shinn "Well. What do you say?"
+    show principal thinking
     principal "Hmm... Pet slave, huh? I only intend to use Ritsuko as some sort of a secret love affair."
-    principal "I never thought I could get him to become my sex slave."
+    principal "I never thought I could get her to become my sex slave."
     shinn "I could do just that for you."
     principal "And how do you propose you could do just that?"
     shinn "I just need copies of those photos that you used to blackmail Ritsuko."
@@ -219,6 +221,7 @@ label tennis_day_1_continued:
     "I approached the desk to grab the photos."
     shinn "Thank you and I will let you know the progress soon."
     shinn "She is going to be your pet in no time."
+    show principal smirk
     principal "Heh... Can’t wait."
     shinn "Well then, I shall get going."
     principal "Okay. See you soon."

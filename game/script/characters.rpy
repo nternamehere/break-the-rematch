@@ -25,7 +25,7 @@ define naoko = Character("Naoko Tohno", what_prefix="{font=gui/fonts/AppliMincho
 define principal = Character("Principal", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define thinking = Character("", what_prefix="(", what_suffix=")")
 
-layeredimage ritsuko:
-    always "ritsuko basic"
+layeredimage ritsuko tennis:
+    always "ritsuko basic tennis"
     attribute smile
     attribute brow
