@@ -91,4 +91,4 @@ label range__first_visit:
     thinking "Hmm... Who should I see next?"
     $ range_available = False
     $ range__first_visit = False
-    jump classroom__completed_intro_check
+    jump map__school

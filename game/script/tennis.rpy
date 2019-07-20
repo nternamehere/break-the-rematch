@@ -58,7 +58,7 @@ label tennis__first_visit:
     $ met_ritsuko = True
     $ tennis__first_visit = False
     hide ritsuko smile
-    jump classroom__completed_intro_check
+    jump map__school
 
 label tennis_day_1:
     scene bg hallway 1 with map_fade

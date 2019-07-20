@@ -6,11 +6,6 @@ label classroom__router:
         "Under construction"
         jump map__school
 
-label classroom__completed_intro_check:
-    if not range_available and not gym_available and not tennis_available and not track_available:
-        $ classroom_available = True
-    jump map__school
-
 label classroom__first_visit:
     scene bg hallway 2 with map_fade
     $ renpy.block_rollback()

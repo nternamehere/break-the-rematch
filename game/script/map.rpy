@@ -65,6 +65,8 @@ screen locations:
 
 label map__school:
     $ renpy.choice_for_skipping()
+    if day == 0 and not range_available and not pool_gym_available and not tennis_available and not track_available:
+        $ classroom_available = True
     if day == 1 and not staffroom_available and not tennis_available and not pool_gym_available:
         jump end
     call screen locations with fade

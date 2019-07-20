@@ -1,8 +1,8 @@
 label gym__router:
-    if gym__first_visit:
-        jump gym__first_visit
     if pool_gym__first_visit:
         jump pool_gym__first_visit
+    if gym__first_visit:
+        jump gym__first_visit
     jump map__school
 
 label pool_gym__first_visit:
@@ -121,7 +121,7 @@ label pool_gym__first_visit:
 
     $ pool_gym__first_visit = False
     $ pool_gym_available = False
-    jump classroom__completed_intro_check
+    jump map__school
 
 label gym__first_visit:
     $ gym__first_visit = False
