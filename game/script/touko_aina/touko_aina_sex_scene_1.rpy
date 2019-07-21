@@ -159,7 +159,7 @@ label touko_aina_sex_scene_1:
     aina "Ah~"
     "The two of them keep fingering each other, bringing their pleasure to a frantic peak."
 
-    scene touko_aina_sex_scene_1 17
+    scene touko_aina_sex_scene_1 17 with cum_flash
     "Almost as one, a convulsion runs through them."
     aina "Ah! Touko!"
     touko "Aina!"
