@@ -25,7 +25,7 @@ define gui.is_alpha = True
 
 ## The version of the game.
 
-define config.version = "0.0.3-alpha"
+define config.version = "0.0.4-alpha"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
