@@ -71,7 +71,7 @@ label touko_aina_sex_scene_1:
     "It looks like she can’t help herself. She whimpers a little as her juices drip along Aina’s fingers."
 
     scene touko_aina_sex_scene_1 7
-    "Her eyes still shut, Touko starts to reach around under Aina’s skirt, beginning to stroke her back over her panties."
+    "With her arm wrapped around Aina’s back, Touko starts to reach under Aina’s skirt, beginning to stroke her over her panties."
     "Touko works her own tongue into Aina’s mouth now as she runs her fingers over the other girl’s pussy."
     aina "Mmm~"
     "Aina moans eagerly under Touko’s touch, urging her on."
