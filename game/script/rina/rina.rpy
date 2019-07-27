@@ -119,7 +119,7 @@ label rina__probe_1:
             $ renpy.block_rollback()
             jump rina__truth_1
 
-label rina_lie_1:
+label rina__lie_1:
     shinn "No, I don’t think I’ve seen it."
     rina "You sure? Don’t lie to me."
     shinn "I am sure. Why would I lie to you?"
