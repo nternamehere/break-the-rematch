@@ -1,6 +1,6 @@
 label ritsuko_sex_scene_1:
     scene bg principal office with pixellate
-    show ritsuko basic school at left
+    show ritsuko angry school at left
     show principal thinking at right
     play music breakdown fadeout 1.0 fadein 1.0
     ritsuko "Why did you call me out here all of a sudden?"
@@ -181,7 +181,7 @@ label ritsuko_sex_scene_1:
     show ritsuko naked exposed at left
     show principal smirk at right
     "Ritsuko slowly picks up her clothes and dresses herself."
-    show ritsuko basic school
+    show ritsuko sad school
     principal "Every lunchtime, I want you to come visit me in my office."
     ritsuko "..."
     ritsuko "You said..."
