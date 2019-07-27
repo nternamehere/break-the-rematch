@@ -35,11 +35,11 @@ label school__eod_0:
     thinking "There's the sporty Araki Shinjugai, with a body that is petite and tight. Utterly enticing."
 
     hide araki basic
-    show touko happy basketball
+    show touko shy basketball
     with quick_fade
     thinking "We have the beautiful Touko Takatsukasa. her mere gaze is quite stunning, and she packs some delicious curves in that athletic body of hers."
 
-    hide touko happy basketball
+    hide touko shy basketball
     show aina basic
     with quick_fade
     thinking "Then there's Aina... that bubbly, cute nature of hers is very endearing. I cannot wait to turn her into an utter degenerate."

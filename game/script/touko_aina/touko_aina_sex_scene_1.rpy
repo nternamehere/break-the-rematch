@@ -1,7 +1,7 @@
 label touko_aina_sex_scene_1:
     scene bg utility room with dissolve
-    show aina warm smile at right
-    show touko happy basketball at left
+    show aina happy school at right
+    show touko angry school at left
     with moveinleft
     play music sex fadeout 1.0 fadein 1.0
     touko "Aina! Why did you call me out here during lunch? "
@@ -193,15 +193,15 @@ label touko_aina_sex_scene_1:
     thinking "Oh shit, they’re coming out! Hide!"
     "There was barely anywhere to hide nearby. I had to make a dash towards a corner where I was able to conceal myself."
     "As soon as someone emerges from the closet, I stick my head out a little to take a peek."
-    show aina warm smile with moveinright
+    show aina happy school with moveinright
     "It was Aina who’d just walked out, but Touko was nowhere to be seen."
     "Well, that makes sense. They made sure to enter separately, they must be trying to avoid being seen together."
     "As Aina walks away, I keep watching to see when Touko will come out."
-    hide aina warm smile with moveoutleft
+    hide aina happy school with moveoutleft
     "After a few minutes, Touko leaves the closet as well."
     thinking "Great, now’s my chance."
     "I step out from my hiding place. She’s walking down the hall in the opposite direction, and doesn’t see me approaching."
-    show touko happy basketball with moveinright
+    show touko happy school arms with moveinright
     "I make my presence known..."
     shinn "Oh. Touko!"
     "As soon as she hears my voice, she freezes for a moment before turning around."

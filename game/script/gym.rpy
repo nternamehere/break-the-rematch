@@ -66,7 +66,7 @@ label pool_gym__first_visit:
     "Another person appeared from around a corner. She approached Aina and stopped beside her."
 
     show aina surprise at right
-    show touko happy basketball at left
+    show touko shy basketball at left
     with moveinleft
     "This new student wore a basketball uniform, which, despite its looseness over her body, still showed her ample and sculpted curves."
     aina "Good evening, Touko!"
@@ -111,7 +111,7 @@ label pool_gym__first_visit:
     "And just like that, the two attractive girls left to places unknown."
 
     hide aina warm smile
-    hide touko happy basketball
+    hide touko shy basketball
     with moveoutleft
     thinking "Interesting..."
     "It was a pleasant surprise to find two girls here at once."
@@ -134,7 +134,7 @@ label gym__first_visit:
     "In the distance, I spot a lone student practicing basketball."
     "As I approach the student, it becomes obvious who it is."
     
-    show touko happy basketball with moveinleft
+    show touko shy basketball with moveinleft
     "Seems like Touko’s getting some morning training done by herself."
     "She notices my presence and turns around."
     touko "Oh, Shinn. Good Morning. What brings you here?"
