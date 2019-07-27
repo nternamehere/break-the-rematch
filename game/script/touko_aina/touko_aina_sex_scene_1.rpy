@@ -1,7 +1,7 @@
 label touko_aina_sex_scene_1:
     scene bg utility room with dissolve
     show aina warm smile at right
-    show touko basic at left
+    show touko happy basketball at left
     with moveinleft
     play music sex fadeout 1.0 fadein 1.0
     touko "Aina! Why did you call me out here during lunch? "
@@ -201,7 +201,7 @@ label touko_aina_sex_scene_1:
     "After a few minutes, Touko leaves the closet as well."
     thinking "Great, now’s my chance."
     "I step out from my hiding place. She’s walking down the hall in the opposite direction, and doesn’t see me approaching."
-    show touko basic with moveinright
+    show touko happy basketball with moveinright
     "I make my presence known..."
     shinn "Oh. Touko!"
     "As soon as she hears my voice, she freezes for a moment before turning around."
