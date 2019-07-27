@@ -50,7 +50,11 @@ Riscent: Graphic Designer
 
 Proxyz: Programmer
 
-HgLt: Lead Editor
+HgLt: Demo Script Lead Editor
+
+Special Thanks to:
+
+Plexstorm Community 
 
 Break! The Rematch Alpha developed by PUSH! Soft, a subsidiary under PUSH! Publication, LLC. Program distributed & licensed by PUSH!. No part of this Visual Novel may be sold, reproduced or distributed in any manner without written permission except in the case of brief quotations embodied in critical articles or reviews. Infringement of these following will lead to legal action. This visual novel is a work of fiction. Names, characters, businesses, organizations, places, events and incidents either are the product of the author’s imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is purely coincidental.
 
