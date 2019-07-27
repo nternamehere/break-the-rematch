@@ -11,7 +11,7 @@ label staffroom__router:
         jump map__school
 
 label staffroom__first_visit:
-    scene black with map_fade
+    scene bg staffroom with map_fade
     $ renpy.block_rollback()
     $ staffroom__first_visit = False
     $ rina__pursue = True
@@ -56,7 +56,7 @@ label staffroom__first_visit:
     scene black with fade
     "5 Hours later"
 
-    scene black with fade
+    scene bg staffroom with fade
     shinn "Oh my god. It’s finally over with."
     "After grueling hours of fixing simple errors, sorting out records and cross checking forms, I’ve finally made it through the whole stack."
     "I guess I’ll check in with Rina to let her know I’ve gotten that out of the way."

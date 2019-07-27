@@ -149,7 +149,7 @@ label tennis_day_1:
     "I let out a sinister laugh.  "
     shinn "Tomorrow should be a fun day."
 
-    scene black with fade
+    scene bg staffroom with fade
     "It’s getting close to lunchtime."
     shinn "Maybe I should grab something to eat before the cafeteria is full of students."
     "I get up and leave the staff room."

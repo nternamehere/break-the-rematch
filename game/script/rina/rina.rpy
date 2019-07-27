@@ -22,7 +22,7 @@ label pursue_rina:
     shinn "Phew. That was a close call."
     thinking "Guess I’ll head back along another route to meet up with her."
 
-    scene black with pixellate
+    scene bg staffroom with pixellate
     "I return to the staff room, but it seems like Rina still isn’t back yet."
     thinking "She sure takes her time when she’s angry."
     show rina confident with moveinright
@@ -136,7 +136,7 @@ label rina__lie_1:
     thinking "Let’s see how long it takes for her to catch on."
     shinn "Sure, I’ll help. Let’s go through the staff room together to start."
 
-    scene black with fade
+    scene bg staffroom with fade
     "By this time, the staff room is empty apart from us. All the teachers are either on break, or out at the meeting Rina was supposed to be attending."
     "Since it’s just two of us here, I relax as I pretend to look around the room, keeping my eye on Rina."
     "Rina, on the other hand, is working herself into a frenzy, sifting through boxes in the increasingly desperate hope of finding her phone."
