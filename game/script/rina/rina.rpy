@@ -39,15 +39,18 @@ label pursue_rina:
     rina "What do you mean? I’m completely fine."
     rina "Since you’ve finished, I guess you can go now. Classes should have ended already. I’ll pick up the paperwork from your workplace later on."
     shinn "Alright."
-    menu:
-        thinking "Hmm... I wonder what I should do now?"
-        "Now’s my chance to check on the other girls!":
-            $ renpy.block_rollback()
-            hide rina vicious smile
-            jump map__school
-        "Try to probe her and find out more.":
-            $ renpy.block_rollback()
-            jump rina__probe_1
+    if saw_touko_aina_utility and ritsuko_met_principal:
+        jump rina__probe_1
+    else:
+        menu:
+            thinking "Hmm... I wonder what I should do now?"
+            "Now’s my chance to check on the other girls!":
+                $ renpy.block_rollback()
+                hide rina vicious smile
+                jump map__school
+            "Try to probe her and find out more.":
+                $ renpy.block_rollback()
+                jump rina__probe_1
 
 label rina__probe_1:
     shinn "Ms. Rina. Is there anything else that I can do for you?"
@@ -80,22 +83,33 @@ label rina__probe_1:
     scene bg hallway 1 with irisin
     "I loiter around the hallway to see if Rina’s heading back to retrieve her phone."
     "However..."
-    show ritsuko basic school with moveinright
-    ritsuko "Hohoho..."
-    thinking "Un-oh."
-    ritsuko "What do we have here?"
-    thinking "Not the person I was hoping to hear from right now."
-    ritsuko "What are you doing sneaking around the hallway?"
-    shinn "I’m not sneaking around."
-    ritsuko "Oh? I bet you’re looking around scoping this place out for girls."
-    thinking "This bitch..."
-    shinn "Look. What do you want?"
-    ritsuko "Oh hohoho~"
-    ritsuko "Just making sure you don’t try anything stupid while you’re here."
-    ritsuko "I’m watching you Shinn..."
-    hide ritsuko basic school with moveoutright
-    "Ritsuko leaves looking proud, like she’s caught me out and gotten the upper hand on me."
-    thinking "What a pain in the ass she is..."
+    if ritsuko_met_principal:
+        show ritsuko sad school with moveinright
+        "From a distance, I can see Ritsuko approaching, looking distressed and defeated. "
+        thinking "Uh-oh"
+        ritsuko "..."
+        "She obviously notices me, but after giving me a glance, she turns and walks on without saying a word."
+        hide ritsuko sad school with moveoutleft
+        thinking "Well, no big wonder there. "
+        thinking "After all, she was just raped by the guy she was expecting to enforce the rules in this school"
+        thinking "Just wait till I get to her..."
+    else:
+        show ritsuko basic school with moveinright
+        ritsuko "Hohoho..."
+        thinking "Un-oh."
+        ritsuko "What do we have here?"
+        thinking "Not the person I was hoping to hear from right now."
+        ritsuko "What are you doing sneaking around the hallway?"
+        shinn "I’m not sneaking around."
+        ritsuko "Oh? I bet you’re looking around scoping this place out for girls."
+        thinking "This bitch..."
+        shinn "Look. What do you want?"
+        ritsuko "Oh hohoho~"
+        ritsuko "Just making sure you don’t try anything stupid while you’re here."
+        ritsuko "I’m watching you Shinn..."
+        hide ritsuko basic school with moveoutright
+        "Ritsuko leaves looking proud, like she’s caught me out and gotten the upper hand on me."
+        thinking "What a pain in the ass she is..."
     thinking "Now, where was I?"
     thinking "Oh, right. Rina still isn’t back yet."
     thinking "Damn it!"

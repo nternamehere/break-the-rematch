@@ -63,11 +63,14 @@ label staffroom__first_visit:
     "As I approach her workplace, I see her heading towards the exit, looking like she’s in a hurry."
     thinking "Hmm? What’s wrong?"
     "Her expression grabs my attention. She seems worried and anxious. This is probably the first time I’ve ever seen her in such a state."
-    menu:
-        thinking "Great. Just when I wanted to clear my work with her, she runs off. Now what?"
-        "Now’s my chance to make my move with the other girls!":
-            $ renpy.block_rollback()
-            jump map__school
-        "Secretly pursue her and see what’s going on.":
-            $ renpy.block_rollback()
-            jump pursue_rina
+    if saw_touko_aina_utility and ritsuko_met_principal:
+        jump pursue_rina
+    else:
+        menu:
+            thinking "Great. Just when I wanted to clear my work with her, she runs off. Now what?"
+            "Now’s my chance to make my move with the other girls!":
+                $ renpy.block_rollback()
+                jump map__school
+            "Secretly pursue her and see what’s going on.":
+                $ renpy.block_rollback()
+                jump pursue_rina

@@ -178,6 +178,7 @@ label touko_aina_sex_scene_1:
     scene touko_aina_sex_scene_1 19
     "They give each other one last kiss before they set about cleaning up. From the quickness of their work, it looks like the two of them already know where all the cleaning supplies in this utility room are stored."
     $ persistent.touko_aina_sex_scene_1 = True
+    $ saw_touko_aina_utility = True
     $ renpy.end_replay()
 
     scene bg hallway 1 with dissolve

@@ -41,9 +41,12 @@ init python:
     #######################
     # Character Variables #
     #######################
+    # Touko Variables
+    saw_touko_aina_utility = False
 
     # Ritsuko Variables
     met_ritsuko = False
+    ritsuko_met_principal = False
 
     # Rina Variable
     rina__pursue = False

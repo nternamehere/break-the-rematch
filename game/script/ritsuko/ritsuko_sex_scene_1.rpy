@@ -201,5 +201,6 @@ label ritsuko_sex_scene_1:
     thinking "The trying to keep things up with the Principal blackmailing her at the same time could be tricky."
     thinking "Unless I could convince him to coordinate with me..."
     thinking "Heh. Depending on how things go, this might turn out pretty well."
+    $ ritsuko_met_principal = True
     $ renpy.end_replay()
     jump tennis_day_1_continued
