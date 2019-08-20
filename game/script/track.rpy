@@ -58,4 +58,4 @@ label track__first_visit:
 
     hide araki basic with moveoutright
     $ track_available = False
-    jump classroom__completed_intro_check
+    jump map__school

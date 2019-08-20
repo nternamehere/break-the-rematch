@@ -339,6 +339,8 @@ screen navigation():
         if not _in_replay:
             textbutton _("Load") action ShowMenu("load")
 
+        textbutton _("Get Full Game") action OpenURL("https://www.kickstarter.com/projects/pushpublication/break-the-rematch-part-1")
+
         if main_menu:
             textbutton _("Scenes") action ShowMenu("gallery")
 
@@ -361,7 +363,6 @@ screen navigation():
 
             ## The quit button is banned on iOS and unnecessary on Android.
             textbutton _("Quit") action Quit(confirm=not main_menu)
-        textbutton _("Get Full Game") action OpenURL("https://www.kickstarter.com/projects/pushpublication/370942768?ref=bx39cc&token=e8bea3e8")
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
@@ -374,8 +375,6 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
-    selected_xoffset 20
-    selected_yoffset 3
     xalign 0.5
 
 ## Main Menu screen ############################################################
@@ -416,6 +415,14 @@ screen main_menu():
             text "Demo Build v2.0":
                 style "main_menu_demo"
             text "Public Release.":
+                style "main_menu_demo"
+
+    if gui.is_alpha:
+        vbox:
+            xpos 1900
+            text "Alpha Build v1.0":
+                style "main_menu_demo"
+            text "Backer Release.":
                 style "main_menu_demo"
 
     if gui.show_name:
@@ -995,6 +1002,8 @@ screen history():
                             text_color h.who_args["color"]
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
+                $ what = what.replace('「', '')
+                $ what = what.replace('」', '')
                 text what:
                     substitute False
 
@@ -1040,6 +1049,7 @@ style history_text:
     min_width gui.history_text_width
     text_align gui.history_text_xalign
     layout ("subtitle" if gui.history_text_xalign else "tex")
+    
 
 style history_label:
     xfill True

@@ -152,4 +152,4 @@ label naoko__sex_scene_1_end:
 
     $ renpy.end_replay()
     $ persistent.naoko__sex_scene_1 = True
-    jump school__eod_1
+    jump school__eod_0

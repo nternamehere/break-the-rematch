@@ -3,6 +3,9 @@ define idle_gallery = "gui/button/gallery_idle.png"
 define hover_gallery = "gui/button/gallery_hover.png"
 
 define naoko__gallery_1 = "images/gallery/gallery_naoko_sex1.png"
+define touko_aina__gallery_1 = "images/gallery/gallery_touko_aina_sex1.png"
+define ritsuko__gallery_1 = "images/gallery/gallery_ritsuko_sex1.png"
+define rina__gallery_1 = "images/gallery/gallery_rina_blowjob1.png"
 
 screen gallery:
     tag menu
@@ -28,10 +31,31 @@ screen gallery:
                 else:
                     imagebutton:
                         idle locked_gallery
-                null
-                null
+                if persistent.rina_blowjob_scene_1:
+                    imagebutton action Replay("rina_blowjob_scene_1"):
+                        background rina__gallery_1
+                        idle idle_gallery
+                        hover hover_gallery
+                else:
+                    imagebutton:
+                        idle locked_gallery
+                if persistent.touko_aina_sex_scene_1:
+                    imagebutton action Replay("touko_aina_sex_scene_1"):
+                        background touko_aina__gallery_1
+                        idle idle_gallery
+                        hover hover_gallery
+                else:
+                    imagebutton:
+                        idle locked_gallery
 
-                null
+                if persistent.ritsuko_sex_scene_1:
+                    imagebutton action Replay("ritsuko_sex_scene_1"):
+                        background ritsuko__gallery_1
+                        idle idle_gallery
+                        hover hover_gallery
+                else:
+                    imagebutton:
+                        idle locked_gallery
                 null
                 null
 
