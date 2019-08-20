@@ -240,8 +240,6 @@ label rina_blowjob_scene_1:
     $ persistent.rina_blowjob_scene_1 = True
     $ renpy.end_replay()
 
-    scene black with fade
-    "End of Rina's current arc reached."
     play music campus fadeout 1.0 fadein 1.0
     $ staffroom_available = False
     jump map__school

@@ -1,4 +1,6 @@
 label staffroom__router:
+    if day == 2:
+        jump rina__rooftop_scene_1
     if rina__probe:
         jump rina__probe_1
     if rina__pursue:

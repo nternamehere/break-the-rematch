@@ -43,7 +43,7 @@ screen locations:
         else:
             imagebutton idle "images/map/buttons/track-disabled.png" xpos 230 ypos 80 action None
 
-    if day == 1:
+    if day >= 1:
 
         if staffroom_available:
             if staffroom__first_visit:
@@ -68,5 +68,5 @@ label map__school:
     if day == 0 and not range_available and not pool_gym_available and not tennis_available and not track_available:
         $ classroom_available = True
     if day == 1 and not staffroom_available and not tennis_available and not pool_gym_available:
-        jump end
+        jump day2
     call screen locations with fade
