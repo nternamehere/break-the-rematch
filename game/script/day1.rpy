@@ -5,15 +5,15 @@ label day1_start:
     $ pool_gym_available = True
 
     show bg shinn bedroom with fade
-    "I woke up without the aid of my alarm clock today. I couldn’t keep myself in bed. I’m already restless with anticipation."
+    "I woke up without the aid of my alarm clock today. I couldn't keep myself in bed. I'm already restless with anticipation."
     "Today, I finally get to put my plans for those girls into action."
     thinking "Alright. Time to brighten up and get going..."
     "I begin preparations for my first day of tutoring."
 
     show bg main gate with fade
     play music campus fadein 1.0
-    shinn "Wow. Quite a crowd we’ve got here."
-    "Even this early in the morning, there’s already a huge rush of students heading in to school."
+    shinn "Wow. Quite a crowd we've got here."
+    "Even this early in the morning, there's already a huge rush of students heading in to school."
     "I smile a bit as memories of my own past here come to mind."
     thinking "This really brings back the good old days. Yeah, I had some good times here."
     thinking "Well, no time like the present though."
