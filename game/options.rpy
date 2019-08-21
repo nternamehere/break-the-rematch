@@ -20,12 +20,13 @@ define config.name = _("Break: The Rematch")
 
 define gui.show_name = False
 define gui.is_demo = False
-define gui.is_alpha = True
+define gui.is_alpha = False
+define gui.is_beta = True
 
 
 ## The version of the game.
 
-define config.version = "0.0.5-alpha"
+define config.version = "0.0.1-beta"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -56,7 +57,7 @@ Special Thanks to:
 
 Plexstorm Community 
 
-Break! The Rematch Alpha developed by PUSH! Soft, a subsidiary under PUSH! Publication, LLC. Program distributed & licensed by PUSH!. No part of this Visual Novel may be sold, reproduced or distributed in any manner without written permission except in the case of brief quotations embodied in critical articles or reviews. Infringement of these following will lead to legal action. This visual novel is a work of fiction. Names, characters, businesses, organizations, places, events and incidents either are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is purely coincidental.
+Break! The Rematch Beta developed by PUSH! Soft, a subsidiary under PUSH! Publication, LLC. Program distributed & licensed by PUSH!. No part of this Visual Novel may be sold, reproduced or distributed in any manner without written permission except in the case of brief quotations embodied in critical articles or reviews. Infringement of these following will lead to legal action. This visual novel is a work of fiction. Names, characters, businesses, organizations, places, events and incidents either are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is purely coincidental.
 
 ©2019 PUSH!. All Rights Reserved.
 """)
@@ -66,7 +67,7 @@ Break! The Rematch Alpha developed by PUSH! Soft, a subsidiary under PUSH! Publi
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BreakTheRematchAlpha"
+define build.name = "BreakTheRematchBeta"
 
 
 ## Sounds and music ############################################################

@@ -425,6 +425,14 @@ screen main_menu():
             text "Backer Release.":
                 style "main_menu_demo"
 
+    if gui.is_beta:
+        vbox:
+            xpos 1900
+            text "Beta Build v1.0":
+                style "main_menu_demo"
+            text "Backer Release.":
+                style "main_menu_demo"
+
     if gui.show_name:
 
         vbox:
