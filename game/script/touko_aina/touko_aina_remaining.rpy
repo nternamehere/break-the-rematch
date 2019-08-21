@@ -635,7 +635,7 @@ label touko_aina__intermission_2:
     "I take my time to look her body up and down as I approach."
     shinn "So? You ready?"
     aina "Yes!"
-    shinn "Alright. Keep quiet for now keep youself out of the way until I need you."
+    shinn "Alright. Keep quiet for now keep yourself out of the way until I need you."
     shinn "I'll call you in when I'm ready."
     aina "Got it!"
     jump touko_aina__threeway_1

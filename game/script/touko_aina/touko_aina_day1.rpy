@@ -444,7 +444,7 @@ label touko_aina_day1_continued_3:
             jump touko__sex_scene_1
         "Wait a little longer":
             shinn "Alright. Let me see how you did."
-            "I take the papers frm her and scan through her answers."
+            "I take the papers from her and scan through her answers."
             shinn "Hmm... Seems like you've missed quite a few of these, I'm afraid."
             touko "Oh..."
             shinn "Don't worry Touko. Practice makes perfect, just like in basketball."

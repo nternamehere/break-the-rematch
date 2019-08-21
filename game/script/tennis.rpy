@@ -1,4 +1,6 @@
 label tennis__router:
+    if day == 2:
+        jump ritsuko__sex_scene_2
     if day == 1:
         jump tennis_day_1
     if tennis__first_visit:

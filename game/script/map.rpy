@@ -69,4 +69,6 @@ label map__school:
         $ classroom_available = True
     if day == 1 and not staffroom_available and not tennis_available and not pool_gym_available:
         jump day2
+    if day == 2 and not staffroom_available and not tennis_available and not pool_gym_available:
+        jump harem_ending
     call screen locations with fade

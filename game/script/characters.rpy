@@ -33,6 +33,7 @@ define araki = Character("Araki Shinjugai", what_prefix="{font=gui/fonts/AppliMi
 define rina = Character("Rina Akiyama", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define naoko = Character("Naoko Tohno", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define principal = Character("Principal", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define everyone = Character("Everyone", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define thinking = Character("", what_prefix="(", what_suffix=")")
 
 layeredimage ritsuko_tennis:
