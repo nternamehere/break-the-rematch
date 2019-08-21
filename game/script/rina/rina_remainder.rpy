@@ -1,4 +1,5 @@
 label rina__rooftop_scene_1:
+    scene bg rooftop with map_fade
     "It's evening, and the sun has already started to set. I'm still waiting for Rina to show up."
     thinking "Where is she?"
     "Just then, the door creaks open, and a familiar figure emerges behind it. Looks like she's decided to show after all."
@@ -29,6 +30,8 @@ label rina__rooftop_scene_1:
     "Rina was frozen in hesitation."
     shinn "Do you want your phone back or not?"
     "She glares at me with hatred before she complies getting down on her hands and knees."
+    
+    scene rina_rooftop_1 1 with fade
     shinn "Good girl."
     "Once she's assumed the postion, I walk up to her and lean over, looking her in the face."
     "From my bag, I retrieve a set of pink anal beads, and hold it up in front of her."
@@ -48,6 +51,8 @@ label rina__rooftop_scene_1:
     shinn "Wow, you seem pretty soft back here."
     shinn "Here, let me try out the inside."
     "As I insert my finger, her body immediately reacts."
+
+    scene rina_rooftop_1 2
     rina "No! What are you doing!? Stop!"
     shinn "Wow. Your really is soft inside."
     rina "It hurts! Please!"
@@ -82,8 +87,12 @@ label rina__rooftop_scene_1:
     rina "Ah~"
     rina "I can't hold it!"
     "Her pussy twitches as her juices start gushing out."
+
+    scene rina_rooftop_1 3 with cum_flash
     "Looks like she finally submitted to the pleasure from her ass."
     "I remove my fingers from her anus."
+
+    scene rina_rooftop_1 4
     "Surprise surprise, her hole is twitching like mad."
     shinn "Good girl, Rina."
     shinn "I told you you'd enjoy it."
@@ -91,6 +100,8 @@ label rina__rooftop_scene_1:
     "Her expression is vacant and hazy from her climax. All the better for me."
     shinn "Well, let's get on to the next play, shall we?"
     "I pick up the set of anal beads I showed off to Rina before."
+    
+    scene rina_rooftop_1 5
     shinn "Remember these? I think you've gotten enough of a warm-up now."
     rina "..."
     "Rina doesn't respond, but I see a hint of curiosity on her face."
@@ -98,8 +109,12 @@ label rina__rooftop_scene_1:
     "I run my fingers along her pussy, coating them in her juice, before inserting them back into her ass."
     rina "Ah~"
     "I rub around inside her hole again for a bit to make sure she's ready."
+
+    scene rina_rooftop_1 6
     "Her insides felt loose and steamy hot from her last orgasm."
     "Now that she's ready, I position the first bead at the entrance of her anus."
+
+    scene rina_rooftop_1 7
     "She felt the tip of the sex toy pushing up against her."
     rina "Ah~ No."
     "I slowly push the first bead inside."
@@ -119,9 +134,13 @@ label rina__rooftop_scene_1:
     rina "NO! Please stop!"
     shinn "Heh. Like hell I'm going to stop now."
     "I push my head in close and start to lick her clit. I can feel her body shivering in excitement against me."
+
+    scene rina_rooftop_1 8
     rina "Ah~ No..."
     shinn "See? You like it after all."
     "Using my index and middle finger, I begin to penetrate her pulsing wet pussy. She's so soaking wet inside, it feels like dipping my fingers into a warm pool. She lets out a moan as she feels my fingers thrust inside her."
+
+    scene rina_rooftop_1 9
     rina "Ah~"
     "It was soft, but I could hear it clearly."
     shinn "I gonna make you cum, Rina"
@@ -132,6 +151,8 @@ label rina__rooftop_scene_1:
     rina "NO! PLEASE STOP!"
     "Her legs buck as a sudden splash gushes from her pussy. Her eyes roll back as she shudders with more pleasure than she can take."
     "The convulsions of her orgasm force the beads out from her ass all at once."
+
+    scene rina_rooftop_1 10 with cum_flash
     "The string of anal beads falls to the ground, still vibrating."
     rina "AAAHH!"
     "Her legs were shuddering, and her pussy pulsing wildly, clamping down on my fingers."
