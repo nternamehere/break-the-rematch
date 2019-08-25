@@ -1,9 +1,9 @@
-label day1_start: 
+label day_1__start:
     $ day = 1
     $ tennis_available = True
     $ staffroom_available = True
-    $ pool_gym_available = True
-
+    $ gym_available = True
+    
     show bg shinn bedroom with fade
     "I woke up without the aid of my alarm clock today. I couldn't keep myself in bed. I'm already restless with anticipation."
     "Today, I finally get to put my plans for those girls into action."

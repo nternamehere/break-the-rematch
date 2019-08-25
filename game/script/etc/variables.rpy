@@ -3,11 +3,11 @@ init python:
     range_available = True
     classroom_available = False
     staffroom_available = False
-    gym_available = False
+    gym_available = True
     tennis_available = True
     track_available = True
     pool_available = False
-    pool_gym_available = True
+    pool_gym_available = False
     day = 0
 
     #######################
@@ -43,14 +43,17 @@ init python:
     #######################
     # Touko Variables
     saw_touko_aina_utility = False
+    touko_aina_next_step = ""
 
     # Ritsuko Variables
     met_ritsuko = False
     ritsuko_met_principal = False
+    ritsuko_next_step = ""
 
     # Rina Variable
     rina__pursue = False
     rina__probe = False
+    rina_next_step = ""
 
     #######################
     #    Misc Variables   #
