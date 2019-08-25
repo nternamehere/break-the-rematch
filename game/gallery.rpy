@@ -15,8 +15,8 @@ define ritsuko__gallery_3 = "images/gallery/gallery_ritsuko_sex1.png"
 define ritsuko__gallery_4 = "images/gallery/gallery_ritsuko_sex1.png"
 define rina__gallery_1 = "images/gallery/gallery_rina_sex1.png"
 define rina__gallery_2 = "images/gallery/gallery_rina_sex2.png"
-define rina__gallery_3 = "images/gallery/gallery_rina_sex2.png"
-define rina__gallery_4 = "images/gallery/gallery_rina_sex2.png"
+define rina__gallery_3 = "images/gallery/gallery_rina_sex3.png"
+define rina__gallery_4 = "images/gallery/gallery_rina_sex4.png"
 
 default gallery_page = "naoko"
 

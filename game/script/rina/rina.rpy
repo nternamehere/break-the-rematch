@@ -747,6 +747,8 @@ label rina__cg_2:
     rina "It's dirty..."
     shinn "Dirty? Nah, it's okay."
     shinn "I'll clean it up for you with my dick."
+
+    scene bg rooftop
     "I set the tip of my cock against her ass."
     rina "No! Please..."
     shinn "Here it comes!"
