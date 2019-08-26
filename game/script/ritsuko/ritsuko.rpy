@@ -421,6 +421,7 @@ label tennis__day_1_continued_1:
 
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
+    play music sex fadeout 1.0 fadein 1.0
     "I heard from her teacher that Ristuko usually has a short solo practice during lunch."
     "After eating an early lunch, I come down here to confront her."
     "I've been waiting for an opportunity like this, ever since Ritsuko threatened to expose me before."
@@ -458,11 +459,17 @@ label ritsuko__cg_2:
     ritsuko "Let go of me you bastard!"
     ritsuko "What do you think you're doing?! Do you know who I am?!"
     "I let her words slide over me as I proceed to bind her hands behind her back."
+
+    scene ritsuko__cg_2 1 with fade
     "I lie her down, restrained, against a bench."
     shinn "There, that's more like it."
+
+    scene ritsuko__cg_2 2
     ritsuko "You think you're going to get away with this!?"
     shinn "I'm not the one trying to get away here. You should worry about yourself."
     ritsuko "What?"
+
+    scene ritsuko__cg_2 3
     "I force open her legs, revealing her beautiful pink striped panties."
     shinn "Oh, nice. It's been a while since I've seen cute ones like these."
     ritsuko "Wait, what are you doing!? Stop it!"
@@ -472,15 +479,23 @@ label ritsuko__cg_2:
     "I let my erect dick spring out, rubbing it along the surface of her beautiful exposed panties."
     ritsuko "Get off of me, you creep!"
     shinn "Creep? Ah, says the one who's willing to use her own body to aid in a criminal coverup."
+
+    scene ritsuko__cg_2 4
     ritsuko "..."
     shinn "Oh? Feeling a bit self-conscious about that?"
+
+    scene ritsuko__cg_2 5
     ritsuko "Shut up!"
     shinn "No, I don't think so. I haven't had someone resist this much for a long time now, this just makes things more interesting."
     shinn "Well then... Let's begin."
     ritsuko "No!"
+
+    scene ritsuko__cg_2 6
     "I move open her panties to see her still-tainted pussy."
     shinn "It looks amazing even right after it's just been used, Ritsuko."
     ritsuko "No! Please don't!"
+
+    scene ritsuko__cg_2 7
     "I place my fingers gently against her entrance."
     ritsuko "What... what are you doing?"
     "Slowly, I begin to push my fingers inside her."
@@ -512,17 +527,29 @@ label ritsuko__cg_2:
     "The feeling of my fingers inside her has her whole body shaking."
     ritsuko "Ah! NOO!"
     shinn "Let it all out! Squirt it out like a dirty slut!"
+
+    scene ritsuko__cg_2 8 with cum_flash
+    play sound cum1
     ritsuko "AHHHH!"
     "She bursts past her limit, her pussy juice squirting out like a fountain with my fingers still inside her."
     ritsuko "Ahh! Oh, god..."
     "Her own juices have sprayed out across her own body, covering her. She looks desperately sexy like this."
     shinn "So, looks like you like my fingers more than the Principal's tongue after all."
+
+    scene ritsuko__cg_2 9
     shinn "I sure didn't see you cum like this with him licking you."
     "I take a close look at the state of her pussy."
     shinn "Well... Seems to me like you're well-marinated now."
+
+    scene ritsuko__cg_2 10
     shinn "I think you're finally ready to take my dick."
+
+    scene ritsuko__cg_2 11
+    play sound sex1_slow loop
     "Without giving her a chance to protest, I slowly push my way inside."
     shinn "Ahh. Even after all that work loosening you up, it's still really tight."
+
+    scene ritsuko__cg_2 12
     ritsuko "Ah~!"
     "As I slowly thrust my dick in, I can feel her pussy juices starting to leak out around me."
     shinn "Haha! After cumming so much, you just start leaking out the moment I put it in!"
@@ -541,6 +568,8 @@ label ritsuko__cg_2:
     shinn "Oh, how aggressive."
     shinn "Well, we'll see if you keep that up."
     "I start to put more force into my movements, slowly picking up the pace."
+
+    scene ritsuko__cg_2 13
     ritsuko "Ah~!"
     "She's starting to let her voice out again involuntarily."
     shinn "Heh... Look at you. Not being honest with yourself at all..."
@@ -576,10 +605,17 @@ label ritsuko__cg_2_inside:
     ritsuko "Mmm~ No, please!"
     "I pick up the pace for a final burst as I reach my climax."
     shinn "Agh! Here it comes!"
+
+    scene ritsuko__cg_2_inside 1 with cum_flash
+    stop sound
+    play sound cum2
     "In one shot, I let it all out, pouring directly into her womb."
     "Fucking this stuck up rich girl has gotten me so worked up, the load is incredible. It leaks out around me while I'm still inside her."
     ritsuko "NOOOO~!"
     "Even as she screams out in protest, her body seems electrified with pleasure."
+
+    scene ritsuko__cg_2_inside 2 with cum_flash
+    play sound cum2
     "Her eyes roll up as her body shudders, her tongue hanging out as she loses control of herself."
     "As her wild shaking comes to an end, she suddenly goes limp, as if all the energy has drained out of her.."
     "I pull out my dick, revealing the mess my creampie, along with all her own pussy juice, has left."
@@ -596,10 +632,17 @@ label ritsuko__cg_2_outside:
     ritsuko "No, stop! Please!"
     "I pick up the pace for a final burst as I reach my climax."
     shinn "Agh! Here it comes!"
+
+    scene ritsuko__cg_2_outside 1 with cum_flash
+    stop sound
+    play sound cum2
     "I quickly pull out and spray directly into her face."
     ritsuko "Ahh~"
     "The cum sprays out everywhere, covering her face."
     "After everything she's just been through, she smell of it all over her overwhelms her."
+
+    scene ritsuko__cg_2_outside 2 with cum_flash
+    play sound cum2
     "Her eyes roll up in her head, and she sags as all the energy seems to drain out of her, her tongue hanging from her mouth."
     shinn "Take a look at that wonderful face."
     jump ritsuko__cg_2_end
