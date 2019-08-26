@@ -660,13 +660,9 @@ label ritsuko__cg_2_end:
     $ persistent.ritsuko__cg_2 = True
     jump map__school
 
-
-# Title: Ritsuko Arc – Day 3 –Afternoon– 3:30 PM
-# Location: Haruka Academy, Classroom 3-2
-# Background CG: As described   
-
 label tennis__day_2:
     $ ritsuko_next_step = "cg_4"
+    scene bg classroom with map_fade
     "I've spent the whole day thinking about what I did to Ritsuko yesterday."
     "And here I am, waiting for her to show up for after-school lessons."
     thinking "Hmm... Well, it's no surprise if she hasn't showed up, considering."
@@ -681,6 +677,7 @@ label tennis__day_2:
 # Location: Haruka Academy, Hallway
 # Background CG: As described   
 
+    scene bg hallway 1 with pixellate
     "As I walked along the hallway, I spot Ritsuko in the distance from outside the window."
     thinking "Oh, there she is."
     "It seems she's out practicing on the tennis court."
@@ -692,6 +689,7 @@ label tennis__day_2:
 # Background CG: As described   
 
 label ritsuko__cg_3:
+    scene bg tennis court with fade
     "As I make it within eyeshot of the court, Ritsuko instantly spots me."
     ritsuko "You! Why are you here!?"
     "In her anger, she flings a tennis ball at me."
@@ -759,11 +757,17 @@ label ritsuko__cg_3:
     ritsuko "..."
     shinn "Or are you thinking of refusing?"
     ritsuko "F-fine..."
+
+    scene ritsuko__cg_3_tennis 1 with pixellate
     "Ritsuko picks up the panties, and puts them on over her head. She squats down, unable to help fully exposing herself to me."
     ritsuko "This... this is disgusting!"
     "This clear view of her pussy reminds me of the good time I had with her yesterday."
+
+    scene ritsuko__cg_3_tennis 2
     "Probably, it's doing the same for her. On getting a closer look, I can see a visible leak trickling out."
     shinn "Haha... You're getting turned on by this, aren't you?"
+
+    scene ritsuko__cg_3_tennis 3
     ritsuko "No! I'm not!"
     shinn "Is that so? It looks like your pussy says differently."
     ritsuko "That's not it..."
@@ -771,6 +775,8 @@ label ritsuko__cg_3:
     shinn "Ritsuko, you ought to be more honest."
     ritsuko "Shut up! What do you want me to do next!?"
     shinn "Lift your hands up and fold them behind your head."
+
+    scene ritsuko__cg_3_tennis 4
     "Ritsuko complies, putting her beautiful cleanly shaved armpits on full display."
     ritsuko "Li— like this?"
     shinn "Yeah, just like that."
@@ -789,6 +795,7 @@ label ritsuko__cg_3:
             jump ritsuko__cg_3_baby
 
 label ritsuko__cg_3_toy:
+    scene ritsuko__cg_3_tennis 5
     shinn "Say \"I am Shinn's personal sex toy!\""
     ritsuko "No! I'm not going to do that!"
     shinn "Do it, or else..."
@@ -799,6 +806,8 @@ label ritsuko__cg_3_toy:
     shinn "What? You'll have to speak up, I can't hear you."
     "Ritsuko glares at me, angry and defeated."
     ritsuko "I'M SHINN'S PERSONAL SEX TOY!"
+
+    scene ritsuko__cg_3_tennis 6
     ritsuko "THERE! YOU HAPPY NOW?!"
     "She shouted at the top of her lungs. If there's still anyone hanging around the school grounds, they probably heard her just now."
     shinn "Haha... Good girl."
@@ -807,6 +816,7 @@ label ritsuko__cg_3_toy:
     jump ritsuko__cg_3_continued
 
 label ritsuko__cg_3_baby:
+    scene ritsuko__cg_3_tennis 5
     shinn "Say \"I want Shinn's baby-making seed inside me!\""
     ritsuko "No! I'm not going to do that!"
     shinn "Do it or else..."
@@ -817,6 +827,8 @@ label ritsuko__cg_3_baby:
     shinn "What? You'll have to speak up, I can't hear you."
     "Ritsuko glares at me, angry and defeated."
     ritsuko "I WANT SHINN'S BABY-MAKING SEED INSIDE ME!"
+
+    scene ritsuko__cg_3_tennis 6
     ritsuko "THERE! YOU HAPPY NOW?!"
     "She shouted at the top of her lungs. If there's still anyone hanging around the school grounds, they probably heard her just now."
     shinn "Haha... Good girl."
@@ -825,6 +837,8 @@ label ritsuko__cg_3_baby:
 label ritsuko__cg_3_continued:
     "I walk up to her and pick up the tennis racket by her side."
     shinn "But you'll have to wait on the baby-seed. I've got something else in store for you now."
+
+    scene ritsuko__cg_3_tennis 7
     "I take the racket, and jam the handle inside her."
     ritsuko "AH! It hurts!"
     "She cries out with shock and pain, but it looks like she came the moment I stuck it in."
@@ -837,6 +851,8 @@ label ritsuko__cg_3_continued:
     shinn "Heh. Yesterday, I had some fun with your pussy. This time, I'll be playing with your ass."
     ritsuko "What?! No! You can't!"
     shinn "Hahaha!"
+
+    scene ritsuko__cg_3_tennis 8
     "Ignoring her plea, I thrust my dick into her defenseless asshole."
     ritsuko "Ah! No!"
     "The moment I push myself inside her, I can see her legs starting to tremble with the pleasure."
@@ -851,6 +867,8 @@ label ritsuko__cg_3_continued:
     shinn "Just face it, you love sex! You've been nothing but a slut from the start!"
     ritsuko "..."
     shinn "No answer? You'll have one soon."
+
+    scene ritsuko__cg_3_tennis 9
     "I push my dick inside, so suddenly and violently, her resistance snaps."
     ritsuko "Ah!"
     shinn "You are mine, Ritsuko! My sex slave! You understand?!"
@@ -867,11 +885,19 @@ label ritsuko__cg_3_continued:
     "My paces reaches its peak as I can feel the urge to cum rising up in me."
     shinn "Here it comes, Ritsuko! Take it all!"
     ritsuko "Ahh! Yes!"
+
+    scene ritsuko__cg_3_tennis 10 with cum_flash
     "I let out a thick jet of my cum, deep inside her asshole."
     ritsuko "Ahh!! I can feel your warm cum in my stomach!"
+
+    scene ritsuko__cg_3_tennis 11 with cum_flash
     "Ritsuko's legs start to shudder uncontrollably with the overwhelming pleasure."
+
+    scene ritsuko__cg_3_tennis 12
     "The tennis racket clatters to the ground at her feet as it's forcibly ejected by her pulsating pussy."
     ritsuko "Ah! It feels so good!"
+
+    scene ritsuko__cg_3_tennis 13
     "After spilling out my last drop inside her, I pull out, leaving my cum dripping out from her asshole."
     ritsuko "It's too much! I can't take it anymore, I need to pee!"
     shinn "Pee? Did I give you permission?"
@@ -886,6 +912,8 @@ label ritsuko__cg_3_continued:
 label ritsuko__cg_3_pee:
     shinn "Alright then. Since you're nothing but a dog now, go ahead."
     ritsuko "Ah~ Thank you!"
+
+    scene ritsuko__cg_3_tennis 14
     "A yellow stream starts to trickle from her urethra, quickly turning into a forceful spray splashing against the pavement of the court."
     ritsuko "Ah! It feels so good! I want more sex!"
     shinn "You want more? Good. There's plenty more coming."
@@ -901,6 +929,8 @@ label ritsuko__cg_3_no_pee:
     "A sudden jet of urine squirts from her urethra."
     ritsuko "Ah! I'm sorry Shinn!"
     shinn "What the..."
+
+    scene ritsuko__cg_3_tennis 14
     "The last of her control broken, the jet becomes a continuous forceful stream as Ritsuko relieves herself on the pavement."
     ritsuko "Ah! Peeing suddenly feel so good!"
     shinn "Look at you. In just a day, you've gone from being a noble and elegant lady to an uncontrollable sex-starved pet."
@@ -908,13 +938,10 @@ label ritsuko__cg_3_no_pee:
     ritsuko "Ah, yes! Please, I need to be punished!"
     shinn "Good. Let's bring you to my house to teach you a proper lesson."
     ritsuko "Yes!"
-    jump ritsuko__cg_3_house
-
-# Title: Ritsuko Arc – Day 3 –Night– 7:35 PM
-# Location: Shinn's Bedroom
-# Background CG: As described   
+    jump ritsuko__cg_3_house 
 
 label ritsuko__cg_3_house:
+    scene bg shinn bedroom with fade
     "It's evening by the time I make it back home with Ritsuko after our session on the tennis court, but Ritsuko's lust hasn't begun to cool."
     ritsuko "Ah, Shinn~"
     ritsuko "Are you going to give me the lesson here in your room?"
@@ -929,20 +956,30 @@ label ritsuko__cg_3_house:
     "Or maybe she's just naturally gifted with that figure?"
     "As I focus my attention on her incredible body, I can't help but feel a twinge of regret over having to hand her over to the Principal."
     "Well, it can't be helped since I made a deal. But before I turn her over to him, I'm going to take the chance to have my fun."
+    
+    scene ritsuko__cg_3_house 1
     "Once again, Ritsuko moves without instruction, lying down on my bed facing me."
     ritsuko "Come on~"
     shinn "Heh. Did I ask you to lie down and strip for me?"
     shinn "You were supposed to listen to orders!"
     "Within a moment, I fling my own clothes to the floor and leap on top of her."
     shinn "I'm going to pound you hard till you remember to do what you're told!"
+
+    scene ritsuko__cg_3_house 2
     "I slam my dick all the way into her pussy in one thrust, and she screams out in pleasure."
+
+    scene ritsuko__cg_3_house 3
     ritsuko "Ah~ Shinn!"
     "I continue to pound away at her as she pants and wails under me."
     ritsuko "Yes! Shinn~ More~!"
+
+    scene ritsuko__cg_3_house 4
     "Already, she's a far cry from the resistant girl she was earlier this afternoon."
     shinn "Remember this pleasure! Remember this feeling! ‘Cause this is what you're mad for, and what you're gonna do for the rest of your life!"
     ritsuko "Yes! Yes master~!"
     "She doesn't show even a trace of hesitation anymore."
+
+    scene ritsuko__cg_3_house 5
     "Pounding her on and on, I keep on going without rest like a frenzied wild animal."
     "I plan for the two of us to keep fucking like rabbits all through the night."
     "I'm going to keep this up until there's nothing left in her but the desire to receive."
@@ -962,9 +999,13 @@ label ritsuko__cg_3_house:
     "She still has traces of sweat on her from her workout on the tennis court before."
     "When I see her armpits right up near my face, I can't help but want to have a taste."
     shinn "Ritsuko, lift your arms for me."
+
+    scene ritsuko__cg_3_house 6
     ritsuko "Ah? Hah... Okay..."
     "She lifts them up, giving me a perfect closeup view of her beautiful smooth armpits."
     "They're slick with sweat and steamy hot. I don't bother to hold myself back."
+
+    scene ritsuko__cg_3_house 7
     "I reach my tongue out, and start to lick."
     ritsuko "Kya~! Shinn!"
     ritsuko "That's dirty~!"
@@ -973,10 +1014,16 @@ label ritsuko__cg_3_house:
     "It might not be for everyone, but to me, the taste and feel of this is simply irresistible."
     "Even without the rest, I could enjoy this by itself."
     "But there's no need to have it on its own. Far from it, as I lick her, I speed up my thrusts even more."
+
+    scene ritsuko__cg_3_house 8
     ritsuko "Ah! Shinn! Kiss me!"
     ritsuko "Please, stop licking my armpit and give me a kiss!."
+
+    scene ritsuko__cg_3_house 9
     "For this, I'll oblige her. I pull back, and thrust my tongue into her mouth for a deep kiss."
     "She braces her tongue against mine and tangles around it in her mouth."
+
+    scene ritsuko__cg_3_house 10
     "Ritsuko can't help herself, slurping lewdly and sucking down my saliva as I invade her mouth."
     ritsuko "Mmm~ Shinn..."
     "The kiss only adds to the intensity as I pound into her."
@@ -1004,16 +1051,23 @@ label ritsuko__cg_3_house:
                 jump ritsuko__cg_3_outside
 
 label ritsuko__cg_3_outside:
+    scene ritsuko__cg_3_house 11
     shinn "Ah! I'm at my limit!"
     ritsuko "Yes! Shinn! Do it! Cum inside me!"
+
+    scene ritsuko__cg_3_house 12
     thinking "It's really tempting..."
     thinking "But I want to see that face of hers smeared all over with my cum."
     ritsuko "Hurry up Shinn! Do it!"
     thinking "Should I?"
     thinking "Screw it, this one's to remind her who's in charge. I'm teaching her a lesson here."
     shinn "Here it comes!"
+
+    scene ritsuko__cg_3_house_outside 1 with cum_flash
     "I pull out just in time and spray out a gush of my cum across her face."
     ritsuko "Ah~ Shinn's cum is all over me!"
+
+    scene ritsuko__cg_3_house_outside 2 with cum_flash
     "I take a moment to admire my handiwork splattered across her slutty face"
     shinn "Heheh... Look at you."
     "Despite how much I just came, the sight of her face smeared with my cum still keeps my hard."
@@ -1029,16 +1083,23 @@ label ritsuko__cg_3_outside:
     jump ritsuko__cg_3_end
 
 label ritsuko__cg_3_inside:
+    scene ritsuko__cg_3_house 11
     shinn "Ah! I'm at my limit!"
     ritsuko "Yes! Shinn! Do it! Cum inside me!"
     thinking "Not sure I want to take responsibility for what might happen.., "
     thinking "But who cares? That's a choice I can make one way or another later on."
+
+    scene ritsuko__cg_3_house 12
     ritsuko "Hurry up Shinn! Do it!"
     shinn "Here it comes!"
     "I slam my dick into her one final time, piercing all the way inside her."
+
+    scene ritsuko__cg_3_house_inside 1 with cum_flash
     "The gush of cum completely fills her up, overflowing and dripping out in seconds while I'm still seated inside her."
     ritsuko "Ah! Shinn's cum! It's inside me!"
     ritsuko "I'm so full of Shinn's cum!"
+
+    scene ritsuko__cg_3_house_inside 2 with cum_flash
     "It's just too much for her to keep it all inside. It's leaking out all over now."
     shinn "There might be a lot of it inside you now, but there's a whole lot more left where that came from."
     "The thought of that gets Ritsuko excited all over again."
