@@ -8,10 +8,6 @@ label ritsuko__router:
     else:
         jump tennis__day_1
 
-# *CG TRANSITION*
-# Title: Ritsuko Arc – Day 1 – Morning – 8:30AM
-# Location: Haruka Academy, Hallway
-# Background CG: A typical hallway.
 label tennis__day_1:
     $ tennis_available = False
     $ ritsuko_next_step = "cg_2"
