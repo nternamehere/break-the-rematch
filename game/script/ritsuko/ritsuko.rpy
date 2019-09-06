@@ -415,10 +415,6 @@ label tennis__day_1_continued_1:
     thinking "Can't wait for what you've got coming to you, Ritsuko."
     jump map__school
 
-# Title: Ritsuko Arc – Day 2 –Afternoon– 1:00 PM
-# Location: Haruka Academy, Locker Room
-# Background CG: As described   
-
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
     play music sex fadeout 1.0 fadein 1.0
