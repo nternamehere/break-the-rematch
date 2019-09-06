@@ -422,6 +422,7 @@ label tennis__day_1_continued_1:
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
     play music sex fadeout 1.0 fadein 1.0
+    scene bg locker room with fade
     "I heard from her teacher that Ristuko usually has a short solo practice during lunch."
     "After eating an early lunch, I come down here to confront her."
     "I've been waiting for an opportunity like this, ever since Ritsuko threatened to expose me before."
@@ -1121,17 +1122,16 @@ label ritsuko__cg_3_end:
     $ persistent.ritsuko__cg_3 = True
     jump map__school
 
-# Title: Ritsuko Arc – Day??? –Afternoon – 2.10 PM
-# Location: Principal Office
-# Background CG: As described   
-
 label ritsuko__cg_4:
+    scene ritsuko__cg_4 1 with fade
     "The last few days with Ritsuko have been pretty busy."
     "I've been training her pretty much nonstop. I think she's completely lost track by now of how long it's been."
     "Looking at her now, her complete transformation from a snobbish rich girl to a sex-crazed bitch is pretty incredible."
     "At this point, she'll completely submit to the pleasure of anything I do to her."
     "So, I guess she's finally ready to bring back to the Principal as promised.."
     "I've gotten her properly giftwrapped, with a sexy pink sling bikini and a dog collar. After all, an occasion like this is worth putting some effort into presentation."
+    
+    scene ritsuko__cg_4 2
     "Her erect nipples stand out against the thin fabric of the bikini, showing off just how ready she is for action."
     shinn "So, I have the gift you've been waiting for."
     principal "Ah, Shinn. I was wondering when you'd be getting back to me."
@@ -1154,12 +1154,20 @@ label ritsuko__cg_4:
     thinking "Well, it'd be a new way to have fun with her after everything I've already done training her."
     shinn "If you're offering then..."
     principal "Do you want to have a taste of my dick, Ritsuko?"
+
+    scene ritsuko__cg_4 3
     ritsuko "Yes! ~"
     principal "Good girl. Come here."
     "The Principal unzips his pants, exposing his steamy erect dick to Ritsuko."
     ritsuko "Ah! Dick!"
+
+    scene ritsuko__cg_4 4
     "Rather than waiting for her to make a move, the Principal grabs holdof Ritsuko and hoists her into air, holding her entire weight suspended."
+
+    scene ritsuko__cg_4 5
     ritsuko "Kya~!"
+
+    scene ritsuko__cg_4 6
     "Holding her legs hiked up, the Principal positions his dick at the entrance of Ritsuko's pussy."
     ritsuko "Ah~ Principal's dick! I can feel it!"
     "She squirms a bit in his grip, trying to push herself down and bury his length inside her."
@@ -1169,9 +1177,13 @@ label ritsuko__cg_4:
     ritsuko "Ah~! It's so big! I love it!"
     "The Principal lowers her all the way down, embedding himself completely inside her."
     ritsuko "Principal! Your dick is kissing my womb! It's driving me crazy!"
+
+    scene ritsuko__cg_4 7
     "Ritsuko cranes her neck back and reaches out her tongue, inviting him in for a kiss."
     ritsuko "Principal~! Give me a kiss too~"
     principal "Here you go."
+
+    scene ritsuko__cg_4 8
     "The Principal locks lips with her, docking his tongue into her mouth."
     "They tangle their tongues together so intensely that drool starts leaking out."
     ritsuko "Hmm~ Principal's saliva is so tasty."
@@ -1188,9 +1200,15 @@ label ritsuko__cg_4:
     "I approach Ritsuko from behind and unzip my pants."
     "Seeing Ritsuko acting like such a slut in front of the Principal has already gotten me plenty hard."
     thinking "Alright then, time to work out this tension on her."
+
+    scene ritsuko__cg_4 9
     "I move myself into position, and thrust deep into her asshole."
+
+    scene ritsuko__cg_4 10
     ritsuko "Ah! Two dicks inside me! It feels so good!"
     ritsuko "Hnnh~ Hah.... Aaaahh~!"
+
+    scene ritsuko__cg_4 11
     "Ritsuko's body quivers in the Principal's grip as a jet of her pussy juices spills to the floor."
     ritsuko "Haahhh~ I came with two dicks in me."
     principal "Hahaha!"
@@ -1198,6 +1216,8 @@ label ritsuko__cg_4:
     principal "What a hungry slut!"
     ritsuko "Please Principal, move your fat cock inside me!"
     principal "Alright then, you don't have to ask twice."
+
+    scene ritsuko__cg_4 12
     "The Principal starts bouncing Ritsuko up and down on his cock, and I quickly follow suit, thrusting into her in time with him."
     "The pace is pretty slow to start with as we work out a rhythm, but Ritsuko's obviously still feeling it."
     ritsuko "Ah! Yes~! Dicks! Dicks!"
@@ -1241,8 +1261,12 @@ label ritsuko__cg_4_outside:
     principal "Alright Shinn, let's cum together on her and give her that baby-milk she wants!"
     ritsuko "Yes~!"
     principal "Here it comes!"
+
+    scene ritsuko__cg_4_outside 1 with cum_flash
     "The Principal and I pound her hard together one last time before the two of us pull out in unison."
     "We both let out jets of cum across her body, leaving every part of her streaked and spattered with our jizz."
+
+    scene ritsuko__cg_4_outside 2 with cum_flash
     ritsuko "Ah! Cum! It's all over me!"
     ritsuko "I love the taste and smell and the feel! I love all of it!"
     "The shower of cum over her sends a shockwave through her whole body."
@@ -1251,6 +1275,8 @@ label ritsuko__cg_4_outside:
     principal "Hey, why don't you do a slutty peace sign?"
     principal "I wanna see it."
     ritsuko "Okay!"
+
+    scene ritsuko__cg_4_outside 3
     "She lifts up her hands for a double peace sign in front of her face."
     ritsuko "Peace~!"
     principal "Oh, you'r making me hard all over again."
@@ -1271,8 +1297,12 @@ label ritsuko__cg_4_inside:
     ritsuko "Yes! I want Principal's baby! I want it!"
     principal "Here it comes!"
     principal "Take it, Ritsuko! Take my cum and get pregnant!"
+
+    scene ritsuko__cg_4_inside 1 with cum_flash
     "The Principal and I pound her hard one last time before we both explode together."
     "The bursts of cum fill her, leaving drips of cum trickling out of her pussy and asshole."
+
+    scene ritsuko__cg_4_inside 2 with cum_flash
     "There's so much, some of it is even dripping onto the floor."
     ritsuko "AAHH~! It's inside me!"
     ritsuko "The Principal's thick baby seed is inside me!"
@@ -1281,6 +1311,8 @@ label ritsuko__cg_4_inside:
     principal "Hey, why don't you do a slutty peace sign?"
     principal "I wanna see it."
     ritsuko "Okay!"
+
+    scene ritsuko__cg_4_inside 3
     "She lifts up her hands for a double peace sign in front of her face."
     ritsuko "Peace~!"
     principal "Oh, you'r making me hard all over again."
@@ -1294,5 +1326,6 @@ label ritsuko__cg_4_end:
     $ renpy.end_replay()
     $ persistent.ritsuko__cg_4 = True
     $ tennis_available = False
+    scene black
     "END OF RITSUKO ARC"
     jump map__school
