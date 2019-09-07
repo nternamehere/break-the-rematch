@@ -1045,36 +1045,36 @@ label rina__cg_3:
     shinn "Use my cock, Rina."
     rina "Yes, Master."
 
-    scene rina_cg_3_gangbang 1 with dissolve
+    scene rina__cg_3_gangbang 1 with dissolve
     "Rina crawls over and wastes no time in lowering herself onto my dick in cowgirl position."
     "Rina faces the whole room full of boys head on."
 
-    scene rina_cg_3_gangbang 2
+    scene rina__cg_3_gangbang 2
     "As she looks on, she can see the bulges straining at all of their pants."
     rina "Don't be shy, boys. Let me see your huge throbbing cocks."
     shinn "Heh. You heard her. Let her see ‘em."
     male_3 "O— Okay..."
 
-    scene rina_cg_3_gangbang 3
+    scene rina__cg_3_gangbang 3
     "The boys slowly comply and unzip their pants."
     rina "Ah. There we go."
 
-    scene rina_cg_3_gangbang 4
+    scene rina__cg_3_gangbang 4
     "The view further excites Rina as she starts to bounce her hips up and down on her own."
 
-    scene rina_cg_3_gangbang 5
+    scene rina__cg_3_gangbang 5
     shinn "Yeah, that's the spirit."
 
-    scene rina_cg_3_gangbang 6
+    scene rina__cg_3_gangbang 6
     "Rina lifts up her shoulders to show off her beautiful armpits."
     "They're clean-shaven, according to my taste."
     male_2 "Wow, her armpits look amazing..."
     male_1 "Yeah..."
 
-    scene rina_cg_3_gangbang 7
+    scene rina__cg_3_gangbang 7
     "Eventually, some of the boys start to jerk off watching the scene I've provided for them."
 
-    scene rina_cg_3_gangbang 8
+    scene rina__cg_3_gangbang 8
     "As for me, I lie here and let Rina slam her hips against me, letting off a slapping sound throughout the room."
     rina "Ah! Dick! Dick! It feels so good inside me!"
     "She's obviously enjoying this."
@@ -1091,21 +1091,21 @@ label rina__cg_3:
     shinn "Here it comes!"
     rina "Ahh~"
 
-    scene rina_cg_3_gangbang 9 with cum_flash
+    scene rina__cg_3_gangbang 9 with cum_flash
     "In an instant, I shoot right into her womb."
 
-    scene rina_cg_3_gangbang 10 with cum_flash
+    scene rina__cg_3_gangbang 10 with cum_flash
     "There's so much, it's impossible for her to contain it all, leaving my creampie spilling from her pussy."
 
-    scene rina_cg_3_gangbang 11 with cum_flash
+    scene rina__cg_3_gangbang 11 with cum_flash
     "At the same time, all the boys come together, shooting out over her body."
     "They cover her hair, her armpits, her belly and her hips."
 
-    scene rina_cg_3_gangbang 12 with cum_flash
+    scene rina__cg_3_gangbang 12 with cum_flash
     "Everywhere I can see, her body is covered in cum."
     "It was enough for the smell of it to fill the whole room."
 
-    scene rina_cg_3_gangbang 13
+    scene rina__cg_3_gangbang 13
     rina "Ah! Cum! There's so much! I love it!"
     "Rina's mind is addled all over again. And it seems she isn't ready to stop here."
     rina "More~ I want more!"
@@ -1128,7 +1128,7 @@ label rina__cg_3:
     male_2 "Me next!"
     "With Rina's erotic face spurring them on, the boys quickly line themselves up."
 
-    scene rina_cg_3_gangbang 14
+    scene rina__cg_3_gangbang 14
     "The first boy wastes no time inserting himself into her mouth."
     male_1 "Oh my god, her mouth is heaven!"
     rina "Mmm~ Tastes so good!"
@@ -1145,10 +1145,10 @@ label rina__cg_3:
     rina "It's okay. You can cum inside me. I'll drink it all!"
     male_1 "Argh! Here it comes!"
 
-    scene rina_cg_3_gangbang 15 with cum_flash
+    scene rina__cg_3_gangbang 15 with cum_flash
     "The cum shoots out of his dick directly into Rina's throat as she takes it all down."
 
-    scene rina_cg_3_gangbang 16 with cum_flash
+    scene rina__cg_3_gangbang 16 with cum_flash
     rina "Hmm~ Cum!"
     "The mere taste of cum gets her so excited that she can't think about anything else."
     "The boy pulls back as soon as she's taken everything he had."
@@ -1158,16 +1158,16 @@ label rina__cg_3:
     male_2 "Me!"
     shinn "Alright. Go on then!"
 
-    scene rina_cg_3_gangbang 17
+    scene rina__cg_3_gangbang 17
     "The cycle repeats again and again. As time goes by, I lose count of the number of boys who've used her mouth."
 
-    scene rina_cg_3_gangbang 26
+    scene rina__cg_3_gangbang 26
     "She's taken in so much cum that it's left her stomach swollen."
     rina "Ah... So much..."
     shinn "Look at you, you look like you're pregnant."
     rina "..."
 
-    scene rina_cg_3_gangbang 32
+    scene rina__cg_3_gangbang 32
     "She's unable to respond, so full she can barely make herself speak."
     shinn "I think could go without any more food for a few days now."
     shinn "Hahaha..."
@@ -1185,7 +1185,7 @@ label rina__cg_3:
     "As the boys get themselves ready, Rina looks thrilled."
     rina "Yes~ More~"
 
-    scene rina_cg_3_gangbang 33
+    scene rina__cg_3_gangbang 33
     shinn "It's going to be a long day for you, Rina."
     $ renpy.end_replay()
     $ persistent.rina__cg_3 = True
