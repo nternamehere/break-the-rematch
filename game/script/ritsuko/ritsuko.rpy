@@ -418,7 +418,7 @@ label tennis__day_1_continued_1:
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
     play music sex fadeout 1.0 fadein 1.0
-    scene bg locker room with fade
+    scene bg locker room with map_fade
     "I heard from her teacher that Ristuko usually has a short solo practice during lunch."
     "After eating an early lunch, I come down here to confront her."
     "I've been waiting for an opportunity like this, ever since Ritsuko threatened to expose me before."
@@ -1119,7 +1119,7 @@ label ritsuko__cg_3_end:
     jump map__school
 
 label ritsuko__cg_4:
-    scene ritsuko__cg_4 1 with fade
+    scene ritsuko__cg_4 1 with map_fade
     "The last few days with Ritsuko have been pretty busy."
     "I've been training her pretty much nonstop. I think she's completely lost track by now of how long it's been."
     "Looking at her now, her complete transformation from a snobbish rich girl to a sex-crazed bitch is pretty incredible."
