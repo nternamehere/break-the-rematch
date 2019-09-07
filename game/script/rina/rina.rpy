@@ -82,6 +82,7 @@ label staffroom_day_1__start:
 
 label staffroom_day_1__continued_1:
     $ rina_next_step = "continue_2"
+    scene black
     "I decide to be a busybody and follow her. This looks interesting, I don't want to lose track of her now."
 
     scene bg rooftop with dissolve
@@ -141,9 +142,10 @@ label staffroom_day_1__continued_1:
 
 label staffroom_day_1__continued_2:
     $ rina_next_step = "cg_2"
-    shinn "Ms. Rina, Is there anything else that I can do for you?"
-
+    scene bg staffroom
     show rina annoyed 2
+
+    shinn "Ms. Rina, Is there anything else that I can do for you?"
     rina "Huh? Weren't you supposed to get started on tutoring our students?"
     shinn "Well, I thought maybe just for now, I might be able to do something to help you."
     "Rina is clearly put off by my suggestion."
@@ -1198,11 +1200,6 @@ label rina__intermission:
     "After all, what does time matter to a meat toilet?"
     "But even if I've lost track of the days, that doesn't mean things have gotten dull."
     jump rina__cg_4
-# *CG TRANSITION*
-
-# Title: Rina Arc – Day 225 – Evening
-# Location: Classroom
-# Background CG: A typical classroom with a blackboard. Chairs and desks stand in single-file rows.
 
 label rina__cg_4:
     "The room is filled with naked and hungry schoolboys."
