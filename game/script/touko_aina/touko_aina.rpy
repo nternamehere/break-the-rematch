@@ -8,11 +8,6 @@ label touko_aina__router:
     else:
         jump gym__day_1
 
-# *CG TRANSITION*
-# Title: Touko Arc – Day 1 – Morning – 7:30AM
-# Location: Haruka Academy, Basketball Court
-# Background CG: Basketball Court
-
 label gym__day_1:
     $ touko_aina_next_step = "day_3"
     $ gym_available = False
@@ -646,12 +641,7 @@ label gym__day_1_continued_4:
     "I take the panties with me and keep them in my pocket."
     shinn "Let's see who comes back to get these. If I'm on track here, they should be back for them as soon as classes are over."
 
-# *CG TRANSITION*
-
-# Title: Touko Arc – Day 2 – Afternoon– 3:00 PM
-# Location: Hallway
-# Background CG: Hallway
-
+    scene bg hallway 1 with pixellate
     "Classes have ended."
     "I've been waiting in this spot for over two hours now. I feel like an idiot."
     thinking "This was such a stupid idea."
@@ -673,21 +663,10 @@ label gym__day_1_continued_4:
     "A few minutes later, she comes back out of the room looking extremely anxious."
     "She walks away slowly."
     shinn "Checkmate."
-
-# *CG TRANSITION*
-# Title: Touko Arc – Day 2 – Morning – 3:30PM
-# Location: Haruka Academy, Hallway
-# Background CG: Hallway...
-
     "I feel a sense of victory welling up in me as I head towards the classroom."
     thinking "I've got the dirt on her. Now it's time for the payoff..."
 
-# *CG TRANSITION*
-
-# Title: Touko Arc – Day 2 – Afternoon– 3:35 PM
-# Location: Haruka Academy, Class 3-2
-# Background CG: A typical classroom with a blackboard. Chairs and desks stand in single-file rows.
-
+    scene bg classroom with dissolve
     "As I slide open the door, I'm surprised as the sight of Touko waiting for me in the classroom."
     "Instead of her usual school uniform, she was dressed in her basketball team outfit."
     thinking "Heh... Afraid of being exposed?"
@@ -849,21 +828,35 @@ label touko_aina__cg_2:
     shinn "Right. Let's start off easy, shall we? Put your hands on the blackboard and lean forward with your hips out."
     touko "..."
     shinn "Come on. I don't have all day."
+
+    scene touko_aina__cg_2 1 with fade
     "She stands up and walks over to the blackboard and does as I instructed, a look of disgust on her face."
     touko "Is that it?"
     shinn "Good."
+
+    scene touko_aina__cg_2 2
     "I approach and stand directly behind her. I keep my eyes glued on her full and toned ass."
     shinn "Seems to me that you work your butt pretty hard for the basketball team."
     touko "Shut up!"
+
+    scene touko_aina__cg_2 3
     shinn "Yeah, keep that up. I like to play with girls like that."
     touko "You—"
+
+    scene touko_aina__cg_2 4
     "Before she can finish her sentence, I strip down her jersey shorts."
     touko "Kya! What— "
+
+    scene touko_aina__cg_2 5
     "Since I already have her panties on me, her pussy and her asshole are completely exposed."
     shinn "Wow, not even wearing panties? You're a very naughty student, Touko."
     touko "Please, stop!"
+
+    scene touko_aina__cg_2 6
     "I unzip my pants and place my erect dick right on her ass."
     shinn "I think you need to be disciplined."
+
+    scene touko_aina__cg_2 7
     "I place my dick right up against her pussy, brushing up against her entrance."
     touko "No! Please don't! That thing is too big! It wouldn't fit!"
     shinn "Well, let's find out, shall we?"
@@ -883,16 +876,22 @@ label touko_aina__cg_2:
     "Now all I need to do break her mind as well, and she'll be all mine."
     touko "Ahh! Please stop!"
     "Her screams get even louder. At this rate, someone is bound to hear her."
+
+    scene touko_aina__cg_2 8
     "I take her pink panties and shove them into her mouth in order to muffle her."
     shinn "Shut up, bitch!"
     touko "Hmmpp..."
     "She's trying to shout for help, but with her voice muffled by her panties, nobody is going to hear her."
     "I continue to savor her pussy with my dick."
+
+    scene touko_aina__cg_2 9
     "The sensation is breathtaking. I've never sampled an athletic girl's pussy before. It feels so different, so lively."
     "It doesn't take long before I start to feel the burning need to cum welling up in me."
     "I want to savor more of her pussy, but I can't put off the inevitability."
     shinn "I'm gonna cum!"
     touko "HMM, PFF!!"
+
+    scene touko_aina__cg_2 10
     "Her muffled noises get even more intense, pleading with me not to do it."
     shinn "Take it, Touko!"
     shinn "Take all of my cum!"
@@ -917,8 +916,11 @@ label touko_aina__cg_2:
                 jump touko_aina__cg_2_inside
 
 label touko_aina__cg_2_inside:
+    scene touko_aina__cg_2_inside 1 with cum_flash
     "Unable to resist any longer, I cum explosively inside her. It's so good, I cum enough that it gushes out from her pussy around me."
     shinn "Ahh!~"
+
+    scene touko_aina__cg_2_inside 2 with cum_flash
     "Her legs shake and her pink panties fall as her mouth gapes open."
     "Her tongue sticks out and her eyes roll back in excitement."
     touko "AHH!"
@@ -926,12 +928,15 @@ label touko_aina__cg_2_inside:
     jump touko_aina__cg_2_end
 
 label touko_aina__cg_2_outside:
+    scene touko_aina__cg_2_outside 1 with cum_flash
     "Unable to resist any longer, I take my dick out and spray it all over her back."
     shinn "Ahh!~"
     "Her legs shake and her pink panties fall as her mouth gapes open."
     "Her tongue sticks out and her eyes roll back in excitement."
     touko "AHH!"
     "She falls to the ground, unable to support her weight."
+    scene touko_aina__cg_2_outside 2 with cum_flash
+
     "My cum is splattered everywhere, on the floor, across her back, covering her jersey."
     "Some of it is even clinging to her hair. I'm surprised it was able to shoot out over such a distance."
     jump touko_aina__cg_2_end
@@ -951,12 +956,8 @@ label touko_aina__cg_2_end:
     $ persistent.touko_aina__cg_2 = True
     jump map__school
 
-# *CG TRANSITION*
-
-# Title: touko_aina Arc – Day 3 – Morning – 8.00AM
-# Location: Haruka Academy, Staff Room
-# Background CG: Same as before, only this time the timing as changed. 
 label gym__day_3:
+    scene bg staffroom with map_fade
     $ touko_aina_next_step = "continue_1"
     "I came very early to school today just to check and ensure that everything was alright."
     "And also, to make sure that Aina doesn't suspect anything yet."
@@ -965,12 +966,8 @@ label gym__day_3:
     "After everything yesterday, hopefully she'll still come in to school today."
     "I take a look at the clock and realize that school is just about to start."
     thinking "Hmm... Maybe I should pop by her class before lessons, just to give her a little surprise."
-# *CG TRANSITION*
 
-# Title: touko_aina Arc – Day 3 – Morning – 8.15AM
-# Location: Haruka Academy, Hallway.
-# Background CG: Same as before, only this time the timing as changed. 
-
+    scene bg hallway 1 with pixellate
     "I stand in the hallway outside Touko's classroom, leaning by the window, waiting for Touko to arrive."
     "However, before long, I start to realize that this might not be the greatest idea."
     "Some of the students start to take notice of my presence here. Considering that I'm not wearing my old school uniform, and don't look old enough to fit in among the faculty, I can't help standing out."
@@ -1032,12 +1029,9 @@ label gym__day_3:
     thinking "Hmm... Seems like Aina is the key to Touko."
     thinking "Haha... Or vice versa I should say."
     jump touko_aina__cg_3
-# *CG TRANSITION*
-
-# Title: touko_aina Arc – Day 3 – Afternoon– 3:35 PM
-# Location: Haruka Academy, Swimming Pool
-# Background CG: A typical classroom with a blackboard. Chairs and desks stand in single-file rows.
+    
 label touko_aina__cg_3:
+    scene bg pool with dissolve
     "After giving the matter careful consideration..."
     "I think the best course of action is to proceed with Aina and see where things go from there."
     "I mean, I have the upper hand. What could go wrong for me?"
@@ -1120,9 +1114,13 @@ label touko_aina__cg_3:
     aina "Shut up..."
     "The latex of the swimsuit, slick and wet from her shower, turns me on like crazy."
     "Just fucking her isn't going to be enough, it makes me want to toy with her first."
+
+    scene touko_aina__cg_3 1 with fade
     "I bend down beside her, and place my dick near the armpit opening of her swimsuit."
     "Slowly, I insert my dick into the opening, sandwiching it between the latex and her skin."
     "The size of my erection is enough that my dick reaches all the way to her nipple."
+
+    scene touko_aina__cg_3 2
     aina "Mm..."
     "Aina doesn't say anything, but from the look on her face, this isn't a bad feeling for her."
     "I begin to rub my dick along her breast underneath the swimsuit."
@@ -1137,10 +1135,16 @@ label touko_aina__cg_3:
     aina "..."
     shinn "I'm gonna cum inside your swimsuit!"
     aina "Mmm..."
+
+    scene touko_aina__cg_3 3 with cum_flash
     "As I reached the point where I couldn't hold it any longer, I ejaculate, spilling my semen across the top of her swimsuit and around the armpit opening."
     shinn "Ahh..."
+
+    scene touko_aina__cg_3 4 with cum_flash
     shinn "That felt so good..."
     aina "...."
+
+    scene touko_aina__cg_3 5
     "Aina examines herself, looking shocked as she realizes how much of my semen has spilled inside her suit. It's even coming out through the neck opening"
     "But apart from that, she seems to be taking the situation in stride."
     aina "So, I guess you're planning to move on to the real thing from here, huh?"
@@ -1161,23 +1165,33 @@ label touko_aina__cg_3:
     thinking "I guess I shouldn't be surprised."
     thinking "But if she's that horny to begin with, this should be a walk in the park for me."
     shinn "Well, alright then."
+
+    scene touko_aina__cg_3 6
     "I move around behind Aina, where I position myself to penetrate her."
     shinn "So, I assume you've got a dildo already which you've tried out on yourself and Aina before?"
     aina "You don't need to know anything like that."
     shinn "You two must have a lot of fun times together."
     shinn "It's a shame I haven't been there to see any of it for myself."
     aina "..."
+
+    scene touko_aina__cg_3 7
     "I take a look at her pussy before I get started."
     shinn "Look at this. It's all wet."
     shinn "Getting excited by the incoming dick, huh?"
     aina "..."
     shinn "Now, it's time for you to see which is better. A plastic dick, or a real meat rod that shoots cum out into your slutty pussy!"
+
+    scene touko_aina__cg_3 8
     "I plunge right in, and waste no time forcing myself all the way to her deepest parts."
     aina "Kya!"
     shinn "Oh? Too much for you to take?"
     shinn "I bet a dildo doesn't feel as good as my dick now, does it?"
+
+    scene touko_aina__cg_3 9
     aina "Shu... Shut up."
     shinn "By the end of today, I am going to make sure you won't be satisfied by anything but my dick from now on!"
+
+    scene touko_aina__cg_3 10
     aina "Like hell I will!"
     "Since she's feeling so defiant, I decide to go even deeper, and thrust myself all the way into her womb."
     aina "Ahh~"
@@ -1201,6 +1215,8 @@ label touko_aina__cg_3:
     shinn "You're gonna enjoy my dick from now on, you get me?"
     aina "Y... Yes..."
     shinn "Now as a reward, you'll get to enjoy the thick milk from my balls."
+
+    scene touko_aina__cg_3 11
     aina "What? No!"
     aina "No, not today. Today isn't safe!"
     shinn "No? But your pussy keeps squeezing me the more I move."
@@ -1220,8 +1236,12 @@ label touko_aina__cg_3_outside:
     shinn "Alright, if that's how you want it..."
     "I give Aina one last pound before pulling my dick out."
     shinn "Here it comes!"
+
+    scene touko_aina__cg_3_outside 1 with cum_flash
     "In an instant, the cum shoots out all over her body, covering her swimsuit."
     aina "Ah~"
+
+    scene touko_aina__cg_3_outside 2 with cum_flash
     "Some of it even gets on her face."
     aina "Mm~"
     jump touko_aina__cg_3_end
@@ -1236,8 +1256,12 @@ label touko_aina__cg_3_inside:
     "I ignore her plea and plow ahead."
     shinn "Here it comes! Accept my milk in your womb!"
     aina "No!"
+
+    scene touko_aina__cg_3_inside 1 with cum_flash
     "I give Aina one last pound and my milk shoots out instantly right into her womb."
     shinn "Argh!"
+
+    scene touko_aina__cg_3_inside 2 with cum_flash
     "It's so much that the milk gushes out from her pussy."
     aina "Ah~"
     "I pull my dick out to inspect the mess I've made of her."
@@ -1254,14 +1278,8 @@ label touko_aina__cg_3_end:
     $ persistent.touko_aina__cg_3 = True
     jump map__school
 
-
-# *CG TRANSITION*
-
-# Title: touko_aina Arc – Day3 – Morning – 10:00AM
-# Location: Haruka Academy, Hallway
-# Background CG: Hallway
-
 label gym__day_3_continued_1:
+    scene bg hallway 2 with map_fade
     $ touko_aina_next_step = "continue_2"
     "I come in early in the morning to check things out with Aina"
     "Afterall, what I did with her yesterday was kind of amazing."
@@ -1301,12 +1319,8 @@ label gym__day_3_continued_1:
     thinking "She already knows what'll happen if she doesn't."
     jump touko_aina__cg_4
 
-# *CG TRANSITION*
-
-# Title: touko_aina Arc – Day3 – Afternoon – 1:00PM
-# Location: Haruka Academy, Utility Room
-# Background CG: Utility Room
 label touko_aina__cg_4:
+    scene bg utility room with pixellate
     "I came ahead of time to make preparations for what I'll be doing with Aina today."
     "I expect a bit of resistance from her, but not too much."
     "When you consider what I already did with her yesterday..."
@@ -1348,10 +1362,16 @@ label touko_aina__cg_4:
     shinn "But, if you go along with this now, I'll delete the dirt I have on Touko and forget about things with the two of you."
     shinn "After that, it'll be over between you and me."
     thinking "Well, if you're not addicted to my cock by then, that is."
+
+    scene touko_aina__cg_4 1 with fade
     "I corner her against the walls."
     shinn "So why don't we stop the chatting and get down to business?"
+
+    scene touko_aina__cg_4 2
     "Cornered like this, Aina seems unable to think straight."
     "Maybe she's decided that her best option is to go along with things as I said, or maybe she just doesn't have the nerve to resist, but her body seems to loosen up."
+    
+    scene touko_aina__cg_4 3
     "I decide to take a chance, and reach slowly reach out my hand to feel her pussy."
     aina "Mmm~"
     aina "Don't... don't move too fast, okay?"
@@ -1365,6 +1385,8 @@ label touko_aina__cg_4:
     shinn "Did you realize after you got a taste of my cock before that you were missing out on the good stuff?"
     aina "Shut... Up..."
     shinn "I expected better from you, Aina."
+
+    scene touko_aina__cg_4 4
     "Despite my words, Aina continues to stare at me, as if she'expecting something."
     shinn "You really want that kiss, huh?"
     shinn "Okay then."
@@ -1378,8 +1400,12 @@ label touko_aina__cg_4:
     "Speaking of dick, the feeling of our kiss, and of her smooth pussy against my hands, has gotten me completely hard."
     "In fact, I'm so hard now that the pre-cum has already started leaking out, and Aina hasn't even touched me yet."
     "I stop the kiss for a moment to examine the wet spot growing against the bulge in my pants."
+
+    scene touko_aina__cg_4 6
     "As I pull back, Aina takes notice of it as well, and begins to stroke the tip."
     "Without my instruction, she takes the initiative and unzips my pants."
+
+    scene touko_aina__cg_4 7
     "My dick immediately springs free, catching her by surprise."
     shinn "Whoa, looks like you know what you're doing after all."
     shinn "Just like I thought, I had you pegged as the really horny one between you and Touko."
@@ -1392,16 +1418,22 @@ label touko_aina__cg_4:
     "My dick is quivering while we speak."
     shinn "My dick is hungry for some attention. Why don't you try out some of your techniques from the internet on me?"
     aina "..."
+
+    scene touko_aina__cg_4 8
     "Aina begins to stroke my dick slowly."
     aina "Its... warm..."
     shinn "Heh. You like it, don't you?"
     shinn "Come on, stroke it harder, pleasure me if you can."
     shinn "In return, I'll make you feel good with my fingers."
     "Aina doesn't reply, but from her expression, I can see I've got the go ahead."
+
+    scene touko_aina__cg_4 9
     "I shift her underwear to the side and begin to insert my finger as she strokes."
     aina "Ah~"
     "I begin to finger her gently. I can't be bothered to go soft like this all the time, but I feel like showing her a bit of consideration."
     "In retun, she strokes my dick at a matching pace."
+
+    scene touko_aina__cg_4 10
     "Our movements are perfectly synchronized so that the two of us can cum at the same time."
     "She's staring straight at my face as she jerks me off, and I can feel the hot, steamy air of her breath against my skin."
     "She's getting more into this by the moment."
@@ -1415,6 +1447,8 @@ label touko_aina__cg_4:
     "Hearing my voice seems to get her even more excited."
     "She starts to stroke even faster..."
     "And I start to finger faster."
+
+    scene touko_aina__cg_4 11
     aina "Ah~ Shinn..."
     aina "I can't..."
     shinn "Let it out, Aina."
@@ -1429,20 +1463,28 @@ label touko_aina__cg_4:
     aina "Ah~ It feels so good!"
     "As she cums, she violently jerks at my penis."
     shinn "Agh, me too!"
+
+    scene touko_aina__cg_4 12 with cum_flash
     "The sight of her, and the sudden movement, force me over the edge as well."
     shinn "Ahh~"
     "The feeling is incredible. It's enough that the two of us nearly black out."
     "The two of us lean against each other, panting as we try to regain our senses."
     "The area around us is a mess. Her skirt is covered with my cum, while my hand and her panties are drenched with her pussy juice."
+
+    scene touko_aina__cg_4 13 with cum_flash
     "From the look on Aina's face, it seems like she's still hungry for more."
     shinn "Not enough, eh?"
     shinn "Seems like you're ready to move on to the main course."
     aina "Yeah..."
     shinn "Alright then. Since you're being a good girl today, I'll give you a treat."
+
+    scene touko_aina__cg_4 14
     "I lift up one of her legs, exposing her soaking wet panties."
     aina "What are you doing?"
     shinn "Oh, you'll see."
     "I shift her underwear out of the way to get a clear view of her pussy hole."
+
+    scene touko_aina__cg_4 15
     "Without giving any warning, I slam my dick straight into her pussy."
     aina "Oww~"
     shinn "You love it. Don't you?"
@@ -1450,6 +1492,8 @@ label touko_aina__cg_4:
     "But that doesn't stop her from enjoying my dick."
     aina "Yes..."
     "I fall into my usual forceful pattern as I penetrate her."
+
+    scene touko_aina__cg_4 16
     "I thrust deep inside her, all the way to her womb. And damn, but she sure shows that she's feeling it."
     aina "Ah~ Harder!"
     "I pick up the pace as the raw pleasure shows itself on her face."
@@ -1479,6 +1523,8 @@ label touko_aina__cg_4:
     aina "Dicks are the best after all, especially yours!"
     shinn "Hahaha..."
     shinn "That's what I want to hear."
+
+    scene touko_aina__cg_4 17
     "As she said that, I could feel her pussy clamping down on me even tighter."
     "Seems like her desire for my cum is getting stronger by the minute."
     "At the same time, it feels like my balls are almost desperate to shot it out."
@@ -1509,11 +1555,15 @@ label touko_aina__cg_4_outside:
     "I've reached the point where I can't hold out any longer."
     aina "Hurry up, Master!"
     shinn "It's coming!"
+
+    scene touko_aina__cg_4_outside 1 with cum_flash
     "I pound her womb one final time, then just as I'm about to explode, I pull it out and spray my cum all over body."
     aina "Ah~! Shinn's cum~"
     aina "It smells so good!"
     "The room is filled with the smell of my cum."
     "Aina has really milked me dry with this. It'll be a while before I'm ready to go again."
+
+    scene touko_aina__cg_4_outside 2 with cum_flash
     "But her body, and face are completely covered with my jizz, and Aina seems fully sated."
     "She's blissed out, basking in the feel, smell, and taste of my cum, which overpowers her senses."
     "It looks like she doesn't even know what's going on around her anymore."
@@ -1524,7 +1574,11 @@ label touko_aina__cg_4_inside:
     "I've reached the point where I can't hold out any longer."
     aina "Hurry up, Master!"
     shinn "It's coming!"
+
+    scene touko_aina__cg_4_inside 1 with cum_flash
     "In an instant, I spray everything that's left inside my balls straight into her womb."
+
+    scene touko_aina__cg_4_inside 2 with cum_flash
     "Aina convulses as she feels the boiling heat of my cum flooding her insides."
     aina "Ah~! Shinn's cum!"
     aina "It feels so good inside me!"
@@ -1547,12 +1601,8 @@ label touko_aina__cg_4_end:
     $ persistent.touko_aina__cg_4 = True
     jump map__school
 
-# *CG TRANSITION*
-
-# Title: touko_aina Arc – Day 3 – Afternoon– 3:35 PM
-# Location: Haruka Academy, Hallway
-# Background CG: Hallway
 label gym__day_3_continued_2:
+    scene bg hallway 1 with map_fade
     "The tutoring session was supposed to start at 3.30pm, but I'm running a little bit late."
     "You can chalk that up to the work I've had to go to to get Aina properly ready."
     "She's waiting in the wings to get things started now, wearing nothing but a dog collar."
@@ -1565,13 +1615,8 @@ label gym__day_3_continued_2:
     aina "Got it!"
     jump touko_aina__cg_5
 
-# *CG TRANSITION*
-
-# Title: touko_aina Arc – Day 3 – Afternoon– 3:40 PM
-# Location: Haruka Academy, Class 3-2
-# Background CG: A typical classroom with a blackboard. Chairs and desks stand in single-file rows.
-
 label touko_aina__cg_5:
+    scene bg classroom with dissolve
     "I slide the door opened to find Touko already waiting for me."
     "She tenses up the moment I come into the room."
     "Well, that can't be helped considering what I've already done with her."
@@ -1654,40 +1699,68 @@ label touko_aina__cg_5:
     aina "Yes Master!"
     shinn "You heard me. You too, Touko."
     "At this point, Touko has given up on fighting back. She's accepted this as reality, and follows suit along with Aina, even as her face shows that she's still repulsed by all of this."
+    
+    scene touko_aina__cg_5_blowjob 1 with fade
     "The two of them kneel down in front of me side by side. With the two of them on the ground like this, the tip of my dick nearly reaches out to touch their foreheads."
     "Touko, who's never seen a dick up close before, is clearly intimidated at the sight of it."
     thinking "Looks like she's wondering if it's even possible for her to take it in her mouth."
     shinn "Well ladies, what are we waiting for?"
+
+    scene touko_aina__cg_5_blowjob 2
     "Aina knows what to do, and makes the first move, licking my cock along the side. Seems like she's trying to lead Touko by example."
+
+    scene touko_aina__cg_5_blowjob 3
     "Touko takes a look at Aina's skillful tongue work, and does her best to follow suit."
+
+    scene touko_aina__cg_5_blowjob 4
     "Aina continues to lick while keeping a watch over Touko. She works her tongue down the length of my shaft, even taking my balls into her mouth."
+
+    scene touko_aina__cg_5_blowjob 5
     shinn "Ahhh... Touko, this feels great."
+
+    scene touko_aina__cg_5_blowjob 6
     "As Touko begins to pick up a feel for what she's doing, she takes a bold step and takes my cock into her mouth, filling up her throat as far as she can while Aina continues to suck off my balls."
     touko "Enngh... It's salty."
+
+    scene touko_aina__cg_5_blowjob 7
     "Touko makes a sour face as she finally gets her first taste of a real dick in her life. Hardly surprising in her case."
     "But, she should be used to it pretty soon."
     shinn "Aww, yeah... You guys are doing great."
+
+    scene touko_aina__cg_5_blowjob 8
     "They keep sucking and licking together, trading off on my cock and balls between them. It feels amazing."
     aina "Mmm..."
     "Aina's clearly enjoying this. Seems like her lesson this afternoon really sunk in."
+
+    scene touko_aina__cg_5_blowjob 9
     "Her sucking feels like it's trying to pull my cum straight out of me. Considering how much time she's probably spent licking Touko's pussy, it seems she's probably picked up a thing or two."
     shinn "Ugh... I'm gonna cum..."
     "Touko understood what was coming, but she didn't want to think about it, and kept on at her regular pace."
     "Meanwhile, Aina picks up the intensity in anticipation of what's coming,"
     aina "Ah, Master is going to cum! Please shoot out your thick juicy cum for us!"
     shinn "Ugh! Stick your tongues out!"
+
+    scene touko_aina__cg_5_blowjob 10
     "They both hold their tongues out for me, like they're waiting for the taste of my cum."
     "Without their mouths to stimulate me, I take over with my hand, forcefully jerking myself off to the finish."
     shinn "Here it comes!"
+
+    scene touko_aina__cg_5_blowjob 11 with cum_flash
     "I aim between their faces as I shoot out my cum. It sprays out all over them, across their faces, their bodies, a little even landing in their mouths."
+    
+    scene touko_aina__cg_5_blowjob 12 with cum_flash
     aina "Ah~ Master's cum! It's all over me! I love it!"
     "No wonder that Aina is enjoying it. But Touko seems a little surprised at the taste."
     touko "So... this is what cum is like..."
     touko "It tastes... salty, huh."
     aina "Master's cum tastes great! Isn't that right, Touko?"
     touko "..."
+
+    scene touko_aina__cg_5_blowjob 13
     "Both of them really seem to get into the taste and smell of my cum. Although Touko still seems a bit reserved, it looks like she's adapting to this pretty fast."
     shinn "Heh. It's not over yet."
+
+    scene touko_aina__cg_5_ride 1 with fade
     "I strip off the rest of my clothes, and lie down on the classroom floor."
     shinn "Alright. Touko, I want you to ride my dick."
     touko "W... What?"
@@ -1699,11 +1772,15 @@ label touko_aina__cg_5:
     shinn "Come on, Touko,Take a cue from Aina. She's being such a good girl trying to convince you."
     "Touko slowly gets into place and positions herself for insertion."
     shinn "Well, what are you waiting for? Hurry up and put it in."
+
+    scene touko_aina__cg_5_ride 2
     "The size is a bit much for her to handle, but Touko works up her resolve and finally brings herself down onto it."
     "She takes my dick inside her, bit by bit, the pleasure starting to show on her face."
     touko "Ah~"
     "Finally, she manages to sink down all the way onto me, my dick fully inserted inside her."
     "At this depth, I can feel the head of my cock rubbing up against her womb."
+
+    scene touko_aina__cg_5_ride 3
     touko "Ah~! It's so deep inside me!"
     aina "Isn't it amazing?"
     touko "I guess..."
@@ -1731,13 +1808,21 @@ label touko_aina__cg_5:
     "Well, considering her good work, it'd be a shame to leave her out."
     shinn "Alright Aina, why don't you sit on my face so I can lick your pussy?"
     aina "Okay~"
+
+    scene touko_aina__cg_5_ride 4
     "Aina hurries over and gets on top of me without hesitation."
     "She faces Aina as she rests her cushion-like ass against my face."
+
+    scene touko_aina__cg_5_ride 5
     "Seems like all the time she's spent training her body for swimming has really paid off."
     thinking "Damn... If her ass was this soft, I should have tried this before."
+
+    scene touko_aina__cg_5_ride 6
     "I stick out my tongue, running it over her pussy."
     aina "Ahh... Master's tongue is licking my pussy! You're sucking out all the juice from my pussy!"
     aina "Amazing! It feels so good!"
+
+    scene touko_aina__cg_5_ride 7
     "Unable to resist the feeling of my tongue, Aina rocks her hips against me, grinding herself against my face."
     "Her butt feels so soft against me, I can't help but let her go at it."
     "It's like having a plush, warm pillow squashed against my face."
@@ -1748,25 +1833,35 @@ label touko_aina__cg_5:
     "Even like this, the two of them still love each other, and they look at each other with hazy eyes as they bounce against me."
     "Seems like they're flashing back to all the dirty stuff they've done together."
     "It almost feels like their hearts and minds are being connected through me right now."
+    
+    scene touko_aina__cg_5_ride 8
     "They reach out for each others' hands, holding on tight, not needing to hide anything now."
     "Touko is the first one to speak out."
     touko "Aina, I love you!"
     "Aina follows suit"
     aina "I love you too, Touko!"
+
+    scene touko_aina__cg_5_ride 9
     "Aina leans forward, moving her face in close and opening her mouth, inviting Touko in for a kiss."
     "As Touko follows her lead, the two of them lock mouths in an energetic and passionate kiss."
     touko "Mmm~"
     aina "Mmm~"
+
+    scene touko_aina__cg_5_ride 10
     "The two of them let their saliva run into each other's mouths, drip down each other's faces, even dripping onto me underneath them."
     "Of course, I don't mind. I'm getting the most out of their love of anyone after all."
     "Touko pulls back first, and gazes at Aina with hearts in her eyes."
     touko "Whatever you do, Aina, I'll always be with you."
     aina "I feel the same way. I'm glad we can stay together like this."
+
+    scene touko_aina__cg_5_ride 11
     "Looks like Touko doesn't care about the circumstances anymore. As long as Aina is with her, she's happy."
     "She's finally accepted the fact that the only way she can stay together with Aina is to give in and become my sex slave."
     "She's finally realized just how amazing my dick really is, and why Aina loves it so much."
     "She lets out an even louder moan as she grinds herself against me."
     touko "Ahh~"
+
+    scene touko_aina__cg_5_ride 12
     "As she senses Touko enjoying herself more and more..."
     aina "Touko, Master's dick is amazing isn't it?"
     touko "Yeah..."
@@ -1780,6 +1875,8 @@ label touko_aina__cg_5:
     thinking "Wait a minute..."
     thinking "How the hell did this turn into a lovey-dovey situation?"
     thinking "Pffft... Whatever. As long as it keeps going well for me, I'm fine with it."
+
+    scene touko_aina__cg_5_ride 13
     "Both of them start to rock faster."
     "Their pussies are getting tighter, and it's getting harder and harder to get my tongue inside of Aina."
     touko "Ah~! Aina, I'm cumming~"
@@ -1790,13 +1887,19 @@ label touko_aina__cg_5:
     "A sudden squirt of juices gushes from their pussies as the two of them cum together."
     touko_aina "Ahh~"
     "I taste Aina's sweet pussy juice as it runs into my mouth and trickles out along my jaw."
+
+    scene touko_aina__cg_5_ride 14 with cum_flash
     "Unable to resist the taste of the sweet high school girl on top of my, I finally cum, hard, into Touko's pussy."
     "My cum mixes together with Touko's own juices as they splash out."
+
+    scene touko_aina__cg_5_ride 15 with cum_flash
     touko "Ah~ Master's cum!"
     "The whole space around us is a mess. My cum and their juices are mixed together in a puddle on the floor."
     "That was a hell of a good time. But for all I enjoyed myself, it was nothing compared to the number it did on Touko."
     "Just like Aina, she's completely mine now."
     "The two of them stand up and pull me to my feet."
+
+    scene bg classroom with dissolve
     touko "Master~"
     shinn "Heh. Good girl. Looks like you get your purpose in life now."
     aina "Yeah, we get to have fun with master now! I'm so proud of you, Touko."
@@ -1822,6 +1925,7 @@ label touko_aina__cg_5:
 # Location: Haruka Academy, Gym Hall
 # Background CG: Typical Gym hall  
 label touko_aina__cg_6:
+    scene bg gym with pixellate
     "It was a long and exciting walk. Since the two of them were following along behind me naked, we were flirting with the risk of getting caught the entire time."
     "Of course, at this hour, everyone has usually already gone home, but I have to count myself lucky that we didn't run into any last-minute surprises."
     "Of course, there are some people I already knew were still here today."
@@ -1875,27 +1979,49 @@ label touko_aina__cg_6:
     shinn "Now girls, remember, you're here to enjoy the wonders of men's dicks."
     shinn "Let them use whichever parts of your bodies they want, and they'll reward you with your favorite cum."
     aina "Okay~!"
+
+    scene touko_aina__cg_6_group 1 with fade
     "I unhook the leashes from their collars and step away. Immediately, all the boys jump in."
     male_1 "Aina!"
     male_2 "Holy shit, check Touko out!"
     "All of the boys take off their underwear and look for whatever parts they can find free to take their pleasure from Aina and Touko."
     "As usual, Aina is the more daring and the more eager. As soon as the boys approach, Aina begins to embrace their attentions without any sign of hesitation."
+    
+    scene touko_aina__cg_6_group 2
     "One of the boys pushes her down and lifts up her legs, plowing her pussy against the floor. Aina immediately moans out in pleasure."
     aina "Ah~!"
+
+    scene touko_aina__cg_6_group 3
     male_11 "Fuck, it's amazing! Her pussy's so tight and wet. Shinn must really have trained her for this!"
     "The boy gradually picks up the pace as he pounds her, forcing his dick all the way up against her womb."
     aina "Ah~! More, more~!"
+
+    scene touko_aina__cg_6_group 4
     "Getting impatient watching Aina being fucked, more boys start to jump in for a piece of the action."
     male_1 "Ugh, Aina, please rub my dick!"
+
+    scene touko_aina__cg_6_group 5
     aina "Sure!"
+
+    scene touko_aina__cg_6_group 6
     "Aina happily complies and begins to stroke the boy's dick with her hand."
     male_2 "Aina! Me too!"
     "Aina takes the second boy's cock in her other hand, and starts jerking him off as well."
+
+    scene touko_aina__cg_6_group 7
     aina "Ahh~ You boys' cocks are so hard and thick~!"
+
+    scene touko_aina__cg_6_group 8
     male_3 "Oh, fuck, I can't wait anymore when she talks slutty like that!"
+
+    scene touko_aina__cg_6_group 9
     "Upon hearing her, one of the boys kneels down close to Aina, and thrusts into her mouth."
+
+    scene touko_aina__cg_6_group 10
     male_3 "Go on Aina! Take my sweaty cock in your mouth!"
     aina "Mmmph~!"
+
+    scene touko_aina__cg_6_group 11
     "In no time, Aina was taking on boys' cocks in every way she could."
     male_3 "Aina's mouth-pussy is so good! It feels like my dick is melting inside her mouth!"
     male_4 "Unh! It's not just her mouth, her pussy is so tight, it's driving me crazy!"
@@ -1917,9 +2043,13 @@ label touko_aina__cg_6:
     "Another of the boys quickly jumps in for a request."
     male_6 "Ah, Touko! Please rub my dick with your hand!"
     touko "Hm? Ah, sure..."
+
+    scene touko_aina__cg_6_group 12
     "Touko uses her hand to slowly stroke his dick, and soon another boy is clamoring to get at her other hand.."
     male_7 "Me too, Touko! Please!"
     touko "Okay~"
+
+    scene touko_aina__cg_6_group 13
     "Touko slowly strokes away at both of the boys' dicks."
     touko "Ah~ So big..."
     male_6 "Fuck, Touko's hands are so soft! It feels so good!"
@@ -1928,6 +2058,8 @@ label touko_aina__cg_6:
     male_9 "Yeah. Holy shit, I'm so glad I came. This is a once in a lifetime opportunity!"
     male_4 "Hey, why don't we all try to cum together and blow their minds in one go?"
     male_1 "Yeah! Let's do that!"
+
+    scene touko_aina__cg_6_group 14
     "The boys start to pick up the pace, their movements becoming even more aggressive."
     "Aina and Touko start stroking the boys' dicks even faster to keep up, anticipating the incoming cum shower."
     touko "Mmm... Your dicks all feel so good! Please give me all of your cum!"
@@ -1940,20 +2072,34 @@ label touko_aina__cg_6:
     male_4 "Me too! Go on and take it Aina!"
     aina "Ahh~! Yes, I want it! Come on and give me every drop of your seed!"
     touko "Please~!"
+
+    scene touko_aina__cg_6_group 15 with cum_flash
     "Almost in unison, the boys cum, shooting out inside and over Aina and Touko's bodies from every angle."
+
+    scene touko_aina__cg_6_group 16 with cum_flash
     "The bunch of them together leave the girls completely drenched with their cum."
     "Looks like some of it even got into their mouths."
+
+    scene touko_aina__cg_6_group 17
     "The taste, the smell, and the sticky feeling all over their skin seems to drive the girls crazy."
+
+    scene touko_aina__cg_6_group 18 with cum_flash
     "These girls are already absolutely addicted to cum. It's like a drug to them now."
+
+    scene touko_aina__cg_6_group 19
     aina "Ah... There's so much cum and it smells so good! I'm going crazy!"
     touko "Mmm~ Tastes so good!"
     aina "Please give us more!"
     male_1 "Heh, no worries. There's plenty more to come."
     male_2 "This is far from over, ladies, so make sure you're ready for it all!"
+
+    scene touko_aina__cg_6_group 20
     touko_aina "Sure! ~"
     "I stand back and watch as the boys form a train on them."
     "The boys keep on going, one group after another."
     "By now I think we're up to around... round fifteen?"
+
+    scene touko_aina__cg_6_used 1 with fade
     "The girls' pussies are overflowing with cum, and there are tally marks scrawled across their thighs keeping track of how many times they've been used."
     male_11 "Wow. So Aina's taken it in the pussy 45 times now!"
     male_12 "Heh, then Touko's ahead. 60 times!"
@@ -1989,9 +2135,17 @@ label touko_aina__cg_6:
     male_1 "Hey, why don't we make their love even more fulfilling with our cum?"
     male_6 "Fuck yeah, let's do it! I've still got another round in me for that!"
     "The boys gather and begin to jerk off around Aina and Touko."
+
+    scene touko_aina__cg_6_used 2
     "A couple of enterprising boys take up position behind the two of them, mounting them doggy style."
+
+    scene touko_aina__cg_6_used 5
     "With the boys around them egging them on, Aina and Touko's kiss becomes even more lustful, drawing in the crowd even more."
+
+    scene touko_aina__cg_6_used 7
     "The two of them are completely lost in the moment, kissing each other as they're getting fucked from behind."
+
+    scene touko_aina__cg_6_used 10
     "The boys around them are jerking off frantically, preparing to shower them with their cum."
     aina "Mmm~"
     touko "Mmph~!"
@@ -1999,15 +2153,23 @@ label touko_aina__cg_6:
     "It looks as if the guys are about to reach their limits."
     male_1 "Oh fuck, she's squeezing so hard, I can't hold it!"
     male_2 "Me too! I'm gonna cum!"
+
+    scene touko_aina__cg_6_used 9
     "The boys pound into the girls even harder as they approach their finish."
     male_1 "Here it comes!"
+
+    scene touko_aina__cg_6_used 11 with cum_flash
     "Together at once, both the boys shoot their cum out deep into Aina and Touko's wombs."
+
+    scene touko_aina__cg_6_used 12 with cum_flash
     male_1_2 "UGH!"
+
+    scene touko_aina__cg_6_used 13 with cum_flash
     aina "Ah~!"
     touko "Mmm~!"
     "The boys pull out, leaving a flood of cum gushing out of Touko and Aina's pussies."
     male_3 "MY TURN!"
-    "But that doesn't stop the rest f the boys. There are still plenty of boys lining up behind who're far from spent, waiting their turns for the two."
+    "But that doesn't stop the rest of the boys. There are still plenty of boys lining up behind who're far from spent, waiting their turns for the two."
     male_4 "Yeah! Go on and take my cum, Aina! Get pregnant!"
     aina "Ah~! You guys..."
     "Aina and Touko look like they're in heaven right now. Their eyes are rolling back in their heads, overwhelmed by the pleasure."
@@ -2018,6 +2180,8 @@ label touko_aina__cg_6:
     aina "Ah, so much cum! I love it!"
     "The two of them are completely drenched, so much that the smell of cum overpowers the entire gym."
     "The boys keep up a train on them, providing the girls with a buffet of their cum."
+    
+    scene touko_aina__cg_6_used 14 with cum_flash
     "By now, Aina and Touko's stomachs are bulging with the tremendous amount of cum they've taken inside them."
     "The two of them look like they're pregnant. Although, considering everything they've been through tonight, it wouldn't be at all surprising if they really are now."
     "As the latest round of boys releases their load, they start to show signs of exhaustion."
@@ -2036,6 +2200,8 @@ label touko_aina__cg_6:
     male_2 "I'm not dried up yet! I'm not going anywhere until they've taken down the last drop!"
     male_3 "We'll keep this up even if it means we're here all night!"
     shinn "Alright, let's keep this going all night then!"
+
+    scene black with fade
     "One thing is for sure; these girls have found their true destiny."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_6 = True
