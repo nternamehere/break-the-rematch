@@ -740,6 +740,8 @@ label rina__cg_2:
     "Her asshole was twitching. I guess she wants it there."
     shinn "Looks like want to have some more fun with your ass."
     rina "Wait... No..."
+
+    scene rina_rooftop_2 1
     "Rina looked back with a worried face."
     shinn "No what?"
     rina "Please don't stick it into my ass..."
@@ -748,7 +750,7 @@ label rina__cg_2:
     shinn "Dirty? Nah, it's okay."
     shinn "I'll clean it up for you with my dick."
 
-    scene bg rooftop
+    scene rina_rooftop_2 2
     "I set the tip of my cock against her ass."
     rina "No! Please..."
     shinn "Here it comes!"
@@ -787,6 +789,8 @@ label rina__cg_2:
     "I'm getting close to cumming. But, not without letting the little slut know first."
     shinn "Time for an anal creampie!"
     rina "Mmm~"
+
+    scene rina_rooftop_2 3 with cum_flash
     "I shoot my cum out into her ass."
     rina "Ahh~! Cum!"
     rina "Its flowing into my stomach! I can feel it!"
@@ -794,6 +798,8 @@ label rina__cg_2:
     "In fact, I'm going to make sure of that myself..."
     shinn "That's right. Feel that hot cum inside your stomach."
     shinn "You dirty whore."
+
+    scene rina_rooftop_2 4 with cum_flash
     "I take out my dick, letting the jizz I'd shot inside her flow free."
     shinn "Wow. That's a lot."
     shinn "Heheh... I wasn't expecting your ass to squeeze out so much."
@@ -819,6 +825,8 @@ label rina__cg_2:
     rina "Shinn... cock..."
     "Her voice is barely a whisper. I can just make out her words, but I want to hear her loud and clear."
     shinn "What? You've gotta say it louder, I couldn't hear you."
+
+    scene rina_rooftop_2 5
     "I apply a little more pressure, placing the tip of my cock at the entrance of her pussy."
     thinking "I can tell she's about to give in."
     shinn "Come on... Say the magic words."
@@ -830,6 +838,8 @@ label rina__cg_2:
     rina "I WANT SHINN'S BIG FAT COCK IN MY SLUTTY PUSSY!"
     "Just what I was waiting for."
     shinn "That's what I wanted to hear."
+
+    scene rina_rooftop_2 6
     "I push inside her without hesitation."
     rina "Ah! Shinn!"
     "The inside of her pussy is amazing. It's so tight, I can feel it squeezing down on me, even soaked from all her orgasms so far."
@@ -867,16 +877,22 @@ label rina__cg_2:
                 jump rina__cg_2_outside
 
 label rina__cg_2_outside:
+    scene rina_rooftop_2 9
     "I ignore her plea and pull out quickly. The cum sprays out across her butt covering her entire back."
     rina "Ah! Shinn's cum is everywhere!"
     jump rina__cg_2_end
 
 label rina__cg_2_inside:
+    scene rina_rooftop_2 7
     "I fulfill her wish and let out everything I've got into her womb."
     "It's so much that it fills all the way to the brim, trickles of cum leaking out from around my dick."
     rina "Ah! Shinn's baby seeds are inside me!"
     thinking "Eh. Pretty likely she'll get pregnant from this after all."
+
+    scene rina_rooftop_2 8
     "As soon as I'm done, I pull my dick out, sending the cum gushing out from her like a waterfall."
+
+    scene rina_rooftop_2 9
     jump rina__cg_2_end
 
 label rina__cg_2_end:
@@ -890,17 +906,15 @@ label rina__cg_2_end:
     $ persistent.rina__cg_2 = True
     jump map__school
 
-# *CG TRANSITION*
-
-# Title: Rina Arc – Day 2 –Morning– 7:30 AM
-# Location: Haruka Academy, Hallway
-# Background CG: As described.
 label rina__cg_3:
+    scene bg hallway 1 with map_fade
     $ rina_next_step = "intermission"
     "A day has passed since our training session on the rooftop."
     "I thought I could parade her around to show all the students here how much she loves cock now."
     "And what better time than in the morning when everyone is coming in to school?"
     "She's excited, to say the least. After all, she's completely turned into a sex-crazed bitch by now."
+
+    scene rina_dog_1 1 with fade
     "I pull the dog leash as I hurry her along beside me."
     "She crawls along like an obedient dog."
     "It doesn't take long for the other students to notice it..."
@@ -921,11 +935,15 @@ label rina__cg_3:
     shinn "Look around you, Ms Rina. Everyone is looking at you."
     shinn "They love your body and how slutty you've become. Everyone is lusting after you now."
     rina "Ah, everyone is looking at me!"
+
+    scene rina_dog_1 2
     "Rina lets out a whine as the whole crowd's attention is focused on her."
     shinn "How does it feel, letting your students see what a slutty bitch you are?"
     rina "Ahhh..."
     rina "Ah! I'm too excited, I can't take it! I'm gonna cum!"
     "While Rina is working herself up to the point of orgasm, I take a moment to take in the crowd watching us."
+
+    scene rina_dog_1 3
     "It seems a group of boys has started to gather around us."
     "Just from the excitement of being watched, Rina cums in front of everyone, her pussy juices dripping onto the floor of the school hallway."
     shinn "Wow. You came just like that?"
@@ -959,12 +977,18 @@ label rina__cg_3:
     "Rina takes a look at the boys who're now surrounding her."
     rina "Ah, boys! Give me cum!"
     shinn "You heard her. Do it guys!"
+
+    scene rina_dog_1 4
     "The boys start to unzip their pants and flash their hardened dicks in front of Rina."
     rina "Ah, cocks!"
+
+    scene rina_dog_1 5
     rina "I can smell it! It smells so good!"
     rina "Please! I want more. I want your cum!"
     male_1 "Wow. You are really a slut."
     male_2 "You asked for it!"
+
+    scene rina_dog_1 6
     "The boys start to jerk off in front her."
     "Staring at Rina's luscious body, the virgin boys are unable to hold out for long."
     "After all, they've probably never seen a naked woman in real life before."
@@ -977,15 +1001,21 @@ label rina__cg_3:
     male_3 "Me too!"
     male_4 "Take it all, Ms Rina!"
     rina "Yes! Give it to me! Give it all to me!"
+
+    scene rina_dog_1 7 with cum_flash
     "Almost at once, the boys ejaculate, shooting their cum out onto Rina."
     "Her entire body is covered with their semen."
     rina "Ah! Cum! It feels so good!"
     shinn "Look at you, Rina. Aren't you happy getting showered with these boys' cum?"
     rina "Yes! I'm happy!"
+
+    scene rina_dog_1 8
     "I take a quick look at the boys. Clearly, they're not done yet."
     "Even after ejaculating, their dicks are still rock hard."
     "They're staring at Rina, giving off a predatory vibe."
     "Meanwhile, Rina is still far from sated."
+
+    scene rina_dog_1 9
     rina "I want more~"
     shinn "Heh. Alright."
     shinn "Hey guys, do you want have sex with Rina?"
@@ -1001,12 +1031,7 @@ label rina__cg_3:
     shinn "You guys can all enjoy popping your cherries on this slut."
     shinn "Follow me."
 
-# *CG TRANSITION*
-
-# Title: Rina Arc – Day 2 –Morning– 7:30 AM
-# Location: Haruka Academy, Some random class.
-# Background CG: As described.
-
+    scene bg classroom with fade
     "I gathered all the boys hanging around in the hallway, and brought them here."
     "It's an unused classroom with tables and chairs lying around."
     "I brought Rina to the front of the class so that everyone could see her clearly."
@@ -1017,21 +1042,37 @@ label rina__cg_3:
     rina "Yes Master."
     shinn "Use my cock, Rina."
     rina "Yes, Master."
+
+    scene rina_cg_3_gangbang 1 with dissolve
     "Rina crawls over and wastes no time in lowering herself onto my dick in cowgirl position."
     "Rina faces the whole room full of boys head on."
+
+    scene rina_cg_3_gangbang 2
     "As she looks on, she can see the bulges straining at all of their pants."
     rina "Don't be shy, boys. Let me see your huge throbbing cocks."
     shinn "Heh. You heard her. Let her see ‘em."
     male_3 "O— Okay..."
+
+    scene rina_cg_3_gangbang 3
     "The boys slowly comply and unzip their pants."
     rina "Ah. There we go."
+
+    scene rina_cg_3_gangbang 4
     "The view further excites Rina as she starts to bounce her hips up and down on her own."
+
+    scene rina_cg_3_gangbang 5
     shinn "Yeah, that's the spirit."
+
+    scene rina_cg_3_gangbang 6
     "Rina lifts up her shoulders to show off her beautiful armpits."
     "They're clean-shaven, according to my taste."
     male_2 "Wow, her armpits look amazing..."
     male_1 "Yeah..."
+
+    scene rina_cg_3_gangbang 7
     "Eventually, some of the boys start to jerk off watching the scene I've provided for them."
+
+    scene rina_cg_3_gangbang 8
     "As for me, I lie here and let Rina slam her hips against me, letting off a slapping sound throughout the room."
     rina "Ah! Dick! Dick! It feels so good inside me!"
     "She's obviously enjoying this."
@@ -1047,12 +1088,22 @@ label rina__cg_3:
     "Her pussy clamps down on me, like she's trying to squeeze the cum from me."
     shinn "Here it comes!"
     rina "Ahh~"
+
+    scene rina_cg_3_gangbang 9 with cum_flash
     "In an instant, I shoot right into her womb."
+
+    scene rina_cg_3_gangbang 10 with cum_flash
     "There's so much, it's impossible for her to contain it all, leaving my creampie spilling from her pussy."
+
+    scene rina_cg_3_gangbang 11 with cum_flash
     "At the same time, all the boys come together, shooting out over her body."
     "They cover her hair, her armpits, her belly and her hips."
+
+    scene rina_cg_3_gangbang 12 with cum_flash
     "Everywhere I can see, her body is covered in cum."
     "It was enough for the smell of it to fill the whole room."
+
+    scene rina_cg_3_gangbang 13
     rina "Ah! Cum! There's so much! I love it!"
     "Rina's mind is addled all over again. And it seems she isn't ready to stop here."
     rina "More~ I want more!"
@@ -1074,6 +1125,8 @@ label rina__cg_3:
     male_1 "Me! I'll go first!"
     male_2 "Me next!"
     "With Rina's erotic face spurring them on, the boys quickly line themselves up."
+
+    scene rina_cg_3_gangbang 14
     "The first boy wastes no time inserting himself into her mouth."
     male_1 "Oh my god, her mouth is heaven!"
     rina "Mmm~ Tastes so good!"
@@ -1089,7 +1142,11 @@ label rina__cg_3:
     "With the boy at the very edge, she pulls away for just a moment to speak."
     rina "It's okay. You can cum inside me. I'll drink it all!"
     male_1 "Argh! Here it comes!"
+
+    scene rina_cg_3_gangbang 15 with cum_flash
     "The cum shoots out of his dick directly into Rina's throat as she takes it all down."
+
+    scene rina_cg_3_gangbang 16 with cum_flash
     rina "Hmm~ Cum!"
     "The mere taste of cum gets her so excited that she can't think about anything else."
     "The boy pulls back as soon as she's taken everything he had."
@@ -1098,11 +1155,17 @@ label rina__cg_3:
     shinn "Alright, who's next?"
     male_2 "Me!"
     shinn "Alright. Go on then!"
+
+    scene rina_cg_3_gangbang 17
     "The cycle repeats again and again. As time goes by, I lose count of the number of boys who've used her mouth."
+
+    scene rina_cg_3_gangbang 26
     "She's taken in so much cum that it's left her stomach swollen."
     rina "Ah... So much..."
     shinn "Look at you, you look like you're pregnant."
     rina "..."
+
+    scene rina_cg_3_gangbang 32
     "She's unable to respond, so full she can barely make herself speak."
     shinn "I think could go without any more food for a few days now."
     shinn "Hahaha..."
@@ -1119,17 +1182,15 @@ label rina__cg_3:
     male_2 "Let's do it!"
     "As the boys get themselves ready, Rina looks thrilled."
     rina "Yes~ More~"
+
+    scene rina_cg_3_gangbang 33
     shinn "It's going to be a long day for you, Rina."
     $ renpy.end_replay()
     $ persistent.rina__cg_3 = True
     jump map__school
 
-# *CG TRANSITION*
-
-# Title: Rina Arc – Day 225 – Evening
-# Location: Unknown
-# Background CG: Black Screen 
 label rina__intermission:
+    scene black with map_fade
     "???"
     "Since I first started letting other students fuck Rina..."
     "It's been months, I guess. I'm not sure quite how long."
@@ -1145,6 +1206,8 @@ label rina__intermission:
 
 label rina__cg_4:
     "The room is filled with naked and hungry schoolboys."
+
+    scene rina__cg_4_gangbang 2 with fade
     "In the middle of the class, strung up and suspended with ropes, is Rina."
     "I tied her up there myself, in this pose which shows off free and easy access to her pussy."
     "I've spent quite a while getting her ready for this sort of play."
@@ -1156,8 +1219,12 @@ label rina__cg_4:
     "Once a strong-minded person and a respected authority figure, she's come to embrace being a public meat toilet."
     "It's quite a thing to see how just one chance encounter can turn someone's whole life around."
     "I sit at the front of the class, watching Rina while she stares back at all the boys surrounding her."
+
+    scene rina__cg_4_gangbang 3
     rina "Ah... So many... I... want them all..."
     "Her eyes are hazy. Surrounded by cock, she can no longer think about anything else."
+
+    scene rina__cg_4_gangbang 4
     "Overcome with anticipation, her pussy is leaking while her body quivers against ropes."
     "Some of the guys are getting impatient..."
     thug_1 "Oi, Shinn! When can we start!?"
@@ -1172,40 +1239,66 @@ label rina__cg_4:
     rina "Ah~ What's this?"
     "Rina has never experienced this type of foreplay before, but she can't help but anticipate pleasure."
     thug_3 "Take this!"
+
+    scene rina__cg_4_gangbang 5
     "The student drips the hot melted wax onto Rina's sensitive breasts."
     "The wax is hot enough to inflict pain, but in her current state, Rina immediately embraces it as pleasure."
     rina "Ah!~ It hurts~"
     "The sensation causes her pussy to twitch a little, with more of her juices trickling out."
     thug_4 "It's not over yet!"
+
+    scene rina__cg_4_gangbang 6
     "Another student uses a whip to lash at Rina's thighs. Again, Rina takes the pain as pleasure."
     rina "Ah! MORE! MORE!"
     "At this point, driven by her pleasure, a spring of milk starts to flow from her breasts."
+
+    scene rina__cg_4_gangbang 7
     "The student with the whip picks up the pace, leaving marks on her legs with each lash."
     rina "GIVE IT TO ME! GIVE IT TO ME!"
     "The combined pleasure of the whip and the hot wax is enough to drive her over the edge."
     rina "Yes! I'M CUMMING! I'M CUMMING! AHHHH~~!"
+
+    scene rina__cg_4_gangbang 8 with cum_flash
     "The pleasure causes a gush of juice from her twitching pussy, and a sudden spurt of milk from her breasts."
     rina "Ah~"
+
+    scene rina__cg_4_gangbang 10
     thug_1 "Woah! Check it out, she's squirting milk!"
+
+    scene rina__cg_4_gangbang 11
     "Seems like that side effect is for real after all."
+
+    scene rina__cg_4_gangbang 12
     "As the milk continues to drip from her breasts, one student decides to have a taste."
     thug_2 "Let me try it~"
+
+    scene rina__cg_4_gangbang 13
     "The student bites down on Rina's nipple as he begins to suck."
     rina "Ah~ Not my breast!"
     "He takes his time sucking at her lactating breast."
+
+    scene rina__cg_4_gangbang 14
     "When he finally pulls away, he licks his lips."
     thug_2 "Mmm.... So Rina's breast milk is sweet."
     "It seems the school gang boss has gotten impatient sitting back and watching one of his underlings breastfeed."
     thug_boss "Move away guys! This is a waste of time!"
     "Seems he can't wait any longer to enjoy her pussy."
+
+    scene rina__cg_4_gangbang 15
     "The gang boss pushes his way through the crowd and immediately thrusts his dick straight inside her, not giving her even a moment to prepare."
     "Rina immediately goes wild."
     rina "Ah!!! COCK!"
+
+    scene rina__cg_4_gangbang 16
     "The boys at her side start jumping in, grabbing at her hands and urging her to jerk them off."
     thug_1 "Come on Rina! Use your hands too!"
     rina "Ah~ Okay~"
+
+    scene rina__cg_4_gangbang 17
     "She eagerly goes along with it, vigorously stroking off the boys at her sides."
     "The rest of the boys stand around watching the action, jerking themselves off while waiting for their own turns with her pussy."
+
+    scene rina__cg_4_gangbang 18
     thug_boss "Damn! Her pussy is still this tight even after she's been used this many times!"
     thug_1 "Eh? Are you kidding me? Her pussy is tight even after everything we've put into her!?"
     thug_2 "Hey, lemme check!"
@@ -1222,9 +1315,17 @@ label rina__cg_4:
     "The boss starts pounding her even harder, bouncing her up and down on top of him. Rina moans out load, urging him on."
     rina "I LOVE IT! GIVE IT TO ME! GIVE ME MORE!!"
     thug_boss "Here you go!"
+
+    scene rina__cg_4_gangbang 19 with cum_flash
     "The boss cums inside her, the pleasure for both of them reaching a peak."
+
+    scene rina__cg_4_gangbang 20 with cum_flash
     "Rina cums along with him, shuddering against him, another spurt of milk splashing from her breasts."
+
+    scene rina__cg_4_gangbang 21
     rina "MORE! I WANT MORE!"
+
+    scene rina__cg_4_gangbang 27 with cum_flash
     "The boys jerking off around her quickly begin to empty their loads as well, splashing their cum across her body, leaving her covered."
     rina "Ugh~ So much cum! ~"
     "Her eyes have rolled back with satisfaction. But, it's clear she's still ready for more."
@@ -1257,8 +1358,12 @@ label rina__cg_4:
     principal "Heh. Don't apologize. I'm here to reward you for your work."
     "The Principal unzips his pants and positions himself."
     principal "Time to taste this slutty bitch's pussy!"
+
+    scene rina__cg_4_gangbang 22
     "The Principal violently thrusts in and begins pounding away at her."
     rina "Ah! Principal! Your dick is amazing! I love it!!"
+
+    scene rina__cg_4_gangbang 23
     principal "Ooh! Looks like her pussy is still tight after all this!"
     rina "Give it to me, Principal! Shoot everything inside me! I want the taste of your cum so badly! Please!"
     principal "Not yet. I want to savor this pussy for a while."
@@ -1267,9 +1372,15 @@ label rina__cg_4:
     "He keeps hammering away at her until he's finally ready to unload."
     principal "Alright, get ready. Make sure you enjoy every single drop of my cum!"
     rina "Yes! The Principal is cumming inside me! I love it! Do it!"
+
+    scene rina__cg_4_gangbang 24 with cum_flash
     "With a sudden gush, the Principal cums inside her. Rina shudders, dazed with pleasure."
+
+    scene rina__cg_4_gangbang 25 with cum_flash
     "The Principal pulls out, letting the flood of cum drip fom her pussy."
     principal "There. All done."
+
+    scene rina__cg_4_gangbang 26
     "The schoolboys look on in awe at how much he came inside her. And incredible display for a man of his age."
     "Satisfied, the Principal zips up his pants."
     shinn "That's all?"
@@ -1278,6 +1389,8 @@ label rina__cg_4:
     "As the Principal leaves, the clamor starts up again as the boys fight for a place at the front of the line."
     "I offer some reassurance to calm them down."
     shinn "Don't worry guys, there's plenty of time today for everyone to fuck her!"
+
+    scene rina__cg_4_gangbang 29
     "After a few hours, Rina is thoroughly fucked, but still far from finshed."
     "The marks left on her tights counting the rounds are been through today are now too numerous to track."
     "She's exhausted, but still eager, happy to be able to fuck her fill. Seems like she's been enjoying it more than the boys."
@@ -1292,10 +1405,14 @@ label rina__cg_4:
     "Rina's sudden rush of enthusiasm wipes away all the signs of her exhaustion."
     rina "Yes! Nothing beats Shinn's big fat cock!"
     shinn "Good girl. Looks like you're still loyal to me after everything."
+
+    scene rina__cg_4_gangbang 30
     "I strip off my pants and expose my cock in front of her. The sight of it makes Rina tremble."
     rina "Ah! Shinn!~"
     shinn "As a reward for your loyalty, I'm going to let you taste it."
     rina "Yes!"
+
+    scene rina__cg_4_gangbang 31
     "Lubed up with all the cum that's been spilled inside her, I slide it in easily."
     rina "Ah! Shinn's cock! It's in!"
     "She squeezes down tight around me in her excitement. Even after all the boys who've used her, her body is still eager."
@@ -1323,14 +1440,20 @@ label rina__cg_4:
                 jump rina__cg_4_outside
 
 label rina__cg_4_inside:
+    scene rina__cg_4_gangbang_inside 1 with cum_flash
     "Going all out at the end, I finally reach my limit. In an instant, I let everything out!"
     shinn "Ahh!"
+
+    scene rina__cg_4_gangbang_inside 2 with cum_flash
     "My cum pours out inside her pussy, enough that some of it splashes to the floor beneath her."
     rina "AH! SHINN! I'M SO HAPPY!"
     jump rina__cg_4_end
 
 label rina__cg_4_outside:
+    scene rina__cg_4_gangbang_outside 1 with cum_flash
     "Going all out at the end, I finally reach my limit. In an instant, I pull out, spraying my cum across her body like a fountain."
+
+    scene rina__cg_4_gangbang_outside 2 with cum_flash
     rina "Ah!! Shinn's cum! It's everywhere!"
     jump rina__cg_4_end
 
