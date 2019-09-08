@@ -582,6 +582,7 @@ label rina__cg_2:
     scene bg rooftop with map_fade
     "It's evening, and the sun has already started to set. I'm still waiting for Rina to show up."
     thinking "Where is she?"
+    show rina overcoat with moveinleft
     "Just then, the door creaks open, and a familiar figure emerges behind it. Looks like she's decided to show after all."
     shinn "There you are. What took you so long?"
     rina "Shut up, you piece of shit. You don't need to know."
@@ -590,6 +591,7 @@ label rina__cg_2:
     shinn "Heh. Must be pretty embarrassing for you walking around school with nothing but that coat on, huh?"
     rina "Shut the fuck up."
     shinn "Well. I guess it doesn't matter right now. Unbutton it, I want to see that naked body of yours."
+    show rina naked
     "Flushed with shame and seeming even shyer than before, she strips herself down in front of me once again."
     "Rather than being completely naked, she's left her stockings on."
     shinn "Oh, looking pretty sexy there..."
@@ -909,14 +911,12 @@ label rina__cg_2_end:
     jump map__school
 
 label rina__cg_3:
-    scene bg hallway 1 with map_fade
+    scene rina_dog_1 1 with map_fade
     $ rina_next_step = "intermission"
     "A day has passed since our training session on the rooftop."
     "I thought I could parade her around to show all the students here how much she loves cock now."
     "And what better time than in the morning when everyone is coming in to school?"
     "She's excited, to say the least. After all, she's completely turned into a sex-crazed bitch by now."
-
-    scene rina_dog_1 1 with fade
     "I pull the dog leash as I hurry her along beside me."
     "She crawls along like an obedient dog."
     "It doesn't take long for the other students to notice it..."
@@ -1034,6 +1034,7 @@ label rina__cg_3:
     shinn "Follow me."
 
     scene bg classroom with fade
+    show rina naked
     "I gathered all the boys hanging around in the hallway, and brought them here."
     "It's an unused classroom with tables and chairs lying around."
     "I brought Rina to the front of the class so that everyone could see her clearly."
