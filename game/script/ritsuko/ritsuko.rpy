@@ -656,6 +656,7 @@ label ritsuko__cg_2_end:
     "I leave the room, leaving Ritsuko behind, still sitting in the mess we'd made."
     $ renpy.end_replay()
     $ persistent.ritsuko__cg_2 = True
+    $ tennis_available = False
     jump map__school
 
 label tennis__day_2:

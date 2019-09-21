@@ -58,5 +58,5 @@ label map__school:
     if day == 2 and not staffroom_available and tennis_available and not gym_available:
         jump ritsuko__router
     if day == 2 and not staffroom_available and not tennis_available and not gym_available:
-        jump harem_end
+        jump end
     call screen locations with fade

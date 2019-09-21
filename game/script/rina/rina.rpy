@@ -908,6 +908,7 @@ label rina__cg_2_end:
     rina "Ah~ Yes Master!"
     $ renpy.end_replay()
     $ persistent.rina__cg_2 = True
+    $ staffroom_available = False
     jump map__school
 
 label rina__cg_3:

@@ -964,6 +964,7 @@ label touko_aina__cg_2_end:
     shinn "I'll look forward to even more fun tomorrow..."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_2 = True
+    $ gym_available = False
     jump map__school
 
 label gym__day_3:
