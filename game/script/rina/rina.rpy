@@ -873,10 +873,10 @@ label rina__cg_2:
     else:
         menu:
             thinking "Ugh. Hearing her talk dirty like that, I can't take any more!"
-            "CUM INSIDE":
+            "Cum Inside":
                 $ renpy.block_rollback()
                 jump rina__cg_2_inside
-            "CUM OUTSIDE":
+            "Cum Outside":
                 $ renpy.block_rollback()
                 jump rina__cg_2_outside
 
@@ -1432,9 +1432,9 @@ label rina__cg_4:
     else:
         menu:
             rina "YES! MORE!"
-            "CUM INSIDE":
+            "Cum Inside":
                 jump rina__cg_4_inside
-            "CUM OUTSIDE":
+            "Cum Outside":
                 jump rina__cg_4_outside
 
 label rina__cg_4_inside:

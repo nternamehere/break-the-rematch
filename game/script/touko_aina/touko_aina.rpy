@@ -924,9 +924,9 @@ label touko_aina__cg_2:
     else:
         menu:
             "Her pleas for me to stop make me even hornier. With a sudden rush of adrenaline, I pound her even harder."
-            "CUM OUTSIDE":
+            "Cum Outside":
                 jump touko_aina__cg_2_outside
-            "CUM INSIDE":
+            "Cum Inside":
                 jump touko_aina__cg_2_inside
 
 label touko_aina__cg_2_inside:
