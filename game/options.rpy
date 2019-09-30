@@ -26,7 +26,11 @@ define gui.is_beta = True
 
 ## The version of the game.
 
+<<<<<<< HEAD
 define config.version = "0.0.3-beta"
+=======
+define config.version = "1.0.2-beta"
+>>>>>>> 1c8c170... fix(versioning)
 
 
 ## Text that is placed on the game's about screen. Place the text between the
