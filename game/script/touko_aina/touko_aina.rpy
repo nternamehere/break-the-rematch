@@ -564,6 +564,8 @@ label gym__day_1_continued_3:
     "She can't help looking suspicious, like she knows she's been caught getting up to something."
     shinn "Hmm, you okay?"
     "She quickly averts her guilty face before giving me her answer."
+
+    show touko concerned school arms
     touko "Yeah, everything's fine."
     thinking "Heh, right, you've been having a fine time so far..."
     shinn "Well, what are you doing here during lunch time? Not many students come by here."
@@ -588,7 +590,7 @@ label gym__day_1_utility:
     "Before Touko can even reply, the school bell rings signaling the end of lunch."
     touko "Oh, I'm sorry Shinn. Lunchtime's just ended, so I've got to get back to class."
     
-    hide touko happy school with moveoutleft
+    hide touko concerned school arms with moveoutleft
     "Before I could give a reply, she turned around and hurried off."
     shinn "Damn it, and I was thinking I could expose her right now. Now what?"
     jump gym__day_1_continued_4
@@ -606,7 +608,7 @@ label gym__day_1_day:
     touko "I'm sorry Shinn, but lunch is over. I have to get back to my classroom now."
     shinn "Okay. We'll talk later."
 
-    hide touko happy school with moveoutleft
+    hide touko concerned school arms with moveoutleft
     "She turns around and hurries off."
     shinn "Damn it, she ran away before I could change the subject. Now what?"
     jump gym__day_1_continued_4
