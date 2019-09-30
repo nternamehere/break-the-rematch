@@ -371,10 +371,12 @@ label classroom__day_0:
     show bg classroom with fade
     "A sudden torrent of memories rushes through my brain as I enter the classroom. It's identical to how it was before I left. Nothing has changed at all."
     shinn "Everything's the same. Heh. Even that crack in the floor, on the classroom's far side. I figured someone would have fixed that by now."
-    "A dull sound, like the clicking of high-heeled shoes, brings me out of my nostalgia trip. It seems to be coming from the hallway.	"
+    "A dull sound, like the clicking of high-heeled shoes, brings me out of my nostalgia trip. It seems to be coming from the hallway."
+    $ renpy.music.set_volume(.50, 0.0, channel = "sound")
     play sound heels
     "The clicking sound grew closer and closer, approaching the classroom door."
     play sound heels
+    $ renpy.music.set_volume(1.0, 0.0, channel = "sound")
     "A mature-looking, wide-hipped woman appears in the doorway."
     
     show rina annoyed with moveinleft

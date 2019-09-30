@@ -582,7 +582,9 @@ label gym__day_1_utility:
     shinn "Hey Touko. Just now I saw you coming out from the utility room. What were you doing in there?"
     "Touko's expression becomes even more nervous..."
     touko "Eh? Er..."
+    $ renpy.music.set_volume(.50, 0.0, channel = "sound")
     play sound school_bell
+    $ renpy.music.set_volume(1.0, 0.0, channel = "sound")
     "Before Touko can even reply, the school bell rings signaling the end of lunch."
     touko "Oh, I'm sorry Shinn. Lunchtime's just ended, so I've got to get back to class."
     
@@ -597,7 +599,9 @@ label gym__day_1_day:
     "She seems reluctant to continue this line of conversation, and her tone tells me she clearly doesn't want to be here."
     shinn "Good. I hope you've completed the homework I gave you yesterday?"
     touko "Of course!"
+    $ renpy.music.set_volume(.50, 0.0, channel = "sound")
     play sound school_bell
+    $ renpy.music.set_volume(1.0, 0.0, channel = "sound")
     "However, before I could continue the conversation, the school bell signaling the end of lunch rang."
     touko "I'm sorry Shinn, but lunch is over. I have to get back to my classroom now."
     shinn "Okay. We'll talk later."
