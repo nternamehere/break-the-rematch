@@ -90,9 +90,9 @@ label naoko__cg_1:
     else:
         menu:
             naoko "Ah, Shinn, yes! You're at your limit, right? Please cum! Cum! I want your cum!"
-            "CUM INSIDE":
+            "Cum Inside":
                 jump naoko__cg_1_inside
-            "CUM OUTSIDE":
+            "Cum Outside":
                 jump naoko__cg_1_outside
             
 label naoko__cg_1_inside:
