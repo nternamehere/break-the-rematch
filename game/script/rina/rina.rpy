@@ -671,6 +671,7 @@ label rina__cg_2:
     "Her pussy twitches as her juices start gushing out."
 
     scene rina_rooftop_1 3 with cum_flash
+    play sound cum3
     "Looks like she finally submitted to the pleasure from her ass."
     "I remove my fingers from her anus."
 
@@ -735,6 +736,7 @@ label rina__cg_2:
     "The convulsions of her orgasm force the beads out from her ass all at once."
     
     scene rina_rooftop_1 10 with cum_flash
+    play sound cum3
     "The string of anal beads falls to the ground, still vibrating."
     rina "AAAHH!"
     "Her legs are shuddering, and her pussy is pulsing wildly, clamping down on my fingers."
@@ -795,6 +797,7 @@ label rina__cg_2:
     rina "Mmm~"
 
     scene rina_rooftop_2 3 with cum_flash
+    play sound cum2
     "I shoot my cum out into her ass."
     rina "Ahh~! Cum!"
     rina "Its flowing into my stomach! I can feel it!"
@@ -804,6 +807,7 @@ label rina__cg_2:
     shinn "You dirty whore."
 
     scene rina_rooftop_2 4 with cum_flash
+    play sound cum1
     "I take out my dick, letting the jizz I'd shot inside her flow free."
     shinn "Wow. That's a lot."
     shinn "Heheh... I wasn't expecting your ass to squeeze out so much."
@@ -881,19 +885,22 @@ label rina__cg_2:
                 jump rina__cg_2_outside
 
 label rina__cg_2_outside:
-    scene rina_rooftop_2 9
+    scene rina_rooftop_2 9 with cum_flash
+    play sound cum2
     "I ignore her plea and pull out quickly. The cum sprays out across her butt covering her entire back."
     rina "Ah! Shinn's cum is everywhere!"
     jump rina__cg_2_end
 
 label rina__cg_2_inside:
-    scene rina_rooftop_2 7
+    scene rina_rooftop_2 7 with cum_flash
+    play sound cum2
     "I fulfill her wish and let out everything I've got into her womb."
     "It's so much that it fills all the way to the brim, trickles of cum leaking out from around my dick."
     rina "Ah! Shinn's baby seeds are inside me!"
     thinking "Eh. Pretty likely she'll get pregnant from this after all."
 
-    scene rina_rooftop_2 8
+    scene rina_rooftop_2 8 with cum_flash
+    play sound cum1
     "As soon as I'm done, I pull my dick out, sending the cum gushing out from her like a waterfall."
 
     scene rina_rooftop_2 9
