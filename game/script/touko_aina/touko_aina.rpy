@@ -931,10 +931,12 @@ label touko_aina__cg_2:
 
 label touko_aina__cg_2_inside:
     scene touko_aina__cg_2_inside 1 with cum_flash
+    play sound cum2
     "Unable to resist any longer, I cum explosively inside her. It's so good, I cum enough that it gushes out from her pussy around me."
     shinn "Ahh!~"
 
     scene touko_aina__cg_2_inside 2 with cum_flash
+    play sound cum1
     "Her legs shake and her pink panties fall as her mouth gapes open."
     "Her tongue sticks out and her eyes roll back in excitement."
     touko "AHH!"
@@ -943,14 +945,16 @@ label touko_aina__cg_2_inside:
 
 label touko_aina__cg_2_outside:
     scene touko_aina__cg_2_outside 1 with cum_flash
+    play sound cum2
     "Unable to resist any longer, I take my dick out and spray it all over her back."
     shinn "Ahh!~"
     "Her legs shake and her pink panties fall as her mouth gapes open."
     "Her tongue sticks out and her eyes roll back in excitement."
     touko "AHH!"
     "She falls to the ground, unable to support her weight."
-    scene touko_aina__cg_2_outside 2 with cum_flash
 
+    scene touko_aina__cg_2_outside 2 with cum_flash
+    play sound cum1
     "My cum is splattered everywhere, on the floor, across her back, covering her jersey."
     "Some of it is even clinging to her hair. I'm surprised it was able to shoot out over such a distance."
     jump touko_aina__cg_2_end
