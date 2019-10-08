@@ -1012,6 +1012,7 @@ label rina__cg_3:
     rina "Yes! Give it to me! Give it all to me!"
 
     scene rina_dog_1 7 with cum_flash
+    play sound cum2
     "Almost at once, the boys ejaculate, shooting their cum out onto Rina."
     "Her entire body is covered with their semen."
     rina "Ah! Cum! It feels so good!"
@@ -1100,16 +1101,20 @@ label rina__cg_3:
     rina "Ahh~"
 
     scene rina__cg_3_gangbang 9 with cum_flash
+    play sound cum2
     "In an instant, I shoot right into her womb."
 
     scene rina__cg_3_gangbang 10 with cum_flash
+    play sound cum1
     "There's so much, it's impossible for her to contain it all, leaving my creampie spilling from her pussy."
 
     scene rina__cg_3_gangbang 11 with cum_flash
+    play sound cum3
     "At the same time, all the boys come together, shooting out over her body."
     "They cover her hair, her armpits, her belly and her hips."
 
     scene rina__cg_3_gangbang 12 with cum_flash
+    play sound cum2
     "Everywhere I can see, her body is covered in cum."
     "It was enough for the smell of it to fill the whole room."
 
@@ -1154,9 +1159,11 @@ label rina__cg_3:
     male_1 "Argh! Here it comes!"
 
     scene rina__cg_3_gangbang 15 with cum_flash
+    play sound cum2
     "The cum shoots out of his dick directly into Rina's throat as she takes it all down."
 
     scene rina__cg_3_gangbang 16 with cum_flash
+    play sound cum1
     rina "Hmm~ Cum!"
     "The mere taste of cum gets her so excited that she can't think about anything else."
     "The boy pulls back as soon as she's taken everything he had."
@@ -1264,6 +1271,7 @@ label rina__cg_4:
     rina "Yes! I'M CUMMING! I'M CUMMING! AHHHH~~!"
 
     scene rina__cg_4_gangbang 8 with cum_flash
+    play sound cum2
     "The pleasure causes a gush of juice from her twitching pussy, and a sudden spurt of milk from her breasts."
     rina "Ah~"
 
@@ -1322,15 +1330,18 @@ label rina__cg_4:
     thug_boss "Here you go!"
 
     scene rina__cg_4_gangbang 19 with cum_flash
+    play sound cum2
     "The boss cums inside her, the pleasure for both of them reaching a peak."
 
     scene rina__cg_4_gangbang 20 with cum_flash
+    play sound cum1
     "Rina cums along with him, shuddering against him, another spurt of milk splashing from her breasts."
 
     scene rina__cg_4_gangbang 21
     rina "MORE! I WANT MORE!"
 
     scene rina__cg_4_gangbang 27 with cum_flash
+    play sound cum3
     "The boys jerking off around her quickly begin to empty their loads as well, splashing their cum across her body, leaving her covered."
     rina "Ugh~ So much cum! ~"
     "Her eyes have rolled back with satisfaction. But, it's clear she's still ready for more."
@@ -1379,9 +1390,11 @@ label rina__cg_4:
     rina "Yes! The Principal is cumming inside me! I love it! Do it!"
 
     scene rina__cg_4_gangbang 24 with cum_flash
+    play sound cum2
     "With a sudden gush, the Principal cums inside her. Rina shudders, dazed with pleasure."
 
     scene rina__cg_4_gangbang 25 with cum_flash
+    play sound cum1
     "The Principal pulls out, letting the flood of cum drip fom her pussy."
     principal "There. All done."
 
@@ -1446,19 +1459,23 @@ label rina__cg_4:
 
 label rina__cg_4_inside:
     scene rina__cg_4_gangbang_inside 1 with cum_flash
+    play sound cum2
     "Going all out at the end, I finally reach my limit. In an instant, I let everything out!"
     shinn "Ahh!"
 
     scene rina__cg_4_gangbang_inside 2 with cum_flash
+    play sound cum1
     "My cum pours out inside her pussy, enough that some of it splashes to the floor beneath her."
     rina "AH! SHINN! I'M SO HAPPY!"
     jump rina__cg_4_end
 
 label rina__cg_4_outside:
     scene rina__cg_4_gangbang_outside 1 with cum_flash
+    play sound cum2
     "Going all out at the end, I finally reach my limit. In an instant, I pull out, spraying my cum across her body like a fountain."
 
     scene rina__cg_4_gangbang_outside 2 with cum_flash
+    play sound cum1
     rina "Ah!! Shinn's cum! It's everywhere!"
     jump rina__cg_4_end
 

@@ -879,10 +879,12 @@ label ritsuko__cg_3_continued:
     ritsuko "Ahh! Yes!"
 
     scene ritsuko__cg_3_tennis 10 with cum_flash
+    play sound cum2
     "I let out a thick jet of my cum, deep inside her asshole."
     ritsuko "Ahh!! I can feel your warm cum in my stomach!"
 
     scene ritsuko__cg_3_tennis 11 with cum_flash
+    play sound cum1
     "Ritsuko's legs start to shudder uncontrollably with the overwhelming pleasure."
 
     scene ritsuko__cg_3_tennis 12
@@ -1058,10 +1060,12 @@ label ritsuko__cg_3_outside:
     shinn "Here it comes!"
 
     scene ritsuko__cg_3_house_outside 1 with cum_flash
+    play sound cum2
     "I pull out just in time and spray out a gush of my cum across her face."
     ritsuko "Ah~ Shinn's cum is all over me!"
 
     scene ritsuko__cg_3_house_outside 2 with cum_flash
+    play sound cum1
     "I take a moment to admire my handiwork splattered across her slutty face"
     shinn "Heheh... Look at you."
     "Despite how much I just came, the sight of her face smeared with my cum still keeps my hard."
@@ -1089,11 +1093,13 @@ label ritsuko__cg_3_inside:
     "I slam my dick into her one final time, piercing all the way inside her."
 
     scene ritsuko__cg_3_house_inside 1 with cum_flash
+    play sound cum2
     "The gush of cum completely fills her up, overflowing and dripping out in seconds while I'm still seated inside her."
     ritsuko "Ah! Shinn's cum! It's inside me!"
     ritsuko "I'm so full of Shinn's cum!"
 
     scene ritsuko__cg_3_house_inside 2 with cum_flash
+    play sound cum1
     "It's just too much for her to keep it all inside. It's leaking out all over now."
     shinn "There might be a lot of it inside you now, but there's a whole lot more left where that came from."
     "The thought of that gets Ritsuko excited all over again."
@@ -1256,10 +1262,12 @@ label ritsuko__cg_4_outside:
     principal "Here it comes!"
 
     scene ritsuko__cg_4_outside 1 with cum_flash
+    play sound cum2
     "The Principal and I pound her hard together one last time before the two of us pull out in unison."
     "We both let out jets of cum across her body, leaving every part of her streaked and spattered with our jizz."
 
     scene ritsuko__cg_4_outside 2 with cum_flash
+    play sound cum1
     ritsuko "Ah! Cum! It's all over me!"
     ritsuko "I love the taste and smell and the feel! I love all of it!"
     "The shower of cum over her sends a shockwave through her whole body."
@@ -1292,10 +1300,12 @@ label ritsuko__cg_4_inside:
     principal "Take it, Ritsuko! Take my cum and get pregnant!"
 
     scene ritsuko__cg_4_inside 1 with cum_flash
+    play sound cum2
     "The Principal and I pound her hard one last time before we both explode together."
     "The bursts of cum fill her, leaving drips of cum trickling out of her pussy and asshole."
 
     scene ritsuko__cg_4_inside 2 with cum_flash
+    play sound cum1
     "There's so much, some of it is even dripping onto the floor."
     ritsuko "AAHH~! It's inside me!"
     ritsuko "The Principal's thick baby seed is inside me!"

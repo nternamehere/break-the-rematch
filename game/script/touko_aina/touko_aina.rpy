@@ -420,6 +420,7 @@ label touko_aina__cg_1:
     "Touko starts to squirm, grinding herself against Aina's hand."
 
     scene touko_aina_sex_scene_1 6 with cum_flash
+    play sound cum2
     "It looks like she can't help herself. She whimpers a little as her juices drip along Aina's fingers."
     
     scene touko_aina_sex_scene_1 7
@@ -512,6 +513,7 @@ label touko_aina__cg_1:
     "The two of them keep fingering each other, bringing their pleasure to a frantic peak."
     
     scene touko_aina_sex_scene_1 17 with cum_flash
+    play sound cum2
     "Almost as one, a convulsion runs through them."
     aina "Ah! Touko!"
     touko "Aina!"
@@ -1168,10 +1170,12 @@ label touko_aina__cg_3:
     aina "Mmm..."
 
     scene touko_aina__cg_3 3 with cum_flash
+    play sound cum2
     "As I reached the point where I couldn't hold it any longer, I ejaculate, spilling my semen across the top of her swimsuit and around the armpit opening."
     shinn "Ahh..."
 
     scene touko_aina__cg_3 4 with cum_flash
+    play sound cum1
     shinn "That felt so good..."
     aina "...."
 
@@ -1269,10 +1273,12 @@ label touko_aina__cg_3_outside:
     shinn "Here it comes!"
 
     scene touko_aina__cg_3_outside 1 with cum_flash
+    play sound cum2
     "In an instant, the cum shoots out all over her body, covering her swimsuit."
     aina "Ah~"
 
     scene touko_aina__cg_3_outside 2 with cum_flash
+    play sound cum1
     "Some of it even gets on her face."
     aina "Mm~"
     jump touko_aina__cg_3_end
@@ -1289,10 +1295,12 @@ label touko_aina__cg_3_inside:
     aina "No!"
 
     scene touko_aina__cg_3_inside 1 with cum_flash
+    play sound cum2
     "I give Aina one last pound and my milk shoots out instantly right into her womb."
     shinn "Argh!"
 
     scene touko_aina__cg_3_inside 2 with cum_flash
+    play sound cum1
     "It's so much that the milk gushes out from her pussy."
     aina "Ah~"
     "I pull my dick out to inspect the mess I've made of her."
@@ -1505,6 +1513,7 @@ label touko_aina__cg_4:
     shinn "Agh, me too!"
 
     scene touko_aina__cg_4 12 with cum_flash
+    play sound cum2
     "The sight of her, and the sudden movement, force me over the edge as well."
     shinn "Ahh~"
     "The feeling is incredible. It's enough that the two of us nearly black out."
@@ -1512,6 +1521,7 @@ label touko_aina__cg_4:
     "The area around us is a mess. Her skirt is covered with my cum, while my hand and her panties are drenched with her pussy juice."
 
     scene touko_aina__cg_4 13 with cum_flash
+    play sound cum1
     "From the look on Aina's face, it seems like she's still hungry for more."
     shinn "Not enough, eh?"
     shinn "Seems like you're ready to move on to the main course."
@@ -1597,6 +1607,7 @@ label touko_aina__cg_4_outside:
     shinn "It's coming!"
 
     scene touko_aina__cg_4_outside 1 with cum_flash
+    play sound cum2
     "I pound her womb one final time, then just as I'm about to explode, I pull it out and spray my cum all over body."
     aina "Ah~! Shinn's cum~"
     aina "It smells so good!"
@@ -1604,6 +1615,7 @@ label touko_aina__cg_4_outside:
     "Aina has really milked me dry with this. It'll be a while before I'm ready to go again."
 
     scene touko_aina__cg_4_outside 2 with cum_flash
+    play sound cum1
     "But her body, and face are completely covered with my jizz, and Aina seems fully sated."
     "She's blissed out, basking in the feel, smell, and taste of my cum, which overpowers her senses."
     "It looks like she doesn't even know what's going on around her anymore."
@@ -1616,9 +1628,11 @@ label touko_aina__cg_4_inside:
     shinn "It's coming!"
 
     scene touko_aina__cg_4_inside 1 with cum_flash
+    play sound cum2
     "In an instant, I spray everything that's left inside my balls straight into her womb."
 
     scene touko_aina__cg_4_inside 2 with cum_flash
+    play sound cum1
     "Aina convulses as she feels the boiling heat of my cum flooding her insides."
     aina "Ah~! Shinn's cum!"
     aina "It feels so good inside me!"
@@ -1795,9 +1809,11 @@ label touko_aina__cg_5:
     shinn "Here it comes!"
 
     scene touko_aina__cg_5_blowjob 11 with cum_flash
+    play sound cum2
     "I aim between their faces as I shoot out my cum. It sprays out all over them, across their faces, their bodies, a little even landing in their mouths."
     
     scene touko_aina__cg_5_blowjob 12 with cum_flash
+    play sound cum1
     aina "Ah~ Master's cum! It's all over me! I love it!"
     "No wonder that Aina is enjoying it. But Touko seems a little surprised at the taste."
     touko "So... this is what cum is like..."
@@ -1938,10 +1954,12 @@ label touko_aina__cg_5:
     "I taste Aina's sweet pussy juice as it runs into my mouth and trickles out along my jaw."
 
     scene touko_aina__cg_5_ride 14 with cum_flash
+    play sound cum2
     "Unable to resist the taste of the sweet high school girl on top of my, I finally cum, hard, into Touko's pussy."
     "My cum mixes together with Touko's own juices as they splash out."
 
     scene touko_aina__cg_5_ride 15 with cum_flash
+    play sound cum1
     touko "Ah~ Master's cum!"
     "The whole space around us is a mess. My cum and their juices are mixed together in a puddle on the floor."
     "That was a hell of a good time. But for all I enjoyed myself, it was nothing compared to the number it did on Touko."
@@ -2123,9 +2141,11 @@ label touko_aina__cg_6:
     touko "Please~!"
 
     scene touko_aina__cg_6_group 15 with cum_flash
+    play sound cum2
     "Almost in unison, the boys cum, shooting out inside and over Aina and Touko's bodies from every angle."
 
     scene touko_aina__cg_6_group 16 with cum_flash
+    play sound cum1
     "The bunch of them together leave the girls completely drenched with their cum."
     "Looks like some of it even got into their mouths."
 
@@ -2133,6 +2153,7 @@ label touko_aina__cg_6:
     "The taste, the smell, and the sticky feeling all over their skin seems to drive the girls crazy."
 
     scene touko_aina__cg_6_group 18 with cum_flash
+    play sound cum2
     "These girls are already absolutely addicted to cum. It's like a drug to them now."
 
     scene touko_aina__cg_6_group 19
@@ -2208,12 +2229,15 @@ label touko_aina__cg_6:
     male_1 "Here it comes!"
 
     scene touko_aina__cg_6_used 11 with cum_flash
+    play sound cum2
     "Together at once, both the boys shoot their cum out deep into Aina and Touko's wombs."
 
     scene touko_aina__cg_6_used 12 with cum_flash
+    play sound cum1
     male_1_2 "UGH!"
 
     scene touko_aina__cg_6_used 13 with cum_flash
+    play sound cum2
     aina "Ah~!"
     touko "Mmm~!"
     "The boys pull out, leaving a flood of cum gushing out of Touko and Aina's pussies."
@@ -2231,6 +2255,7 @@ label touko_aina__cg_6:
     "The boys keep up a train on them, providing the girls with a buffet of their cum."
     
     scene touko_aina__cg_6_used 14 with cum_flash
+    play sound cum2
     "By now, Aina and Touko's stomachs are bulging with the tremendous amount of cum they've taken inside them."
     "The two of them look like they're pregnant. Although, considering everything they've been through tonight, it wouldn't be at all surprising if they really are now."
     "As the latest round of boys releases their load, they start to show signs of exhaustion."
