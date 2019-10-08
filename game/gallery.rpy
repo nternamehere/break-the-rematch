@@ -17,6 +17,10 @@ define rina__gallery_1 = "images/gallery/gallery_rina_sex1.png"
 define rina__gallery_2 = "images/gallery/gallery_rina_sex2.png"
 define rina__gallery_3 = "images/gallery/gallery_rina_sex3.png"
 define rina__gallery_4 = "images/gallery/gallery_rina_sex4.png"
+define special__gallery_1 = "images/gallery/gallery_harem_sex1.png"
+define special__gallery_2 = "images/gallery/gallery_rina_special_sex1.png"
+define special__gallery_3 = "images/gallery/gallery_senji_sex1.png"
+define special__gallery_4 = "images/gallery/gallery_touko_gyaru_sex1.png"
 
 default gallery_page = "naoko"
 
@@ -198,6 +202,48 @@ screen gallery:
                     null
                     null
 
+                # Special Scenes
+                if gallery_page == "special":
+                    if persistent.harem__cg_1:
+                        imagebutton action Replay("harem_end"):
+                            background special__gallery_1
+                            idle idle_gallery
+                            hover hover_gallery
+                    else:
+                        imagebutton:
+                            idle locked_gallery
+
+                    if persistent.harem__cg_1:
+                        imagebutton action Replay("ritsuko__cg_2"):
+                            background special__gallery_2
+                            idle idle_gallery
+                            hover hover_gallery
+                    else:
+                        imagebutton:
+                            idle locked_gallery
+
+                    if persistent.harem__cg_1:
+                        imagebutton action Replay("ritsuko__cg_3"):
+                            background special__gallery_3
+                            idle idle_gallery
+                            hover hover_gallery
+                    else:
+                        imagebutton:
+                            idle locked_gallery
+
+
+                    if persistent.harem__cg_1:
+                        imagebutton action Replay("ritsuko__cg_4"):
+                            background special__gallery_4
+                            idle idle_gallery
+                            hover hover_gallery
+                    else:
+                        imagebutton:
+                            idle locked_gallery
+
+                    null
+                    null
+
             hbox:
 
                 xalign 0.5
@@ -214,6 +260,9 @@ screen gallery:
 
                 textbutton "Ritsuko":
                     action [ Function(SetGalleryPage, "ritsuko"), SelectedIf(gallery_page == "ritsuko") ]
+
+                textbutton "Special":
+                    action [ Function(SetGalleryPage, "special"), SelectedIf(gallery_page == "special") ]
 
 style gallery_content_frame is empty
 

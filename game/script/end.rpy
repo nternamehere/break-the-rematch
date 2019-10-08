@@ -208,6 +208,8 @@ label harem_end:
     "And soon, they'll give birth to my children, and we can do this again and again."
     "I'm looking forward to it."
     "We're gonna be one hell of a big happy family."
+    $ persistent.harem__cg_1 = True
+    $ renpy.end_replay()
     jump end
 
 label end:
