@@ -1,4 +1,5 @@
 label harem_end:
+    $ quick_menu = True
     scene bg shinn frontdoor with pixellate
     "Well, this is one for the books alright."
     "Taking this job with the school really was a great choice. I've done a damned good job here, if I say so myself."

@@ -1,4 +1,5 @@
 label ritsuko__router:
+    $ quick_menu = True
     if ritsuko_next_step == "cg_4":
         jump ritsuko__cg_4
     elif ritsuko_next_step == "day_2":

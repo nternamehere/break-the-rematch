@@ -1,4 +1,5 @@
 label touko_aina__router:
+    $ quick_menu = True
     if touko_aina_next_step == "continue_2":
         jump gym__day_3_continued_2
     elif touko_aina_next_step == "continue_1":

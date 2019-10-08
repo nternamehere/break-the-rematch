@@ -1,4 +1,5 @@
 label day_1__start:
+    $ quick_menu = True
     $ day = 1
     $ tennis_available = True
     $ staffroom_available = True

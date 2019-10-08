@@ -1,4 +1,5 @@
 label rina__router:
+    $ quick_menu = True
     if rina_next_step == "intermission":
         jump rina__intermission
     elif rina_next_step == "cg_3":
