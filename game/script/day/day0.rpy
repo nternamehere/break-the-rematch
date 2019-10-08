@@ -185,7 +185,7 @@ label gym__day_0:
     $ renpy.block_rollback()
     show bg pool with map_fade
     if not tennis_available:
-        "The swimming pool isn't too far from the tennis court, but I had to take a little detour in case Ritsuko was planning something. (Play this line if the player visits tennis court before visiting the swimming pool) (If not, ignore)"
+        "The swimming pool isn't too far from the tennis court, but I had to take a little detour in case Ritsuko was planning something."
     shinn "Now this is more like it!"
     "It was hard to keep my voice down. I was facing the most delicious sight so far: a number of girls in wonderfully tight, blue competitive swimsuits were strolling around or enthusiastically swimming across the pool."
     "Their busty, fit bodies were a paradise. Their figures, accentuated by the tight fabric, left little to the imagination."
@@ -198,7 +198,7 @@ label gym__day_0:
     "A soft but confident voice echoes behind me."
 
     if not tennis_available:
-        "Unlike that bitchy blonde's, this voice is far more dignified, and has a tone of kindness to it. (Play this line if the player visits tennis court before visiting the swimming pool) (If not, ignore)"
+        "Unlike that bitchy blonde's, this voice is far more dignified, and has a tone of kindness to it."
     
     show aina basic with moveinright
     "I turn to find myself face-to-face with a blue-haired beauty. Her stunning eyes match her hair."
