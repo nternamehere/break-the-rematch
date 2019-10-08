@@ -32,7 +32,7 @@ label day_0__start:
 
     show bg hallway 1 with blinds
     shinn "Well, that settles it."
-    "The meeting with the principal was quite simple. All I had to was help a small group of students with their studies. Apparently, those on the list he gave me excelled in athletics, but were simply hopeless in arithmetic."
+    "The meeting with the principal was quite simple. All I had to do was help a small group of students with their studies. Apparently, those on the list he gave me excelled in athletics, but were simply hopeless in arithmetic."
     "Conveniently enough, all of them are female senior students. Close to finishing their studies and beginning college and adult life."
     shinn "*chuckle* I guess it's natural for athletes to suck at more complex subjects."
     thinking "Speaking of, I wonder if those students have arrived yet?"
@@ -52,7 +52,7 @@ label archery__day_0:
     "Now the dojo is filled with students, most of whom happen to be female."
     shinn "...Oh?"
     "The continuous sound of a bow being drawn and released finally draws my attention to the sole figure actually shooting."
-    "The gathered students seem focused on her as well. Some are solemn, focused on her movements, whereas are clearly watching the girl with wide-eyed admiration."
+    "The gathered students seem focused on her as well. Some are solemn, focused on her movements, whereas others are clearly watching the girl with wide-eyed admiration."
     "Curious, I step closer, trying to keep from attracting too much attention."
 
     show satsuki archery with dissolve
@@ -324,7 +324,7 @@ label track__day_0:
     araki "..."
     "The girl hesitates a moment before responding, but then nods."
     thinking "What's with this girl?"
-    "We maintain for an awkward length of time. Eventually, I decide to break the silence, trying to keep a cool and friendly appearance."
+    "We maintain eye contact for an awkward length of time. Eventually, I decide to break the silence, trying to keep a cool and friendly appearance."
     shinn "I'll be your tutor from now on. I just wanted us to get acquainted."
     araki "I see..."
     "Her voice is soft, almost a whisper."
@@ -388,7 +388,7 @@ label classroom__day_0:
     shinn "Yes."
     unknown "Hmm... I see."
     unknown "I'm Rina Akiyama, the teacher responsible for disciplinary standards here."
-    rina "Officially, the tutoring isn't supposed to start start until tomorrow. I suspect you know that, so what are you doing here?"
+    rina "Officially, the tutoring isn't supposed to start until tomorrow. I suspect you know that, so what are you doing here?"
     shinn "Me? Er. I'm just taking a look at the class. Getting used to it."
     thinking "Gosh... she seems pretty nosy. But I wonder how sharp she really is?"
     rina "Get used to what? Weren't you a student here before?"
