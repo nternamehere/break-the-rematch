@@ -1255,7 +1255,7 @@ label touko_aina__cg_3:
 
     menu:
         aina "No, I am! Please!"
-        "Cum inside":
+        "Cum Inside":
             jump touko_aina__cg_3_inside
         "Cum Outside":
             jump touko_aina__cg_3_outside

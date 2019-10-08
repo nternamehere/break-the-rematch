@@ -595,7 +595,7 @@ label ritsuko__cg_2:
         shinn "Go on and take mine down and taste the difference!"
         "Cum Inside":
             jump ritsuko__cg_2_inside
-        "Cum into her face":
+        "Cum onto her face":
             jump ritsuko__cg_2_outside
 
 label ritsuko__cg_2_inside:
