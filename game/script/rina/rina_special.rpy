@@ -1,9 +1,14 @@
 label rina_special_1:
     if not _in_replay:
         jump end
+
+    scene bg hallway 1 with fade
     "It's after hours, and everyone has cleared out."
     "Nobody is around in school anymore, except for one other person."
     "I slide open the door and enter the classroom."
+
+    scene bg classroom with fade
+    show rina overcoat
     "That one remaining person is waiting for me there as I approach her."
     "As I get closer to her, I can feel the sense of tension in the air."
     shinn "Well, have you done what I told you to do?"
@@ -13,6 +18,8 @@ label rina_special_1:
     rina "I'm sorry Master. I will not forget again."
     shinn "Heh. Good. Now show me what you've done."
     "Rina stands up and removes her long overcoat."
+
+    scene rina_special_cg_1 1 with dissolve
     "She reveals her slutty body, the one I've used countless times by now."
     "She has a dildo inside her all the time now, keeping my place in her pussy while I'm away."
     "She enjoys it anyway, so why not?"
@@ -33,6 +40,8 @@ label rina_special_1:
     rina "..."
     shinn "Well? What are you waiting for?"
     rina "I, Rina Akiyama, formally renounce my position as a disciplinary teacher. I promise that I will faithfully serve Master Shinn's dick, and live only to be his sex slave. I live only to listen, obey, and fulfill my Master's desires."
+    
+    scene rina_special_cg_1 2
     "While she saying this, she squeezes and fondles her nipples, tugging at her piercings."
     rina "Ahh~"
     "Even as she's just beginning, her arousal is already obvious."
@@ -40,27 +49,43 @@ label rina_special_1:
     shinn "Horny already?"
     rina "Ahh~ Yes Master..."
     shinn "Well... Let's step things up a bit, shall we?"
+
+    scene rina_special_cg_1 3
     "I take out the vibrating dildo's remote control and switch it on, shifting it up to the maximum setting."
     rina "AHH~! "
     shinn "Enjoying it? "
     rina "Yes, Master ~"
+
+    scene rina_special_cg_1 4
     shinn "Well it isn't over yet."
     shinn "As proof that you have renounced your life old life as an independent disciplinary teacher, let me see you piss on that desk that you used to work on."
     rina "Okay~"
+
+    scene rina_special_cg_1 5
     "She complies without hesitation, peeing all over her old desk."
     rina "Hehe. Goodbye, old life."
     rina "Welcome to my new life as sex slave to my Master Shinn~"
     shinn "Fantastic. Let's take a picture to commemorate this ceremony."
     rina "Cheese~"
     "I snap a photo to commemorate the occasion of Rina becoming my officially dedicated sex slave."
+
+    scene rina_special_cg_1 6
     "Now that that's taken care of, the first order of business is fucking my sex slave's pussy."
+
+    scene rina_special_cg_1 7 with quick_fade
     "I waste no time and thrust my dick right inside her."
     rina "Ah~ Master~!"
     "As I begin to move, Rina gets even more excited."
+
+    scene rina_special_cg_1 8
     rina "Ah~! Master! Harder please!"
     rina "Fuck me harder! "
+
+    scene rina_special_cg_1 9
     "I start to pound her even faster as I marvel at my sex slave's abilities."
     "Even after keeping a dildo in her pussy 24/7, she still has the energy to fiercely squeeze down on my dick."
+
+    scene rina_special_cg_1 10
     shinn "Heh. What an amazing pussy."
     shinn "Seems like you deserve some of my baby seed."
     rina "Ah~ Yes! Please, Master! Give it to me! Give me more!"
@@ -82,10 +107,16 @@ label rina_special_1:
     shinn "Here it comes!"
     "I approach the end at a violent pace. Each of my thrusts pounds all the way against her innermost depths."
     rina "Ah~ Master's so violent~! I love it!"
+
+    scene rina_special_cg_1 11 with cum_flash
+    play sound cum2
     "Before I know it, I'm bursting, letting my cum gush out inside her pussy."
     rina "Ahh~! Master's cum!"
     rina "It's pouring out inside me!"
     "Rina cums instantly as she feels my cum inside her."
+
+    scene rina_special_cg_1 12 with cum_flash
+    play sound cum1
     "Her eyes are rolled back and her tongue hanging out in an expression of pure ecstasy."
     "I think all the pleasure just broke her mind. Just as I wanted her."
     rina "Ahh~ More..."
