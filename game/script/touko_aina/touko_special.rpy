@@ -1,6 +1,8 @@
 label touko_special_1:
     if not _in_replay:
         jump touko_special_2
+    scene bg hallway 1 with fade
+    show touko naked
     "Clipping her dog collar onto its chain, I slowly parade Touko around like my trophy."
     "She just finished her practice and she's still soaked with sweat."
     "I've prepared a special slutty outfit that I bought online, just for this occasion."
@@ -19,18 +21,16 @@ label touko_special_1:
     "A quick look inside confirms he's yet to arrive."
     "I slide open the door and tug on the leash as I lead Touko inside."
 
-    # *CG TRANSITION*
-
-    # Title: Raze Special CG Scene (Touko)
-    # Location: Haruka Academy, Classroom
-    # Background CG: Just a classroom.
-
+    scene bg classroom with dissolve
+    show touko naked
     " As we enter the classroom, I take out a blindfold."
     shinn "Wear this."
     touko "What for?"
     shinn "Just do it. You're going to love love it."
     touko "..."
     "Touko grudgingly complies, tying it on and covering her eyes."
+
+    scene touko_slut_1 1 with pixellate
     "With her eyesight blocked out, it should leave the rest of her senses even sharper when we get started."
     "All we need now is to wait for the underclassman to arrive."
     "As we keep on waiting for him, Touko is starting to get impatient."
@@ -41,15 +41,21 @@ label touko_special_1:
     shinn "Hey Touko, I want you to put your arms behind the back of your head."
     touko "What...?"
     shinn "Just do it."
+
+    scene touko_slut_1 2
     "Touko complies and lifts up her arms to reveal her beautiful armpits."
     "But that's not enough for me."
     "I want her sweat more."
     shinn "Spread your legs open and show me your pussy."
     touko "..."
+
+    scene touko_slut_1 3
     "She slowly parts her legs and reveals her steamy hot pussy."
     shinn "Heh. Now go ahead and work your hips. Do a dance for me."
     touko "..."
-    "Touko starts to move her hips as ordered. ."
+
+    scene touko_slut_1 4
+    "Touko starts to move her hips as ordered."
     "It doesn't take long for her to start to work up a sweat again."
     "I keep watching her dance, the sweat flowing down and flying off her body, and the aroma is simply irresistible."
     shinn "You smell good when you sweat, Touko. Did you know that?"
@@ -57,20 +63,30 @@ label touko_special_1:
     shinn "*Sniff* *Sniff*"
     shinn "Just smelling it is getting my dick hard. I wanna taste it from your armpits."
     touko "What?"
+
+    scene touko_slut_1 5
     "With just that brief warning, I start to lick at her armpits, savoring the taste of a hard-working high school girl's sweat."
     shinn "Mmm~ Tastes so good."
     "Touko is repulsed, and immediately stops dancing."
     touko "Eww... Stop it!"
     "I carry on regardless. The smell and taste are making me rock hard."
     "Even more, the sight of her body, slick and shiny with sweat, is turning me on beyond belief."
+
+    scene touko_slut_1 6
     "I decide to jump the line, and go ahead and unzip my pants."
     touko "Wait, what are you doing?!"
+
+    scene touko_slut_1 7
     "Without warning, I shove my dick into her pussy."
     touko "Ahh~ No!~"
+
+    scene touko_slut_1 8
     "Just as I thrust into her, I hear someone starting to open up the door."
     "There's no need for me to stop for that. I carry on fucking Touko."
     "The door slides open, revealing the underclassman I invited."
     "He stands for a moment, horrified at the sight of what's going on."
+
+    scene touko_slut_1 9
     "As he watches, I keep pumping my cock into Touko's pussy."
     shinn "Loving my cock yet, Touko? "
     touko "Shut— up! "
@@ -106,6 +122,9 @@ label touko_special_1:
     shinn "So be sure that you properly take it all!"
     touko "Ah~ NO!"
     touko "NO! PLEASE! TAKE IT OUT! "
+
+    scene touko_slut_1 10 with cum_flash
+    play sound cum2
     "I give a last pound and shoot all my cum straight into her womb."
     touko "NOOOOO!!"
     "Touko is screaming for help, hopelessly, while the poor underclassman only stands there."
@@ -114,6 +133,9 @@ label touko_special_1:
     "At this point, I can tell Touko is completely mine."
     "I bet he'll never try to contact her again."
     "Mission accomplished."
+
+    scene touko_slut_1 11 with cum_flash
+    play sound cum1
     "Meanwhile, Touko is exhausted from the round we just finished. But I don't intend to let things end here."
     shinn "Tired already?"
     "Touko is panting, too exhausted to respond."
@@ -122,15 +144,11 @@ label touko_special_1:
     "I ignore my plea and push myself inside her again. We still have a long way to go until I'm satisfied."
     $ renpy.end_replay()
 
-
-    # *CG TRANSITION*
-
-    # Title: 2nd Raze Special CG Scene (Touko Alternative Version)
-    # Location: Haruka Academy, Hallway
-    # Background CG: Just a Hallway like any other.
 label touko_special_2:
     if not _in_replay:
         jump rina_special_1
+    scene bg hallway 1 with fade
+    show touko naked
     "Clipping the chain onto her dog collar, I slowly parade Touko around like my trophy."
     "She's just finished up her practice, and she's still flushed and covered with sweat."
     "The sweat from her exercise soaks into the special slutty outfit I prepared just for her."
@@ -164,12 +182,8 @@ label touko_special_2:
     "But the video equipment I prepared for today is already set up."
     "I slide open the door and stroll into the classroom, tugging on Touko's leash as we enter."
 
-    # *CG TRANSITION*
-
-    # Title: 2nd Raze Special CG Scene (Touko Alternative Version)
-    # Location: Haruka Academy, Classroom
-    # Background CG: Just a classroom.
-
+    scene bg classroom with dissolve
+    show touko naked
     "I double-check my video recorder, making sure it's ready to roll."
     "Touko is curious, and checks in with me."
     touko "Shinn~ What are we doing here?"
@@ -184,6 +198,8 @@ label touko_special_2:
     shinn "This is to make the setup kinkier. You want to make a big splash with the boys during your first AV debut, right?"
     touko "Yeah, of course."
     "Touko cheerfully puts the blindfold on."
+
+    scene touko_gyaru_1 1 with pixellate
     shinn "Good. Now just hold on. The recording will start soon."
     "After a short wait, the door slides open, and Touko's underclassman finally arrives."
     touko "Huh? Who's that?"
@@ -213,17 +229,29 @@ label touko_special_2:
     shinn "Now I want you to put your hands up behind your head."
     touko "Okay~"
     shinn "Good girl."
+
+    scene touko_gyaru_1 2
     "Touko complies, and I take a moment to appreciate her beautiful armpits."
+
+    scene touko_gyaru_1 3
     "Her pose also puts her new piercings on full display."
     shinn "Damn, your piercings look hot."
+
+    scene touko_gyaru_1 4
     touko "Heehee~ Thank you!"
     "Apart from that erotic piercing, what I really want to see is more of her sweat."
     shinn "Why don't you dance around a bit, show some slutty moves for the viewers?"
     touko "Okay!"
+
+    scene touko_gyaru_1 5
     "She keeps up the dance as I watch, until the droplets of sweat are running down and flicking off her body. Her aroma is simply irresistible."
     shinn "You smell good when you sweat, Touko. Did you know that?"
     touko "Really? Aww... Thank you."
+
+    scene touko_gyaru_1 6
     "As she keeps up her erotic dance, it's getting harder and harder for me to hold back."
+
+    scene touko_gyaru_1 7
     "I start to lick at her armpits, savoring the taste of an athletic high school girl."
     shinn "Mmm~ Tastes so good."
     "Touko seems like she's enjoying my licking too."
@@ -231,10 +259,18 @@ label touko_special_2:
     shinn "Yeah, it does. It's awesome."
     "I keep on licking her, the taste and smell making my dick rock hard."
     "When I pull back enough to see, the sight of her skin, slick and shining with sweat, is incredible to behold. She just looks too stunning right now."
+
+    scene touko_gyaru_1 8
     "I decide there's no reason to hold back any longer, and unzip my pants."
+
+    scene touko_gyaru_1 9
     shinn "Here I go!"
+
+    scene touko_gyaru_1 10
     "With no further warning, plunge my dick into her pussy."
     touko "Ahh~ Shinn's dick!"
+
+    scene touko_gyaru_1 11
     "The underclassman is still watching, transfixed with horror."
     "Seems like he can't even believe what's happening right in front of him. He won't even respond to the sound of Touko's voice."
     "As he watches, I keep pumping my cock inside of Touko."
@@ -252,13 +288,19 @@ label touko_special_2:
     touko "Sorry things turned out like this. I wasn't gonna say anything, but I did know you have a crush on me."
     touko "But I'm in love with Shinn right now, especially his big fat cock."
     touko "So please try your best to forget about me, okay?"
+
+    scene touko_gyaru_1 13
     "Her underclassmate starts crying uncontrollably."
     shinn "Aww... Touko. You make that poor boy cry."
     touko "Ah, but who cares? Let's keep fucking."
+
+    scene touko_gyaru_1 14
     "Her movements become even more intense, bouncing herself up and down on my cock."
     "With each move, it feels like she's sucking my dick inside her, and she moans out with every thrust."
     touko "Ah~ Shinn..."
     touko "Give it to me! I want your cock!"
+
+    scene touko_gyaru_1 15
     "She starts pumping her hips even faster."
     touko "Cock! Cock! Cock!"
     touko "Shoot it out, shoot it inside me!"
@@ -274,11 +316,17 @@ label touko_special_2:
     underclassman "..."
     shinn "Hahaha... I guess that's true. Why don't we show him what it's like when I cum in you as a demonstration? "
     touko "Sure~"
+
+    scene touko_gyaru_1 16
     "I strip off the rest of her clothes before we continue."
+
+    scene touko_gyaru_1 17
     "I start thrusting into her even more aggressively."
     shinn "I'm gonna reach deep down into your womb and pump all of my cum right inside you!"
     touko "Yes! Fill me up! "
     shinn "Hey, since we're still rolling the camera, you wana say anything first?"
+
+    scene touko_gyaru_1 18
     touko "Ah~ I am going to take Shinn's baby seed! Please watch me while my egg is about to be fertilized!"
     shinn "Alright! Make sure you take every single drop of it!"
     touko "Ah~"
@@ -289,6 +337,9 @@ label touko_special_2:
     shinn "You are my walking cum dumpster and my sex toy! "
     shinn "So go ahead and take it all in!"
     touko "YESSS!!!"
+
+    scene touko_gyaru_1 19 with cum_flash
+    play sound cum2
     "I pound her one last time and shoot my cum inside her womb."
     touko "AHHHHH!!"
     "Touko screams out in ecstasy, while the poor underclassman watches on."
@@ -298,6 +349,9 @@ label touko_special_2:
     "At this point, there's no question that Touko is completely mine."
     "I bet he's never going to contact her again."
     "Mission accomplished."
+
+    scene touko_gyaru_1 20 with cum_flash
+    play sound cum1
     "Meanwhile, Touko looks exhausted from the round we just finished. But I don't plan on stopping now."
     shinn "Tired already?"
     "Tired? I'm ready for more!"
