@@ -74,7 +74,7 @@ label naoko__cg_1:
     "Her moaning is like a source of energy. The more erotically she moans, the more powerfully I thrust into her. Her tight and narrow vagina is intensely stimulating."
     "Her vagina continues to pour pussy juice, allowing me to penetrate with even more haste and ease."
     naoko "Ahh... More, please. Don't stop!"
-    "It's not long long before I can feel the sensation building in my balls. It seems like a huge load is about to pour out."
+    "It's not long before I can feel the sensation building in my balls. It seems like a huge load is about to pour out."
     "I wanted to play around with her more, but the urge is kicking in fast. Even I can't resist it any more. I start to pump as quickly as I can."
     
     if persistent.cum == "inside":

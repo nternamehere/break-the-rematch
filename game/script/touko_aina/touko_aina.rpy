@@ -755,7 +755,7 @@ label gym__day_1_no_expose:
 
 label gym__day_1_wait_expose:
     shinn "Alright. Let me see how you did."
-    "I take the papers frm her and scan through her answers."
+    "I take the papers from her and scan through her answers."
     shinn "Hmm... Seems like you've missed quite a few of these, I'm afraid."
     touko "Oh..."
     shinn "Don't worry Touko. Practice makes perfect, just like in basketball."
@@ -891,7 +891,7 @@ label touko_aina__cg_2:
     "I refuse to take heed of her pleas and push on. Her pussy tightens every time I pound her."
     thinking "At this rate..."
     "Touko is sobbing. Just like that, she's being helplessly violated by me. It seems as if she's already been emotionally broken."
-    "Now all I need to do break her mind as well, and she'll be all mine."
+    "Now all I need to do is to break her mind as well, and she'll be all mine."
     touko "Ahh! Please stop!"
     "Her screams get even louder. At this rate, someone is bound to hear her."
 

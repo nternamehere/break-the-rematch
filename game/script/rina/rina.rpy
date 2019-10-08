@@ -275,7 +275,7 @@ label staffroom_day_1__lie:
     shinn "What kind of important stuff?"
 
     show rina pout
-    "Rina gives a clear look of embarrassment as she thinks about what she hason that phone."
+    "Rina gives a clear look of embarrassment as she thinks about what she has on that phone."
     rina "Look, don't pry so much. Will you help me out or not?"
     thinking "Even if I hadn't already seen, she's completely giving herself away. This should be fun."
     thinking "Let's see how long it takes for her to catch on."
@@ -558,7 +558,7 @@ label rina__cg_1:
     shinn "We've only just gotten started, Rina. There's still more to come for someone like you."
     shinn "Your discipline lesson isn't over yet."
     rina "You... Mothe—"
-    shinn "Woah. Hold your language, Rina. You shouldn't so rude to your colleagues."
+    shinn "Woah. Hold your language, Rina. You shouldn't be so rude to your colleagues."
     rina "..."
     shinn "Tell you what. I think we can have some more fun together."
     shinn "So why don't you meet me naked at the rooftop in the evening later? If you come, I promise I'll give you back your phone."
@@ -593,7 +593,6 @@ label rina__cg_2:
     shinn "Well. I guess it doesn't matter right now. Unbutton it, I want to see that naked body of yours."
     show rina naked
     "Flushed with shame and seeming even shyer than before, she strips herself down in front of me once again."
-    "Rather than being completely naked, she's left her stockings on."
     shinn "Oh, looking pretty sexy there..."
     rina "..."
     shinn "Ha, I didn't expect you'd go to the trouble of dressing yourself up for me."
@@ -744,7 +743,7 @@ label rina__cg_2:
     shinn "Look at it. You like it right?"
     rina "..."
     "Her asshole was twitching. I guess she wants it there."
-    shinn "Looks like want to have some more fun with your ass."
+    shinn "Looks like you want to have some more fun with your ass."
     rina "Wait... No..."
 
     scene rina_rooftop_2 1

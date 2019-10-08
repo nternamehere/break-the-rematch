@@ -73,7 +73,7 @@ label tennis__day_1:
     "I get more and more pissed off the more I have to deal with her shitty attitude."
     shinn "Say it!"
     ritsuko "S- Sex?"
-    thinking "No surprise that she's embarrassed even to say it."
+    thinking "No surprise that she's embarrassed to even say it."
     shinn "How do you know if it was sex?"
     "Ritsuko's face is red with embarrassment."
     ritsuko "Well, stop asking me about how I know! I just know, okay!"
@@ -101,7 +101,7 @@ label tennis__day_1:
     thinking "She's probably never had a boyfriend."
     thinking "Heh. No wonder she was so embarrassed saying the word \"sex\" in front of a guy."
     thinking "You can be pretty sure that one's a virgin."
-    thinking "Which means breaking her is even going to be more fun."
+    thinking "Which means breaking her is going to be even more fun."
     "I let out a sinister laugh."
     shinn "Tomorrow should be a fun day."
 
@@ -224,7 +224,7 @@ label ritsuko__cg_1:
     ritsuko "Eee! Don't do that! It's disgusting!"
     "The Principal doesn't pay her any mind, and continues to lick at her."
     ritsuko "Mmm~ Please stop!"
-    principal "The principal continues to lick her until her juices start to flow from between her lips."
+    "The principal continues to lick her until her juices start to flow from between her lips."
     principal "There! That should do it."
 
     scene ritsuko_sex_scene_1 5 with quick_fade
@@ -365,7 +365,7 @@ label tennis__day_1_continued_1:
     shinn "I was hoping we could make a deal we would both benefit from."
     principal "Hmm... and what do you mean by that?"
     shinn "Well, I can understand why you'd want to fuck Ritsuko, what with her amazing body and all."
-    shinn "To be frank, so would pretty mch anyone else in your situation. Including me."
+    shinn "To be frank, so would pretty much anyone else in your situation. Including me."
     principal "Right. And you're saying that you want in then? So what exactly do I get out of that?"
     shinn "I can mold that girl into a pet slave for you. Just like I did in the old days."
     
@@ -453,7 +453,7 @@ label ritsuko__cg_2:
     ritsuko "No! Go away!"
     "I grab her hands, holding her in place. She struggles against me, trying to throw me off with all her strength."
     "Too bad, now that she doesn't think she can put an end to this by playing along, I don't have the willing compliance she gave the Principal."
-    "Luckily, I have still have some straightforward options at my disposal. There's a length of rope sitting within reach. I grab hold of it."
+    "Luckily, I still have some straightforward options at my disposal. There's a length of rope sitting within reach. I grab hold of it."
     ritsuko "Let go of me you bastard!"
     ritsuko "What do you think you're doing?! Do you know who I am?!"
     "I let her words slide over me as I proceed to bind her hands behind her back."
@@ -468,8 +468,7 @@ label ritsuko__cg_2:
     ritsuko "What?"
 
     scene ritsuko__cg_2 3
-    "I force open her legs, revealing her beautiful pink striped panties."
-    shinn "Oh, nice. It's been a while since I've seen cute ones like these."
+    "I force open her legs, revealing her beautiful black panties."
     ritsuko "Wait, what are you doing!? Stop it!"
     shinn "Stop? You must be joking. There's no turning back now."
     ritsuko "No!"
@@ -586,7 +585,7 @@ label ritsuko__cg_2:
     ritsuko "..."
     "She doesn't respond, but her body is telling me how much she's enjoying it."
     "By this time, her pussy is dripping wet as it grips down on me."
-    "This it really pushing me right up to the edge myself."
+    "This is really pushing me right up to the edge myself."
     shinn "I'm at my limit, Ristuko! I'm gonna shoot it out inside you!!"
     shinn "Go ahead and take my cum, Ritsuko!"
     "She doesn't say a word, but I catch the flash of fear in her eyes."

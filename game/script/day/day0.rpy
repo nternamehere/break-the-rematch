@@ -88,7 +88,7 @@ label archery__day_0:
     shinn "My apologies, Miss Katsuragi. I'm Shinn Akatsuki. I was assigned to be your tutor."
     "She tilts her head to the side, as if perplexed, but says nothing."
     thinking "This is getting tiresome."
-    shinn "Is there are a chance for us to talk? That is, if you're not busy."
+    shinn "Is there any chance for us to talk? That is, if you're not busy."
     "Her lips twitch, forming a concerned frown."
     satsuki "What is it you wish to discuss, Mr. Akatsuki?"
     thinking "I have to play this smoothly. Don't screw up."
@@ -494,7 +494,7 @@ label classroom__day_0:
     naoko "LET ME GO!"
     "I shove her fist away and she jerks back."
     naoko "You bastard!"
-    thinking "If I don't teach her a lesson today, she's bound to keep after me. My entire plan could be foiled by this bitch."
+    thinking "If I don't teach her a lesson today, she's bound to keep going after me. My entire plan could be foiled by this bitch."
     shinn "For how vehement you're being now, I seem to recall you rather enjoying our lovemaking."
     naoko "Maybe, but that was before I knew. There was no love behind our sex – it was all a lie. A lie from a fuckboy like you! I hate you!"
     shinn "Oh yeah?"
@@ -514,7 +514,7 @@ label classroom__day_0:
     shinn "Well?"
     naoko "...What if I don't comply?"
     shinn "I have pictures in my phone, and on my PC, that will instantly end your career as a teacher."
-    "Naoko's expression changes immediately. She her face crumples in defeat."
+    "Naoko's expression changes immediately. Her face crumples in defeat."
     jump naoko__cg_1
 
 label day_0__end:
