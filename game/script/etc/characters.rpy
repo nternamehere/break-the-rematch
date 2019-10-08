@@ -35,6 +35,7 @@ define rina = Character("Rina Akiyama", what_prefix="{font=gui/fonts/AppliMincho
 define naoko = Character("Naoko Tohno", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define principal = Character("Principal", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define everyone = Character("Everyone", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define underclassman = Character("Underclassman", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define thinking = Character("(Shinn Akatsuki)", what_prefix="(", what_suffix=")")
 
 layeredimage ritsuko_tennis:

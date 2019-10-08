@@ -210,7 +210,7 @@ label harem_end:
     "We're gonna be one hell of a big happy family."
     $ persistent.harem__cg_1 = True
     $ renpy.end_replay()
-    jump end
+    jump senji_special_1
 
 label end:
     scene black with dissolve

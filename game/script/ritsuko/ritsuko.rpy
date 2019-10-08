@@ -734,6 +734,7 @@ label ritsuko__cg_3:
     shinn "It's here where no one's watching, or the photos where everyone can see them. Your choice."
     ritsuko "..."
     ritsuko "Fine..."
+    hide ritsuko_tennis
     show ritsuko naked shy
     "Ritsuko's face flushes as she slowly strips off her clothes."
     ritsuko "This is... so humiliating."
@@ -944,6 +945,7 @@ label ritsuko__cg_3_house:
     shinn "You're here for more than just a lesson. I'm really going to pound you, Ritsuko."
     "Ritsuko perks up with excitement on hearing that."
     ritsuko "Let's get started then!"
+    hide ritsuko_tennis
     show ritsuko naked exposed
     "Rina strips herself naked in front of me, without even waiting for my instruction."
     ritsuko "You like my body, right?"
