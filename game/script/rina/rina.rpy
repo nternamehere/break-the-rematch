@@ -1408,8 +1408,10 @@ label rina__cg_4:
     "I offer some reassurance to calm them down."
     shinn "Don't worry guys, there's plenty of time today for everyone to fuck her!"
 
-    scene rina__cg_4_gangbang 29
+    scene black with fade
     "After a few hours, Rina is thoroughly fucked, but still far from finshed."
+    
+    scene rina__cg_4_gangbang 29 with quick_fade
     "The marks left on her tights counting the rounds are been through today are now too numerous to track."
     "She's exhausted, but still eager, happy to be able to fuck her fill. Seems like she's been enjoying it more than the boys."
     rina "Yes... More... Give me more!"
