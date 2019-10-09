@@ -1,7 +1,7 @@
 label rina_special_1:
     if not _in_replay:
         jump end
-
+    play music sex fadeout 1.0 fadein 1.0
     scene bg hallway 1 with fade
     "It's after hours, and everyone has cleared out."
     "Nobody is around in school anymore, except for one other person."

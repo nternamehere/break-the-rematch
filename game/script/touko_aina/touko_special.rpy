@@ -1,6 +1,8 @@
 label touko_special_1:
     if not _in_replay:
         jump touko_special_2
+
+    play music sex fadeout 1.0 fadein 1.0
     scene bg hallway 1 with fade
     show touko naked
     "Clipping her dog collar onto its chain, I slowly parade Touko around like my trophy."
@@ -147,6 +149,8 @@ label touko_special_1:
 label touko_special_2:
     if not _in_replay:
         jump rina_special_1
+
+    play music sex fadeout 1.0 fadein 1.0
     scene bg hallway 1 with fade
     show touko naked
     "Clipping the chain onto her dog collar, I slowly parade Touko around like my trophy."

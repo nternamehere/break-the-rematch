@@ -679,6 +679,7 @@ label tennis__day_2:
     "I head out to the tennis court."
 
 label ritsuko__cg_3:
+    play music kinky fadeout 1.0 fadein 1.0
     scene bg tennis court with fade
     show ritsuko_tennis
     "As I make it within eyeshot of the court, Ritsuko instantly spots me."
@@ -1124,6 +1125,7 @@ label ritsuko__cg_3_end:
     jump map__school
 
 label ritsuko__cg_4:
+    play music kinky fadeout 1.0 fadein 1.0
     scene ritsuko__cg_4 1 with map_fade
     "The last few days with Ritsuko have been pretty busy."
     "I've been training her pretty much nonstop. I think she's completely lost track by now of how long it's been."
@@ -1333,4 +1335,5 @@ label ritsuko__cg_4_end:
     $ tennis_available = False
     scene black
     "END OF RITSUKO ARC"
+    play music campus fadeout 1.0 fadein 1.0
     jump map__school

@@ -579,6 +579,7 @@ label rina__cg_1:
     jump map__school
 
 label rina__cg_2:
+    play music breakdown fadeout 1.0 fadein 1.0
     $ rina_next_step = "cg_3"
     scene bg rooftop with map_fade
     "It's evening, and the sun has already started to set. I'm still waiting for Rina to show up."
@@ -915,9 +916,11 @@ label rina__cg_2_end:
     rina "Ah~ Yes Master!"
     $ renpy.end_replay()
     $ persistent.rina__cg_2 = True
+    play music campus fadeout 1.0 fadein 1.0
     jump map__school
 
 label rina__cg_3:
+    play music kinky fadeout 1.0 fadein 1.0
     scene rina_dog_1 1 with map_fade
     $ rina_next_step = "intermission"
     "A day has passed since our training session on the rooftop."
@@ -1204,9 +1207,11 @@ label rina__cg_3:
     shinn "It's going to be a long day for you, Rina."
     $ renpy.end_replay()
     $ persistent.rina__cg_3 = True
+    play music campus fadeout 1.0 fadein 1.0
     jump map__school
 
 label rina__intermission:
+    stop music fadeout 1.0
     scene black with map_fade
     "???"
     "Since I first started letting other students fuck Rina..."
@@ -1217,6 +1222,7 @@ label rina__intermission:
     jump rina__cg_4
 
 label rina__cg_4:
+    play music gang fadein 1.0
     "The room is filled with naked and hungry schoolboys."
 
     scene rina__cg_4_gangbang 2 with fade
@@ -1494,5 +1500,6 @@ label rina__cg_4_end:
     $ persistent.rina__cg_4 = True
     $ staffroom_available = False
     "END OF RINA ARC"
+    play music campus fadeout 1.0 fadein 1.0
     jump map__school
     # -RINA ARC ENDED-

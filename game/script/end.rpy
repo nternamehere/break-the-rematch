@@ -1,4 +1,5 @@
 label harem_end:
+    play music happy fadeout 1.0 fadein 1.0
     $ quick_menu = True
     scene bg shinn frontdoor with pixellate
     "Well, this is one for the books alright."
