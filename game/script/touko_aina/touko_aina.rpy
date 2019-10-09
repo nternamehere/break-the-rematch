@@ -996,12 +996,12 @@ label gym__day_3:
     "Some of the students start to take notice of my presence here. Considering that I'm not wearing my old school uniform, and don't look old enough to fit in among the faculty, I can't help standing out."
     thinking "This was a bad idea..."
     "Just as I'm about to give up and leave, a familiar person appears on the far end of the hallway."
-    show touko shy basketball with moveinleft
+    show touko happy school with moveinleft
     thinking "There she is."
     "Touko seems normal. In fact, she's walking along talking with some friends who I suppose are admirers of hers."
-    show touko concerned basketball
+    show touko concerned school arms
     "As she gets closer, she notices me, and a look of disgust passes over her face. She passes by me without giving me another glance as she heads straight into her classroom."
-    hide touko concerned basketball with moveoutright
+    hide touko concerned school arms with moveoutright
     thinking "Heh. Ignore me all you want. Pretty soon I'll have you wrapped around my finger anyway."
     "Feeling reassured that things are still going smoothly, I head back to my workplace in the staff room."
     "As I'm on my way there, I hear someone behind me call out my name."
