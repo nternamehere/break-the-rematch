@@ -5,9 +5,9 @@ label rina_special_1:
     scene bg hallway 1 with fade
     "It's after hours, and everyone has cleared out."
     "Nobody is around in school anymore, except for one other person."
-    "I slide open the door and enter the classroom."
+    "I slide open the door and enter the staffroom."
 
-    scene bg classroom with fade
+    scene bg staffroom with fade
     show rina overcoat
     "That one remaining person is waiting for me there as I approach her."
     "As I get closer to her, I can feel the sense of tension in the air."
