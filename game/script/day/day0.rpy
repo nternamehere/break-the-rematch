@@ -42,6 +42,7 @@ label day_0__start:
     jump map__school
 
 label archery__day_0:
+    $ quick_menu = True
     $ renpy.block_rollback()
     show bg range with map_fade
     "..."
@@ -72,7 +73,7 @@ label archery__day_0:
     "Katsuragi turns, unsmiling, to look at the small audience of students, who continue to cheer and praise her. She's like an idol."
 
     scene bg range
-    show satsuki cocky
+    show satsuki uniform cocky
     with dissolve
     "I slowly notice that Katsuragi's eyes are fixed on me. I can't read her expression, whether it projects simple curiosity or condescension."
     "The other students follow her gaze. Soon, everyone is aware of my presence."
@@ -100,7 +101,7 @@ label archery__day_0:
     shinn "I see my reputation precedes me."
     satsuki "Perhaps. I do not really see the need for such measures, but if he insists..."
     
-    show satsuki defeated
+    show satsuki uniform upset
     satsuki "I should have expected this. Club activities take up so much time..."
     shinn "Ah, but it's not out of the ordinary to take some time off to study."
     shinn "Besides, if you fail your classes you'd have to give up your club activities anyway, wouldn't you?"
@@ -114,7 +115,7 @@ label archery__day_0:
     "I smirk back at her, trying to control myself."
     shinn "Of course not. Everything's been considered."
     
-    show satsuki neutral smile
+    show satsuki uniform basic
     satsuki "Very well."
     satsuki "Can I expect you to get in touch with me soon?"
     shinn "Of course. The principal gave me your contact information. I'm looking forward to it!"
@@ -123,7 +124,7 @@ label archery__day_0:
     satsuki "Likewise, Mr. Akatsuki."
     "With a single nod, Satsuki returns her focus to the range."
 
-    hide satsuki neutral smile
+    hide satsuki uniform basic with moveoutleft
     thinking "That took longer than expected..."
     "But it was quite worth it. I met the school's archery star, and she happens to be a complete babe. I mentally plan to \"check in\" with her very soon."
     thinking "Hmm... Who I should I see next?"
@@ -131,6 +132,7 @@ label archery__day_0:
     jump map__school
 
 label tennis__day_0:
+    $ quick_menu = True
     $ renpy.block_rollback()
     show bg tennis court with map_fade
     "According to my list, the next student is a member of the school's tennis club."
@@ -144,7 +146,7 @@ label tennis__day_0:
     unknown "Hey! I'm talking to you, Shinn!"
     "After a moment I turn, facing the one calling to me."
 
-    show ritsuko_tennis with moveinright
+    show ritsuko tennis basic with moveinright
     ritsuko "Hey, Shinn. If you're going to be coming around like this, at least try to hide the tent you're pitching, for once."
     "A chill runs down my spine as I realize that it's none other than Ritsuko. I glance at the principal's file and notice the surname..."
     thinking "Yasuhiro. Damn it! I should have realized it sooner!"
@@ -169,7 +171,7 @@ label tennis__day_0:
     ritsuko "Indeed, Shinn. If I ever find the evidence – which I will – you'd better be careful."
     ritsuko "An animal like you needs to learn to stay in the mud, where it belongs."
 
-    show ritsuko_tennis brow smile
+    show ritsuko tennis smile
     ritsuko "I suggest you leave before you bother anyone further."
     "She gives me a mocking wink."
     shinn "Hmph! In that case, I suppose I'll let you know about the tutoring later. Or maybe I'll just let you fail!"
@@ -177,11 +179,12 @@ label tennis__day_0:
     "She'd almost caught me back when she was a first-year - I'd been having sex with one of the teachers in the second floor storeroom. I guess she heard the noise we were making and decided to investigate the storeroom herself. I managed to close the door before she could get in, but she saw my face as I jammed it shut."
     "If it weren't for that day, today's near-incident wouldn't have occurred. In fact, neither of us would have ever known each other."
     "But at least she hadn't caught me for sure. And now I'm in a position to make her regret what she almost did then, and what she's trying to do now."
-    hide ritsuko_tennis smile
+    hide ritsuko tennis smile
     $ tennis_available = False
     jump map__school
 
 label gym__day_0:
+    $ quick_menu = True
     $ renpy.block_rollback()
     show bg pool with map_fade
     if not tennis_available:
@@ -200,7 +203,7 @@ label gym__day_0:
     if not tennis_available:
         "Unlike that bitchy blonde's, this voice is far more dignified, and has a tone of kindness to it."
     
-    show aina basic with moveinright
+    show aina pool basic with moveinright
     "I turn to find myself face-to-face with a blue-haired beauty. Her stunning eyes match her hair."
     shinn "Good evening."
     thinking "Looks like I wasn't expecting too much after all."
@@ -214,7 +217,7 @@ label gym__day_0:
     aina "<sigh> Is this regarding my recent grades?"
     shinn "I'm afraid so, Miss Aozaki."
     
-    show aina eyes shut
+    show aina pool basic eyes
     "She winces, though the confidence doesn't leave her posture."
     aina "I can positively say that I can recover on my own. However, understanding the fact that this is our last year..."
     aina "I guess it can't really be helped. Classes are definitely more important than mere club activities. I should have remembered that."
@@ -226,14 +229,14 @@ label gym__day_0:
     shinn "<chuckle> Why so formal? Just call me Shinn."
     shinn "And indeed. I always try to be as resourceful as possible."
     
-    show aina warm smile
+    show aina pool basic
     aina "I like that."
     aina "It means we won't be wasting too much time."
 
     if not tennis_available:
         shinn "You're quite concerned with time. Same as Ms. Katsuragi."
 
-        show aina surprise
+        show aina pool surprise
         aina "Katsuragi? Is she going to be taking courses as well?"
         "I nodded. Aina sighed."
         aina "I suppose that makes sense."
@@ -250,13 +253,13 @@ label gym__day_0:
     unknown "Aina? Is something happening?"
     "Another person appears from around a corner. She approaches Aina and stops beside her."
     
-    show aina surprise at right
-    show touko shy basketball at left
+    show aina pool surprise at right
+    show touko basketball shy at left
     with moveinleft
     "The new student is wearing a basketball uniform, which, despite its looseness over her body, still shows her ample and sculpted curves."
     aina "Good evening, Touko!"
 
-    show aina warm smile
+    show aina pool basic
     "The student called Touko stares at me for a second, as if perplexed."
     "Aina, looking from me to her friend and back again, giggles."
     aina "Oh, this is Mr. Shinn Akatsuki. He's the tutor the principal told us about the other day."
@@ -290,8 +293,8 @@ label gym__day_0:
     aina "Thank you!"
     "And just like that, the two attractive girls leave for places unknown."
 
-    hide aina warm smile
-    hide touko shy basketball
+    hide aina pool basic
+    hide touko basketball shy
     with moveoutleft
     thinking "Interesting..."
     "Touko's sudden appearance interrupted my nascent conversation with Aina, but it also saved me the trouble of looking for the other girl."
@@ -302,6 +305,7 @@ label gym__day_0:
     jump map__school
 
 label track__day_0:
+    $ quick_menu = True
     $ renpy.block_rollback()
     show bg track with map_fade
     thinking "Damn, it's hotter than I expected."
@@ -314,13 +318,15 @@ label track__day_0:
     thinking "I shouldn't have so much trouble finding a girl like this..."
     "As I walk around the track, I finally spot someone who catches my interest."
     
-    show araki basic with moveinright
+    show araki track basic with moveinright
     unknown "..."
     "The girl watches me as I approach, and I watch her back."
     "Her pretty blue eyes are gentle, though they also show her exhaustion."
     thinking "Ah, this must be Araki. Her demeanor is an obvious give away."
     "Smiling, I close the distance between us."
     shinn "Good evening. Are you Miss Shinjugai?"
+    
+    show araki track shy
     araki "..."
     "The girl hesitates a moment before responding, but then nods."
     thinking "What's with this girl?"
@@ -330,6 +336,8 @@ label track__day_0:
     "Her voice is soft, almost a whisper."
     thinking "Damn, she's cute."
     shinn "Are you feeling well?"
+
+    show araki track upset
     araki "I don't... know you."
     thinking "...What?"
     shinn "Oh, don't worry. I'm just here on behalf of the principal."
@@ -342,6 +350,8 @@ label track__day_0:
     araki "You look like a student."
     araki "I thought you were one..."
     shinn "<chuckle> Well, I was a student here, after all."
+
+    show araki track blush
     araki "Oh? You were?"
     "Araki's aura of reservation seems to lift somewhat."
     shinn "Oh yes. I graduated only a couple of years ago."
@@ -353,11 +363,12 @@ label track__day_0:
     araki "In that case, I'll be going then. See you soon."
     shinn "Alright. Take care."
     "With a small nod, Araki walks away."
-    hide araki basic with moveoutright
+    hide araki track basic with moveoutright
     $ track_available = False
     jump map__school
 
 label classroom__day_0:
+    $ quick_menu = True
     scene bg hallway 2 with map_fade
     $ renpy.block_rollback()
     "Feeling satisfied, I check over the principal's list one last time."
@@ -379,7 +390,7 @@ label classroom__day_0:
     $ renpy.music.set_volume(1.0, 0.0, channel = "sound")
     "A mature-looking, wide-hipped woman appears in the doorway."
     
-    show rina annoyed with moveinleft
+    show rina suit annoyed with moveinleft
     unknown "Excuse me – who are you and what are you doing here?"
     shinn "Er..."
     "The woman enters the classroom without another word and approaches me."
@@ -398,7 +409,7 @@ label classroom__day_0:
     shinn "Anyway, since school's out for the day, maybe I should go."
     shinn "After all, wouldn't want to run afoul of the teacher in charge of discipline, right?"
     
-    show rina vicious smile
+    show rina suit confident
     rina "Indeed."
     rina "Actually, Miss Takatsukasa briefed me about you already."
     thinking "I was afraid it might have been Ritsuko. What a relief."
@@ -410,12 +421,12 @@ label classroom__day_0:
     thinking "I think she joined the academy after I graduated, which explains why we haven't met."
     "Without my realizing, it seems I've been staring too closely for Ms. Akiyama's tastes."
     
-    show rina annoyed
+    show rina suit annoyed
     rina "Pssh! At least {i}try{/i} to be subtle."
     rina "Know that you're only a tutor here, Mr. Akatsuki. And I'll be keeping an eye on you."
     rina "If I catch you doing anything suspicious, or even hear about it, I will make sure you're ejected from the premises."
     
-    show rina vicious smile
+    show rina suit confident
     rina "You know, I could start asking around about you. I'm sure many people have stories to tell about your time as a student here."
     thinking "Pesky bitch"
     rina "But I suppose it doesn't matter, really. The courses shouldn't last for more than thirty days. Maybe you can behave yourself that long."
@@ -426,13 +437,13 @@ label classroom__day_0:
     shinn "Admittedly, I'm also here for reasons of nostalgia, at least partly."
     shinn "But I will say that I'm quite glad to hear your worries about my performance in these courses. It would look bad for my curriculum if I--"
     
-    show rina angry
+    show rina suit annoyed
     rina "W-who said I was worried about you?!"
     thinking "Whoa! That was unexpected."
     shinn "Now, now. I was just acknowledging that the only reason you would be concerned about my work with my students is due to short record of experience. Unless you're suggesting something else, Ms. Akiyama?"
     "A marked change comes about her as I pose my question."
     
-    show rina pout
+    show rina suit pout
     rina "Hmph! Of course not! What else could it be?"
     thinking "Heh, real smooth there."
     shinn "In that case, Ms. Akiyama, I will take my leave."
@@ -445,8 +456,8 @@ label classroom__day_0:
     thinking "Wait, what? Is that Naoko?"
     naoko "Oh, Rina. There you are."
     
-    show rina pout at right
-    show naoko smile at left
+    show rina suit pout at right
+    show naoko suit smile at left
     with moveinleft
     rina "Huh? Naoko? What are you doing here?"
     naoko "I was looking for you. The documents that you asked for have been completed."
@@ -457,18 +468,18 @@ label classroom__day_0:
     naoko "I see. Nice to meet you, Shinn."
     thinking "Holy shit. Does she not remember me?"
     
-    show naoko cheerful
+    show naoko suit happy
     shinn "Nice to meet you, Naoko. I hope I'll be able to work with you as well."
     naoko "Sure! If you need anything, just ask."
     thinking "Has she forgotten what we did?"
     rina "I shall be leaving now."
     naoko "See you."
 
-    hide rina with moveoutright
-    show naoko smile at center with moveinright
+    hide rina suit pout with moveoutright
+    show naoko suit smile at center with moveinright
     "As soon as the door shut behind Rina, Naoko whips around to face me."
     
-    show naoko basic
+    show naoko suit angry
     naoko "Why did you bother to come back?!"
     shinn "Huh?"
     naoko "Don't act dumb with me, Shinn. After we had sex you just... dumped me. I never heard from you again. And now you're just... here!"
@@ -518,6 +529,7 @@ label classroom__day_0:
     jump naoko__cg_1
 
 label day_0__end:
+    $ quick_menu = True
     scene bg main gate with fade
     stop music fadeout 1.0
     shinn "Ah. What a day!"
@@ -525,38 +537,38 @@ label day_0__end:
     "I take out my list and begin to check through each girl's profile one last time."
     shinn "Let's see how the hit list's looking."
     
-    show araki basic with quick_fade
+    show araki track basic with quick_fade
     thinking "There's the sporty Araki Shinjugai, with a body that's petite and tight. Utterly enticing."
     
-    hide araki basic
-    show touko shy basketball
+    hide araki track basic
+    show touko basketball shy
     with quick_fade
     thinking "We have the beautiful Touko Takatsukasa. Her mere gaze is quite stunning, and she packs some delicious curves in that athletic body of hers."
     
-    hide touko shy basketball
-    show aina basic
+    hide touko basketball shy
+    show aina pool basic
     with quick_fade
     thinking "Then there's Aina Aozaki... that bubbly, cute nature of hers is very endearing. I can't wait to turn her into an utter degenerate."
     
-    hide aina basic
-    show satsuki neutral smile
+    hide aina pool basic
+    show satsuki uniform basic
     with quick_fade
     thinking "Ah, Satsuki Katsuragi. A traditional maiden and an archery star, no less! Imagine breaking her to such a point that she no longer even cares about her exalted family name."
     
-    hide satsuki neutral smile
-    show ritsuko_tennis
+    hide satsuki uniform basic
+    show ritsuko tennis basic
     with quick_fade
     thinking "And, of course, there's Ritsuko Yasuhiro."
     "I shudder at the very memory of her."
     thinking "I'll have to be careful with her, though there's no doubt I'll have to turn her into a cumdump as well. There are special methods for her type."
     
-    hide ritsuko_tennis
-    show rina confident
+    hide ritsuko tennis basic
+    show rina suit confident
     with quick_fade
     thinking "And last, Ms. Rina Akiyama. She'll be the next teacher to be my victim."
     thinking "I wasn't really planning to go after teachers this season, but after what happened with Naoko today, and considering Rina's, plump, irresistible hips, there's nothing wrong with having a token adult in the line-up."
     
-    hide rina confident with quick_fade
+    hide rina suit confident with quick_fade
     "As I turn to look back at the school, I feel a grin slide across my face."
     thinking "Now... let this breaking season commence."
     "Rubbing my hands in excitement, I begin my trip home, already planning for tomorrow."

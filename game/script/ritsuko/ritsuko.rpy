@@ -18,7 +18,7 @@ label tennis__day_1:
     "I walk towards the staff room to get some materials done for the tutoring this afternoon."
     "As I reach the entrance to the staff rom, the door suddenly swings open right in front of me."
     
-    show ritsuko_tennis with moveinright
+    show ritsuko tennis basic with moveinright
     ritsuko "Oh?"
     "Definitely not who I was hoping to run into this early in the morning."
     ritsuko "What do we have here?"
@@ -26,13 +26,9 @@ label tennis__day_1:
     shinn "Good morning, Ritsuko. How are you doing?"
     ritsuko "How polite. Well, I'm doing just fine."
     shinn "Great. Don't forget about our session later this afternoon."
-    
-    show ritsuko_tennis brow
     ritsuko "Oh. Session?"
     "Ritsuko pauses for a moment."
     ritsuko "Ah! Yes, I remember now..."
-
-    show ritsuko_tennis -brow
     thinking "This idiot..."
     shinn "You are coming in, right?"
     ritsuko "Of course. I just hope you keep your hands to yourself."
@@ -40,7 +36,7 @@ label tennis__day_1:
     ritsuko "Ho ho ho~"
     ritsuko "Oh, nothing, don't mind me. Anyway, see you later!"
 
-    hide ritsuko_tennis with moveoutleft
+    hide ritsuko tennis basic with moveoutleft
     "Ritsuko walks away."
     thinking "That little bitch. I'm seriously going to punish her."
     "But for all that she's such a snob, she can actually be pretty clever."
@@ -52,7 +48,7 @@ label tennis__day_1:
     "I keep thinking to myself about how I'm going to deal with her."
     "But before I've managed to come up with anything, Ritsuko enters the class."
 
-    show ritsuko basic school with moveinright
+    show ritsuko school smile with moveinright
     thinking "Wow, She's early."
     "She seems to notice my look of surprise as I see her."
     ritsuko "Oh? Why so startled? Did you not expect me to turn up?"
@@ -95,7 +91,7 @@ label tennis__day_1:
     shinn "Too bad. Do it tonight and hand it in tomorrow."
     ritsuko "Fine. I shall take my leave then. See you tomorrow."
 
-    hide ritsuko basic school with moveoutright
+    hide ritsuko school smile with moveoutright
     "Ritsuko stands up and leaves the class."
     thinking "Ugh. What a horrible student..."
     thinking "I wonder how on earth she manages to make friends in school with such an arrogant attitude."
@@ -132,7 +128,7 @@ label tennis__day_1:
 
 label ritsuko__cg_1:
     scene bg principal office with pixellate
-    show ritsuko angry school at left
+    show ritsuko school angry at left
     show principal thinking at right
     play music breakdown fadeout 1.0 fadein 1.0
     ritsuko "Why did you call me out here all of a sudden?"
@@ -318,7 +314,7 @@ label ritsuko__cg_1:
     show principal smirk at right
     "Ritsuko slowly picks up her clothes and dresses herself."
 
-    show ritsuko sad school
+    show ritsuko school concerned
     principal "Every lunchtime, I want you to come visit me in my office."
     ritsuko "..."
     ritsuko "You said..."
@@ -424,7 +420,7 @@ label ritsuko__cg_2:
     "After eating an early lunch, I come down here to confront her."
     "I've been waiting for an opportunity like this, ever since Ritsuko threatened to expose me before."
     "Normally, there's nobody using the girls' locker room at this hour. It's a bit eerie with nobody around."
-    show ritsuko_tennis with moveinright
+    show ritsuko tennis basic with moveinright
     "As I turn a corner, I find Ritsuko here, already dressed up for practice."
     "She turns and stares at me as I come into view."
     ritsuko "Eh? Shinn? What are you doing here!? This is a girls' locker room, you pervert! Get out!"
@@ -681,7 +677,7 @@ label tennis__day_2:
 label ritsuko__cg_3:
     play music kinky fadeout 1.0 fadein 1.0
     scene bg tennis court with fade
-    show ritsuko_tennis
+    show ritsuko tennis basic
     "As I make it within eyeshot of the court, Ritsuko instantly spots me."
     ritsuko "You! Why are you here!?"
     "In her anger, she flings a tennis ball at me."
@@ -735,7 +731,6 @@ label ritsuko__cg_3:
     shinn "It's here where no one's watching, or the photos where everyone can see them. Your choice."
     ritsuko "..."
     ritsuko "Fine..."
-    hide ritsuko_tennis
     show ritsuko naked shy
     "Ritsuko's face flushes as she slowly strips off her clothes."
     ritsuko "This is... so humiliating."
@@ -938,7 +933,7 @@ label ritsuko__cg_3_no_pee:
 
 label ritsuko__cg_3_house:
     scene bg shinn bedroom with fade
-    show ritsuko_tennis
+    show ritsuko tennis basic
     "It's evening by the time I make it back home with Ritsuko after our session on the tennis court, but Ritsuko's lust hasn't begun to cool."
     ritsuko "Ah, Shinn~"
     ritsuko "Are you going to give me the lesson here in your room?"
@@ -946,9 +941,9 @@ label ritsuko__cg_3_house:
     shinn "You're here for more than just a lesson. I'm really going to pound you, Ritsuko."
     "Ritsuko perks up with excitement on hearing that."
     ritsuko "Let's get started then!"
-    hide ritsuko_tennis
+    hide ritsuko tennis basic
     show ritsuko naked exposed
-    "Rina strips herself naked in front of me, without even waiting for my instruction."
+    "Ritsuko strips herself naked in front of me, without even waiting for my instruction."
     ritsuko "You like my body, right?"
     "It's not like I can deny that."
     "The body she's honed with her hard tennis practice is simply out of this world."

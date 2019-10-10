@@ -4,7 +4,7 @@ label touko_special_1:
 
     play music sex fadeout 1.0 fadein 1.0
     scene bg hallway 1 with fade
-    show touko naked
+    show touko slut
     "Clipping her dog collar onto its chain, I slowly parade Touko around like my trophy."
     "She just finished her practice and she's still soaked with sweat."
     "I've prepared a special slutty outfit that I bought online, just for this occasion."
@@ -24,7 +24,7 @@ label touko_special_1:
     "I slide open the door and tug on the leash as I lead Touko inside."
 
     scene bg classroom with dissolve
-    show touko naked
+    show touko slut
     " As we enter the classroom, I take out a blindfold."
     shinn "Wear this."
     touko "What for?"
@@ -152,7 +152,7 @@ label touko_special_2:
 
     play music sex fadeout 1.0 fadein 1.0
     scene bg hallway 1 with fade
-    show touko naked
+    show touko gal
     "Clipping the chain onto her dog collar, I slowly parade Touko around like my trophy."
     "She's just finished up her practice, and she's still flushed and covered with sweat."
     "The sweat from her exercise soaks into the special slutty outfit I prepared just for her."
@@ -187,7 +187,7 @@ label touko_special_2:
     "I slide open the door and stroll into the classroom, tugging on Touko's leash as we enter."
 
     scene bg classroom with dissolve
-    show touko naked
+    show touko gal
     "I double-check my video recorder, making sure it's ready to roll."
     "Touko is curious, and checks in with me."
     touko "Shinn~ What are we doing here?"

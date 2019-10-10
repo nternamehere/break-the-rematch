@@ -1,6 +1,6 @@
 label naoko__cg_1:
     show bg classroom
-    show naoko shy
+    show naoko suit horny
     play music sex fadeout 1.0 fadein 1.0
     naoko "..."
     shinn "Well, what are you waiting for? Show me that heavenly, round chest of yours. Your pussy, too."

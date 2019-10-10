@@ -26,12 +26,12 @@ label staffroom_day_1__start:
     "I wonder if I could pull the same thing off with Rina."
     "Speak of the devil..."
 
-    show rina confident with moveinleft
+    show rina suit confident with moveinleft
     rina "Oh. Shinn. There you are."
     thinking "Huh? She actually came here looking for me?"
     shinn "Ah, Ms. Rina, good morning. Today's my first day working here. I hope you can offer me your guidance on the job."
     
-    show rina vicious smile
+    show rina suit smile
     rina "Pfft. I wasn't expecting manners from the likes of you."
     thinking "This bitch..."
     rina "Right. Since you're already familiar with the school grounds, I'll just show you to your workplace. That's the space where you'll be doing your administrative work."
@@ -39,12 +39,12 @@ label staffroom_day_1__start:
     rina "Well too bad. I discussed it with the principal, and he agreed you could handle some additional tasks while you're not working with students."
     thinking "I'm really getting the urge to kill this bitch..."
     
-    show rina pissed 2
+    show rina suit angry arms
     rina "Do you have a problem with that?"
     "I give Rina the most convincing smile I've got."
     shinn "Of course not, Ms. Rina, no problem. I'll do my best."
     
-    show rina vicious smile
+    show rina suit smile
     rina "Good. Now, since the tutoring only starts after regular classes have ended..."
     "She carries over a huge stack of paperwork, and slams it down onto my workspace."
     rina "Here's some easy administrative paperwork I need you to clear. Get it done before school lessons are over."
@@ -54,7 +54,7 @@ label staffroom_day_1__start:
     rina "Good. Now, if there's anything else you need to know, you can come to me at my workplace and I'll sort you out."
     shinn "Okay."
 
-    hide rina vicious smile with moveoutleft
+    hide rina suit smile with moveoutleft
     "Rina walks away."
     "I can't believe this. This bitch just wants to piss on me because of that encounter we had yesterday."
     "This throws a wrench into all my plans. How am I supposed to get close to any of the students while I'm shut up in here?"
@@ -88,7 +88,7 @@ label staffroom_day_1__continued_1:
 
     scene bg rooftop with dissolve
     "Using my ninja skills, I manage to chase her all the way to the rooftop without catching her attention."
-    show rina pissed 2 with moveinleft
+    show rina suit angry arms with moveinleft
     "I hide behind the rooftop door and keep a close watch on her. She looks agitated as she takes out her phone and calls someone."
     rina "Would you stop trying to call me while I'm at work?!"
     thinking "Woah. That was pretty fierce."
@@ -96,7 +96,7 @@ label staffroom_day_1__continued_1:
     thinking "Wait. What?"
     "I'm shocked to hear something like that out of Rina's mouth. She always puts up a front of being so straight-laced."
     
-    show rina annoyed 2
+    show rina suit annoyed arms
     rina "Look, that only happened in the first place because I was drunk. Frankly, at this point, I have no interest in you at all. So, you can feel free to fuck off."
     thinking "Heh, looks like I've actually got some real dirt on her. And here I thought she was going to be a hard one to deal with."
     "This isn't going to be enough all by itself though. I need to do some more digging so I can properly play this to my advantage."
@@ -114,19 +114,19 @@ label staffroom_day_1__continued_1:
     "I return to the staff room, but it seems like Rina still isn't back yet."
     thinking "She sure takes her time when she's angry."
 
-    show rina confident with moveinright
+    show rina suit confident with moveinright
     "Soon, Rina arrives in the staff room as well, looking composed once again."
     thinking "Wasn't she pretty wound up before? Maybe she's just putting up a front now to try and keep things under wraps."
     "I head over to her desk to let her know that the paperwork is done. As I approach, I notice that she's glued to her phone. She seems completely unaware of my presence just behind her."
     shinn "Ah... Ms. Rina. The paperwork you asked me to take care of is all finished."
     
-    show rina annoyed
+    show rina suit annoyed
     "Rina turns around with a jolt, looking startled."
     rina "Oh, Shinn. So you're done."
     shinn "Er... Are you alright Ms. Rina?"
     "She immediately snaps back to her normal self."
 
-    show rina vicious smile
+    show rina suit smile
     rina "What do you mean? I'm completely fine."
     rina "Since you've finished, I guess you can go now. Classes should have ended already. I'll pick up the paperwork from your workplace later on."
     shinn "Alright."
@@ -144,7 +144,7 @@ label staffroom_day_1__continued_1:
 label staffroom_day_1__continued_2:
     $ rina_next_step = "cg_2"
     scene bg staffroom
-    show rina annoyed 2
+    show rina suit annoyed arms
 
     shinn "Ms. Rina, Is there anything else that I can do for you?"
     rina "Huh? Weren't you supposed to get started on tutoring our students?"
@@ -153,12 +153,12 @@ label staffroom_day_1__continued_2:
     rina "No. Your job here is to tutor our students who are in need. The most helpful thing you can do is to do your job properly."
     shinn "Sheesh... Relax. I just wanted to help."
 
-    show rina pissed 2
+    show rina suit angry arms
     rina "More like you're trying to butter me up. You'd better not try anything funny. I have my eye on you."
     thinking "Heh. I wonder who's watching who, Ms. Rina."
     rina "I don't have the time to talk to you right now. I have a meeting coming up, so I'll be heading out now."
     
-    hide rina pissed 2 with moveoutright
+    hide rina suit angry arms with moveoutright
     "Rina leaves the staff room in a hurry. She doesn't seem to give a second thought to leaving me behind in her workplace."
     "She probably never stopped to think that I might search through her things. Much too naïve, Rina."
     shinn "Hmm... Let's take a look."
@@ -215,10 +215,10 @@ label staffroom_day_1__continued_2:
     "From out in the hallway, I can hear the sound of her rummaging around and banging things down as she searches her desk. Unable to find it, she steps out of the staff room, her anxiety painted all over her face."
     "Scanning the hallway, she finally notices me and hurries up to speak to me."
     
-    show rina pout with moveinleft
+    show rina suit pout with moveinleft
     rina "Shinn! Have you seen my phone? You were near my workplace when I left, right?"
     shinn "Your phone?"
-    show rina angry
+    show rina suit basic
 
     menu:
         rina "Damn it, Shinn. Don't play dumb with me. Have you seen it or not?"
@@ -233,14 +233,14 @@ label staffroom_day_1__truth:
     "I take the phone out from my pocket and flash it right in front of her face."
     shinn "What, is this the one you're looking for?"
 
-    show rina pissed 2
+    show rina suit angry arms
     rina "Yes, that's my phone. What are you even doing with it? Give it back!"
     shinn "Give it back? Not so fast."
     rina "Stop kidding around and hand it over!"
     "Time to play my hand."
     shinn "Perhaps we should have a discussion about those photos on your phone first?"
     
-    show rina annoyed 2
+    show rina suit annoyed arms
     rina "What? What photos?"
     thinking "Playing dumb, huh?"
     "Although she's trying to feign ignorance, her face shows that she's clearly worried."
@@ -275,7 +275,7 @@ label staffroom_day_1__lie:
     thinking "Heh. Some pretty important pictures."
     shinn "What kind of important stuff?"
 
-    show rina pout
+    show rina suit pout
     "Rina gives a clear look of embarrassment as she thinks about what she has on that phone."
     rina "Look, don't pry so much. Will you help me out or not?"
     thinking "Even if I hadn't already seen, she's completely giving herself away. This should be fun."
@@ -287,7 +287,7 @@ label staffroom_day_1__lie:
     "Since it's just two of us here, I relax as I pretend to look around the room, keeping my eye on Rina."
     "Rina, on the other hand, is working herself into a frenzy, sifting through boxes in the increasingly desperate hope of finding her phone."
     
-    show rina angry
+    show rina suit basic
     rina "Damn it! Where could it be?"
     "Suddenly, Rina straightens up, an idea dawning on her."
     rina "Oh, I know. I can just use the school's line to call my phone. I didn't leave it on silent."
@@ -298,7 +298,7 @@ label staffroom_day_1__lie:
     thinking "Fuck! Turn it off! Turn it off!"
     "Rina follows the sound of her ringtone. I tried to stop it, but I was already too late. She catches me clearly holding the phone in my hand."
     
-    show rina pissed 2
+    show rina suit angry arms
     rina "Shinn... I think you have some explaining to do."
     "Well, the game is up now, there is no point in hiding anymore."
     shinn "Well, Ms. Rina, I think YOU have some explaining to do."
@@ -308,7 +308,7 @@ label staffroom_day_1__lie:
     rina "Photos?"
     shinn "You know exactly what I'm talking about."
 
-    show rina annoyed 2
+    show rina suit annoyed arms
     rina "What photos?"
     "She's still playing dumb, but the worry on her face is obvious."
     "I hold up the phone in front of her, and flip through the photos I discovered."
@@ -319,7 +319,7 @@ label staffroom_day_1__lie:
     rina "You..."
     shinn "Heh. To think you'd actually turn out to be such a slut."
 
-    show rina pissed 2
+    show rina suit angry arms
     rina "Give it back to me or else..."
     shinn "Or else what? What are you going to do to me?"
     "Rina was silenced."
@@ -331,7 +331,7 @@ label staffroom_day_1__lie:
 
 label rina__cg_1:
     scene bg utility room with fade
-    show rina pissed 2 with moveinleft
+    show rina suit angry arms with moveinleft
     play music happy fadeout 1.0 fadein 1.0
     "I bring Rina to the utility room."
     "This place is nice and secluded, and I know well from experience that nobody ever visits here at this time of day."
@@ -342,11 +342,11 @@ label rina__cg_1:
     rina "You better not try anything funny, you sicko."
     shinn "Woah. Relax, Ms. Rina. All I wanted to do is give you some training."
 
-    show rina annoyed 2
+    show rina suit annoyed arms
     rina "What? Train me?"
     shinn "Yes. Train you and discipline you."
 
-    show rina angry
+    show rina suit basic
     rina "Don't fuck around with me, Shinn."
     shinn "Well, Ms. Rina, considering your position as a disciplinary teacher, I'm afraid it's simply unacceptable for you to behave in such a manner while you're off campus."
     shinn "Therefore, I feel that it's my responsibility to teach you to conduct yourself in a more appropriate manner."
@@ -356,7 +356,7 @@ label rina__cg_1:
     "I take out her phone again to show her where she stands."
     shinn "I don't think it would go well for you if these photos were spread all around the school would it?"
     
-    show rina pout
+    show rina suit pout
     rina "..."
     shinn "Good. Then let's get started."
     shinn "Strip yourself naked "
@@ -1045,7 +1045,7 @@ label rina__cg_3:
     shinn "Follow me."
 
     scene bg classroom with fade
-    show rina naked
+    show rina naked horny
     "I gathered all the boys hanging around in the hallway, and brought them here."
     "It's an unused classroom with tables and chairs lying around."
     "I brought Rina to the front of the class so that everyone could see her clearly."

@@ -21,7 +21,7 @@ label gym__day_1:
     "In the distance, I spot a lone student practicing basketball."
     "As I approach the student, it becomes obvious who it is."
     
-    show touko shy basketball with moveinleft
+    show touko basketball shy with moveinleft
     "Seems like Touko's getting some morning training done by herself."
     "She notices my presence and turns around."
     touko "Oh, Shinn. Good morning. What brings you here?"
@@ -132,7 +132,7 @@ label gym__day_1_continued_1:
     thinking "Let's hope she's not there yet."
 
     scene bg classroom with dissolve
-    show touko angry school arms
+    show touko school angry arms
     "I approach the classroom and slide open the door."
     "I was hoping to avoid this, but Touko was already there waiting for me."
     "She turns around and gives me an annoyed look."
@@ -153,7 +153,7 @@ label gym__day_1_continued_1:
     shinn "Alright, Touko. Since you've gotten the explanation down, you should be able to handle this problem sheet, right?"
     touko "Er... Yes?"
 
-    show touko angry school
+    show touko school angry
     thinking "Not exactly making that sound convincing."
     "Regardless, I pass her the paper."
     shinn "Here you go then. If you don't understand any of the questions, let me know. I'll do my best to help you out with anything you're having trouble with."
@@ -250,7 +250,7 @@ label gym__day_1_continued_1:
     "I know her classroom is 3-5, not far from the classroom that I use for tutoring."
     "As I approach the class, I can see Touko heading towards it from the other direction as she returns from the bathroom."
    
-    show touko happy school with moveinleft
+    show touko school happy with moveinleft
     "We spot each other at the same time."
     touko "Good morning, Shinn."
     shinn "Good morning to you too, Touko."
@@ -297,7 +297,7 @@ label gym__day_1_rina:
     touko "Alright, I'll be going then. See you later for tutoring!"
     shinn "See you."
 
-    hide touko happy school with moveoutright
+    hide touko school happy with moveoutright
     "As Touko leaves I feel a sense of relief."
     "The info on Rina is probably irrelevant anyway. I'm just glad to have that over with."
     "Now, back to stalking. I want to see what she does during lunch."
@@ -327,7 +327,7 @@ label gym__day_1_ritsuko:
     touko "Alright, I'll be going then. See you later for tutoring!"
     shinn "See you."
 
-    hide touko happy school with moveoutright
+    hide touko school happy with moveoutright
     "As Touko leaves, I feel a sense of relief."
     "The info on Ritsuko is probably irrelevant anyway. I'm just glad to have that over with."
     "Now, back to stalking. I want to see what she does during lunch."
@@ -354,8 +354,8 @@ label gym__day_1_continued_2:
 label touko_aina__cg_1:
     play music happy fadeout 1.0 fadein 1.0
     scene bg utility room with dissolve
-    show aina happy school at right
-    show touko angry school at left
+    show aina school happy at right
+    show touko school angry at left
     with moveinleft
     touko "Aina! Why did you call me out here during lunch?"
     aina "I miss you! We haven't been spending time together for a while now."
@@ -549,17 +549,17 @@ label gym__day_1_continued_3:
     "There's barely anywhere to hide nearby. I have to make a dash towards a corner in order to conceal myself."
     "As soon as someone emerges from the closet, I stick my head out a little to take a peek."
     
-    show aina happy school with moveinright
+    show aina school happy with moveinright
     "It was Aina who'd just walked out, but Touko is nowhere to be seen."
     "Well, that makes sense. They made sure to enter separately, they must be trying to avoid being seen together."
     "As Aina walks away, I keep watching to see when Touko will come out."
     
-    hide aina happy school with moveoutleft
+    hide aina school happy with moveoutleft
     "After a few minutes, Touko leaves the closet as well."
     thinking "Great, now's my chance."
     "I step out from my hiding place. She's walking down the hall in the opposite direction, and doesn't see me approaching."
     
-    show touko happy school arms with moveinright
+    show touko school happy arms with moveinright
     "I make my presence known..."
     shinn "Oh. Touko!"
     "As soon as she hears my voice, she freezes for a moment before turning around."
@@ -568,7 +568,7 @@ label gym__day_1_continued_3:
     shinn "Hmm, you okay?"
     "She quickly averts her guilty face before giving me her answer."
 
-    show touko concerned school arms
+    show touko school concerned arms
     touko "Yeah, everything's fine."
     thinking "Heh, right, you've been having a fine time so far..."
     shinn "Well, what are you doing here during lunch time? Not many students come by here."
@@ -593,7 +593,7 @@ label gym__day_1_utility:
     "Before Touko can even reply, the school bell rings signaling the end of lunch."
     touko "Oh, I'm sorry Shinn. Lunchtime's just ended, so I've got to get back to class."
     
-    hide touko concerned school arms with moveoutleft
+    hide touko school concerned arms with moveoutleft
     "Before I could give a reply, she turned around and hurried off."
     shinn "Damn it, and I was thinking I could expose her right now. Now what?"
     jump gym__day_1_continued_4
@@ -611,7 +611,7 @@ label gym__day_1_day:
     touko "I'm sorry Shinn, but lunch is over. I have to get back to my classroom now."
     shinn "Okay. We'll talk later."
 
-    hide touko concerned school arms with moveoutleft
+    hide touko school concerned arms with moveoutleft
     "She turns around and hurries off."
     shinn "Damn it, she ran away before I could change the subject. Now what?"
     jump gym__day_1_continued_4
@@ -661,38 +661,38 @@ label gym__day_1_continued_4:
     # SFX: *School Shoes Footsteps*
     thinking "Oh shit! Someone's coming!"
     "I run back to my hiding spot to take a look at who it is."
-    show touko happy school with moveinright
+    show touko school happy with moveinright
     "A figure becomes visible."
     thinking "My my, what do we have here?"
     "Seems the owner of the panties was Touko after all."
     thinking "From the look of it, she seems pretty uncomfortable."
     thinking "Has she been attending afternoon classes without her panties? Wow, what a naughty girl."
-    hide touko happy school with moveoutleft
+    hide touko school happy with moveoutleft
     "She takes a quick look around before entering the utility room."
     thinking "There! She must have gone back to get her panties."
     thinking "Heheh. Wonder how she'll react when she sees they're nowhere to be found?"
-    show touko angry school with moveinleft
+    show touko school angry with moveinleft
     "A few minutes later, she comes back out of the room looking extremely anxious."
-    hide touko angry school with moveoutright
+    hide touko school angry with moveoutright
     "She walks away slowly."
     shinn "Checkmate."
     "I feel a sense of victory welling up in me as I head towards the classroom."
     thinking "I've got the dirt on her. Now it's time for the payoff..."
 
     scene bg classroom with dissolve
-    show touko shy basketball
+    show touko basketball happy
     "As I slide open the door, I'm surprised as the sight of Touko waiting for me in the classroom."
     "Instead of her usual school uniform, she was dressed in her basketball team outfit."
     thinking "Heh... Afraid of being exposed?"
     touko "Good afternoon Shinn."
     shinn "Good afternoon Touko. I'm surprised to see you here in your basketball outfit."
-    show touko concerned basketball
+    show touko basketball shy
     "Touko turns away, looking embarrassed."
     touko "Erm... Well, I splashed a bunch of water over my shirt while I was in the bathroom."
     thinking "Pfft... Is that the best lie you can come up with?"
     shinn "Is that so? Well, try to be more careful next time."
     touko "Yes, I will."
-    show touko shy basketball
+    show touko basketball happy
     "Touko takes the practice assignment I gave her yesterday out of her bag."
     touko "Here you go. I've completed it as promised."
     shinn "That's great. Give me a second to get my things ready and I'll give it a look over."
@@ -731,7 +731,7 @@ label gym__day_1_no_expose:
     shinn "No problem. It's getting pretty late now, so let's wrap it up for now."
     touko "Okay."
     "Before I start putting away my things, I hand her another sheet."
-    show touko concerned basketball
+    show touko basketball shy
     "Touko gives it a wearied look."
     touko "Homework? Again?"
     shinn "Right, homework again. The only way to improve is to keep on practicing every day."
@@ -769,7 +769,7 @@ label gym__day_1_wait_expose:
     "She packs her bag and gets ready to head home."
     "I approach her with some practice papers in hand."
     shinn "Don't forget these, Touko. I want to see your grasp of the new material."
-    show touko concerned basketball
+    show touko basketball shy
     "Touko's cheery mood vanishes as she immediately falls into a sulk."
     touko "Ugh... Okay."
     shinn "Hey, don't be like that. Keep a positive attitude."
@@ -802,7 +802,7 @@ label gym__day_1_wait_expose:
 label gym__day_1_expose:
     shinn "Oh, before we get started, there's something I should probably show you."
     "I take out the pink panties from my pocket and flash them in front of her."
-    show touko concerned basketball
+    show touko basketball shy
     "Touko gapes. The sudden turn in the conversation has left her dumbfounded."
     touko "That's... my..."
     shinn "That's right, these are your panties."
@@ -998,18 +998,18 @@ label gym__day_3:
     "Some of the students start to take notice of my presence here. Considering that I'm not wearing my old school uniform, and don't look old enough to fit in among the faculty, I can't help standing out."
     thinking "This was a bad idea..."
     "Just as I'm about to give up and leave, a familiar person appears on the far end of the hallway."
-    show touko happy school with moveinleft
+    show touko school happy with moveinleft
     thinking "There she is."
     "Touko seems normal. In fact, she's walking along talking with some friends who I suppose are admirers of hers."
-    show touko concerned school arms
+    show touko school concerned arms
     "As she gets closer, she notices me, and a look of disgust passes over her face. She passes by me without giving me another glance as she heads straight into her classroom."
-    hide touko concerned school arms with moveoutright
+    hide touko school concerned arms with moveoutright
     thinking "Heh. Ignore me all you want. Pretty soon I'll have you wrapped around my finger anyway."
     "Feeling reassured that things are still going smoothly, I head back to my workplace in the staff room."
     "As I'm on my way there, I hear someone behind me call out my name."
     unknown "Good morning, Shinn!"
     shinn "Huh?"
-    show aina talking school with moveinright
+    show aina school happy with moveinright
     aina "It's me, Aina!"
     thinking "Oh, perfect timing."
     shinn "Good morning, Aina."
@@ -1018,11 +1018,11 @@ label gym__day_3:
     aina "That's great to hear!"
     shinn "Don't forget your tutoring session with me next week."
     aina "I won't."
-    hide aina talking school with moveoutleft
+    hide aina school happy with moveoutleft
     "Aina walks away without the slightest inkling that my trap is already closing in on her."
     thinking "This is going to be fun."
     "Just as I'm about to walk away, a familiar figure appears."
-    show satsuki neutral smile with moveinright
+    show satsuki uniform basic with moveinright
     shinn "Hmm? Satsuki. Is that you?"
     satsuki "Good morning Mr. Shinn."
     "Satsuki greets me in a ladylike fashion. As elegant as always."
@@ -1033,7 +1033,7 @@ label gym__day_3:
     shinn "Say Satsuki..."
     satsuki "Hmm?"
     shinn "Would it be possible for you to tell me more about Touko?"
-    show satsuki defeated
+    show satsuki uniform upset
     "Satsuki gives me an uncertain look in response. It seems like she's weighing whether it's appropriate to reply."
     satsuki "..."
     thinking "Shit. She may get the wrong idea."
@@ -1042,7 +1042,7 @@ label gym__day_3:
     shinn "No no no..."
     shinn "I just mean that I want to get to know and understand her better as an instructor."
     shinn "That way, I should be able to offer her better support in math."
-    show satsuki neutral smile
+    show satsuki uniform basic
     "Satsuki seems somewhat relieved."
     satsuki "Oh. I see."
     satsuki "Hmm..."
@@ -1058,7 +1058,7 @@ label gym__day_3:
     shinn "I hope that we'll also be able to start working together soon."
     satsuki "Sure. When I have the time available in my schedule, I'll look forward to receiving your guidance."
     satsuki "If there is nothing else, I should be going now."
-    hide satsuki neutral smile with moveoutleft
+    hide satsuki uniform basic with moveoutleft
     "Satsuki walks off in her usual ladylike manner."
     thinking "Hmm... Seems like Aina is the key to Touko."
     thinking "Haha... Or vice versa I should say."
@@ -1074,7 +1074,7 @@ label touko_aina__cg_3:
     thinking "Hmm... Weren't they supposed to have a practice session today?"
     thinking "Where have they all gone?"
     "Just then, a familiar person emerges from the girls' changing room."
-    show aina basic with moveinright
+    show aina pool basic with moveinright
     aina "Oh, Shinn?"
     "Target acquired."
     "Aina walks up to greet me, wearing her swimsuit."
@@ -1096,7 +1096,7 @@ label touko_aina__cg_3:
     "After all, this erection is getting pretty hard to conceal."
     "I give her a smile as I adjust my angle, leaving my boner on full display."
     "Of course, it's big enough to grab Aina's attention immediately."
-    show aina surprise
+    show aina pool surprise
     aina "Shinn?"
     aina "What... What are you doing?"
     shinn "Heheh... You look so hot with your swimsuit on. Can I have sex with you?"
@@ -1330,17 +1330,17 @@ label gym__day_3_continued_1:
     "I think today I'm gonna bring her along for a sex field trip."
     "As I walk across the hallway to my staff room, I spot the person I'm looking for."
     thinking "There she is."
-    show aina concerned school with moveinright
+    show aina school angry with moveinright
     "I walk up to her casually, as if nothing's happened between the two of us."
     "She's looking at the floor as she walks. She certainly doesn't look like she's in a good mood."
     "But who can blame her? After what I did with her yesterday, it's only natural for her to feel upset."
     shinn "Hey Aina. Good morning."
     "Just hearing my voice seems to give her a start, and she raises her head."
     "Her eyes bore into me, like in her head, I've already become a murder victim."
-    show aina angry school
+    show aina school angry
     aina "You..."
     shinn "I what?"
-    show aina angry school arm
+    show aina school angry arms
     aina "You have some nerve to come and talk to me like this."
     "Aina raises her voice, and some of the bystanders around us start to look our way."
     "The situation is starting to get a bit tense. I don't want things to get out of hand with everyone watching like this."
@@ -1351,7 +1351,7 @@ label gym__day_3_continued_1:
     "In turn, I give her my \"if you expose me, you're dead\" look."
     "She gets the signal, and it seems she's decided to play nice for now."
     "She takes a deep breath."
-    show aina concerned school
+    show aina school angry
     aina "Ahem. Good morning, Shinn."
     thinking "Phew..."
     shinn "Good morning, Aina."
@@ -1363,7 +1363,7 @@ label gym__day_3_continued_1:
     "I interrupt her reply."
     shinn "You know what'll happen if you don't..."
     "Before she has the chance to reply, I walk away."
-    hide aina concerned school with moveoutleft
+    hide aina school angry with moveoutleft
     thinking "Heh. Let's see if you'll show up."
     thinking "She already knows what'll happen if she doesn't."
     jump touko_aina__cg_4
@@ -1383,10 +1383,10 @@ label touko_aina__cg_4:
     "I stare at my phone as I wait, counting down five minutes by the clock."
     shinn "Well, looks like she's not coming. Guess that's it."
     shinn "Time to go find her."
-    show aina concerned school with moveinright
+    show aina school angry with moveinright
     "But before I could leave the room to start my search, Aina opens up the door."
     shinn "Tsk. You sure took your time."
-    show aina concerned school
+    show aina school angry
     aina "..."
     aina "Fuck off, Shinn."
     shinn "Woah. Watch your attitude young girl."
@@ -1401,12 +1401,12 @@ label touko_aina__cg_4:
     shinn "Hahaha... Watch your language there."
     shinn "You don't want to offend me, do you?"
     aina "..."
-    show aina angry school
+    show aina school angry
     aina "I am sick and tired of your games."
     shinn "Games? Heh, what games?"
     aina "Whether I say yes or no, you're going to do it anyway, so why bother to even ask me?"
     shinn "Smart girl, Aina. Probably the smartest I've come across so far."
-    show aina angry school arm
+    show aina school angry arms
     aina "..."
     shinn "You see, it's very simple."
     shinn "Ever since I saw you, I knew I couldn't let you go without having sex with you."
@@ -1664,7 +1664,7 @@ label touko_aina__cg_4_end:
 
 label gym__day_3_continued_2:
     scene bg hallway 1 with map_fade
-    show aina happy naked
+    show aina naked happy
     "The tutoring session was supposed to start at 3.30pm, but I'm running a little bit late."
     "You can chalk that up to the work I've had to go to to get Aina properly ready."
     "She's waiting in the wings to get things started now, wearing nothing but a dog collar."
@@ -1680,7 +1680,7 @@ label gym__day_3_continued_2:
 label touko_aina__cg_5:
     play music breakdown fadeout 1.0 fadein 1.0
     scene bg classroom with dissolve
-    show touko angry school
+    show touko school angry
     "I slide the door opened to find Touko already waiting for me."
     "She tenses up the moment I come into the room."
     "Well, that can't be helped considering what I've already done with her."
@@ -1688,7 +1688,7 @@ label touko_aina__cg_5:
     "By the time I get all my things out, Touko is already looking seriously unnerved."
     shinn "What's wrong, Touko? You seem nervous."
     touko "..."
-    show touko angry school arms
+    show touko school angry arms
     touko "You're not going to do anything with me again today, right?"
     shinn "Well... we'll see about that."
     touko "Please..."
@@ -1710,13 +1710,13 @@ label touko_aina__cg_5:
     shinn "Aina! Come in!"
     aina "Yes Master!"
     touko "M... Master...?"
-    show aina happy naked at left
-    show touko angry school arms at right
+    show aina naked happy at left
+    show touko school angry arms at right
     with moveinleft
     "The door slides open to reveal Aina, naked and hungry for sex."
     aina "Aina, reporting for service!"
     "Touko turns around and stands up with a jolt as she looks at Aina with a mixture of horror and confusion."
-    show touko angry school at right
+    show touko school angry at right
     touko "No..."
     touko "This can't be..."
     "The sudden revelation has an overwhelming impact on her. I can see Touko's heart sinking as she stares at Aina, taking in what this means."
@@ -1736,7 +1736,7 @@ label touko_aina__cg_5:
     shinn "If you love Aina and want to be with her that much, go ahead and join her! The two of you can service me together."
     shinn "There's always room for more in my harem!"
     "Aina slowly walks up to Touko"
-    show aina happy naked arms at left
+    show aina naked happy arms at left
     aina "Come on, Touko. Why not join me? We can have fun together all the time with Master's cock!"
     aina "Don't you want to be really satisfied?"
     "Touko looks completely lost. Her expression is blank and unchanging, but I can tell she's breaking down."
@@ -1976,7 +1976,7 @@ label touko_aina__cg_5:
 
     scene bg classroom with dissolve
     show touko naked at right
-    show aina happy naked arms at left
+    show aina naked happy arms at left
     touko "Master~"
     shinn "Heh. Good girl. Looks like you get your purpose in life now."
     aina "Yeah, we get to have fun with master now! I'm so proud of you, Touko."
@@ -1984,6 +1984,7 @@ label touko_aina__cg_5:
     touko "Yes~"
     "I hand over a dog collar to Touko."
     shinn "Wear this, Touko. You can be just like Aina now."
+    show touko naked collar
     "Touko wastes no time putting it on."
     aina "It's a perfect fit! And it looks just like mine!"
     touko "It does!"
@@ -2004,8 +2005,8 @@ label touko_aina__cg_6:
     "Of course, there are some people I already knew were still here today."
     "As we reach the entrance of the hall, I can already hear the chatter of a large number of boys' voices inside."
     shinn "Ah, looks like they've made it..."
-    show touko naked at right
-    show aina happy naked arms at left
+    show touko naked collar at right
+    show aina naked happy arms at left
     with moveinleft
     "I open the door, and show the girls the crowd I've assembled for them."
     "When the boys inside catch sight of Touko and Auna's faces, they immediately go wild."
