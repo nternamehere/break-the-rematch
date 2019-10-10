@@ -752,7 +752,10 @@ label gym__day_1_no_expose:
     shinn "Bye."
     "Touko steps out, leaving me alone in the class."
     thinking "Heheheh... Perfect. Then Aina will be next. Swimsuit sex, here I come."
-    jump map__school
+    if day == 2 and not staffroom_available and not tennis_available and gym_available:
+        jump touko_aina__router
+    else:
+        jump map__school
 
 label gym__day_1_wait_expose:
     shinn "Alright. Let me see how you did."
@@ -979,7 +982,10 @@ label touko_aina__cg_2_end:
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_2 = True
     play music campus fadeout 1.0 fadein 1.0
-    jump map__school
+    if day == 2 and not staffroom_available and not tennis_available and gym_available:
+        jump touko_aina__router
+    else:
+        jump map__school
 
 label gym__day_3:
     scene bg staffroom with map_fade
@@ -1320,7 +1326,10 @@ label touko_aina__cg_3_end:
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_3 = True
     play music campus fadeout 1.0 fadein 1.0
-    jump map__school
+    if day == 2 and not staffroom_available and not tennis_available and gym_available:
+        jump touko_aina__router
+    else:
+        jump map__school
 
 label gym__day_3_continued_1:
     scene bg hallway 2 with map_fade
@@ -1660,7 +1669,10 @@ label touko_aina__cg_4_end:
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_4 = True
     play music campus fadeout 1.0 fadein 1.0
-    jump map__school
+    if day == 2 and not staffroom_available and not tennis_available and gym_available:
+        jump touko_aina__router
+    else:
+        jump map__school
 
 label gym__day_3_continued_2:
     scene bg hallway 1 with map_fade

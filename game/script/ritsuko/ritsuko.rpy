@@ -410,7 +410,10 @@ label tennis__day_1_continued_1:
     "I leave the Principal's office with a feeling of joy welling up in me."
     thinking "Heh... This is going to make my life so much easier now."
     thinking "Can't wait for what you've got coming to you, Ritsuko."
-    jump map__school
+    if day == 2 and not staffroom_available and tennis_available and not gym_available:
+        jump ritsuko__router
+    else:
+        jump map__school
 
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
@@ -652,7 +655,10 @@ label ritsuko__cg_2_end:
     "I leave the room, leaving Ritsuko behind, still sitting in the mess we'd made."
     $ renpy.end_replay()
     $ persistent.ritsuko__cg_2 = True
-    jump map__school
+    if day == 2 and not staffroom_available and tennis_available and not gym_available:
+        jump ritsuko__router
+    else:
+        jump map__school
 
 label tennis__day_2:
     $ ritsuko_next_step = "cg_4"
@@ -1117,7 +1123,10 @@ label ritsuko__cg_3_end:
     ritsuko "Yes Master!"
     $ renpy.end_replay()
     $ persistent.ritsuko__cg_3 = True
-    jump map__school
+    if day == 2 and not staffroom_available and tennis_available and not gym_available:
+        jump ritsuko__router
+    else:
+        jump map__school
 
 label ritsuko__cg_4:
     play music kinky fadeout 1.0 fadein 1.0

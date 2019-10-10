@@ -576,7 +576,10 @@ label rina__cg_1:
     $ persistent.rina__cg_1 = True
     $ staffroom_available = False
     play music campus fadeout 1.0 fadein 1.0
-    jump map__school
+    if day == 2 and staffroom_available and not tennis_available and not gym_available:
+        jump rina__router
+    else:
+        jump map__school
 
 label rina__cg_2:
     play music breakdown fadeout 1.0 fadein 1.0
@@ -917,7 +920,10 @@ label rina__cg_2_end:
     $ renpy.end_replay()
     $ persistent.rina__cg_2 = True
     play music campus fadeout 1.0 fadein 1.0
-    jump map__school
+    if day == 2 and staffroom_available and not tennis_available and not gym_available:
+        jump rina__router
+    else:
+        jump map__school
 
 label rina__cg_3:
     play music kinky fadeout 1.0 fadein 1.0
@@ -1208,7 +1214,10 @@ label rina__cg_3:
     $ renpy.end_replay()
     $ persistent.rina__cg_3 = True
     play music campus fadeout 1.0 fadein 1.0
-    jump map__school
+    if day == 2 and staffroom_available and not tennis_available and not gym_available:
+        jump rina__router
+    else:
+        jump map__school
 
 label rina__intermission:
     stop music fadeout 1.0

@@ -52,14 +52,6 @@ label map__school:
     $ renpy.choice_for_skipping()
     if day == 0 and not range_available and not gym_available and not tennis_available and not track_available:
         $ classroom_available = True
-    if day == 1 and not staffroom_available and not tennis_available and not gym_available:
-        jump day2
-    if day == 2 and not staffroom_available and not tennis_available and gym_available:
-        jump touko_aina__router
-    if day == 2 and staffroom_available and not tennis_available and not gym_available:
-        jump rina__router
-    if day == 2 and not staffroom_available and tennis_available and not gym_available:
-        jump ritsuko__router
     if day == 2 and not staffroom_available and not tennis_available and not gym_available:
         $ day = 3
     $ quick_menu = False
