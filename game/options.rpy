@@ -21,12 +21,12 @@ define config.name = _("Break: The Rematch")
 define gui.show_name = False
 define gui.is_demo = False
 define gui.is_alpha = False
-define gui.is_beta = True
+define gui.is_beta = False
 
 
 ## The version of the game.
 
-define config.version = "2.0.1-beta"
+define config.version = "1.0.0-release"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
