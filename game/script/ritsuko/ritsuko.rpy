@@ -1253,7 +1253,7 @@ label ritsuko__cg_4:
         
     menu:
         ritsuko "Yes! I want your thick baby-milk!"
-        "Cum inside her":
+        "Cum Inside her":
             jump ritsuko__cg_4_inside
         "Cum Outside":
             jump ritsuko__cg_4_outside
