@@ -26,7 +26,10 @@ screen locations:
         else:
             imagebutton idle "images/map/buttons/track-disabled.png" xpos 230 ypos 80 action None
 
-    if day >= 1:
+    if day == 3:
+        imagebutton auto "images/map/buttons/harem-%s.png" xpos 700 ypos 450 action Jump('harem_end')
+
+    if day >= 1 and not day == 3:
         if staffroom_available:
             if staffroom__first_visit:
                 imagebutton auto "images/map/unknown/unknown-staffroom-%s.png" xpos 700 ypos 450 action Jump('rina__router')
@@ -58,6 +61,6 @@ label map__school:
     if day == 2 and not staffroom_available and tennis_available and not gym_available:
         jump ritsuko__router
     if day == 2 and not staffroom_available and not tennis_available and not gym_available:
-        jump harem_end
+        $ day = 3
     $ quick_menu = False
     call screen locations with fade
