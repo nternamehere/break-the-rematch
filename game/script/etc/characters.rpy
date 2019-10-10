@@ -28,6 +28,7 @@ define thug_boss = Character("Gangster Boss", what_prefix="{font=gui/fonts/Appli
 define satsuki = Character("Satsuki Katsuragi", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define ritsuko = Character("Ritsuko Yasuhiro", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define aina = Character("Aina Aozaki", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
+define senji = Character("Senji", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define touko = Character("Touko Takatsukasa", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define touko_aina = Character("Touko & Aina", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
 define araki = Character("Araki Shinjugai", what_prefix="{font=gui/fonts/AppliMincho.otf}「{/font}", what_suffix="{font=gui/fonts/AppliMincho.otf}」{/font}")
