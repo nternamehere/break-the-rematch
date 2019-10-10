@@ -342,6 +342,9 @@ screen navigation():
         if main_menu:
             textbutton _("Scenes") action ShowMenu("gallery")
 
+        if main_menu and not _in_replay:
+            textbutton _("Extra Scenes") action ShowMenu("extra_scenes")
+
         textbutton _("Settings") action ShowMenu("preferences")
 
         if _in_replay:
@@ -374,6 +377,7 @@ style navigation_button:
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
     xalign 0.5
+    xoffset 30
 
 ## Main Menu screen ############################################################
 ##
