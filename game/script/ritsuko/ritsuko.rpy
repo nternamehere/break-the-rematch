@@ -340,6 +340,7 @@ label ritsuko__cg_1:
 
 label tennis__day_1_continued_1:
     scene bg hallway 1 with irisout
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "Moments after Ritsuko leaves, I decide to see the Principal."
     thinking "Hopefully, this will work out."
     "I knock on the doors of the Principal's office."
