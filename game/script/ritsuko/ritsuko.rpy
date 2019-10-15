@@ -26,7 +26,7 @@ label tennis__day_1:
     shinn "Good morning, Ritsuko. How are you doing?"
     ritsuko "How polite. Well, I'm doing just fine."
     shinn "Great. Don't forget about our session later this afternoon."
-    ritsuko "Oh. Session?"
+    ritsuko "Oh? Session?"
     "Ritsuko pauses for a moment."
     ritsuko "Ah! Yes, I remember now..."
     thinking "This idiot..."
@@ -108,7 +108,7 @@ label tennis__day_1:
     "I get up and leave the staff room."
 
     scene bg hallway 1 with dissolve
-    "I head towards the cafeteria thinking about what I shold get to eat."
+    "I head towards the cafeteria thinking about what I should get to eat."
     "As I walk, I notice Ritsuko in the distance."
     thinking "Oh, it's her. Aren't there lessons going on right now? What's she doing here?"
     "From the look of it, she seems to be sneaking around."
@@ -130,7 +130,7 @@ label ritsuko__cg_1:
     scene bg principal office with pixellate
     show ritsuko school angry at left
     show principal thinking at right
-    play music breakdown fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.breakdown, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     ritsuko "Why did you call me out here all of a sudden?"
     principal "Oh, there's something I thought was important to discuss with you."
     ritsuko "What business do you have with me?"
@@ -140,11 +140,11 @@ label ritsuko__cg_1:
     principal "Leaving already? Don't be too hasty..."
 
     show principal smirk
-    principal "I didn't know Yasuhiro family business was so dirty."
+    principal "I didn't know the Yasuhiro family business was so dirty."
     thinking "Dirty? This sounds like it might be going somewhere interesting."
     "I decide to take a look through the keyhole in order to follow whatever's going on."
     ritsuko "What the hell are you talking about?"
-    "The principal throws a couple of pictures onto the table in front of Ritusko."
+    "The Principal throws a couple of pictures onto the table in front of Ritusko."
     principal "Your father has been caught by paparazzi trying to bribe officials."
     ritsuko "W— What?"
     principal "I managed to get ahold of these since the photographer happens to be a friend of mine."
@@ -186,7 +186,7 @@ label ritsuko__cg_1:
     ritsuko "F— Fine..."
 
     show ritsuko naked shy
-    "Ritsuko slowly undresses, revealing her lushly blooming breasts and well-rounded hips.."
+    "Ritsuko slowly undresses, revealing her lushly blooming breasts and well-rounded hips."
     principal "Phew... You look even more amazing than I expected."
     principal "Such a gem being hidden under that uniform."
     principal "I'm sure I'm not the only guy here who's been lusting after you."
@@ -230,7 +230,7 @@ label ritsuko__cg_1:
     "The Principal removes his pants to reveal a cock that's already rock hard after licking her."
     principal "There you go. Ever seen one of these before? A real man's dick."
     principal "You're going to get to taste it for yourself."
-    "The principal moves in close, positioning his dick for insertion."
+    "The Principal moves in close, positioning his dick for insertion."
     ritsuko "Noo...!"
     principal "Are you scared? Then maybe you should blame your father!"
 
@@ -242,7 +242,7 @@ label ritsuko__cg_1:
     "I can see a bit of blood coming out from her pussy."
     principal "Oh? So, this is your first time?"
     principal "What a lucky day for me!"
-    "The principal begins to thrust in deeper inside her."
+    "The Principal begins to thrust in deeper inside her."
     ritsuko "Noo... It's too deep! Please stop!"
     principal "Stop? No way in hell I am going to stop."
     principal "I'm going to teach you how to enjoy a man's dick properly."
@@ -250,7 +250,7 @@ label ritsuko__cg_1:
     principal "Heheh... Come on. Give me a kiss..."
 
     scene ritsuko_sex_scene_1 7
-    "The principal sticks his tongue out, forcing Ritsuko into a sloppy French kiss."
+    "The Principal sticks his tongue out, forcing Ritsuko into a sloppy French kiss."
     principal "Come on, open your mouth up. I want to taste that sweet drool straight from your mouth."
     "At first, Ritsuko tries to shut him out. But I can see her body warming up as I watch."
     "As she falls into his rhythm, she starts to stick her own tongue out, letting the Principal into her mouth."
@@ -268,7 +268,7 @@ label ritsuko__cg_1:
     ritsuko "..."
     principal "But still, a well-mannered daughter like you will do anything to protect the family."
     principal "Even this!"
-    "The principal thrusts in a little harder..."
+    "The Principal thrusts in a little harder..."
     ritsuko "Ah~ No..."
     principal "Heh. You can blame all this on your stupid father, for being caught in the act."
     ritsuko "..."
@@ -294,7 +294,7 @@ label ritsuko__cg_1:
 
     scene ritsuko_sex_scene_1 8 with cum_flash
     play sound cum1
-    "With a final thrust, the principal shoots out all of his cum in one burst."
+    "With a final thrust, the Principal shoots out all of his cum in one burst."
 
     scene ritsuko_sex_scene_1 9 with cum_flash
     play sound cum2
@@ -417,7 +417,7 @@ label tennis__day_1_continued_1:
 
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg locker room with map_fade
     "I heard from her teacher that Ristuko usually has a short solo practice during lunch."
     "After eating an early lunch, I come down here to confront her."
@@ -681,7 +681,7 @@ label tennis__day_2:
     "I head out to the tennis court."
 
 label ritsuko__cg_3:
-    play music kinky fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.kinky, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg tennis court with fade
     show ritsuko tennis basic
     "As I make it within eyeshot of the court, Ritsuko instantly spots me."
@@ -841,7 +841,7 @@ label ritsuko__cg_3_continued:
     shinn "Take it out? You seem to be enjoying it."
     ritsuko "No, that's not true! Please, take it out!"
     shinn "Heh. You wish."
-    "I move around behind her and unzip her pants."
+    "I move around behind her and unzip my pants."
     ritsuko "Wait, what are you doing?"
     shinn "Heh. Yesterday, I had some fun with your pussy. This time, I'll be playing with your ass."
     ritsuko "What?! No! You can't!"
@@ -939,7 +939,7 @@ label ritsuko__cg_3_no_pee:
 
 label ritsuko__cg_3_house:
     scene bg shinn bedroom with fade
-    show ritsuko tennis basic
+    show ritsuko tennis horny
     "It's evening by the time I make it back home with Ritsuko after our session on the tennis court, but Ritsuko's lust hasn't begun to cool."
     ritsuko "Ah, Shinn~"
     ritsuko "Are you going to give me the lesson here in your room?"
@@ -947,7 +947,6 @@ label ritsuko__cg_3_house:
     shinn "You're here for more than just a lesson. I'm really going to pound you, Ritsuko."
     "Ritsuko perks up with excitement on hearing that."
     ritsuko "Let's get started then!"
-    hide ritsuko tennis basic
     show ritsuko naked exposed
     "Ritsuko strips herself naked in front of me, without even waiting for my instruction."
     ritsuko "You like my body, right?"
@@ -975,8 +974,8 @@ label ritsuko__cg_3_house:
 
     scene ritsuko__cg_3_house 4
     "Already, she's a far cry from the resistant girl she was earlier this afternoon."
-    shinn "Remember this pleasure! Remember this feeling! ‘Cause this is what you're mad for, and what you're gonna do for the rest of your life!"
-    ritsuko "Yes! Yes master~!"
+    shinn "Remember this pleasure! Remember this feeling! ‘Cause this is what you're made for, and what you're gonna do for the rest of your life!"
+    ritsuko "Yes! Yes Master~!"
     "She doesn't show even a trace of hesitation anymore."
 
     scene ritsuko__cg_3_house 5
@@ -1129,7 +1128,7 @@ label ritsuko__cg_3_end:
         jump map__school
 
 label ritsuko__cg_4:
-    play music kinky fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.kinky, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene ritsuko__cg_4 1 with map_fade
     "The last few days with Ritsuko have been pretty busy."
     "I've been training her pretty much nonstop. I think she's completely lost track by now of how long it's been."
@@ -1339,5 +1338,5 @@ label ritsuko__cg_4_end:
     $ tennis_available = False
     scene black
     "END OF RITSUKO ARC"
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     jump map__school

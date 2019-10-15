@@ -13,7 +13,7 @@ label gym__day_1:
     $ touko_aina_next_step = "day_3"
     $ gym_available = False
     scene bg gym balls with map_fade
-    "Although it was still early in the morning, I heard from the principal that some members of the basketball team come in for practice before school starts."
+    "Although it was still early in the morning, I heard from the Principal that some members of the basketball team come in for practice before school starts."
     "Curious to check it out, I decided to visit the basketball court."
     "I take a quick look around the premises. Doesn't seem like anyone's around."
     play sound basketball_dribble
@@ -134,7 +134,7 @@ label gym__day_1_continued_1:
     scene bg classroom with dissolve
     show touko school angry arms
     "I approach the classroom and slide open the door."
-    "I was hoping to avoid this, but Touko was already there waiting for me."
+    "I was hoping to avoid this, but Touko is already there waiting for me."
     "She turns around and gives me an annoyed look."
     touko "You're late."
     shinn "Ah yes. My apologies. I wasn't looking at the time."
@@ -142,10 +142,10 @@ label gym__day_1_continued_1:
     thinking "Heh. You sure seem to be in a hurry."
     shinn "Well, that'll depend on how well you understand the content we'll be covering today."
     "I take out my materials and jot down some notes on the blackboard."
-    "The lesson was in session. As I walk her through the material, and explain the various methods to solve the problems in her assignments, Touko seems to be attentive."
+    "The lesson is in session. As I walk her through the material, and explain the various methods to solve the problems in her assignments, Touko seems to be attentive."
     "Or at least, she's trying to be. Now and then, a bemused expression crosses her face."
     shinn "Err... Touko? Do you understand my explanation here?"
-    touko "Y.. Yes."
+    touko "Y... Yes."
     thinking "Obviously not."
     shinn "You sure?"
     touko "Yes."
@@ -352,7 +352,7 @@ label gym__day_1_continued_2:
     jump touko_aina__cg_1
 
 label touko_aina__cg_1:
-    play music happy fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg utility room with dissolve
     show aina school happy at right
     show touko school angry at left
@@ -536,7 +536,7 @@ label touko_aina__cg_1:
 
 label gym__day_1_continued_3:
     scene bg hallway 1 with dissolve
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "Meanwhile, outside the door, I've been watching everything from start to finish."
     "Even just watching through that small hole, it was hot enough to get me hard and leave a bit of pre-cum leaking out."
     thinking "Damn, how come I never got to see anything like that while I was still a student here!?"
@@ -639,8 +639,8 @@ label gym__day_1_continued_4:
     shinn "Huh?"
     "Why would this even be left behind here?"
     shinn "Wait. Could this be..."
-    "The pink panties were tainted and soiled."
-    "I brought it to my nose and took a whiff."
+    "The pink panties are tainted and soiled."
+    "I bring them to my nose and take a whiff."
     shinn "Wow..."
     "Breathing it in almost feels like snorting drugs."
     shinn "There's no doubt that this is a high school girl's scent. And it's quite fresh."
@@ -681,7 +681,7 @@ label gym__day_1_continued_4:
 
     scene bg classroom with dissolve
     show touko basketball happy
-    "As I slide open the door, I'm surprised as the sight of Touko waiting for me in the classroom."
+    "As I slide open the door, I'm surprised at the sight of Touko waiting for me in the classroom."
     "Instead of her usual school uniform, she was dressed in her basketball team outfit."
     thinking "Heh... Afraid of being exposed?"
     touko "Good afternoon Shinn."
@@ -724,7 +724,7 @@ label gym__day_1_no_expose:
     shinn "Don't worry, that's what I'm here to help with."
     shinn "So, let's get started, shall we?"
     touko "Okay."
-    "I spend the rest of the session guiding her step by step through all the problems she get wrong."
+    "I spend the rest of the session guiding her step by step through all the problems she gets wrong."
     "Just like that, the session is over in no time."
     shinn "Well, I think that should be all. Think you've got it now?"
     touko "Yes. Thank you for your help, Shinn."
@@ -823,7 +823,7 @@ label gym__day_1_expose:
     jump touko_aina__cg_2
 
 label touko_aina__cg_2:
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "I walk up close, intimidating her with my presence."
     shinn "To be frank, Touko, when you told me about your friendship with Aina, this was not exactly the sort of relationship you described."
     touko "You leave her out of this!"
@@ -981,7 +981,7 @@ label touko_aina__cg_2_end:
     shinn "I'll look forward to even more fun tomorrow..."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_2 = True
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and not staffroom_available and not tennis_available and gym_available:
         jump touko_aina__router
     else:
@@ -1071,7 +1071,7 @@ label gym__day_3:
     jump touko_aina__cg_3
     
 label touko_aina__cg_3:
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg pool with dissolve
     "After giving the matter careful consideration..."
     "I think the best course of action is to proceed with Aina and see where things go from there."
@@ -1121,13 +1121,13 @@ label touko_aina__cg_3:
     "I slowly walk up to her and whisper right into her ear."
     shinn "I know everything..."
     "I walked around and face her. Her expression has changed to one of anxious uncertainty."
-    aina "What? What did you know about her!?"
+    aina "What? What do you know about her!?"
     thinking "Hmm... I wonder what I should say here?"
     shinn "I saw the two of you having a good time in the utility room yesterday."
     shinn "And after that, I went into the room to investigate."
     aina "Then what!?"
     shinn "Then I happened to see Touko's wet panties hanging out to dry."
-    shinn "I took it and show it to Touko."
+    shinn "I take them out and show them to Touko."
     shinn "Guess what I did with her?"
     "The sudden realization makes Aina sick."
     aina "You bastard! How could you!"
@@ -1149,7 +1149,7 @@ label touko_aina__cg_3:
     shinn "I may be hungry for sex, but I do keep my word."
     aina "Fine..."
     aina "So... How do you want to do it...?"
-    shinn "Glad you asked. Now, all I need you to do is to lay down by the side of the swimming pool."
+    shinn "Glad you asked. Now, all I need you to do is to lie down by the side of the swimming pool."
     "Without giving any reply, Aina does as I instructed."
     "I strip down, showing off my huge erection to Aina."
     "She blushes as she catches sight of it, and through the thin fabric of her swimsuit, I can see her nipples getting hard."
@@ -1254,7 +1254,7 @@ label touko_aina__cg_3:
     thinking "Oh, she was about to say it..."
     shinn "What? I didn't get that."
     "It's obvious that Aina is feeling pleasure along with the embarrassment."
-    "The look of anger in her face is almost gone now."
+    "The look of anger on her face is almost gone now."
     aina "Shinn's cock..."
     shinn "Heh... Good."
     shinn "You're gonna enjoy my dick from now on, you get me?"
@@ -1325,7 +1325,7 @@ label touko_aina__cg_3_end:
     shinn "And remember, if you tell anyone about this, you know what'll happen then."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_3 = True
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and not staffroom_available and not tennis_available and gym_available:
         jump touko_aina__router
     else:
@@ -1335,7 +1335,7 @@ label gym__day_3_continued_1:
     scene bg hallway 2 with map_fade
     $ touko_aina_next_step = "continue_2"
     "I come in early in the morning to check things out with Aina"
-    "Afterall, what I did with her yesterday was kind of amazing."
+    "After all, what I did with her yesterday was kind of amazing."
     "I think today I'm gonna bring her along for a sex field trip."
     "As I walk across the hallway to my staff room, I spot the person I'm looking for."
     thinking "There she is."
@@ -1374,11 +1374,11 @@ label gym__day_3_continued_1:
     "Before she has the chance to reply, I walk away."
     hide aina school angry with moveoutleft
     thinking "Heh. Let's see if you'll show up."
-    thinking "She already knows what'll happen if she doesn't."
+    thinking "She already knows what'll happen otherwise."
     jump touko_aina__cg_4
 
 label touko_aina__cg_4:
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg utility room with pixellate
     "I came ahead of time to make preparations for what I'll be doing with Aina today."
     "I expect a bit of resistance from her, but not too much."
@@ -1400,7 +1400,7 @@ label touko_aina__cg_4:
     aina "Fuck off, Shinn."
     shinn "Woah. Watch your attitude young girl."
     aina "Cut the crap. What do you want with me now?"
-    shinn "Ah. Good question, Aina."
+    shinn "Ah, good question, Aina."
     shinn "You see... When you and Touko were enjoying a fun and sexy time in  here..."
     shinn "I was left out all by my lonesome, having a sad look through that little keyhole."
     aina "So?"
@@ -1579,7 +1579,7 @@ label touko_aina__cg_4:
     aina "..."
     shinn "Come on..."
     shinn "With me as your master, I can give you the love and pleasure Touko can't, every single day."
-    aina "Yes, master."
+    aina "Yes, Master."
     shinn "Good girl. Now, what about Touko?"
     "Without taking a moment to think, she responds."
     aina "Touko? What about her?"
@@ -1668,7 +1668,7 @@ label touko_aina__cg_4_end:
     shinn "Alright. See you later."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_4 = True
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and not staffroom_available and not tennis_available and gym_available:
         jump touko_aina__router
     else:
@@ -1690,7 +1690,7 @@ label gym__day_3_continued_2:
     jump touko_aina__cg_5
 
 label touko_aina__cg_5:
-    play music breakdown fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.breakdown, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg classroom with dissolve
     show touko school angry
     "I slide the door opened to find Touko already waiting for me."
@@ -1758,7 +1758,7 @@ label touko_aina__cg_5:
     "Touko looks Aina in the eye."
     touko "Is... Is this what you really want? Do you love doing this?"
     aina "Of course! Why would you even need to ask?"
-    "Aina was so emphatic, Touko's reslve was starting to waver. No matter how far this might have been from what she expected, Aina was utterly sincere."
+    "Aina is so emphatic, Touko's resolve is starting to waver. No matter how far this might be from what she expected, Aina is utterly sincere."
     "I walk up to stand alongside them and apply a little more pressure to Touko."
     shinn "Look at her, Touko. Have you ever seen Aina this happy before?"
     "Touko looks over Aina again, examining her blissful expression."
@@ -2010,7 +2010,7 @@ label touko_aina__cg_5:
     jump touko_aina__cg_6
 
 label touko_aina__cg_6:
-    play music gang fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.gang, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg gym with pixellate
     "It was a long and exciting walk. Since the two of them were following along behind me naked, we were flirting with the risk of getting caught the entire time."
     "Of course, at this hour, everyone has usually already gone home, but I have to count myself lucky that we didn't run into any last-minute surprises."
@@ -2303,7 +2303,7 @@ label touko_aina__cg_6:
     $ persistent.touko_aina__cg_6 = True
     $ gym_available = False
     "END OF TOUKO AND AINA ARC"
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     jump map__school
 
 # *touko_aina Arc End*

@@ -1,4 +1,5 @@
 screen locations:
+    key "mouseup_3" action Hide("nonexistent_screen")
     add "images/map/bg-map.png"
     if day == 0:
         if range_available:

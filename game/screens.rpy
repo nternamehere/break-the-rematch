@@ -357,6 +357,8 @@ screen navigation():
 
         textbutton _("About") action ShowMenu("about")
 
+        textbutton _("Credits") action Replay("credits")
+
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.

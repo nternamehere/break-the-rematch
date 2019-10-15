@@ -26,7 +26,7 @@ define gui.is_beta = False
 
 ## The version of the game.
 
-define config.version = "1.0.1-release"
+define config.version = "1.0.2-release"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -35,29 +35,7 @@ define config.version = "1.0.1-release"
 define gui.about = _p("""
 Playing as the main character, you will be conquering each of these beautiful girls from their respective clubs. Get to indulge yourself with the girls on dark theme play from rape to sex slave.
 
-Credits:
-
-Yurika: Game Director/Writer/Story Creator
-
-Toffee San: Game Producer & Co-Director
-
-Magukappu: CG Artist/Character Designer
-
-Badriel: Background Artist/UI Designer
-
-Belgerum: Composer/Sound Artist
-
-Riscent: Graphic Designer
-
-Proxyz: Programmer
-
-HgLt: Demo Script Lead Editor
-
-Special Thanks to:
-
-Plexstorm Community 
-
-Break! The Rematch Beta developed by PUSH! Soft, a subsidiary under PUSH! Publication, LLC. Program distributed & licensed by PUSH!. No part of this Visual Novel may be sold, reproduced or distributed in any manner without written permission except in the case of brief quotations embodied in critical articles or reviews. Infringement of these following will lead to legal action. This visual novel is a work of fiction. Names, characters, businesses, organizations, places, events and incidents either are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is purely coincidental.
+Break! The Rematch developed by PUSH! Soft, a subsidiary under PUSH! Publication, LLC. Program distributed & licensed by PUSH!. No part of this Visual Novel may be sold, reproduced or distributed in any manner without written permission except in the case of brief quotations embodied in critical articles or reviews. Infringement of these following will lead to legal action. This visual novel is a work of fiction. Names, characters, businesses, organizations, places, events and incidents either are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is purely coincidental.
 
 ©2019 PUSH!. All Rights Reserved.
 """)
@@ -67,7 +45,7 @@ Break! The Rematch Beta developed by PUSH! Soft, a subsidiary under PUSH! Public
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BreakTheRematchBeta"
+define build.name = "BreakTheRematch"
 
 
 ## Sounds and music ############################################################
