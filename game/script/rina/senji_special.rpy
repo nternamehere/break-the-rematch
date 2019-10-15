@@ -2,7 +2,7 @@ label senji_special_1:
     if not _in_replay:
         jump touko_special_1
     
-    $ renpy.music.play(sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene senji_cg_1_blow 1 with fade
     rina "Mmm~"
     senji "Mmm~"

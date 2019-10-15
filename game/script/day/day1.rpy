@@ -1,5 +1,6 @@
 label day_1__start:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     $ day = 1
     $ tennis_available = True
     $ staffroom_available = True
@@ -12,7 +13,7 @@ label day_1__start:
     "I begin preparations for my first day of tutoring."
 
     show bg main gate with fade
-    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     shinn "Wow. Quite a crowd we've got here."
     "Even this early in the morning, there's already a huge rush of students heading in to school."
     "I smile a bit as memories of my own past here come to mind."

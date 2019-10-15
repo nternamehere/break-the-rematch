@@ -21,7 +21,7 @@ label day_0__start:
     thinking "Heh. Looks like I didn't need to get up so early after all. But since I'm already awake, I might as well as get prepared now."
     "I began preparations for my first day of tutoring."
 
-    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     show bg main gate with fade
     "Haruka Academy. I was once a student here, and my time was... exciting, to say the least. It was hard to believe that I'm back here again, working for the school rather than studying in it."
     "As I approach the school gate, I scan the inner courtyard."
@@ -43,6 +43,7 @@ label day_0__start:
 
 label archery__day_0:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     $ renpy.block_rollback()
     show bg range with map_fade
     "..."
@@ -133,6 +134,7 @@ label archery__day_0:
 
 label tennis__day_0:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     $ renpy.block_rollback()
     show bg tennis court with map_fade
     "According to my list, the next student is a member of the school's tennis club."
@@ -185,6 +187,7 @@ label tennis__day_0:
 
 label gym__day_0:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     $ renpy.block_rollback()
     show bg pool with map_fade
     if not tennis_available:
@@ -306,6 +309,7 @@ label gym__day_0:
 
 label track__day_0:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     $ renpy.block_rollback()
     show bg track with map_fade
     thinking "Damn, it's hotter than I expected."
@@ -369,6 +373,7 @@ label track__day_0:
 
 label classroom__day_0:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     scene bg hallway 2 with map_fade
     $ renpy.block_rollback()
     "Feeling satisfied, I check over the principal's list one last time."
@@ -530,6 +535,7 @@ label classroom__day_0:
 
 label day_0__end:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     scene bg main gate with fade
     stop music fadeout 1.0
     shinn "Ah. What a day!"

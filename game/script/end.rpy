@@ -1,6 +1,7 @@
 label harem_end:
-    $ renpy.music.play(happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     scene bg shinn frontdoor with pixellate
     "Well, this is one for the books alright."
     "Taking this job with the school really was a great choice. I've done a damned good job here, if I say so myself."

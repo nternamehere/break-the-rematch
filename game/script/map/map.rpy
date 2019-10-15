@@ -57,4 +57,5 @@ label map__school:
     if day == 2 and not staffroom_available and not tennis_available and not gym_available:
         $ day = 3
     $ quick_menu = False
+    $ config.keymap['hide_windows'].remove('mouseup_3')
     call screen locations with fade

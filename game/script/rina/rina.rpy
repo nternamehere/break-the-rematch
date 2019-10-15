@@ -1,5 +1,6 @@
 label rina__router:
     $ quick_menu = True
+    $ config.keymap['hide_windows'].append('mouseup_3')
     if rina_next_step == "intermission":
         jump rina__intermission
     elif rina_next_step == "cg_3":
@@ -332,7 +333,7 @@ label staffroom_day_1__lie:
 label rina__cg_1:
     scene bg utility room with fade
     show rina suit angry arms with moveinleft
-    $ renpy.music.play(happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "I bring Rina to the utility room."
     "This place is nice and secluded, and I know well from experience that nobody ever visits here at this time of day."
     "Rina follows along in quiet frustration. Before we enter, I scan the hallway to make sure that nobody sees us heading in together, then close the door behind us."
@@ -575,14 +576,14 @@ label rina__cg_1:
     $ renpy.end_replay()
     $ persistent.rina__cg_1 = True
     $ staffroom_available = False
-    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and staffroom_available and not tennis_available and not gym_available:
         jump rina__router
     else:
         jump map__school
 
 label rina__cg_2:
-    $ renpy.music.play(breakdown, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.breakdown, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     $ rina_next_step = "cg_3"
     scene bg rooftop with map_fade
     "It's evening, and the sun has already started to set. I'm still waiting for Rina to show up."
@@ -919,14 +920,14 @@ label rina__cg_2_end:
     rina "Ah~ Yes Master!"
     $ renpy.end_replay()
     $ persistent.rina__cg_2 = True
-    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and staffroom_available and not tennis_available and not gym_available:
         jump rina__router
     else:
         jump map__school
 
 label rina__cg_3:
-    $ renpy.music.play(kinky, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.kinky, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene rina_dog_1 1 with map_fade
     $ rina_next_step = "intermission"
     "A day has passed since our training session on the rooftop."
@@ -1213,7 +1214,7 @@ label rina__cg_3:
     shinn "It's going to be a long day for you, Rina."
     $ renpy.end_replay()
     $ persistent.rina__cg_3 = True
-    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and staffroom_available and not tennis_available and not gym_available:
         jump rina__router
     else:
@@ -1231,7 +1232,7 @@ label rina__intermission:
     jump rina__cg_4
 
 label rina__cg_4:
-    $ renpy.music.play(gang, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.gang, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "The room is filled with naked and hungry schoolboys."
 
     scene rina__cg_4_gangbang 2 with fade
@@ -1509,6 +1510,6 @@ label rina__cg_4_end:
     $ persistent.rina__cg_4 = True
     $ staffroom_available = False
     "END OF RINA ARC"
-    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     jump map__school
     # -RINA ARC ENDED-
