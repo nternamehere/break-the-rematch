@@ -1,9 +1,15 @@
+screen creditsScreen:
+    key "mouseup_3" action Hide("nonexistent_screen")
+    key "K_ESCAPE" action Hide("nonexistent_screen")
+    key "K_MENU" action Hide("nonexistent_screen")
+
 label credits:
     if not _in_replay:
         return
     $ quick_menu = False
     $ renpy.music.play(audio.happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     $ credits_speed = 100
+    show screen creditsScreen
     scene black
     with dissolve
     show cred at Move((0.5, 1.0), (0.5, -17.0), credits_speed, repeat=False, bounce=False, xanchor=0.5, yanchor=0)
@@ -14,6 +20,7 @@ label credits:
     with dissolve
     with Pause(3)
     hide thanks
+    hide screen creditsScreen
     return
     
 init python:
@@ -25,7 +32,7 @@ Jun
 
 {u}Project Manager:{/u}
 
-Toffee
+Toffee San
 
 
 {u}Character Art:{/u}
