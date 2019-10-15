@@ -21,7 +21,7 @@ label day_0__start:
     thinking "Heh. Looks like I didn't need to get up so early after all. But since I'm already awake, I might as well as get prepared now."
     "I began preparations for my first day of tutoring."
 
-    play music campus fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     show bg main gate with fade
     "Haruka Academy. I was once a student here, and my time was... exciting, to say the least. It was hard to believe that I'm back here again, working for the school rather than studying in it."
     "As I approach the school gate, I scan the inner courtyard."

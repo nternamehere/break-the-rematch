@@ -1,7 +1,7 @@
 label naoko__cg_1:
     show bg classroom
     show naoko suit horny
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     naoko "..."
     shinn "Well, what are you waiting for? Show me that heavenly, round chest of yours. Your pussy, too."
     "With a surprising lack of reluctance she unbottons her top, revealing her breasts. She then pulls up her skirt to expose her black-laced panties, visible through her pantyhose."

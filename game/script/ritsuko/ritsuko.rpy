@@ -130,7 +130,7 @@ label ritsuko__cg_1:
     scene bg principal office with pixellate
     show ritsuko school angry at left
     show principal thinking at right
-    play music breakdown fadeout 1.0 fadein 1.0
+    $ renpy.music.play(breakdown, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     ritsuko "Why did you call me out here all of a sudden?"
     principal "Oh, there's something I thought was important to discuss with you."
     ritsuko "What business do you have with me?"
@@ -417,7 +417,7 @@ label tennis__day_1_continued_1:
 
 label ritsuko__cg_2:
     $ ritsuko_next_step = "day_2"
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg locker room with map_fade
     "I heard from her teacher that Ristuko usually has a short solo practice during lunch."
     "After eating an early lunch, I come down here to confront her."
@@ -681,7 +681,7 @@ label tennis__day_2:
     "I head out to the tennis court."
 
 label ritsuko__cg_3:
-    play music kinky fadeout 1.0 fadein 1.0
+    $ renpy.music.play(kinky, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg tennis court with fade
     show ritsuko tennis basic
     "As I make it within eyeshot of the court, Ritsuko instantly spots me."
@@ -1129,7 +1129,7 @@ label ritsuko__cg_3_end:
         jump map__school
 
 label ritsuko__cg_4:
-    play music kinky fadeout 1.0 fadein 1.0
+    $ renpy.music.play(kinky, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene ritsuko__cg_4 1 with map_fade
     "The last few days with Ritsuko have been pretty busy."
     "I've been training her pretty much nonstop. I think she's completely lost track by now of how long it's been."
@@ -1339,5 +1339,5 @@ label ritsuko__cg_4_end:
     $ tennis_available = False
     scene black
     "END OF RITSUKO ARC"
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     jump map__school

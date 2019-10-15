@@ -352,7 +352,7 @@ label gym__day_1_continued_2:
     jump touko_aina__cg_1
 
 label touko_aina__cg_1:
-    play music happy fadeout 1.0 fadein 1.0
+    $ renpy.music.play(happy, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg utility room with dissolve
     show aina school happy at right
     show touko school angry at left
@@ -536,7 +536,7 @@ label touko_aina__cg_1:
 
 label gym__day_1_continued_3:
     scene bg hallway 1 with dissolve
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "Meanwhile, outside the door, I've been watching everything from start to finish."
     "Even just watching through that small hole, it was hot enough to get me hard and leave a bit of pre-cum leaking out."
     thinking "Damn, how come I never got to see anything like that while I was still a student here!?"
@@ -823,7 +823,7 @@ label gym__day_1_expose:
     jump touko_aina__cg_2
 
 label touko_aina__cg_2:
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "I walk up close, intimidating her with my presence."
     shinn "To be frank, Touko, when you told me about your friendship with Aina, this was not exactly the sort of relationship you described."
     touko "You leave her out of this!"
@@ -981,7 +981,7 @@ label touko_aina__cg_2_end:
     shinn "I'll look forward to even more fun tomorrow..."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_2 = True
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and not staffroom_available and not tennis_available and gym_available:
         jump touko_aina__router
     else:
@@ -1071,7 +1071,7 @@ label gym__day_3:
     jump touko_aina__cg_3
     
 label touko_aina__cg_3:
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg pool with dissolve
     "After giving the matter careful consideration..."
     "I think the best course of action is to proceed with Aina and see where things go from there."
@@ -1325,7 +1325,7 @@ label touko_aina__cg_3_end:
     shinn "And remember, if you tell anyone about this, you know what'll happen then."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_3 = True
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and not staffroom_available and not tennis_available and gym_available:
         jump touko_aina__router
     else:
@@ -1378,7 +1378,7 @@ label gym__day_3_continued_1:
     jump touko_aina__cg_4
 
 label touko_aina__cg_4:
-    play music sex fadeout 1.0 fadein 1.0
+    $ renpy.music.play(sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg utility room with pixellate
     "I came ahead of time to make preparations for what I'll be doing with Aina today."
     "I expect a bit of resistance from her, but not too much."
@@ -1668,7 +1668,7 @@ label touko_aina__cg_4_end:
     shinn "Alright. See you later."
     $ renpy.end_replay()
     $ persistent.touko_aina__cg_4 = True
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     if day == 2 and not staffroom_available and not tennis_available and gym_available:
         jump touko_aina__router
     else:
@@ -1690,7 +1690,7 @@ label gym__day_3_continued_2:
     jump touko_aina__cg_5
 
 label touko_aina__cg_5:
-    play music breakdown fadeout 1.0 fadein 1.0
+    $ renpy.music.play(breakdown, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg classroom with dissolve
     show touko school angry
     "I slide the door opened to find Touko already waiting for me."
@@ -2010,7 +2010,7 @@ label touko_aina__cg_5:
     jump touko_aina__cg_6
 
 label touko_aina__cg_6:
-    play music gang fadeout 1.0 fadein 1.0
+    $ renpy.music.play(gang, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     scene bg gym with pixellate
     "It was a long and exciting walk. Since the two of them were following along behind me naked, we were flirting with the risk of getting caught the entire time."
     "Of course, at this hour, everyone has usually already gone home, but I have to count myself lucky that we didn't run into any last-minute surprises."
@@ -2303,7 +2303,7 @@ label touko_aina__cg_6:
     $ persistent.touko_aina__cg_6 = True
     $ gym_available = False
     "END OF TOUKO AND AINA ARC"
-    play music campus fadeout 1.0 fadein 1.0
+    $ renpy.music.play(campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     jump map__school
 
 # *touko_aina Arc End*
