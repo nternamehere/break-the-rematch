@@ -1,4 +1,5 @@
 screen locations:
+    key "mouseup_3" action Hide("nonexistent_screen")
     add "images/map/bg-map.png"
     if day == 0:
         if range_available:
@@ -57,5 +58,4 @@ label map__school:
     if day == 2 and not staffroom_available and not tennis_available and not gym_available:
         $ day = 3
     $ quick_menu = False
-    $ config.keymap['hide_windows'].remove('mouseup_3')
     call screen locations with fade

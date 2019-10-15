@@ -1,6 +1,5 @@
 label rina__router:
     $ quick_menu = True
-    $ config.keymap['hide_windows'].append('mouseup_3')
     if rina_next_step == "intermission":
         jump rina__intermission
     elif rina_next_step == "cg_3":
