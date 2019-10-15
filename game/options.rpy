@@ -45,7 +45,7 @@ Break! The Rematch developed by PUSH! Soft, a subsidiary under PUSH! Publication
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BreakTheRematchPart1DeluxeEdition"
+define build.name = "BreakTheRematchPart1"
 
 
 ## Sounds and music ############################################################
