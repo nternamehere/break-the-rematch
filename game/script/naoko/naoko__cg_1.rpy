@@ -3,7 +3,7 @@ label naoko__cg_1:
     show naoko suit horny
     $ renpy.music.play(audio.sex, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     naoko "..."
-    shinn "Well, what are you waiting for? Show me that heavenly, round chest of yours. Your pussy, too."
+    shinn "Well, what are you waiting for? Show me that heavenly round chest of yours. Your pussy too."
     "With a surprising lack of reluctance she unbottons her top, revealing her breasts. She then pulls up her skirt to expose her black-laced panties, visible through her pantyhose."
     naoko "Fi... Fine..."
     thinking "Damn. It's been a while since I last saw her body. It's just like I remembered."
@@ -16,7 +16,7 @@ label naoko__cg_1:
 
     scene naoko_sex1-1 with fade
     "And there it is – her naked body. What a stunning display. A sight that most men could only dream about."
-    "Here I am again, looking at her amazing pussy. I bet the inside is still shaped like my penis."
+    "Here I am again, looking at her amazing pussy. I bet the inside is still shaped like my dick."
     thinking "This is going to be just like the first time. History is repeating itself."
     "I look at her face. She's embarrassed and hesitant, as expected. But at the same time I can see her other side starting to emerge. The erotic side of her, the desire for lust that I saw all those years ago. And I'm going to bring it back in full."
     "I make my move, grabbing her breasts. They're so soft, so fluffy. I could just squeeze them all day long."
@@ -28,7 +28,7 @@ label naoko__cg_1:
     
     show naoko_sex1 3
     thinking "Good lord – her breasts are even firmer than before. Did she take supplements since we last met?"
-    "I place my mouth onto both her nipples and began to suck viciously."
+    "I place my mouth onto both her nipples and begin to suck viciously."
     
     show naoko_sex1 4
     naoko "Ahh... No... It hurts..."
@@ -40,13 +40,13 @@ label naoko__cg_1:
     show naoko_sex1 5
     naoko "Mmm..."
     "She doesn't reject my kiss. From the look of it, she seems to be starting to like it. Or, I should say, starting to remember."
-    "I separate my lips from hers and lean back. Her face has changed. She's finally beginning to accept the situation, her desire finally manifesting in the juices running from her vagina."
+    "I separate my lips from hers and lean back. Her face has changed. She's finally beginning to accept the situation, her desire finally manifesting in the juices running from her pussy."
     
     show naoko_sex1 6
     "To complete her transformation, I unzip my pants to reveal my erect rod."
     shinn "Do you remember now, Naoko?"
     naoko "Ahh..."
-    thinking "She is changing. I can tell."
+    thinking "She's changing. I can tell."
     shinn "Hmm... Maybe I should stop here?"
     naoko "Ahh... No..."
     shinn "No? But you said you hate me."
@@ -56,9 +56,9 @@ label naoko__cg_1:
     shinn "What? You want it?"
     naoko "Ah... Yes..."
     shinn "Well, since you were so unkind, you've got to beg for it."
-    shinn "Just say, 'Please give me your big cock, master.' Like you always did before."
+    shinn "Just say, 'Please give me your big cock, Master.' Like you always did before."
     naoko "Please..."
-    naoko "Please give me your big cock, master~"
+    naoko "Please give me your big cock, Master~"
     thinking "Heh. Guess it's time for the main course."
     shinn "Good girl. Here you go~"
     "With one movement, I immediately thrust my dick into her pussy, only stopping when I can feel her womb."
@@ -66,13 +66,13 @@ label naoko__cg_1:
     show naoko_sex1 7
     play sound sex1_slow loop
     naoko "AH! It's inside me! So deep!"
-    "Her face twists, embodying a high so intense that it seems as if she's taken a heavy dose of morphine."
+    "Her face twists, exhibiting a high so intense that it seems as if she's taken a heavy dose of morphine."
     "I continue to thrust in her with all my strength."
-    naoko "Ahh... Yes, Shinn. More! More!"
+    naoko "Ahh... Yes Shinn. More! More!"
     stop sound
     play sound sex4 loop
-    "Her moaning is like a source of energy. The more erotically she moans, the more powerfully I thrust into her. Her tight and narrow vagina is intensely stimulating."
-    "Her vagina continues to pour pussy juice, allowing me to penetrate with even more haste and ease."
+    "Her moaning is like a source of energy. The more erotically she moans, the more powerfully I thrust into her. Her tight and narrow pussy is intensely stimulating."
+    "Her juices continue to pour from pussy, allowing me to penetrate with even more haste and ease."
     naoko "Ahh... More, please. Don't stop!"
     "It's not long before I can feel the sensation building in my balls. It seems like a huge load is about to pour out."
     "I wanted to play around with her more, but the urge is kicking in fast. Even I can't resist it any more. I start to pump as quickly as I can."
@@ -101,7 +101,7 @@ label naoko__cg_1_inside:
     show naoko_sex1 8_inside-1 with cum_flash
     "Those words, together with her erotic tone, were the last straw. Unable to resist, I let it all out inside her like a magnificent firework."
     naoko "Ahh... Shinn's sperm!! It's all inside me."
-    "It quickly fills her womb. The remaining excessive cum splashes past my cock and flows out of her vagina."
+    "It quickly fills her womb. The remaining excessive cum floods past my cock and flows out of her pussy."
     shinn "Ahh..."
 
     show naoko_sex1 8_inside-2
@@ -122,7 +122,7 @@ label naoko__cg_1_outside:
     naoko "Ahh... Shinn's sperm!! It's all over me!"
 
     show naoko_sex1 8_outside-2
-    "The amount of semen and the powerful smelloverwhelms Naoko, completely breaking her in an instant."
+    "The amount of semen and the powerful smell overwhelms Naoko, completely breaking her in an instant."
     shinn "Damn, that's a lot of cum."
     thinking "Looks like it was worth it to save up all those months."
     
@@ -130,7 +130,7 @@ label naoko__cg_1_outside:
     jump naoko__cg_1_end
 
 label naoko__cg_1_end:
-    "As soon as it's over, my senses return to me. I'd made a terrible mess; my cum was simply everywhere. Some was spattered across Naoko, a good deal had dripped on the table, and some had even found its way onto the floor."
+    "As soon as it's over, my senses return to me. I've made a terrible mess; my cum is simply everywhere. Some is spattered across Naoko, a good deal has dripped on the table, and some has even found its way onto the floor."
     shinn "Shit. Looks like I overdid it."
     "Then, I look back at Naoko. She's completely broken, her whole body stinking of my cum."
     thinking "Did I manage to convert her back to how she used to be?"
