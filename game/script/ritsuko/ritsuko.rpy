@@ -939,7 +939,7 @@ label ritsuko__cg_3_no_pee:
 
 label ritsuko__cg_3_house:
     scene bg shinn bedroom with fade
-    show ritsuko tennis basic
+    show ritsuko tennis horny
     "It's evening by the time I make it back home with Ritsuko after our session on the tennis court, but Ritsuko's lust hasn't begun to cool."
     ritsuko "Ah, Shinn~"
     ritsuko "Are you going to give me the lesson here in your room?"
@@ -947,7 +947,6 @@ label ritsuko__cg_3_house:
     shinn "You're here for more than just a lesson. I'm really going to pound you, Ritsuko."
     "Ritsuko perks up with excitement on hearing that."
     ritsuko "Let's get started then!"
-    hide ritsuko tennis basic
     show ritsuko naked exposed
     "Ritsuko strips herself naked in front of me, without even waiting for my instruction."
     ritsuko "You like my body, right?"
