@@ -27,7 +27,7 @@ label staffroom_day_1__start:
     "Speak of the devil..."
 
     show rina suit confident with moveinleft
-    rina "Oh. Shinn. There you are."
+    rina "Oh, Shinn. There you are."
     thinking "Huh? She actually came here looking for me?"
     shinn "Ah, Ms. Rina, good morning. Today's my first day working here. I hope you can offer me your guidance on the job."
     
@@ -36,7 +36,7 @@ label staffroom_day_1__start:
     thinking "This bitch..."
     rina "Right. Since you're already familiar with the school grounds, I'll just show you to your workplace. That's the space where you'll be doing your administrative work."
     shinn "Wait, administrative work? I didn't sign up for that. I'm just here as a tutor."
-    rina "Well too bad. I discussed it with the principal, and he agreed you could handle some additional tasks while you're not working with students."
+    rina "Well too bad. I discussed it with the Principal, and he agreed you could handle some additional tasks while you're not working with students."
     thinking "I'm really getting the urge to kill this bitch..."
     
     show rina suit angry arms
@@ -180,7 +180,7 @@ label staffroom_day_1__continued_2:
     if tennis_available:
         "However..."
         ritsuko "Hohoho..."
-        thinking "Un-oh."
+        thinking "Uh-oh."
         ritsuko "What do we have here?"
         thinking "Not the person I was hoping to hear from right now."
         ritsuko "What are you doing sneaking around the hallway?"
@@ -352,7 +352,7 @@ label rina__cg_1:
     shinn "Therefore, I feel that it's my responsibility to teach you to conduct yourself in a more appropriate manner."
     rina "Who the fuck do you think you are?"
     thinking "This bitch is awfully slow on the uptake."
-    shinn "*Sigh*. Come on, Rina. We've discussed this already, haven't we?"
+    shinn "Haahhh. Come on, Rina. We've discussed this already, haven't we?"
     "I take out her phone again to show her where she stands."
     shinn "I don't think it would go well for you if these photos were spread all around the school would it?"
     
@@ -399,7 +399,7 @@ label rina__cg_1:
     rina "N— No. I'm not."
 
     scene rina_masturbation_1 4
-    "The dildo fully seated inside her now. I can see drips of her pussy juice leaking around it."
+    "The dildo is fully seated inside her now. I can see drips of her pussy juice leaking around it."
     shinn "You're already wet just from putting it in."
     rina "..."
     "I take a remote control from my pocket, and show it off in front of Rina."
@@ -970,7 +970,7 @@ label rina__cg_3:
     rina "Yes. Rina is a whore who loves cock!"
     shinn "Heheh..."
     shinn "Is there anything you want to say to your beloved students?"
-    rina "Y.. Yes..."
+    rina "Y-Yes..."
     rina "Everyone! Ms. Rina here! I love big cocks!"
     rina "I love the taste and smell of men's cum. If you have any, please give it to me!"
     "I burst into laughter."
@@ -1239,7 +1239,7 @@ label rina__cg_4:
     "I tied her up there myself, in this pose which shows off free and easy access to her pussy."
     "I've spent quite a while getting her ready for this sort of play."
     "The drugs I've been giving her should increase her libido even compared to before. And maybe also make her lactate as a side effect..."
-    "This whole setup looks the scene of a BDSM porno."
+    "This whole setup looks like the scene of a BDSM porno."
     "The students here aren't just any boys. They're all thugs from the school who had serious beef with Rina from before. As a disciplinary teacher, she'd picked up quite a few of them."
     "So, I thought I'd make a pastime of inviting them to use her. These events have just gotten bigger over time as more and more of them have gotten involved."
     "Rina has completely accepted her fate. You can't even call her resigned to it. Since the very start, she's been living like she was born for this."
@@ -1252,7 +1252,7 @@ label rina__cg_4:
     "Her eyes are hazy. Surrounded by cock, she can no longer think about anything else."
 
     scene rina__cg_4_gangbang 4
-    "Overcome with anticipation, her pussy is leaking while her body quivers against ropes."
+    "Overcome with anticipation, her pussy is leaking while her body quivers against the ropes."
     "Some of the guys are getting impatient..."
     thug_1 "Oi, Shinn! When can we start!?"
     shinn "Go ahead. Fuck her till you're all dry."

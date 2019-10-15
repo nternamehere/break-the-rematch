@@ -26,7 +26,7 @@ label tennis__day_1:
     shinn "Good morning, Ritsuko. How are you doing?"
     ritsuko "How polite. Well, I'm doing just fine."
     shinn "Great. Don't forget about our session later this afternoon."
-    ritsuko "Oh. Session?"
+    ritsuko "Oh? Session?"
     "Ritsuko pauses for a moment."
     ritsuko "Ah! Yes, I remember now..."
     thinking "This idiot..."
@@ -108,7 +108,7 @@ label tennis__day_1:
     "I get up and leave the staff room."
 
     scene bg hallway 1 with dissolve
-    "I head towards the cafeteria thinking about what I shold get to eat."
+    "I head towards the cafeteria thinking about what I should get to eat."
     "As I walk, I notice Ritsuko in the distance."
     thinking "Oh, it's her. Aren't there lessons going on right now? What's she doing here?"
     "From the look of it, she seems to be sneaking around."
@@ -140,11 +140,11 @@ label ritsuko__cg_1:
     principal "Leaving already? Don't be too hasty..."
 
     show principal smirk
-    principal "I didn't know Yasuhiro family business was so dirty."
+    principal "I didn't know the Yasuhiro family business was so dirty."
     thinking "Dirty? This sounds like it might be going somewhere interesting."
     "I decide to take a look through the keyhole in order to follow whatever's going on."
     ritsuko "What the hell are you talking about?"
-    "The principal throws a couple of pictures onto the table in front of Ritusko."
+    "The Principal throws a couple of pictures onto the table in front of Ritusko."
     principal "Your father has been caught by paparazzi trying to bribe officials."
     ritsuko "W— What?"
     principal "I managed to get ahold of these since the photographer happens to be a friend of mine."
@@ -186,7 +186,7 @@ label ritsuko__cg_1:
     ritsuko "F— Fine..."
 
     show ritsuko naked shy
-    "Ritsuko slowly undresses, revealing her lushly blooming breasts and well-rounded hips.."
+    "Ritsuko slowly undresses, revealing her lushly blooming breasts and well-rounded hips."
     principal "Phew... You look even more amazing than I expected."
     principal "Such a gem being hidden under that uniform."
     principal "I'm sure I'm not the only guy here who's been lusting after you."
@@ -230,7 +230,7 @@ label ritsuko__cg_1:
     "The Principal removes his pants to reveal a cock that's already rock hard after licking her."
     principal "There you go. Ever seen one of these before? A real man's dick."
     principal "You're going to get to taste it for yourself."
-    "The principal moves in close, positioning his dick for insertion."
+    "The Principal moves in close, positioning his dick for insertion."
     ritsuko "Noo...!"
     principal "Are you scared? Then maybe you should blame your father!"
 
@@ -242,7 +242,7 @@ label ritsuko__cg_1:
     "I can see a bit of blood coming out from her pussy."
     principal "Oh? So, this is your first time?"
     principal "What a lucky day for me!"
-    "The principal begins to thrust in deeper inside her."
+    "The Principal begins to thrust in deeper inside her."
     ritsuko "Noo... It's too deep! Please stop!"
     principal "Stop? No way in hell I am going to stop."
     principal "I'm going to teach you how to enjoy a man's dick properly."
@@ -250,7 +250,7 @@ label ritsuko__cg_1:
     principal "Heheh... Come on. Give me a kiss..."
 
     scene ritsuko_sex_scene_1 7
-    "The principal sticks his tongue out, forcing Ritsuko into a sloppy French kiss."
+    "The Principal sticks his tongue out, forcing Ritsuko into a sloppy French kiss."
     principal "Come on, open your mouth up. I want to taste that sweet drool straight from your mouth."
     "At first, Ritsuko tries to shut him out. But I can see her body warming up as I watch."
     "As she falls into his rhythm, she starts to stick her own tongue out, letting the Principal into her mouth."
@@ -268,7 +268,7 @@ label ritsuko__cg_1:
     ritsuko "..."
     principal "But still, a well-mannered daughter like you will do anything to protect the family."
     principal "Even this!"
-    "The principal thrusts in a little harder..."
+    "The Principal thrusts in a little harder..."
     ritsuko "Ah~ No..."
     principal "Heh. You can blame all this on your stupid father, for being caught in the act."
     ritsuko "..."
@@ -294,7 +294,7 @@ label ritsuko__cg_1:
 
     scene ritsuko_sex_scene_1 8 with cum_flash
     play sound cum1
-    "With a final thrust, the principal shoots out all of his cum in one burst."
+    "With a final thrust, the Principal shoots out all of his cum in one burst."
 
     scene ritsuko_sex_scene_1 9 with cum_flash
     play sound cum2
@@ -841,7 +841,7 @@ label ritsuko__cg_3_continued:
     shinn "Take it out? You seem to be enjoying it."
     ritsuko "No, that's not true! Please, take it out!"
     shinn "Heh. You wish."
-    "I move around behind her and unzip her pants."
+    "I move around behind her and unzip my pants."
     ritsuko "Wait, what are you doing?"
     shinn "Heh. Yesterday, I had some fun with your pussy. This time, I'll be playing with your ass."
     ritsuko "What?! No! You can't!"
@@ -974,8 +974,8 @@ label ritsuko__cg_3_house:
 
     scene ritsuko__cg_3_house 4
     "Already, she's a far cry from the resistant girl she was earlier this afternoon."
-    shinn "Remember this pleasure! Remember this feeling! ‘Cause this is what you're mad for, and what you're gonna do for the rest of your life!"
-    ritsuko "Yes! Yes master~!"
+    shinn "Remember this pleasure! Remember this feeling! ‘Cause this is what you're made for, and what you're gonna do for the rest of your life!"
+    ritsuko "Yes! Yes Master~!"
     "She doesn't show even a trace of hesitation anymore."
 
     scene ritsuko__cg_3_house 5
