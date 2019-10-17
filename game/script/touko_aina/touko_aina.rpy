@@ -1267,12 +1267,23 @@ label touko_aina__cg_3:
     shinn "No? But your pussy keeps squeezing me the more I move."
     shinn "You aren't being very honest with yourself, aren't you?"
 
-    menu:
+    if persistent.cum == "inside":
         aina "No, I am! Please!"
-        "Cum Inside":
-            jump touko_aina__cg_3_inside
-        "Cum Outside":
-            jump touko_aina__cg_3_outside
+        $ renpy.block_rollback()
+        jump touko_aina__cg_3_inside
+
+    elif persistent.cum == "outside":
+        aina "No, I am! Please!"
+        $ renpy.block_rollback()
+        jump touko_aina__cg_3_outside
+
+    else:
+        menu:
+            aina "No, I am! Please!"
+            "Cum Inside":
+                jump touko_aina__cg_3_inside
+            "Cum Outside":
+                jump touko_aina__cg_3_outside
 
 label touko_aina__cg_3_outside:
     "Since she's begging me to cum outside, I decide to humor her."
@@ -1608,12 +1619,23 @@ label touko_aina__cg_4:
     aina "Yes Master! I'll do whatever you say!"
     shinn "Good. Now here's the reward you've been waiting for!"
 
-    menu:
+    if persistent.cum == "inside":
         aina "Yes! It's coming!"
-        "Cum Inside":
-            jump touko_aina__cg_4_inside
-        "Cum Outside":
-            jump touko_aina__cg_4_outside
+        $ renpy.block_rollback()
+        jump touko_aina__cg_4_inside
+
+    elif persistent.cum == "outside":
+        aina "Yes! It's coming!"
+        $ renpy.block_rollback()
+        jump touko_aina__cg_4_outside
+
+    else:
+        menu:
+            aina "Yes! It's coming!"
+            "Cum Inside":
+                jump touko_aina__cg_4_inside
+            "Cum Outside":
+                jump touko_aina__cg_4_outside
 
 label touko_aina__cg_4_outside:
     "Her pussy is squeezing me like mad."

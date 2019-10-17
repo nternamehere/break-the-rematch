@@ -591,12 +591,23 @@ label ritsuko__cg_2:
     shinn "Go ahead and take my cum, Ritsuko!"
     "She doesn't say a word, but I catch the flash of fear in her eyes."
 
-    menu:
+    if persistent.cum == "inside":
         shinn "Go on and take mine down and taste the difference!"
-        "Cum Inside":
-            jump ritsuko__cg_2_inside
-        "Cum onto her face":
-            jump ritsuko__cg_2_outside
+        $ renpy.block_rollback()
+        jump ritsuko__cg_2_inside
+
+    elif persistent.cum == "outside":
+        shinn "Go on and take mine down and taste the difference!"
+        $ renpy.block_rollback()
+        jump ritsuko__cg_2_outside
+
+    else:
+        menu:
+            shinn "Go on and take mine down and taste the difference!"
+            "Cum Inside":
+                jump ritsuko__cg_2_inside
+            "Cum onto her face":
+                jump ritsuko__cg_2_outside
 
 label ritsuko__cg_2_inside:
     "I keep pounding away at Ritsuko, watching her face as I prepare to fill her with my seed."
@@ -1250,13 +1261,24 @@ label ritsuko__cg_4:
     principal "Heh. Are you happy now, being such cock-worshipping slut?"
     ritsuko "Yes! I'm so happy! I love it!"
     principal "Good girl. I can tell you do from how your pussy's squeezing me. You really want me to cum, huh?"
-        
-    menu:
+
+    if persistent.cum == "inside":
         ritsuko "Yes! I want your thick baby-milk!"
-        "Cum Inside her":
-            jump ritsuko__cg_4_inside
-        "Cum Outside":
-            jump ritsuko__cg_4_outside
+        $ renpy.block_rollback()
+        jump ritsuko__cg_4_inside
+
+    elif persistent.cum == "outside":
+        ritsuko "Yes! I want your thick baby-milk!"
+        $ renpy.block_rollback()
+        jump ritsuko__cg_4_outside
+
+    else:
+        menu:
+            ritsuko "Yes! I want your thick baby-milk!"
+            "Cum Inside her":
+                jump ritsuko__cg_4_inside
+            "Cum Outside":
+                jump ritsuko__cg_4_outside
 
 label ritsuko__cg_4_outside:
     principal "Ugh... I can't hold on much longer."
