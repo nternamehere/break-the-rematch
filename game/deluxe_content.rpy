@@ -2,10 +2,9 @@ define locked_gallery = "gui/button/gallery_locked.png"
 define idle_gallery = "gui/button/gallery_idle.png"
 define hover_gallery = "gui/button/gallery_hover.png"
 
-define special__gallery_2 = "images/gallery/gallery_rina_special_sex1.png"
-define special__gallery_3 = "images/gallery/gallery_senji_sex1.png"
-define special__gallery_4 = "images/gallery/gallery_touko_slut_sex1.png"
-define special__gallery_5 = "images/gallery/gallery_touko_gyaru_sex1.png"
+define deluxe__gallery_1 = "images/gallery/gallery_rina_special_sex1.png"
+define deluxe__gallery_2 = "images/gallery/gallery_touko_slut_sex1.png"
+define deluxe__gallery_3 = "images/gallery/gallery_touko_gyaru_sex1.png"
 
 screen deluxe_content:
     tag menu
@@ -25,7 +24,7 @@ screen deluxe_content:
 
                 if persistent.harem__cg_1:
                     imagebutton action Replay("rina_special_1"):
-                        background special__gallery_2
+                        background deluxe__gallery_1
                         idle idle_gallery
                         hover hover_gallery
                 else:
@@ -35,7 +34,7 @@ screen deluxe_content:
 
                 if persistent.harem__cg_1:
                     imagebutton action Replay("touko_special_1"):
-                        background special__gallery_4
+                        background deluxe__gallery_2
                         idle idle_gallery
                         hover hover_gallery
                 else:
@@ -44,7 +43,7 @@ screen deluxe_content:
 
                 if persistent.harem__cg_1:
                     imagebutton action Replay("touko_special_2"):
-                        background special__gallery_5
+                        background deluxe__gallery_3
                         idle idle_gallery
                         hover hover_gallery
                 else:
