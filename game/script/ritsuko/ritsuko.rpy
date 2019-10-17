@@ -340,6 +340,7 @@ label ritsuko__cg_1:
 
 label tennis__day_1_continued_1:
     scene bg hallway 1 with irisout
+    $ renpy.music.play(audio.campus, loop=True, fadeout=1.0, fadein=1.0, if_changed=True)
     "Moments after Ritsuko leaves, I decide to see the Principal."
     thinking "Hopefully, this will work out."
     "I knock on the doors of the Principal's office."
@@ -1034,12 +1035,12 @@ label ritsuko__cg_3_house:
     if persistent.cum == "inside":
         "I'm about to reach my climax, locked hard against her like this."
         $ renpy.block_rollback()
-        jump rina__cg_3_inside
+        jump ritsuko__cg_3_inside
 
     elif persistent.cum == "outside":
         "I'm about to reach my climax, locked hard against her like this."
         $ renpy.block_rollback()
-        jump rina__cg_3_outside
+        jump ritsuko__cg_3_outside
 
     else:
         menu:

@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Break: The Rematch")
+define config.name = _("Break: The Rematch Part 1")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -26,7 +26,7 @@ define gui.is_beta = False
 
 ## The version of the game.
 
-define config.version = "1.0.2-release"
+define config.version = "1.0.4-release"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -45,7 +45,7 @@ Break! The Rematch developed by PUSH! Soft, a subsidiary under PUSH! Publication
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BreakTheRematch"
+define build.name = "BreakTheRematchPart1DeluxeEdition"
 
 
 ## Sounds and music ############################################################

@@ -343,7 +343,7 @@ screen navigation():
             textbutton _("Scenes") action ShowMenu("gallery")
 
         if main_menu and not _in_replay:
-            textbutton _("Extra Scenes") action ShowMenu("extra_scenes")
+            textbutton _("Deluxe Content") action ShowMenu("deluxe_content")
 
         textbutton _("Settings") action ShowMenu("preferences")
 
