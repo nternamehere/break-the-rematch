@@ -1035,12 +1035,12 @@ label ritsuko__cg_3_house:
     if persistent.cum == "inside":
         "I'm about to reach my climax, locked hard against her like this."
         $ renpy.block_rollback()
-        jump rina__cg_3_inside
+        jump ritsuko__cg_3_inside
 
     elif persistent.cum == "outside":
         "I'm about to reach my climax, locked hard against her like this."
         $ renpy.block_rollback()
-        jump rina__cg_3_outside
+        jump ritsuko__cg_3_outside
 
     else:
         menu:
