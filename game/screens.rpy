@@ -342,9 +342,6 @@ screen navigation():
         if main_menu:
             textbutton _("Scenes") action ShowMenu("gallery")
 
-        if main_menu and not _in_replay:
-            textbutton _("Deluxe Content") action ShowMenu("deluxe_content")
-
         textbutton _("Settings") action ShowMenu("preferences")
 
         if _in_replay:
