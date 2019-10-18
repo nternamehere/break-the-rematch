@@ -44,6 +44,7 @@ init python:
     # Touko Variables
     saw_touko_aina_utility = False
     touko_aina_next_step = ""
+    no_expose_touko = False
 
     # Ritsuko Variables
     met_ritsuko = False
